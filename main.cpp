@@ -15,6 +15,8 @@ int main(int argc, char *argv[]) {
 	context = SDL_GL_CreateContext(displayWindow);
 	glOrtho(-SCREENWIDTH / 2, SCREENWIDTH / 2, SCREENHEIGHT / 2, -SCREENHEIGHT / 2, 0, 1);
 
+	joiner.LoadContent();
+
 	while (isRunning) {
 		while (SDL_PollEvent(&event)) {
 			if (event.type == SDL_QUIT)

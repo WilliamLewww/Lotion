@@ -4,7 +4,7 @@
 
 struct Player {
 	Vector2 position;
-	int width = 15, height = 15;
+	int width = 5, height = 5;
 
 	inline Vector2 midpoint() { return Vector2(position.x + (position.x / 2), position.y + (position.y / 2)); }
 
@@ -16,8 +16,10 @@ struct Player {
 	bool onGround = false;
 	double velocityX, velocityY;
 
-	double speed = 100;
+	double speed = 50;
+	double jumpSpeed = 2.0;
 };
 
 extern Player player;
+void UpdatePlayer(int gameTime);
 void DrawPlayer();

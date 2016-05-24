@@ -1,6 +1,7 @@
 #pragma once
 #include "main.h"
 #include "player.h"
+#include "environment.h"
 class Joiner
 {
 public:
