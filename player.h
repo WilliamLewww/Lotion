@@ -17,7 +17,7 @@ struct Player {
 	double velocityX, velocityY;
 
 	double speed = 50;
-	double jumpSpeed = 2.0;
+	double jumpSpeed = 2.5;
 };
 
 extern Player player;

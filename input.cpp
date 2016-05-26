@@ -1,6 +1,7 @@
 #include "input.h"
 
 std::vector<SDL_Keycode> keyList;
+
 bool leftButtonDown;
 int mouseX, mouseY;
 

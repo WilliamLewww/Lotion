@@ -29,7 +29,7 @@ void UpdatePlayer(int gameTime) {
 	player.position.y += player.velocityY;
 	player.velocityX = 0;
 
-	if (std::find(keyList.begin(), keyList.end(), SDLK_f) != keyList.end()) floatingMovement = !floatingMovement;
+	//if (std::find(keyPressList.begin(), keyPressList.end(), SDLK_f) != keyPressList.end()) floatingMovement = !floatingMovement;
 
 	if (std::find(keyList.begin(), keyList.end(), SDLK_LCTRL) != keyList.end()) { player.speed = 65; }
 	else { player.speed = 50; }
@@ -56,6 +56,10 @@ void UpdatePlayer(int gameTime) {
 		if (tile.tileID == 1) {
 			if (CheckCollision(tile) == true) HandleCollision(tile);
 		}
+	}
+
+	for (auto &tile : harmfulTileMap) {
+		if (CheckCollision(tile.tile) == true) player.position = Vector2(spawnTile.position.x, spawnTile.position.y);
 	}
 
 	std::vector<Tile> tempGroundTileList;
