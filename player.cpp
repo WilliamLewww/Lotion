@@ -53,13 +53,14 @@ void UpdatePlayer(int gameTime) {
 	}
 
 	for (auto &tile : tileMap) {
-		if (tile.tileID == 1) {
-			if (CheckCollision(tile) == true) HandleCollision(tile);
-		}
-	}
+		if (CheckCollision(tile) == true) {
+			if (tile.tileID == 1) { HandleCollision(tile); }
+			if (tile.tileID == 5) { player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
 
-	for (auto &tile : harmfulTileMap) {
-		if (CheckCollision(tile.tile) == true) player.position = Vector2(spawnTile.position.x, spawnTile.position.y);
+			//CHANGE SIDE COLLISION OF TRAMP
+			//ONLY BOUNCE ON TOP
+			if (tile.tileID == 6) { player.velocityY = -player.velocityY; }
+		}
 	}
 
 	std::vector<Tile> tempGroundTileList;
@@ -104,6 +105,15 @@ bool CheckCollision(Tile tile) {
 
 //player.top <= tile.bottom && player.top >= tile.bottom - 5 && player.left <= tile.right - 5 && player.right >= tile.left + 5:
 bool CheckCollisionBottom(Tile tile) {
+	if (player.top() <= tile.bottom() && player.top() >= tile.bottom() - 5 && player.left() <= tile.right() - 3 && player.right() >= tile.left() + 3) return true;
+	return false;
+}
+
+//FIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIX
+//FIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIX
+//FIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIX
+//FIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIXFIX
+bool CheckCollisionTop(Tile tile) {
 	if (player.top() <= tile.bottom() && player.top() >= tile.bottom() - 5 && player.left() <= tile.right() - 3 && player.right() >= tile.left() + 3) return true;
 	return false;
 }
