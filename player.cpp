@@ -17,10 +17,10 @@ void UpdatePlayer(int gameTime) {
 	for (auto &tile : pushTileMap) {
 		if (CheckCollision(tile.tile) == true) {
 			//0=up 1=down 2=right 3=left
-			if (tile.GetDirection(pushTileMap) == 0) player.velocityY = tile.force * deltaTimeS;
-			if (tile.GetDirection(pushTileMap) == 1) player.velocityY = -tile.force * deltaTimeS;
-			if (tile.GetDirection(pushTileMap) == 2) player.velocityX = tile.force * deltaTimeS;
-			if (tile.GetDirection(pushTileMap) == 3) player.velocityX = -tile.force * deltaTimeS;
+			if (tile.GetDirection(pushTileMap) == 0) { player.velocityY = tile.force * deltaTimeS; player.velocityX = 0; }
+			if (tile.GetDirection(pushTileMap) == 1) { player.velocityY = -tile.force * deltaTimeS; player.velocityX = 0; }
+			if (tile.GetDirection(pushTileMap) == 2) { player.velocityX = tile.force * deltaTimeS; player.velocityY = 0; }
+			if (tile.GetDirection(pushTileMap) == 3) { player.velocityX = -tile.force * deltaTimeS; player.velocityY = 0; }
 		}
 	}
 
@@ -53,18 +53,23 @@ void UpdatePlayer(int gameTime) {
 		if (player.onGround == true) jumpPress = false;
 	}
 
+	bool trampolineCollison = false;
 	for (auto &tile : tileMap) {
 		if (CheckCollision(tile) == true) {
 			if (tile.tileID == 1) { HandleCollision(tile); }
-			if (tile.tileID == 5) { player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
+			if (tile.tileID == 5) { player.velocityX = 0; player.velocityY = 0; player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
 
 			if (tile.tileID == 6) { 
-				if (CheckCollisionTop(tile)) { player.velocityY = -player.velocityY; }
+				if (CheckCollisionTop(tile) && trampolineCollison == false) { player.velocityY = -player.velocityY; }
 				else { HandleCollision(tile); }
+
+				trampolineCollison = true;
 			}
 
 			if (tile.tileID == 7) {
-				if (CheckCollision(tile)) { std::cout << player.velocityY << std::endl; player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.3; }
+				if (CheckCollision(tile) && trampolineCollison == false) { player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5; }
+
+				trampolineCollison = true;
 			}
 		}
 	}
