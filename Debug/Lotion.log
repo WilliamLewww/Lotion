@@ -1,13 +1,3 @@
-﻿  environment.cpp
-  Generating Code...
-  Compiling...
-  spritebatch.cpp
-g:\projects\lotion\lotion\spritebatch.cpp(53): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-g:\projects\lotion\lotion\spritebatch.cpp(59): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
-g:\projects\lotion\lotion\spritebatch.cpp(74): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
-  player.cpp
-  main.cpp
-  joiner.cpp
-  Generating Code...
+﻿  player.cpp
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.exe
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.pdb (Partial PDB)

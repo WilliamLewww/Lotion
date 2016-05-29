@@ -17,6 +17,8 @@ void GenerateTileMap() {
 			if (tileMapGrid[y][x] == 4) { spawnTile.position = Vector2(x * spawnTile.width, y * spawnTile.height); spawnTile.tileID = 4; }
 			if (tileMapGrid[y][x] == 5) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 5; tileMap.push_back(tempTile); }
 			if (tileMapGrid[y][x] == 6) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 6; tempTile.height = 5; tileMap.push_back(tempTile); }
+			if (tileMapGrid[y][x] == 7) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
+			if (tileMapGrid[y][x] == 8) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
 		}
 	}
 }
@@ -31,6 +33,7 @@ void DrawMap() {
 		if (tile.tileID == 1) { color[0] = 0; color[1] = 0; color[2] = 255; }
 		if (tile.tileID == 5) { color[0] = 255; color[1] = 0; color[2] = 0; }
 		if (tile.tileID == 6) { color[0] = 255; color[1] = 0; color[2] = 255; }
+		if (tile.tileID == 7) { color[0] = 255; color[1] = 0; color[2] = 255; }
 		DrawTile(tile, color);
 	}
 }
