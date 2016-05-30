@@ -60,14 +60,14 @@ void UpdatePlayer(int gameTime) {
 			if (tile.tileID == 5) { player.velocityX = 0; player.velocityY = 0; player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
 
 			if (tile.tileID == 6) { 
-				if (CheckCollisionTop(tile) && trampolineCollison == false) { player.velocityY = -player.velocityY; }
+				if (CheckCollisionTop(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = -player.velocityY; } }
 				else { HandleCollision(tile); }
 
 				trampolineCollison = true;
 			}
 
 			if (tile.tileID == 7) {
-				if (CheckCollision(tile) && trampolineCollison == false) { player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5; }
+				if (CheckCollision(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5; } }
 
 				trampolineCollison = true;
 			}
