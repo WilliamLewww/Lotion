@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
 	joiner.LoadContent();
 
 	while (isRunning) {
+		RemoveInitialPress();
 		while (SDL_PollEvent(&event)) {
 			if (event.type == SDL_QUIT)
 				isRunning = false;

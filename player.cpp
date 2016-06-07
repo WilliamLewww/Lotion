@@ -30,7 +30,7 @@ void UpdatePlayer(int gameTime) {
 	player.position.y += player.velocityY;
 	player.velocityX = 0;
 
-	//if (std::find(keyPressList.begin(), keyPressList.end(), SDLK_f) != keyPressList.end()) floatingMovement = !floatingMovement;
+	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_f) != pressKeyList.end()) floatingMovement = !floatingMovement;
 
 	if (std::find(keyList.begin(), keyList.end(), SDLK_LCTRL) != keyList.end()) { player.speed = 65; }
 	else { player.speed = 50; }
