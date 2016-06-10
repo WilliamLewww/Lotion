@@ -4520,10 +4520,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	09H
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4605,10 +4605,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	0bH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4678,12 +4678,12 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	01H
+	DD	00H
+	DD	0aH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4821,6 +4821,7 @@ EXTRN	??0Vector2@@QAE@NN@Z:PROC			; Vector2::Vector2
 EXTRN	?UpdatePlayer@@YAXH@Z:PROC			; UpdatePlayer
 EXTRN	?DrawPlayer@@YAXXZ:PROC				; DrawPlayer
 EXTRN	?GenerateTileMap@@YAXXZ:PROC			; GenerateTileMap
+EXTRN	?UpdateTile@@YAXH@Z:PROC			; UpdateTile
 EXTRN	?DrawMap@@YAXXZ:PROC				; DrawMap
 EXTRN	__RTC_CheckEsp:PROC
 EXTRN	__RTC_InitBase:PROC
@@ -4844,7 +4845,7 @@ _this$ = -8						; size = 4
 ?Render@Joiner@@QAEXXZ PROC				; Joiner::Render, COMDAT
 ; _this$ = ecx
 
-; 16   : void Joiner::Render() {
+; 17   : void Joiner::Render() {
 
 	push	ebp
 	mov	ebp, esp
@@ -4860,15 +4861,15 @@ _this$ = -8						; size = 4
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 17   : 	DrawPlayer();
+; 18   : 	DrawPlayer();
 
 	call	?DrawPlayer@@YAXXZ			; DrawPlayer
 
-; 18   : 	DrawMap();
+; 19   : 	DrawMap();
 
 	call	?DrawMap@@YAXXZ				; DrawMap
 
-; 19   : }
+; 20   : }
 
 	pop	edi
 	pop	esi
@@ -4906,14 +4907,21 @@ _gameTime$ = 8						; size = 4
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 13   : 	UpdatePlayer(gameTime);
+; 13   : 	UpdateTile(gameTime);
+
+	mov	eax, DWORD PTR _gameTime$[ebp]
+	push	eax
+	call	?UpdateTile@@YAXH@Z			; UpdateTile
+	add	esp, 4
+
+; 14   : 	UpdatePlayer(gameTime);
 
 	mov	eax, DWORD PTR _gameTime$[ebp]
 	push	eax
 	call	?UpdatePlayer@@YAXH@Z			; UpdatePlayer
 	add	esp, 4
 
-; 14   : }
+; 15   : }
 
 	pop	edi
 	pop	esi
@@ -5031,7 +5039,7 @@ ___formal$ = 8						; size = 4
 ___formal$ = 12						; size = 4
 ?__empty_global_delete@@YAXPAXI@Z PROC			; __empty_global_delete, COMDAT
 
-; 20   : }
+; 21   : }
 
 	push	ebp
 	mov	ebp, esp
@@ -5058,7 +5066,7 @@ _TEXT	SEGMENT
 ___formal$ = 8						; size = 4
 ?__empty_global_delete@@YAXPAX@Z PROC			; __empty_global_delete, COMDAT
 
-; 20   : }
+; 21   : }
 
 	push	ebp
 	mov	ebp, esp

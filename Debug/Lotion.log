@@ -1,6 +1,3 @@
-﻿  player.cpp
-  main.cpp
-  input.cpp
-  Generating Code...
+﻿  environment.cpp
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.exe
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.pdb (Partial PDB)

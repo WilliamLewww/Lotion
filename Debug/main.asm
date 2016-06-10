@@ -4533,10 +4533,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	09H
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4618,10 +4618,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	0bH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4691,12 +4691,12 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	01H
+	DD	00H
+	DD	0aH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -5256,8 +5256,6 @@ _TEXT	SEGMENT
 ___formal$ = 8						; size = 4
 ___formal$ = 12						; size = 4
 ?__empty_global_delete@@YAXPAXI@Z PROC			; __empty_global_delete, COMDAT
-
-; 58   : }
 
 	push	ebp
 	mov	ebp, esp

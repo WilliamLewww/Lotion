@@ -4526,10 +4526,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	09H
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4611,10 +4611,10 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	0bH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -4684,12 +4684,12 @@ _DATA	SEGMENT
 	DD	00H
 	DD	00H
 	DD	00H
+	DD	01H
+	DD	00H
+	DD	0aH
 	DD	00H
 	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
-	DD	00H
+	DD	01H
 	DD	00H
 	DD	00H
 	DD	00H
@@ -25196,7 +25196,7 @@ _tileMap$ = 8						; size = 16
 ?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z PROC ; PushTile::GetDirection, COMDAT
 ; _this$ = ecx
 
-; 111  : 	inline int GetDirection(std::vector<PushTile> tileMap) {
+; 118  : 	inline int GetDirection(std::vector<PushTile> tileMap) {
 
 	push	ebp
 	mov	ebp, esp
@@ -25223,7 +25223,7 @@ _tileMap$ = 8						; size = 16
 	mov	DWORD PTR _this$[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 
-; 112  : 		for (auto &otherTile : tileMap) {
+; 119  : 		for (auto &otherTile : tileMap) {
 
 	lea	eax, DWORD PTR _tileMap$[ebp]
 	mov	DWORD PTR _<range>$L0$18[ebp], eax
@@ -25259,8 +25259,8 @@ $LN4@GetDirecti:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEAAUPushTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator*
 	mov	DWORD PTR _otherTile$15[ebp], eax
 
-; 113  : 			//othertile = left
-; 114  : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 120  : 			//othertile = left
+; 121  : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -25281,7 +25281,7 @@ $LN4@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN8@GetDirecti
 
-; 115  : 				if (end == true) return 2;
+; 122  : 				if (end == true) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -25301,12 +25301,12 @@ $LN4@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN6@GetDirecti:
 
-; 116  : 				otherTile.initialDirection = 2;
+; 123  : 				otherTile.initialDirection = 2;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 2
 
-; 117  : 				if (initialDirection == -1) return 3;
+; 124  : 				if (initialDirection == -1) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -25325,7 +25325,7 @@ $LN6@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN7@GetDirecti:
 
-; 118  : 				if (initialDirection != 2) return 3;
+; 125  : 				if (initialDirection != 2) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 2
@@ -25344,9 +25344,9 @@ $LN7@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN8@GetDirecti:
 
-; 119  : 			}
-; 120  : 			//othertile = right
-; 121  : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 126  : 			}
+; 127  : 			//othertile = right
+; 128  : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -25366,7 +25366,7 @@ $LN8@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN12@GetDirecti
 
-; 122  : 				if (end == true) return 3;
+; 129  : 				if (end == true) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -25386,12 +25386,12 @@ $LN8@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN10@GetDirecti:
 
-; 123  : 				otherTile.initialDirection = 3;
+; 130  : 				otherTile.initialDirection = 3;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 3
 
-; 124  : 				if (initialDirection == -1) return 2;
+; 131  : 				if (initialDirection == -1) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -25410,7 +25410,7 @@ $LN10@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN11@GetDirecti:
 
-; 125  : 				if (initialDirection != 3) return 2;
+; 132  : 				if (initialDirection != 3) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 3
@@ -25429,9 +25429,9 @@ $LN11@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN12@GetDirecti:
 
-; 126  : 			}
-; 127  : 			//othertile = down
-; 128  : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 133  : 			}
+; 134  : 			//othertile = down
+; 135  : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -25452,7 +25452,7 @@ $LN12@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN16@GetDirecti
 
-; 129  : 				if (end == true) return 0;
+; 136  : 				if (end == true) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -25472,12 +25472,12 @@ $LN12@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN14@GetDirecti:
 
-; 130  : 				otherTile.initialDirection = 0;
+; 137  : 				otherTile.initialDirection = 0;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 0
 
-; 131  : 				if (initialDirection == -1) return 1;
+; 138  : 				if (initialDirection == -1) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -25496,7 +25496,7 @@ $LN14@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN15@GetDirecti:
 
-; 132  : 				if (initialDirection != 0) return 1;
+; 139  : 				if (initialDirection != 0) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 0
@@ -25515,9 +25515,9 @@ $LN15@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN16@GetDirecti:
 
-; 133  : 			}
-; 134  : 			//othertile = up
-; 135  : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 140  : 			}
+; 141  : 			//othertile = up
+; 142  : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -25537,7 +25537,7 @@ $LN16@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN20@GetDirecti
 
-; 136  : 				if (end == true) return 1;
+; 143  : 				if (end == true) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -25557,12 +25557,12 @@ $LN16@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN18@GetDirecti:
 
-; 137  : 				otherTile.initialDirection = 1;
+; 144  : 				otherTile.initialDirection = 1;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 1
 
-; 138  : 				if (initialDirection == -1) return 0;
+; 145  : 				if (initialDirection == -1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -25581,7 +25581,7 @@ $LN18@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN19@GetDirecti:
 
-; 139  : 				if (initialDirection != 1) return 0;
+; 146  : 				if (initialDirection != 1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 1
@@ -25600,12 +25600,12 @@ $LN19@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN20@GetDirecti:
 
-; 140  : 			}
+; 147  : 			}
 
 	jmp	$LN2@GetDirecti
 $LN3@GetDirecti:
 
-; 141  : 		}
+; 148  : 		}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 	lea	ecx, DWORD PTR _<end>$L0$16[ebp]
@@ -25614,8 +25614,8 @@ $LN3@GetDirecti:
 	lea	ecx, DWORD PTR _<begin>$L0$17[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 
-; 142  : 
-; 143  : 		return -1;
+; 149  : 
+; 150  : 		return -1;
 
 	mov	DWORD PTR $T2[ebp], -1
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
@@ -25624,7 +25624,7 @@ $LN3@GetDirecti:
 	mov	eax, DWORD PTR $T2[ebp]
 $LN1@GetDirecti:
 
-; 144  : 	};
+; 151  : 	};
 
 	push	edx
 	mov	ecx, ebp

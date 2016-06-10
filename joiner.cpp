@@ -10,6 +10,7 @@ void Joiner::LoadContent() {
 }
 
 void Joiner::Update(int gameTime) {
+	UpdateTile(gameTime);
 	UpdatePlayer(gameTime);
 }
 
