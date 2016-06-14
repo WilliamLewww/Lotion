@@ -7,6 +7,29 @@ std::vector<PushTile> pushTileMap;
 std::vector<MovingTile> movingTileMap;
 
 void GenerateTileMap() {
+	std::ifstream file("../Content/TileMap.txt");
+	std::string str;
+
+	std::string intString = "";
+	int incrementX = 0, incrementY = 0;
+	while (std::getline(file, str))
+	{
+		for (int x = 0; x < str.length(); x++) {
+			if (str[x] == ',' || (x == str.length() - 1 && str[x] == '}')) {
+				tileMapGrid[incrementY][incrementX] = std::stoi(intString);
+				intString.clear();
+				incrementX += 1;
+			}
+			else {
+				if (str[x] != '{' && str[x] != '}') {
+					intString += str[x];
+				}
+			}
+		}
+		incrementX = 0;
+		incrementY += 1;
+	}
+
 	for (int y = 0; y < MAPSIZEY; y++) {
 		for (int x = 0; x < MAPSIZEX; x++) {
 			Tile tempTile;
