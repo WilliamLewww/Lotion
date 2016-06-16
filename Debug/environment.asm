@@ -120,6 +120,7 @@ PUBLIC	?left@Tile@@QAENXZ				; Tile::left
 PUBLIC	?right@Tile@@QAENXZ				; Tile::right
 PUBLIC	??0Tile@@QAE@XZ					; Tile::Tile
 PUBLIC	??0MovingTile@@QAE@XZ				; MovingTile::MovingTile
+PUBLIC	??0AirTile@@QAE@XZ				; AirTile::AirTile
 PUBLIC	??0SpawnTile@@QAE@XZ				; SpawnTile::SpawnTile
 PUBLIC	??0PushTile@@QAE@XZ				; PushTile::PushTile
 PUBLIC	??0?$allocator@UPushTile@@@std@@QAE@XZ		; std::allocator<PushTile>::allocator<PushTile>
@@ -225,6 +226,55 @@ PUBLIC	?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ; std::vect
 PUBLIC	?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Xlen
 PUBLIC	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
 PUBLIC	?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2
+PUBLIC	??0?$allocator@UAirTile@@@std@@QAE@XZ		; std::allocator<AirTile>::allocator<AirTile>
+PUBLIC	?deallocate@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@I@Z ; std::allocator<AirTile>::deallocate
+PUBLIC	?allocate@?$allocator@UAirTile@@@std@@QAEPAUAirTile@@I@Z ; std::allocator<AirTile>::allocate
+PUBLIC	?max_size@?$allocator@UAirTile@@@std@@QBEIXZ	; std::allocator<AirTile>::max_size
+PUBLIC	?max_size@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAIABV?$allocator@UAirTile@@@2@@Z ; std::allocator_traits<std::allocator<AirTile> >::max_size
+PUBLIC	??0?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::_Wrap_alloc<std::allocator<AirTile> >::_Wrap_alloc<std::allocator<AirTile> >
+PUBLIC	?allocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::allocate
+PUBLIC	?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate
+PUBLIC	?max_size@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::max_size
+PUBLIC	??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+PUBLIC	??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::~_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+PUBLIC	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Alloc_proxy
+PUBLIC	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Free_proxy
+PUBLIC	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getpfirst
+PUBLIC	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+PUBLIC	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+PUBLIC	??0?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<AirTile> >::_Vector_val<std::_Simple_types<AirTile> >
+PUBLIC	??1?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<AirTile> >::~_Vector_val<std::_Simple_types<AirTile> >
+PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+PUBLIC	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>
+PUBLIC	??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::vector<AirTile,std::allocator<AirTile> >::vector<AirTile,std::allocator<AirTile> >
+PUBLIC	??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::vector<AirTile,std::allocator<AirTile> >::~vector<AirTile,std::allocator<AirTile> >
+PUBLIC	?capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::capacity
+PUBLIC	?_Unused_capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Unused_capacity
+PUBLIC	?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::size
+PUBLIC	?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::max_size
+PUBLIC	?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+PUBLIC	?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Destroy
+PUBLIC	?_Grow_to@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEII@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Grow_to
+PUBLIC	?_Inside@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBE_NPBUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Inside
+PUBLIC	?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Reallocate
+PUBLIC	?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Reserve
+PUBLIC	?_Tidy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Tidy
+PUBLIC	?_Xlen@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Xlen
+PUBLIC	?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Orphan_range
+PUBLIC	?__autoclassinit2@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::__autoclassinit2
 PUBLIC	??0?$allocator@UMovingTile@@@std@@QAE@XZ	; std::allocator<MovingTile>::allocator<MovingTile>
 PUBLIC	?deallocate@?$allocator@UMovingTile@@@std@@QAEXPAUMovingTile@@I@Z ; std::allocator<MovingTile>::deallocate
 PUBLIC	?allocate@?$allocator@UMovingTile@@@std@@QAEPAUMovingTile@@I@Z ; std::allocator<MovingTile>::allocate
@@ -304,6 +354,8 @@ PUBLIC	??_G?$basic_ifstream@DU?$char_traits@D@std@@@std@@UAEPAXI@Z ; std::basic_
 PUBLIC	??_D?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAEXXZ ; std::basic_ifstream<char,std::char_traits<char> >::`vbase destructor'
 PUBLIC	??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z ; std::getline<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	?CheckCollision@@YA_NUTile@@0@Z			; CheckCollision
+PUBLIC	?CheckCollisionRight@@YA_NUTile@@0@Z		; CheckCollisionRight
+PUBLIC	?CheckCollisionLeft@@YA_NUTile@@0@Z		; CheckCollisionLeft
 PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
 PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
 PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
@@ -336,6 +388,9 @@ PUBLIC	?DrawTile@@YAXUTile@@QAH@Z			; DrawTile
 PUBLIC	??$addressof@$$CBUMovingTile@@@std@@YAPBUMovingTile@@ABU1@@Z ; std::addressof<MovingTile const >
 PUBLIC	??$construct@UMovingTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<MovingTile> >::construct<MovingTile,MovingTile &>
 PUBLIC	??$construct@UMovingTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<MovingTile> >::construct<MovingTile,MovingTile const &>
+PUBLIC	??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z ; std::addressof<AirTile const >
+PUBLIC	??$construct@UAirTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+PUBLIC	??$construct@UAirTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
 PUBLIC	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
 PUBLIC	??$construct@UTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile &>
 PUBLIC	??$construct@UTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile const &>
@@ -358,6 +413,7 @@ PUBLIC	??0?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@
 PUBLIC	??D?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QBEAADXZ ; std::_String_iterator<std::_String_val<std::_Simple_types<char> > >::operator*
 PUBLIC	??1?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QAE@XZ ; std::_String_iterator<std::_String_val<std::_Simple_types<char> > >::~_String_iterator<std::_String_val<std::_Simple_types<char> > >
 PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1><>
+PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1><>
 PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
 PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><>
 PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@D@std@@@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<char> >,std::_String_val<std::_Simple_types<char> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<char> >,std::_String_val<std::_Simple_types<char> >,1><>
@@ -372,9 +428,12 @@ PUBLIC	?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@
 PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<MovingTile> > &>
 PUBLIC	??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<AirTile> > &>
 PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
 PUBLIC	??$_Umove@PAUMovingTile@@@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@IAEPAUMovingTile@@PAU2@00@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::_Umove<MovingTile *>
 PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@@std@@YAXPAUMovingTile@@0AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<MovingTile> > >
+PUBLIC	??$_Umove@PAUAirTile@@@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEPAUAirTile@@PAU2@00@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Umove<AirTile *>
+PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAXPAUAirTile@@0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<AirTile> > >
 PUBLIC	??$_Umove@PAUTile@@@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEPAUTile@@PAU2@00@Z ; std::vector<Tile,std::allocator<Tile> >::_Umove<Tile *>
 PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAXPAUTile@@0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<Tile> > >
 PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>
@@ -388,6 +447,11 @@ PUBLIC	??$forward@AAUMovingTile@@@std@@YAAAUMovingTile@@AAU1@@Z ; std::forward<M
 PUBLIC	??$construct@UMovingTile@@AAU1@@?$allocator_traits@V?$allocator@UMovingTile@@@std@@@std@@SAXAAV?$allocator@UMovingTile@@@1@PAUMovingTile@@AAU3@@Z ; std::allocator_traits<std::allocator<MovingTile> >::construct<MovingTile,MovingTile &>
 PUBLIC	??$forward@ABUMovingTile@@@std@@YAABUMovingTile@@ABU1@@Z ; std::forward<MovingTile const &>
 PUBLIC	??$construct@UMovingTile@@ABU1@@?$allocator_traits@V?$allocator@UMovingTile@@@std@@@std@@SAXAAV?$allocator@UMovingTile@@@1@PAUMovingTile@@ABU3@@Z ; std::allocator_traits<std::allocator<MovingTile> >::construct<MovingTile,MovingTile const &>
+PUBLIC	??$_Addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<AirTile const >
+PUBLIC	??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z ; std::forward<AirTile &>
+PUBLIC	??$construct@UAirTile@@AAU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@AAU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+PUBLIC	??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z ; std::forward<AirTile const &>
+PUBLIC	??$construct@UAirTile@@ABU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@ABU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
 PUBLIC	??$_Addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<Tile const >
 PUBLIC	??$forward@AAUTile@@@std@@YAAAUTile@@AAU1@@Z	; std::forward<Tile &>
 PUBLIC	??$construct@UTile@@AAU1@@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAXAAV?$allocator@UTile@@@1@PAUTile@@AAU3@@Z ; std::allocator_traits<std::allocator<Tile> >::construct<Tile,Tile &>
@@ -407,11 +471,16 @@ PUBLIC	??$?0UMovingTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allo
 PUBLIC	??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
 PUBLIC	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@$$QAU31@@Z ; std::allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+PUBLIC	??$forward@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<AirTile> > &>
+PUBLIC	??$?0UAirTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UAirTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><AirTile>
 PUBLIC	??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
 PUBLIC	??$?0UTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><Tile>
 PUBLIC	??$_Uninitialized_move@PAUMovingTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@@std@@YAPAUMovingTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@0@@Z ; std::_Uninitialized_move<MovingTile *,MovingTile *,std::_Wrap_alloc<std::allocator<MovingTile> > >
 PUBLIC	??$addressof@UMovingTile@@@std@@YAPAUMovingTile@@AAU1@@Z ; std::addressof<MovingTile>
 PUBLIC	??$destroy@UMovingTile@@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@@Z ; std::_Wrap_alloc<std::allocator<MovingTile> >::destroy<MovingTile>
+PUBLIC	??$_Uninitialized_move@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Uninitialized_move<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+PUBLIC	??$addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@@Z ; std::addressof<AirTile>
+PUBLIC	??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::destroy<AirTile>
 PUBLIC	??$_Uninitialized_move@PAUTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Uninitialized_move<Tile *,Tile *,std::_Wrap_alloc<std::allocator<Tile> > >
 PUBLIC	??$addressof@UTile@@@std@@YAPAUTile@@AAU1@@Z	; std::addressof<Tile>
 PUBLIC	??$destroy@UTile@@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::destroy<Tile>
@@ -429,6 +498,8 @@ PUBLIC	??Bsentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QBE_NXZ ; std::bas
 PUBLIC	??1sentry@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@XZ ; std::basic_istream<char,std::char_traits<char> >::sentry::~sentry
 PUBLIC	??$construct@UMovingTile@@AAU1@@?$allocator@UMovingTile@@@std@@QAEXPAUMovingTile@@AAU2@@Z ; std::allocator<MovingTile>::construct<MovingTile,MovingTile &>
 PUBLIC	??$construct@UMovingTile@@ABU1@@?$allocator@UMovingTile@@@std@@QAEXPAUMovingTile@@ABU2@@Z ; std::allocator<MovingTile>::construct<MovingTile,MovingTile const &>
+PUBLIC	??$construct@UAirTile@@AAU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@AAU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile &>
+PUBLIC	??$construct@UAirTile@@ABU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@ABU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile const &>
 PUBLIC	??$construct@UTile@@AAU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@AAU2@@Z ; std::allocator<Tile>::construct<Tile,Tile &>
 PUBLIC	??$construct@UTile@@ABU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@ABU2@@Z ; std::allocator<Tile>::construct<Tile,Tile const &>
 PUBLIC	??$construct@UPushTile@@AAU1@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@AAU2@@Z ; std::allocator<PushTile>::construct<PushTile,PushTile &>
@@ -442,6 +513,11 @@ PUBLIC	??$_Uninitialized_move_al_unchecked@PAUMovingTile@@PAU1@U?$_Wrap_alloc@V?
 PUBLIC	??$_Rechecked@PAUMovingTile@@PAU1@@std@@YAAAPAUMovingTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<MovingTile *,MovingTile *>
 PUBLIC	??$_Addressof@UMovingTile@@@std@@YAPAUMovingTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<MovingTile>
 PUBLIC	??$destroy@UMovingTile@@@?$allocator_traits@V?$allocator@UMovingTile@@@std@@@std@@SAXAAV?$allocator@UMovingTile@@@1@PAUMovingTile@@@Z ; std::allocator_traits<std::allocator<MovingTile> >::destroy<MovingTile>
+PUBLIC	??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z ; std::_Unchecked<AirTile *>
+PUBLIC	??$_Uninitialized_move_al_unchecked@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Uninitialized_move_al_unchecked<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+PUBLIC	??$_Rechecked@PAUAirTile@@PAU1@@std@@YAAAPAUAirTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<AirTile *,AirTile *>
+PUBLIC	??$_Addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<AirTile>
+PUBLIC	??$destroy@UAirTile@@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@@Z ; std::allocator_traits<std::allocator<AirTile> >::destroy<AirTile>
 PUBLIC	??$_Unchecked@PAUTile@@@std@@YAPAUTile@@PAU1@@Z	; std::_Unchecked<Tile *>
 PUBLIC	??$_Uninitialized_move_al_unchecked@PAUTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Uninitialized_move_al_unchecked<Tile *,Tile *,std::_Wrap_alloc<std::allocator<Tile> > >
 PUBLIC	??$_Rechecked@PAUTile@@PAU1@@std@@YAAAPAUTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<Tile *,Tile *>
@@ -455,6 +531,9 @@ PUBLIC	??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@
 PUBLIC	??$_Ptr_move_cat@UMovingTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUMovingTile@@0@Z ; std::_Ptr_move_cat<MovingTile,MovingTile>
 PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUMovingTile@@PAU1@V?$allocator@UMovingTile@@@std@@@std@@YAPAUMovingTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<MovingTile *,MovingTile *,std::allocator<MovingTile> >
 PUBLIC	??$destroy@UMovingTile@@@?$allocator@UMovingTile@@@std@@QAEXPAUMovingTile@@@Z ; std::allocator<MovingTile>::destroy<MovingTile>
+PUBLIC	??$_Ptr_move_cat@UAirTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUAirTile@@0@Z ; std::_Ptr_move_cat<AirTile,AirTile>
+PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<AirTile *,AirTile *,std::allocator<AirTile> >
+PUBLIC	??$destroy@UAirTile@@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@@Z ; std::allocator<AirTile>::destroy<AirTile>
 PUBLIC	??$_Ptr_move_cat@UTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUTile@@0@Z ; std::_Ptr_move_cat<Tile,Tile>
 PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTile@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<Tile *,Tile *,std::allocator<Tile> >
 PUBLIC	??$destroy@UTile@@@?$allocator@UTile@@@std@@QAEXPAUTile@@@Z ; std::allocator<Tile>::destroy<Tile>
@@ -463,17 +542,22 @@ PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUPushTile@@PAU1@V?$allocator@UPush
 PUBLIC	??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ; std::allocator<PushTile>::destroy<PushTile>
 PUBLIC	??$move@AAUMovingTile@@@std@@YA$$QAUMovingTile@@AAU1@@Z ; std::move<MovingTile &>
 PUBLIC	??$construct@UMovingTile@@U1@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<MovingTile> >::construct<MovingTile,MovingTile>
+PUBLIC	??$move@AAUAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::move<AirTile &>
+PUBLIC	??$construct@UAirTile@@U1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile>
 PUBLIC	??$move@AAUTile@@@std@@YA$$QAUTile@@AAU1@@Z	; std::move<Tile &>
 PUBLIC	??$construct@UTile@@U1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile>
 PUBLIC	??$move@AAUPushTile@@@std@@YA$$QAUPushTile@@AAU1@@Z ; std::move<PushTile &>
 PUBLIC	??$construct@UPushTile@@U1@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::construct<PushTile,PushTile>
 PUBLIC	??$forward@UMovingTile@@@std@@YA$$QAUMovingTile@@AAU1@@Z ; std::forward<MovingTile>
 PUBLIC	??$construct@UMovingTile@@U1@@?$allocator_traits@V?$allocator@UMovingTile@@@std@@@std@@SAXAAV?$allocator@UMovingTile@@@1@PAUMovingTile@@$$QAU3@@Z ; std::allocator_traits<std::allocator<MovingTile> >::construct<MovingTile,MovingTile>
+PUBLIC	??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::forward<AirTile>
+PUBLIC	??$construct@UAirTile@@U1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@$$QAU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile>
 PUBLIC	??$forward@UTile@@@std@@YA$$QAUTile@@AAU1@@Z	; std::forward<Tile>
 PUBLIC	??$construct@UTile@@U1@@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAXAAV?$allocator@UTile@@@1@PAUTile@@$$QAU3@@Z ; std::allocator_traits<std::allocator<Tile> >::construct<Tile,Tile>
 PUBLIC	??$forward@UPushTile@@@std@@YA$$QAUPushTile@@AAU1@@Z ; std::forward<PushTile>
 PUBLIC	??$construct@UPushTile@@U1@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@$$QAU3@@Z ; std::allocator_traits<std::allocator<PushTile> >::construct<PushTile,PushTile>
 PUBLIC	??$construct@UMovingTile@@U1@@?$allocator@UMovingTile@@@std@@QAEXPAUMovingTile@@$$QAU2@@Z ; std::allocator<MovingTile>::construct<MovingTile,MovingTile>
+PUBLIC	??$construct@UAirTile@@U1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile>
 PUBLIC	??$construct@UTile@@U1@@?$allocator@UTile@@@std@@QAEXPAUTile@@$$QAU2@@Z ; std::allocator<Tile>::construct<Tile,Tile>
 PUBLIC	??$construct@UPushTile@@U1@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@$$QAU2@@Z ; std::allocator<PushTile>::construct<PushTile,PushTile>
 PUBLIC	??_E?$basic_ifstream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z ; std::basic_ifstream<char,std::char_traits<char> >::`vector deleting destructor'
@@ -514,6 +598,7 @@ PUBLIC	??_C@_0BG@HGEDEDEC@invalid?5stoi?5argument?$AA@	; `string'
 PUBLIC	??_C@_0BL@MFFNMGGC@stoi?5argument?5out?5of?5range?$AA@ ; `string'
 PUBLIC	?spawnTile@@3USpawnTile@@A			; spawnTile
 PUBLIC	?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+PUBLIC	?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
 PUBLIC	?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 PUBLIC	?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
 PUBLIC	??_7?$basic_filebuf@DU?$char_traits@D@std@@@std@@6B@ ; std::basic_filebuf<char,std::char_traits<char> >::`vftable'
@@ -591,6 +676,9 @@ PUBLIC	??_R4bad_cast@std@@6B@				; std::bad_cast::`RTTI Complete Object Locator'
 PUBLIC	??_R3bad_cast@std@@8				; std::bad_cast::`RTTI Class Hierarchy Descriptor'
 PUBLIC	??_R2bad_cast@std@@8				; std::bad_cast::`RTTI Base Class Array'
 PUBLIC	??_R1A@?0A@EA@bad_cast@std@@8			; std::bad_cast::`RTTI Base Class Descriptor at (0,-1,0,64)'
+PUBLIC	__real@3fe0000000000000
+PUBLIC	__real@4008000000000000
+PUBLIC	__real@4014000000000000
 PUBLIC	__real@4039000000000000
 PUBLIC	__real@4059000000000000
 PUBLIC	__real@447a0000
@@ -691,6 +779,7 @@ _BSS	SEGMENT
 ?tileMapGrid@@3PAY0FA@HA DD 012c0H DUP (?)		; tileMapGrid
 ?spawnTile@@3USpawnTile@@A DB 020H DUP (?)		; spawnTile
 ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A DB 010H DUP (?) ; tileMap
+?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A DB 010H DUP (?) ; airTileMap
 ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A DB 010H DUP (?) ; pushTileMap
 ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A DB 010H DUP (?) ; movingTileMap
 _BSS	ENDS
@@ -716,6 +805,18 @@ CONST	ENDS
 ;	COMDAT __real@4039000000000000
 CONST	SEGMENT
 __real@4039000000000000 DQ 04039000000000000r	; 25
+CONST	ENDS
+;	COMDAT __real@4014000000000000
+CONST	SEGMENT
+__real@4014000000000000 DQ 04014000000000000r	; 5
+CONST	ENDS
+;	COMDAT __real@4008000000000000
+CONST	SEGMENT
+__real@4008000000000000 DQ 04008000000000000r	; 3
+CONST	ENDS
+;	COMDAT __real@3fe0000000000000
+CONST	SEGMENT
+__real@3fe0000000000000 DQ 03fe0000000000000r	; 0.5
 CONST	ENDS
 ;	COMDAT rtc$TMZ
 rtc$TMZ	SEGMENT
@@ -1697,6 +1798,30 @@ __ehfuncinfo$??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTi
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
+__catchsym$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$2 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$0
+__unwindtable$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z DD 0ffffffffH
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+__tryblocktable$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z DD 00H
+	DD	00H
+	DD	01H
+	DD	01H
+	DD	FLAT:__catchsym$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$2
+__ehfuncinfo$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z DD 019930522H
+	DD	02H
+	DD	FLAT:__unwindtable$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
 __catchsym$??$_Uninitialized_move_al_unchecked1@PAUMovingTile@@PAU1@V?$allocator@UMovingTile@@@std@@@std@@YAPAUMovingTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$2 DD 040H
 	DD	00H
 	DD	00H
@@ -2020,6 +2145,84 @@ __unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UM
 __ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
 	DD	01H
 	DD	FLAT:__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z$0
+__ehfuncinfo$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__catchsym$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$2 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$0
+__unwindtable$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z DD 0ffffffffH
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+__tryblocktable$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z DD 00H
+	DD	00H
+	DD	01H
+	DD	01H
+	DD	FLAT:__catchsym$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$2
+__ehfuncinfo$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z DD 019930522H
+	DD	02H
+	DD	FLAT:__unwindtable$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ$0
+__ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
 	DD	00H
@@ -2434,6 +2637,9 @@ CRT$XCU	SEGMENT
 ?tileMap$initializer$@@3P6AXXZA DD FLAT:??__EtileMap@@YAXXZ ; tileMap$initializer$
 CRT$XCU	ENDS
 CRT$XCU	SEGMENT
+?airTileMap$initializer$@@3P6AXXZA DD FLAT:??__EairTileMap@@YAXXZ ; airTileMap$initializer$
+CRT$XCU	ENDS
+CRT$XCU	SEGMENT
 ?pushTileMap$initializer$@@3P6AXXZA DD FLAT:??__EpushTileMap@@YAXXZ ; pushTileMap$initializer$
 CRT$XCU	ENDS
 CRT$XCU	SEGMENT
@@ -2578,6 +2784,72 @@ $LN1@construct:
 	pop	ebp
 	ret	8
 ??$construct@UTile@@U1@@?$allocator@UTile@@@std@@QAEXPAUTile@@$$QAU2@@Z ENDP ; std::allocator<Tile>::construct<Tile,Tile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@U1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@$$QAU2@@Z
+_TEXT	SEGMENT
+tv74 = -220						; size = 4
+$T1 = -212						; size = 4
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@U1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@$$QAU2@@Z PROC ; std::allocator<AirTile>::construct<AirTile,AirTile>, COMDAT
+; _this$ = ecx
+
+; 636  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 637  : 		::new ((void *)_Ptr) _Objty(_STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	push	48					; 00000030H
+	call	??2@YAPAXIPAX@Z				; operator new
+	add	esp, 8
+	mov	DWORD PTR $T1[ebp], eax
+	cmp	DWORD PTR $T1[ebp], 0
+	je	SHORT $LN3@construct
+	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
+	push	ecx
+	call	??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::forward<AirTile>
+	add	esp, 4
+	mov	ecx, 12					; 0000000cH
+	mov	esi, eax
+	mov	edi, DWORD PTR $T1[ebp]
+	rep movsd
+	mov	edx, DWORD PTR $T1[ebp]
+	mov	DWORD PTR tv74[ebp], edx
+	jmp	SHORT $LN1@construct
+$LN3@construct:
+	mov	DWORD PTR tv74[ebp], 0
+$LN1@construct:
+
+; 638  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@U1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ENDP ; std::allocator<AirTile>::construct<AirTile,AirTile>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -2806,6 +3078,87 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@UTile@@@std@@YA$$QAUTile@@AAU1@@Z ENDP	; std::forward<Tile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@U1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@$$QAU3@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+_<_Args_0>$ = 16					; size = 4
+??$construct@UAirTile@@U1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@$$QAU3@@Z PROC ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile>, COMDAT
+
+; 754  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 755  : 		_Al.construct(_Ptr, _STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::forward<AirTile>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$construct@UAirTile@@U1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile>
+
+; 756  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$construct@UAirTile@@U1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@$$QAU3@@Z ENDP ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z PROC	; std::forward<AirTile>, COMDAT
+
+; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1299 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1300 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ENDP	; std::forward<AirTile>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -3063,6 +3416,94 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$move@AAUTile@@@std@@YA$$QAUTile@@AAU1@@Z ENDP	; std::move<Tile &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@U1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@$$QAU2@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@U1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@$$QAU2@@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile>, COMDAT
+; _this$ = ecx
+
+; 892  : 		{	// construct _Ty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 893  : 		_Mytraits::construct(*this, _Ptr,
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@UAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::forward<AirTile>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
+	call	??$construct@UAirTile@@U1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@$$QAU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile>
+	add	esp, 12					; 0000000cH
+
+; 894  : 			_STD forward<_Types>(_Args)...);
+; 895  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@U1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$move@AAUAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$move@AAUAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z PROC	; std::move<AirTile &>, COMDAT
+
+; 1314 : 	{	// forward _Arg as movable
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1315 : 	return (static_cast<typename remove_reference<_Ty>::type&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1316 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$move@AAUAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ENDP	; std::move<AirTile &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -3595,6 +4036,228 @@ ___formal$ = 16						; size = 4
 	pop	ebp
 	ret	0
 ??$_Ptr_move_cat@UTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUTile@@0@Z ENDP ; std::_Ptr_move_cat<Tile,Tile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UAirTile@@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+??$destroy@UAirTile@@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@@Z PROC ; std::allocator<AirTile>::destroy<AirTile>, COMDAT
+; _this$ = ecx
+
+; 643  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 644  : 		_Ptr->~_Uty();
+; 645  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$destroy@UAirTile@@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@@Z ENDP ; std::allocator<AirTile>::destroy<AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
+;	COMDAT ??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
+_TEXT	SEGMENT
+__Next$ = -24						; size = 4
+__$EHRec$ = -16						; size = 16
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+__Al$ = 20						; size = 4
+___formal$ = 24						; size = 1
+??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z PROC ; std::_Uninitialized_move_al_unchecked1<AirTile *,AirTile *,std::allocator<AirTile> >, COMDAT
+
+; 317  : 	{	// move [_First, _Last) to raw _Dest, using _Al, no special optimization
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+
+; 318  : 	_FwdIt _Next = _Dest;
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+	mov	DWORD PTR __Next$[ebp], eax
+
+; 319  : 
+; 320  : 	_TRY_BEGIN
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+
+; 321  : 	for (; _First != _Last; ++_Dest, (void)++_First)
+
+	jmp	SHORT $LN4@Uninitiali
+$LN2@Uninitiali:
+	mov	eax, DWORD PTR __Dest$[ebp]
+	add	eax, 48					; 00000030H
+	mov	DWORD PTR __Dest$[ebp], eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	add	ecx, 48					; 00000030H
+	mov	DWORD PTR __First$[ebp], ecx
+$LN4@Uninitiali:
+	mov	eax, DWORD PTR __First$[ebp]
+	cmp	eax, DWORD PTR __Last$[ebp]
+	je	SHORT $LN3@Uninitiali
+
+; 322  : 		_Al.construct(_Dest, _STD move(*_First));
+
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$move@AAUAirTile@@@std@@YA$$QAUAirTile@@AAU1@@Z ; std::move<AirTile &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$construct@UAirTile@@U1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile>
+	jmp	SHORT $LN2@Uninitiali
+$LN3@Uninitiali:
+	jmp	SHORT $LN10@Uninitiali
+__catch$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$0:
+
+; 323  : 	_CATCH_ALL
+; 324  : 	for (; _Next != _Dest; ++_Next)
+
+	jmp	SHORT $LN7@Uninitiali
+$LN5@Uninitiali:
+	mov	eax, DWORD PTR __Next$[ebp]
+	add	eax, 48					; 00000030H
+	mov	DWORD PTR __Next$[ebp], eax
+$LN7@Uninitiali:
+	mov	eax, DWORD PTR __Next$[ebp]
+	cmp	eax, DWORD PTR __Dest$[ebp]
+	je	SHORT $LN6@Uninitiali
+
+; 325  : 		_Al.destroy(_Next);
+
+	mov	eax, DWORD PTR __Next$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::destroy<AirTile>
+	jmp	SHORT $LN5@Uninitiali
+$LN6@Uninitiali:
+
+; 326  : 	_RERAISE;
+
+	push	0
+	push	0
+	call	__CxxThrowException@8
+
+; 327  : 	_CATCH_END
+
+	mov	eax, $LN13@Uninitiali
+	ret	0
+$LN10@Uninitiali:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+	jmp	SHORT __tryend$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$1
+$LN13@Uninitiali:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+__tryend$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z$1:
+
+; 328  : 
+; 329  : 	return (_Dest);
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+$LN9@Uninitiali:
+
+; 330  : 	}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-224]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ENDP ; std::_Uninitialized_move_al_unchecked1<AirTile *,AirTile *,std::allocator<AirTile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$_Ptr_move_cat@UAirTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUAirTile@@0@Z
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+___formal$ = 12						; size = 4
+___formal$ = 16						; size = 4
+??$_Ptr_move_cat@UAirTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUAirTile@@0@Z PROC ; std::_Ptr_move_cat<AirTile,AirTile>, COMDAT
+
+; 725  : 	{	// return pointer move optimization category for pointers
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 726  : 	return {};
+
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 727  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Ptr_move_cat@UAirTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUAirTile@@0@Z ENDP ; std::_Ptr_move_cat<AirTile,AirTile>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -4247,6 +4910,221 @@ __Src$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$_Unchecked@PAUTile@@@std@@YAPAUTile@@PAU1@@Z ENDP	; std::_Unchecked<Tile *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UAirTile@@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+??$destroy@UAirTile@@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@@Z PROC ; std::allocator_traits<std::allocator<AirTile> >::destroy<AirTile>, COMDAT
+
+; 761  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 762  : 		_Al.destroy(_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@UAirTile@@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@@Z ; std::allocator<AirTile>::destroy<AirTile>
+
+; 763  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$destroy@UAirTile@@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@@Z ENDP ; std::allocator_traits<std::allocator<AirTile> >::destroy<AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$_Addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z
+_TEXT	SEGMENT
+__Val$ = 8						; size = 4
+___formal$ = 12						; size = 1
+??$_Addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z PROC ; std::_Addressof<AirTile>, COMDAT
+
+; 707  : 	{	// return address of object _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 708  : 	return (reinterpret_cast<_Ty *>(
+
+	mov	eax, DWORD PTR __Val$[ebp]
+
+; 709  : 		&const_cast<char&>(
+; 710  : 		reinterpret_cast<const volatile char&>(_Val))));
+; 711  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$_Rechecked@PAUAirTile@@PAU1@@std@@YAAAPAUAirTile@@AAPAU1@PAU1@@Z
+_TEXT	SEGMENT
+__Dest$ = 8						; size = 4
+__Src$ = 12						; size = 4
+??$_Rechecked@PAUAirTile@@PAU1@@std@@YAAAPAUAirTile@@AAPAU1@PAU1@@Z PROC ; std::_Rechecked<AirTile *,AirTile *>, COMDAT
+
+; 465  : 	{	// reset checked from unchecked, generic
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 466  : 	_Dest = _Src;
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+	mov	ecx, DWORD PTR __Src$[ebp]
+	mov	DWORD PTR [eax], ecx
+
+; 467  : 	return (_Dest);
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+
+; 468  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Rechecked@PAUAirTile@@PAU1@@std@@YAAAPAUAirTile@@AAPAU1@PAU1@@Z ENDP ; std::_Rechecked<AirTile *,AirTile *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
+;	COMDAT ??$_Uninitialized_move_al_unchecked@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+$T2 = -197						; size = 1
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+__Al$ = 20						; size = 4
+??$_Uninitialized_move_al_unchecked@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z PROC ; std::_Uninitialized_move_al_unchecked<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >, COMDAT
+
+; 345  : 	{	// move [_First, _Last) to raw _Dest, using _Al, choose optimization
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 346  : 	return (_Uninitialized_move_al_unchecked1(_First, _Last, _Dest, _Al,
+
+	lea	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	lea	edx, DWORD PTR $T2[ebp]
+	push	edx
+	call	??$_Ptr_move_cat@UAirTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUAirTile@@0@Z ; std::_Ptr_move_cat<AirTile,AirTile>
+	add	esp, 12					; 0000000cH
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Dest$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Uninitialized_move_al_unchecked1@PAUAirTile@@PAU1@V?$allocator@UAirTile@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<AirTile *,AirTile *,std::allocator<AirTile> >
+	add	esp, 20					; 00000014H
+
+; 347  : 		_Ptr_move_cat(_First, _Dest)));
+; 348  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Uninitialized_move_al_unchecked@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_move_al_unchecked<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z
+_TEXT	SEGMENT
+__Src$ = 8						; size = 4
+??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z PROC ; std::_Unchecked<AirTile *>, COMDAT
+
+; 438  : 	{	// construct unchecked from checked, generic
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 439  : 	return (_Src);
+
+	mov	eax, DWORD PTR __Src$[ebp]
+
+; 440  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z ENDP ; std::_Unchecked<AirTile *>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -4930,6 +5808,138 @@ $LN1@construct:
 	pop	ebp
 	ret	8
 ??$construct@UTile@@AAU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@AAU2@@Z ENDP ; std::allocator<Tile>::construct<Tile,Tile &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@ABU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@ABU2@@Z
+_TEXT	SEGMENT
+tv74 = -220						; size = 4
+$T1 = -212						; size = 4
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@ABU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@ABU2@@Z PROC ; std::allocator<AirTile>::construct<AirTile,AirTile const &>, COMDAT
+; _this$ = ecx
+
+; 636  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 637  : 		::new ((void *)_Ptr) _Objty(_STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	push	48					; 00000030H
+	call	??2@YAPAXIPAX@Z				; operator new
+	add	esp, 8
+	mov	DWORD PTR $T1[ebp], eax
+	cmp	DWORD PTR $T1[ebp], 0
+	je	SHORT $LN3@construct
+	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
+	push	ecx
+	call	??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z ; std::forward<AirTile const &>
+	add	esp, 4
+	mov	ecx, 12					; 0000000cH
+	mov	esi, eax
+	mov	edi, DWORD PTR $T1[ebp]
+	rep movsd
+	mov	edx, DWORD PTR $T1[ebp]
+	mov	DWORD PTR tv74[ebp], edx
+	jmp	SHORT $LN1@construct
+$LN3@construct:
+	mov	DWORD PTR tv74[ebp], 0
+$LN1@construct:
+
+; 638  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@ABU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@ABU2@@Z ENDP ; std::allocator<AirTile>::construct<AirTile,AirTile const &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@AAU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@AAU2@@Z
+_TEXT	SEGMENT
+tv74 = -220						; size = 4
+$T1 = -212						; size = 4
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@AAU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@AAU2@@Z PROC ; std::allocator<AirTile>::construct<AirTile,AirTile &>, COMDAT
+; _this$ = ecx
+
+; 636  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 637  : 		::new ((void *)_Ptr) _Objty(_STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	push	48					; 00000030H
+	call	??2@YAPAXIPAX@Z				; operator new
+	add	esp, 8
+	mov	DWORD PTR $T1[ebp], eax
+	cmp	DWORD PTR $T1[ebp], 0
+	je	SHORT $LN3@construct
+	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
+	push	ecx
+	call	??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z ; std::forward<AirTile &>
+	add	esp, 4
+	mov	ecx, 12					; 0000000cH
+	mov	esi, eax
+	mov	edi, DWORD PTR $T1[ebp]
+	rep movsd
+	mov	edx, DWORD PTR $T1[ebp]
+	mov	DWORD PTR tv74[ebp], edx
+	jmp	SHORT $LN1@construct
+$LN3@construct:
+	mov	DWORD PTR tv74[ebp], 0
+$LN1@construct:
+
+; 638  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@AAU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@AAU2@@Z ENDP ; std::allocator<AirTile>::construct<AirTile,AirTile &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -5873,6 +6883,164 @@ __Al$ = 20						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::destroy<AirTile>, COMDAT
+; _this$ = ecx
+
+; 900  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 901  : 		_Mytraits::destroy(*this, _Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	??$destroy@UAirTile@@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@@Z ; std::allocator_traits<std::allocator<AirTile> >::destroy<AirTile>
+	add	esp, 8
+
+; 902  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::destroy<AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@@Z
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+__Val$ = 8						; size = 4
+??$addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@@Z PROC	; std::addressof<AirTile>, COMDAT
+
+; 715  : 	{	// return address of _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 716  : 	return (_Addressof(_Val, is_function<_Ty>()));
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Val$[ebp]
+	push	ecx
+	call	??$_Addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<AirTile>
+	add	esp, 8
+
+; 717  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@@Z ENDP	; std::addressof<AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
+;	COMDAT ??$_Uninitialized_move@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+__Al$ = 20						; size = 4
+??$_Uninitialized_move@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z PROC ; std::_Uninitialized_move<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >, COMDAT
+
+; 355  : 	{	// move [_First, _Last) to raw _Dest, using _Al
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 356  : 		// note: only called internally from elsewhere in the STL, debug checks
+; 357  : 		// and deprecation warnings omitted
+; 358  : 	return (_Rechecked(_Dest,
+
+	mov	eax, DWORD PTR __Al$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	call	??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z ; std::_Unchecked<AirTile *>
+	add	esp, 4
+	push	eax
+	mov	edx, DWORD PTR __Last$[ebp]
+	push	edx
+	call	??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z ; std::_Unchecked<AirTile *>
+	add	esp, 4
+	push	eax
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$_Unchecked@PAUAirTile@@@std@@YAPAUAirTile@@PAU1@@Z ; std::_Unchecked<AirTile *>
+	add	esp, 4
+	push	eax
+	call	??$_Uninitialized_move_al_unchecked@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Uninitialized_move_al_unchecked<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+	add	esp, 16					; 00000010H
+	push	eax
+	lea	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	call	??$_Rechecked@PAUAirTile@@PAU1@@std@@YAAAPAUAirTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<AirTile *,AirTile *>
+	add	esp, 8
+	mov	eax, DWORD PTR [eax]
+
+; 359  : 		_Uninitialized_move_al_unchecked(_Unchecked(_First), _Unchecked(_Last),
+; 360  : 			_Unchecked(_Dest), _Al)));
+; 361  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Uninitialized_move@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_move<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$destroy@UMovingTile@@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -6098,6 +7266,76 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$?0UAirTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UAirTile@@@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 4
+??$?0UAirTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UAirTile@@@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><AirTile>, COMDAT
+; _this$ = ecx
+
+; 609  : 		{	// construct from a related allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 610  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0UAirTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UAirTile@@@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><AirTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$forward@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@AAU10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@AAU10@@Z PROC ; std::forward<std::_Wrap_alloc<std::allocator<AirTile> > &>, COMDAT
+
+; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1299 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1300 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$forward@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<AirTile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -6847,6 +8085,205 @@ ___formal$ = 12						; size = 1
 	pop	ebp
 	ret	0
 ??$_Addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<Tile const >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@ABU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@ABU3@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+_<_Args_0>$ = 16					; size = 4
+??$construct@UAirTile@@ABU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@ABU3@@Z PROC ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile const &>, COMDAT
+
+; 754  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 755  : 		_Al.construct(_Ptr, _STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z ; std::forward<AirTile const &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$construct@UAirTile@@ABU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@ABU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile const &>
+
+; 756  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$construct@UAirTile@@ABU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@ABU3@@Z ENDP ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z PROC	; std::forward<AirTile const &>, COMDAT
+
+; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1299 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1300 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z ENDP	; std::forward<AirTile const &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@AAU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@AAU3@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+_<_Args_0>$ = 16					; size = 4
+??$construct@UAirTile@@AAU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@AAU3@@Z PROC ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile &>, COMDAT
+
+; 754  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 755  : 		_Al.construct(_Ptr, _STD forward<_Types>(_Args)...);
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z ; std::forward<AirTile &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$construct@UAirTile@@AAU1@@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@AAU2@@Z ; std::allocator<AirTile>::construct<AirTile,AirTile &>
+
+; 756  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$construct@UAirTile@@AAU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@AAU3@@Z ENDP ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z PROC	; std::forward<AirTile &>, COMDAT
+
+; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1299 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1300 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z ENDP	; std::forward<AirTile &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$_Addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z
+_TEXT	SEGMENT
+__Val$ = 8						; size = 4
+___formal$ = 12						; size = 1
+??$_Addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z PROC ; std::_Addressof<AirTile const >, COMDAT
+
+; 707  : 	{	// return address of object _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 708  : 	return (reinterpret_cast<_Ty *>(
+
+	mov	eax, DWORD PTR __Val$[ebp]
+
+; 709  : 		&const_cast<char&>(
+; 710  : 		reinterpret_cast<const volatile char&>(_Val))));
+; 711  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<AirTile const >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -7813,6 +9250,120 @@ __Ptr$ = 16						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAXPAUAirTile@@0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Al$ = 16						; size = 4
+??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAXPAUAirTile@@0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z PROC ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<AirTile> > >, COMDAT
+
+; 163  : 	{	// destroy [_First, _Last)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 164  : 	for (; _First != _Last; ++_First)
+
+	jmp	SHORT $LN4@Destroy_ra
+$LN2@Destroy_ra:
+	mov	eax, DWORD PTR __First$[ebp]
+	add	eax, 48					; 00000030H
+	mov	DWORD PTR __First$[ebp], eax
+$LN4@Destroy_ra:
+	mov	eax, DWORD PTR __First$[ebp]
+	cmp	eax, DWORD PTR __Last$[ebp]
+	je	SHORT $LN1@Destroy_ra
+
+; 165  : 		_Al.destroy(_STD addressof(*_First));
+
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$addressof@UAirTile@@@std@@YAPAUAirTile@@AAU1@@Z ; std::addressof<AirTile>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@UAirTile@@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::destroy<AirTile>
+	jmp	SHORT $LN2@Destroy_ra
+$LN1@Destroy_ra:
+
+; 166  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAXPAUAirTile@@0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ENDP ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??$_Umove@PAUAirTile@@@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEPAUAirTile@@PAU2@00@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Ptr$ = 16						; size = 4
+??$_Umove@PAUAirTile@@@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEPAUAirTile@@PAU2@00@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Umove<AirTile *>, COMDAT
+; _this$ = ecx
+
+; 1681 : 		{	// move initializing [_First, _Last), using allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1682 : 		return (_Uninitialized_move(_First, _Last,
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??$_Uninitialized_move@PAUAirTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAPAUAirTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Uninitialized_move<AirTile *,AirTile *,std::_Wrap_alloc<std::allocator<AirTile> > >
+	add	esp, 16					; 00000010H
+
+; 1683 : 			_Ptr, this->_Getal()));
+; 1684 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+??$_Umove@PAUAirTile@@@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEPAUAirTile@@PAU2@00@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Umove<AirTile *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@@std@@YAXPAUMovingTile@@0AAU?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@0@@Z
 _TEXT	SEGMENT
 __First$ = 8						; size = 4
@@ -7973,6 +9524,55 @@ __Right$ = 8						; size = 4
 	pop	ebp
 	ret	4
 ??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<AirTile> > &>, COMDAT
+; _this$ = ecx
+
+; 850  : 		{	// construct from a related allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 849  : 		: _Mybase(_STD forward<_Other>(_Right))
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	call	??$forward@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<AirTile> > &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0UAirTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UAirTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><AirTile>
+
+; 851  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<AirTile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -8652,6 +10252,52 @@ ___formal$ = 8						; size = 1
 	pop	ebp
 	ret	4
 ??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 1
+??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1><>, COMDAT
+; _this$ = ecx
+
+; 279  : 		{	// construct from forwarded values
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 278  : 		: _Ty1(), _Myval2(_STD forward<_Other2>(_Val2)...)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::_Wrap_alloc<std::allocator<AirTile> >::_Wrap_alloc<std::allocator<AirTile> >
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<AirTile> >::_Vector_val<std::_Simple_types<AirTile> >
+
+; 280  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1><>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
@@ -9999,6 +11645,157 @@ __Val$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@ABU2@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@ABU2@@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile const &>, COMDAT
+; _this$ = ecx
+
+; 892  : 		{	// construct _Ty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 893  : 		_Mytraits::construct(*this, _Ptr,
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@ABUAirTile@@@std@@YAABUAirTile@@ABU1@@Z ; std::forward<AirTile const &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
+	call	??$construct@UAirTile@@ABU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@ABU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
+	add	esp, 12					; 0000000cH
+
+; 894  : 			_STD forward<_Types>(_Args)...);
+; 895  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@ABU2@@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$construct@UAirTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@AAU2@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+_<_Args_0>$ = 12					; size = 4
+??$construct@UAirTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@AAU2@@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile &>, COMDAT
+; _this$ = ecx
+
+; 892  : 		{	// construct _Ty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 893  : 		_Mytraits::construct(*this, _Ptr,
+
+	mov	eax, DWORD PTR _<_Args_0>$[ebp]
+	push	eax
+	call	??$forward@AAUAirTile@@@std@@YAAAUAirTile@@AAU1@@Z ; std::forward<AirTile &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
+	call	??$construct@UAirTile@@AAU1@@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAXAAV?$allocator@UAirTile@@@1@PAUAirTile@@AAU3@@Z ; std::allocator_traits<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+	add	esp, 12					; 0000000cH
+
+; 894  : 			_STD forward<_Types>(_Args)...);
+; 895  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$construct@UAirTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@AAU2@@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+__Val$ = 8						; size = 4
+??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z PROC ; std::addressof<AirTile const >, COMDAT
+
+; 715  : 	{	// return address of _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 716  : 	return (_Addressof(_Val, is_function<_Ty>()));
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Val$[ebp]
+	push	ecx
+	call	??$_Addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<AirTile const >
+	add	esp, 8
+
+; 717  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z ENDP ; std::addressof<AirTile const >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$construct@UMovingTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@QAEXPAUMovingTile@@ABU2@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -10156,7 +11953,7 @@ _tile$ = 8						; size = 32
 _color$ = 40						; size = 4
 ?DrawTile@@YAXUTile@@QAH@Z PROC				; DrawTile, COMDAT
 
-; 77   : void DrawTile(Tile tile, int color[]) {
+; 96   : void DrawTile(Tile tile, int color[]) {
 
 	push	ebp
 	mov	ebp, esp
@@ -10169,7 +11966,7 @@ _color$ = 40						; size = 4
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 78   : 	DrawRect(tile.position, tile.width, tile.height, color);
+; 97   : 	DrawRect(tile.position, tile.width, tile.height, color);
 
 	mov	eax, DWORD PTR _color$[ebp]
 	push	eax
@@ -10190,7 +11987,7 @@ _color$ = 40						; size = 4
 	call	?DrawRect@@YAXVVector2@@HHQAH@Z		; DrawRect
 	add	esp, 28					; 0000001cH
 
-; 79   : }
+; 98   : }
 
 	pop	edi
 	pop	esi
@@ -11909,6 +13706,221 @@ _this$ = -8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\environment.cpp
+;	COMDAT ?CheckCollisionLeft@@YA_NUTile@@0@Z
+_TEXT	SEGMENT
+tv157 = -216						; size = 8
+tv149 = -216						; size = 8
+tv141 = -216						; size = 8
+tv133 = -216						; size = 8
+tv167 = -208						; size = 8
+tv165 = -208						; size = 8
+tv163 = -208						; size = 8
+tv161 = -208						; size = 8
+tv153 = -200						; size = 8
+tv145 = -200						; size = 8
+tv137 = -200						; size = 8
+tv129 = -200						; size = 8
+_tileA$ = 8						; size = 32
+_tileB$ = 40						; size = 32
+?CheckCollisionLeft@@YA_NUTile@@0@Z PROC		; CheckCollisionLeft, COMDAT
+
+; 76   : bool CheckCollisionLeft(Tile tileA, Tile tileB) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 77   : 	if (tileA.right() >= tileB.left() && tileA.right() <= tileB.left() + 5 && tileA.top() <= tileB.bottom() - 3 && tileA.bottom() >= tileB.top() + 3) return true;
+
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv129[ebp]
+	movsd	xmm0, QWORD PTR tv129[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv161[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv133[ebp]
+	movsd	xmm0, QWORD PTR tv161[ebp]
+	comisd	xmm0, QWORD PTR tv133[ebp]
+	jb	$LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv137[ebp]
+	movsd	xmm0, QWORD PTR tv137[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv163[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv141[ebp]
+	movsd	xmm0, QWORD PTR tv141[ebp]
+	addsd	xmm0, QWORD PTR __real@4014000000000000
+	movsd	xmm1, QWORD PTR tv163[ebp]
+	comisd	xmm0, xmm1
+	jb	$LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv145[ebp]
+	movsd	xmm0, QWORD PTR tv145[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv165[ebp], xmm0
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv149[ebp]
+	movsd	xmm0, QWORD PTR tv149[ebp]
+	subsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv165[ebp]
+	comisd	xmm0, xmm1
+	jb	SHORT $LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv153[ebp]
+	movsd	xmm0, QWORD PTR tv153[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv167[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv157[ebp]
+	movsd	xmm0, QWORD PTR tv157[ebp]
+	addsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv167[ebp]
+	comisd	xmm1, xmm0
+	jb	SHORT $LN2@CheckColli
+	mov	al, 1
+	jmp	SHORT $LN1@CheckColli
+$LN2@CheckColli:
+
+; 78   : 	return false;
+
+	xor	al, al
+$LN1@CheckColli:
+
+; 79   : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?CheckCollisionLeft@@YA_NUTile@@0@Z ENDP		; CheckCollisionLeft
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\environment.cpp
+;	COMDAT ?CheckCollisionRight@@YA_NUTile@@0@Z
+_TEXT	SEGMENT
+tv157 = -216						; size = 8
+tv149 = -216						; size = 8
+tv141 = -216						; size = 8
+tv133 = -216						; size = 8
+tv167 = -208						; size = 8
+tv165 = -208						; size = 8
+tv163 = -208						; size = 8
+tv161 = -208						; size = 8
+tv153 = -200						; size = 8
+tv145 = -200						; size = 8
+tv137 = -200						; size = 8
+tv129 = -200						; size = 8
+_tileA$ = 8						; size = 32
+_tileB$ = 40						; size = 32
+?CheckCollisionRight@@YA_NUTile@@0@Z PROC		; CheckCollisionRight, COMDAT
+
+; 71   : bool CheckCollisionRight(Tile tileA, Tile tileB) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 72   : 	if (tileA.left() <= tileB.right() && tileA.left() >= tileB.right() - 5 && tileA.top() <= tileB.bottom() - 3 && tileA.bottom() >= tileB.top() + 3) return true;
+
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv129[ebp]
+	movsd	xmm0, QWORD PTR tv129[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv161[ebp], xmm0
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv133[ebp]
+	movsd	xmm0, QWORD PTR tv133[ebp]
+	movsd	xmm1, QWORD PTR tv161[ebp]
+	comisd	xmm0, xmm1
+	jb	$LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv137[ebp]
+	movsd	xmm0, QWORD PTR tv137[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv163[ebp], xmm0
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv141[ebp]
+	movsd	xmm0, QWORD PTR tv141[ebp]
+	subsd	xmm0, QWORD PTR __real@4014000000000000
+	movsd	xmm1, QWORD PTR tv163[ebp]
+	comisd	xmm1, xmm0
+	jb	$LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv145[ebp]
+	movsd	xmm0, QWORD PTR tv145[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv165[ebp], xmm0
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv149[ebp]
+	movsd	xmm0, QWORD PTR tv149[ebp]
+	subsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv165[ebp]
+	comisd	xmm0, xmm1
+	jb	SHORT $LN2@CheckColli
+	lea	ecx, DWORD PTR _tileA$[ebp]
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv153[ebp]
+	movsd	xmm0, QWORD PTR tv153[ebp]
+	lea	ecx, DWORD PTR _tileB$[ebp]
+	movsd	QWORD PTR tv167[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv157[ebp]
+	movsd	xmm0, QWORD PTR tv157[ebp]
+	addsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv167[ebp]
+	comisd	xmm1, xmm0
+	jb	SHORT $LN2@CheckColli
+	mov	al, 1
+	jmp	SHORT $LN1@CheckColli
+$LN2@CheckColli:
+
+; 73   : 	return false;
+
+	xor	al, al
+$LN1@CheckColli:
+
+; 74   : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?CheckCollisionRight@@YA_NUTile@@0@Z ENDP		; CheckCollisionRight
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\environment.cpp
 ;	COMDAT ?CheckCollision@@YA_NUTile@@0@Z
 _TEXT	SEGMENT
 tv154 = -216						; size = 8
@@ -11927,7 +13939,7 @@ _tileA$ = 8						; size = 32
 _tileB$ = 40						; size = 32
 ?CheckCollision@@YA_NUTile@@0@Z PROC			; CheckCollision, COMDAT
 
-; 54   : bool CheckCollision(Tile tileA, Tile tileB) {
+; 60   : bool CheckCollision(Tile tileA, Tile tileB) {
 
 	push	ebp
 	mov	ebp, esp
@@ -11940,9 +13952,9 @@ _tileB$ = 40						; size = 32
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 55   : 	if (tileA.left() <= tileB.right() &&
-; 56   : 		tileA.right() >= tileB.left() &&
-; 57   : 		tileA.top() <= tileB.bottom() &&
+; 61   : 	if (tileA.left() <= tileB.right() &&
+; 62   : 		tileA.right() >= tileB.left() &&
+; 63   : 		tileA.top() < tileB.bottom() &&
 
 	lea	ecx, DWORD PTR _tileA$[ebp]
 	call	?left@Tile@@QAENXZ			; Tile::left
@@ -11978,7 +13990,7 @@ _tileB$ = 40						; size = 32
 	movsd	xmm0, QWORD PTR tv146[ebp]
 	movsd	xmm1, QWORD PTR tv162[ebp]
 	comisd	xmm0, xmm1
-	jb	SHORT $LN2@CheckColli
+	jbe	SHORT $LN2@CheckColli
 	lea	ecx, DWORD PTR _tileA$[ebp]
 	call	?bottom@Tile@@QAENXZ			; Tile::bottom
 	fstp	QWORD PTR tv150[ebp]
@@ -11989,23 +14001,23 @@ _tileB$ = 40						; size = 32
 	fstp	QWORD PTR tv154[ebp]
 	movsd	xmm0, QWORD PTR tv164[ebp]
 	comisd	xmm0, QWORD PTR tv154[ebp]
-	jb	SHORT $LN2@CheckColli
+	jbe	SHORT $LN2@CheckColli
 
-; 58   : 		tileA.bottom() >= tileB.top()) {
-; 59   : 		return true;
+; 64   : 		tileA.bottom() > tileB.top()) {
+; 65   : 		return true;
 
 	mov	al, 1
 	jmp	SHORT $LN1@CheckColli
 $LN2@CheckColli:
 
-; 60   : 	}
-; 61   : 
-; 62   : 	return false;
+; 66   : 	}
+; 67   : 
+; 68   : 	return false;
 
 	xor	al, al
 $LN1@CheckColli:
 
-; 63   : }
+; 69   : }
 
 	pop	edi
 	pop	esi
@@ -16114,7 +18126,7 @@ text$yd	ENDS
 text$di	SEGMENT
 ??__EmovingTileMap@@YAXXZ PROC				; `dynamic initializer for 'movingTileMap'', COMDAT
 
-; 7    : std::vector<MovingTile> movingTileMap;
+; 8    : std::vector<MovingTile> movingTileMap;
 
 	push	ebp
 	mov	ebp, esp
@@ -19300,7 +21312,7 @@ text$yd	ENDS
 text$di	SEGMENT
 ??__EpushTileMap@@YAXXZ PROC				; `dynamic initializer for 'pushTileMap'', COMDAT
 
-; 6    : std::vector<PushTile> pushTileMap;
+; 7    : std::vector<PushTile> pushTileMap;
 
 	push	ebp
 	mov	ebp, esp
@@ -19331,6 +21343,3042 @@ text$di	SEGMENT
 	ret	0
 ??__EpushTileMap@@YAXXZ ENDP				; `dynamic initializer for 'pushTileMap''
 text$di	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??__FairTileMap@@YAXXZ
+text$yd	SEGMENT
+??__FairTileMap@@YAXXZ PROC				; `dynamic atexit destructor for 'airTileMap'', COMDAT
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::vector<AirTile,std::allocator<AirTile> >::~vector<AirTile,std::allocator<AirTile> >
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??__FairTileMap@@YAXXZ ENDP				; `dynamic atexit destructor for 'airTileMap''
+text$yd	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\environment.cpp
+;	COMDAT ??__EairTileMap@@YAXXZ
+text$di	SEGMENT
+??__EairTileMap@@YAXXZ PROC				; `dynamic initializer for 'airTileMap'', COMDAT
+
+; 6    : std::vector<AirTile> airTileMap;
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	push	16					; 00000010H
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	?__autoclassinit2@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXI@Z
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ; std::vector<AirTile,std::allocator<AirTile> >::vector<AirTile,std::allocator<AirTile> >
+	push	OFFSET ??__FairTileMap@@YAXXZ		; `dynamic atexit destructor for 'airTileMap''
+	call	_atexit
+	add	esp, 4
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??__EairTileMap@@YAXXZ ENDP				; `dynamic initializer for 'airTileMap''
+text$di	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXI@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::__autoclassinit2, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _classSize$[ebp]
+	push	eax
+	push	0
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	_memset
+	add	esp, 12					; 0000000cH
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?__autoclassinit2@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXI@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z
+_TEXT	SEGMENT
+__Pnext$ = -48						; size = 4
+__Lock$ = -36						; size = 4
+_this$ = -24						; size = 4
+__$ArrayPad$ = -16					; size = 4
+__$EHRec$ = -12						; size = 12
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Orphan_range, COMDAT
+; _this$ = ecx
+
+; 1798 : 		{	// orphan iterators within specified (inclusive) range
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 232				; 000000e8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-244]
+	mov	ecx, 58					; 0000003aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1799 : 		_Lockit _Lock(_LOCK_DEBUG);
+
+	mov	esi, esp
+	push	3
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??0_Lockit@std@@QAE@H@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 1800 : 		const_iterator **_Pnext = (const_iterator **)this->_Getpfirst();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getpfirst
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1801 : 		if (_Pnext != 0)
+
+	cmp	DWORD PTR __Pnext$[ebp], 0
+	je	SHORT $LN4@Orphan_ran
+$LN2@Orphan_ran:
+
+; 1802 : 			{	// test an iterator
+; 1803 : 			while (*_Pnext != 0)
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN4@Orphan_ran
+
+; 1804 : 				if ((*_Pnext)->_Ptr < _First || _Last < (*_Pnext)->_Ptr)
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	mov	edx, DWORD PTR [ecx+8]
+	cmp	edx, DWORD PTR __First$[ebp]
+	jb	SHORT $LN7@Orphan_ran
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	mov	edx, DWORD PTR __Last$[ebp]
+	cmp	edx, DWORD PTR [ecx+8]
+	jae	SHORT $LN5@Orphan_ran
+$LN7@Orphan_ran:
+
+; 1805 : 					_Pnext = (const_iterator **)(*_Pnext)->_Getpnext();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1806 : 				else
+
+	jmp	SHORT $LN6@Orphan_ran
+$LN5@Orphan_ran:
+
+; 1807 : 					{	// orphan the iterator
+; 1808 : 					(*_Pnext)->_Clrcont();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Clrcont@_Iterator_base12@std@@QAEXXZ	; std::_Iterator_base12::_Clrcont
+
+; 1809 : 					*_Pnext = *(const_iterator **)(*_Pnext)->_Getpnext();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+$LN6@Orphan_ran:
+
+; 1810 : 					}
+
+	jmp	SHORT $LN2@Orphan_ran
+$LN4@Orphan_ran:
+
+; 1811 : 			}
+; 1812 : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	esi, esp
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN13@Orphan_ran
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 244				; 000000f4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+$LN13@Orphan_ran:
+	DD	1
+	DD	$LN12@Orphan_ran
+$LN12@Orphan_ran:
+	DD	-36					; ffffffdcH
+	DD	4
+	DD	$LN10@Orphan_ran
+$LN10@Orphan_ran:
+	DB	95					; 0000005fH
+	DB	76					; 0000004cH
+	DB	111					; 0000006fH
+	DB	99					; 00000063H
+	DB	107					; 0000006bH
+	DB	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z$0:
+	mov	esi, esp
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
+	cmp	esi, esp
+	jmp	__RTC_CheckEsp
+__ehhandler$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-248]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	ecx, DWORD PTR [edx-4]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Orphan_range
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Xlen@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Xlen@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Xlen, COMDAT
+; _this$ = ecx
+
+; 1787 : 		{	// report a length_error
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1788 : 		_Xlength_error("vector<T> too long");
+
+	mov	esi, esp
+	push	OFFSET ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
+	call	DWORD PTR __imp_?_Xlength_error@std@@YAXPBD@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@Xlen:
+
+; 1789 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Xlen@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Xlen
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Tidy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Tidy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Tidy, COMDAT
+; _this$ = ecx
+
+; 1659 : 		{	// free all storage
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1660 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	$LN1@Tidy
+
+; 1661 : 			{	// something to free, destroy and deallocate it
+; 1662 : 			this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all
+
+; 1663 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Destroy
+
+; 1664 : 			this->_Getal().deallocate(this->_Myfirst(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	mov	eax, ecx
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate
+
+; 1665 : 				this->_Myend() - this->_Myfirst());
+; 1666 : 			this->_Myfirst() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	DWORD PTR [eax], 0
+
+; 1667 : 			this->_Mylast() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	DWORD PTR [eax], 0
+
+; 1668 : 			this->_Myend() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	DWORD PTR [eax], 0
+$LN1@Tidy:
+
+; 1669 : 			}
+; 1670 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Tidy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Tidy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Reserve, COMDAT
+; _this$ = ecx
+
+; 1649 : 		{	// ensure room for _Count new elements, grow exponentially
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1650 : 		if (_Unused_capacity() < _Count)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Unused_capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Unused_capacity
+	cmp	eax, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN4@Reserve
+
+; 1651 : 			{	// need more room, try to get it
+; 1652 : 			if (max_size() - size() < _Count)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::max_size
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::size
+	sub	esi, eax
+	cmp	esi, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN3@Reserve
+
+; 1653 : 				_Xlen();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Xlen@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Xlen
+$LN3@Reserve:
+
+; 1654 : 			_Reallocate(_Grow_to(size() + _Count));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::size
+	add	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Grow_to@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEII@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Grow_to
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Reallocate
+$LN4@Reserve:
+
+; 1655 : 			}
+; 1656 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Reserve
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+_TEXT	SEGMENT
+__Size$ = -48						; size = 4
+__Ptr$ = -36						; size = 4
+_this$ = -24						; size = 4
+__$EHRec$ = -16						; size = 16
+__Count$ = 8						; size = 4
+?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Reallocate, COMDAT
+; _this$ = ecx
+
+; 1624 : 		{	// move to array of exactly _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	sub	esp, 228				; 000000e4H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-244]
+	mov	ecx, 57					; 00000039H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1625 : 		pointer _Ptr = this->_Getal().allocate(_Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	?allocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::allocate
+	mov	DWORD PTR __Ptr$[ebp], eax
+
+; 1626 : 
+; 1627 : 		_TRY_BEGIN
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+
+; 1628 : 		_Umove(this->_Myfirst(), this->_Mylast(), _Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$_Umove@PAUAirTile@@@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEPAUAirTile@@PAU2@00@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Umove<AirTile *>
+	jmp	SHORT $LN5@Reallocate
+__catch$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$0:
+
+; 1629 : 		_CATCH_ALL
+; 1630 : 		this->_Getal().deallocate(_Ptr, _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate
+
+; 1631 : 		_RERAISE;
+
+	push	0
+	push	0
+	call	__CxxThrowException@8
+
+; 1632 : 		_CATCH_END
+
+	mov	eax, $LN8@Reallocate
+	ret	0
+$LN5@Reallocate:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+	jmp	SHORT __tryend$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$1
+$LN8@Reallocate:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+__tryend$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z$1:
+
+; 1633 : 
+; 1634 : 		size_type _Size = size();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::size
+	mov	DWORD PTR __Size$[ebp], eax
+
+; 1635 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN3@Reallocate
+
+; 1636 : 			{	// destroy and deallocate old array
+; 1637 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Destroy
+
+; 1638 : 			this->_Getal().deallocate(this->_Myfirst(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	eax, DWORD PTR [eax]
+	sub	eax, DWORD PTR [esi]
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate
+$LN3@Reallocate:
+
+; 1639 : 				this->_Myend() - this->_Myfirst());
+; 1640 : 			}
+; 1641 : 
+; 1642 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all
+
+; 1643 : 		this->_Myend() = _Ptr + _Count;
+
+	imul	esi, DWORD PTR __Count$[ebp], 48
+	add	esi, DWORD PTR __Ptr$[ebp]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	DWORD PTR [eax], esi
+
+; 1644 : 		this->_Mylast() = _Ptr + _Size;
+
+	imul	esi, DWORD PTR __Size$[ebp], 48
+	add	esi, DWORD PTR __Ptr$[ebp]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	DWORD PTR [eax], esi
+
+; 1645 : 		this->_Myfirst() = _Ptr;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	mov	DWORD PTR [eax], ecx
+$LN4@Reallocate:
+
+; 1646 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 244				; 000000f4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-248]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Reallocate@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Reallocate
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Inside@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBE_NPBUAirTile@@@Z
+_TEXT	SEGMENT
+tv78 = -208						; size = 4
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+?_Inside@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBE_NPBUAirTile@@@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Inside, COMDAT
+; _this$ = ecx
+
+; 1619 : 		{	// test if _Ptr points inside vector
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1620 : 		return (_Ptr < this->_Mylast() && this->_Myfirst() <= _Ptr);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	cmp	ecx, DWORD PTR [eax]
+	jae	SHORT $LN3@Inside
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	cmp	edx, DWORD PTR __Ptr$[ebp]
+	ja	SHORT $LN3@Inside
+	mov	DWORD PTR tv78[ebp], 1
+	jmp	SHORT $LN4@Inside
+$LN3@Inside:
+	mov	DWORD PTR tv78[ebp], 0
+$LN4@Inside:
+	mov	al, BYTE PTR tv78[ebp]
+
+; 1621 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Inside@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBE_NPBUAirTile@@@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Inside
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Grow_to@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEII@Z
+_TEXT	SEGMENT
+tv73 = -220						; size = 4
+__Capacity$ = -20					; size = 4
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?_Grow_to@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEII@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Grow_to, COMDAT
+; _this$ = ecx
+
+; 1608 : 		{	// grow by 50% or at least to _Count
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1609 : 		size_type _Capacity = capacity();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::capacity
+	mov	DWORD PTR __Capacity$[ebp], eax
+
+; 1610 : 
+; 1611 : 		_Capacity = max_size() - _Capacity / 2 < _Capacity
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ; std::vector<AirTile,std::allocator<AirTile> >::max_size
+	mov	ecx, DWORD PTR __Capacity$[ebp]
+	shr	ecx, 1
+	sub	eax, ecx
+	cmp	eax, DWORD PTR __Capacity$[ebp]
+	jae	SHORT $LN4@Grow_to
+	mov	DWORD PTR tv73[ebp], 0
+	jmp	SHORT $LN5@Grow_to
+$LN4@Grow_to:
+	mov	edx, DWORD PTR __Capacity$[ebp]
+	shr	edx, 1
+	add	edx, DWORD PTR __Capacity$[ebp]
+	mov	DWORD PTR tv73[ebp], edx
+$LN5@Grow_to:
+	mov	eax, DWORD PTR tv73[ebp]
+	mov	DWORD PTR __Capacity$[ebp], eax
+
+; 1612 : 			? 0 : _Capacity + _Capacity / 2;	// try to grow by 50%
+; 1613 : 		if (_Capacity < _Count)
+
+	mov	eax, DWORD PTR __Capacity$[ebp]
+	cmp	eax, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN2@Grow_to
+
+; 1614 : 			_Capacity = _Count;
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	mov	DWORD PTR __Capacity$[ebp], eax
+$LN2@Grow_to:
+
+; 1615 : 		return (_Capacity);
+
+	mov	eax, DWORD PTR __Capacity$[ebp]
+
+; 1616 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Grow_to@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEII@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Grow_to
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Destroy, COMDAT
+; _this$ = ecx
+
+; 1603 : 		{	// destroy [_First, _Last) using allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1604 : 		_Destroy_range(_First, _Last, this->_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@std@@YAXPAUAirTile@@0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<AirTile> > >
+	add	esp, 12					; 0000000cH
+
+; 1605 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?_Destroy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXPAUAirTile@@0@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Destroy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z
+_TEXT	SEGMENT
+tv225 = -220						; size = 4
+tv172 = -220						; size = 4
+__Idx$1 = -20						; size = 4
+_this$ = -8						; size = 4
+__Val$ = 8						; size = 4
+?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z PROC ; std::vector<AirTile,std::allocator<AirTile> >::push_back, COMDAT
+; _this$ = ecx
+
+; 1278 : 		{	// insert element at end
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1279 : 		if (_Inside(_STD addressof(_Val)))
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	call	??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z ; std::addressof<AirTile const >
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Inside@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBE_NPBUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Inside
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN2@push_back
+
+; 1280 : 			{	// push back an element
+; 1281 : 			size_type _Idx = _STD addressof(_Val) - this->_Myfirst();
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	call	??$addressof@$$CBUAirTile@@@std@@YAPBUAirTile@@ABU1@@Z ; std::addressof<AirTile const >
+	add	esp, 4
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	sub	esi, DWORD PTR [eax]
+	mov	eax, esi
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+	mov	DWORD PTR __Idx$1[ebp], eax
+
+; 1282 : 			if (this->_Mylast() == this->_Myend())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	ecx, DWORD PTR [esi]
+	cmp	ecx, DWORD PTR [eax]
+	jne	SHORT $LN4@push_back
+
+; 1283 : 				_Reserve(1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Reserve
+$LN4@push_back:
+
+; 1284 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Orphan_range
+
+; 1285 : 			this->_Getal().construct(this->_Mylast(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	imul	ecx, DWORD PTR __Idx$1[ebp], 48
+	add	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	??$construct@UAirTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile &>
+
+; 1286 : 				this->_Myfirst()[_Idx]);
+; 1287 : 			++this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	DWORD PTR tv172[ebp], eax
+	mov	eax, DWORD PTR tv172[ebp]
+	mov	ecx, DWORD PTR [eax]
+	add	ecx, 48					; 00000030H
+	mov	edx, DWORD PTR tv172[ebp]
+	mov	DWORD PTR [edx], ecx
+
+; 1288 : 			}
+; 1289 : 		else
+
+	jmp	SHORT $LN1@push_back
+$LN2@push_back:
+
+; 1290 : 			{	// push back a non-element
+; 1291 : 			if (this->_Mylast() == this->_Myend())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	ecx, DWORD PTR [esi]
+	cmp	ecx, DWORD PTR [eax]
+	jne	SHORT $LN5@push_back
+
+; 1292 : 				_Reserve(1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reserve@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXI@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Reserve
+$LN5@push_back:
+
+; 1293 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IBEXPAUAirTile@@0@Z ; std::vector<AirTile,std::allocator<AirTile> >::_Orphan_range
+
+; 1294 : 			this->_Getal().construct(this->_Mylast(),
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	??$construct@UAirTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::construct<AirTile,AirTile const &>
+
+; 1295 : 				_Val);
+; 1296 : 			++this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	DWORD PTR tv225[ebp], eax
+	mov	eax, DWORD PTR tv225[ebp]
+	mov	ecx, DWORD PTR [eax]
+	add	ecx, 48					; 00000030H
+	mov	edx, DWORD PTR tv225[ebp]
+	mov	DWORD PTR [edx], ecx
+$LN1@push_back:
+
+; 1297 : 			}
+; 1298 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ENDP ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+_this$ = -8						; size = 4
+?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::max_size, COMDAT
+; _this$ = ecx
+
+; 1187 : 		{	// return maximum possible length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1188 : 		return (this->_Getal().max_size());
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	mov	ecx, eax
+	call	?max_size@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<AirTile> >::max_size
+
+; 1189 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::size, COMDAT
+; _this$ = ecx
+
+; 1182 : 		{	// return length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1183 : 		return (this->_Mylast() - this->_Myfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	mov	eax, ecx
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+
+; 1184 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?size@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Unused_capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Unused_capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::_Unused_capacity, COMDAT
+; _this$ = ecx
+
+; 1050 : 		{	// micro-optimization for capacity() - size()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1051 : 		return (this->_Myend() - this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	mov	eax, ecx
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+
+; 1052 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Unused_capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::_Unused_capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::capacity, COMDAT
+; _this$ = ecx
+
+; 1045 : 		{	// return current length of allocated storage
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1046 : 		return (this->_Myend() - this->_Myfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	mov	eax, ecx
+	cdq
+	mov	ecx, 48					; 00000030H
+	idiv	ecx
+
+; 1047 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?capacity@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::~vector<AirTile,std::allocator<AirTile> >, COMDAT
+; _this$ = ecx
+
+; 978  : 		{	// destroy the object
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 979  : 		_Tidy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Tidy@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@IAEXXZ ; std::vector<AirTile,std::allocator<AirTile> >::_Tidy
+
+; 980  : 		}
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::~_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::~vector<AirTile,std::allocator<AirTile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::vector<AirTile,std::allocator<AirTile> >, COMDAT
+; _this$ = ecx
+
+; 710  : 		{	// construct empty vector
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 709  : 		: _Mybase()
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+
+; 711  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::vector<AirTile,std::allocator<AirTile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 318  : 		{	// return const reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 319  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 320  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 313  : 		{	// return reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 314  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 315  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 298  : 		{	// return const reference to first
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 299  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 300  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 293  : 		{	// return reference to first
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 294  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 295  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<AirTile> >::~_Vector_val<std::_Simple_types<AirTile> >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1_Container_base12@std@@QAE@XZ	; std::_Container_base12::~_Container_base12
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<AirTile> >::~_Vector_val<std::_Simple_types<AirTile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<AirTile> >::_Vector_val<std::_Simple_types<AirTile> >, COMDAT
+; _this$ = ecx
+
+; 478  : 	_Vector_val()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 479  : 		{	// initialize values
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Container_base12@std@@QAE@XZ	; std::_Container_base12::_Container_base12
+
+; 480  : 		_Myfirst = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+4], 0
+
+; 481  : 		_Mylast = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+8], 0
+
+; 482  : 		_Myend = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+12], 0
+
+; 483  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<AirTile> >::_Vector_val<std::_Simple_types<AirTile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 670  : 		{	// return const reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 671  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 672  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 665  : 		{	// return reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 666  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 667  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 660  : 		{	// return const reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 661  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 8
+
+; 662  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 655  : 		{	// return reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 656  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 8
+
+; 657  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 650  : 		{	// return const reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 651  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 4
+
+; 652  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABQAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 645  : 		{	// return reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 646  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 4
+
+; 647  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 640  : 		{	// return const reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 641  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+
+; 642  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 635  : 		{	// return reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 636  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+
+; 637  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 630  : 		{	// return const reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 631  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+
+; 632  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 625  : 		{	// return reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 626  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_first
+
+; 627  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all, COMDAT
+; _this$ = ecx
+
+; 615  : 		{	// orphan all iterators
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 616  : 		_Get_data()._Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	mov	ecx, eax
+	call	?_Orphan_all@_Container_base12@std@@QAEXXZ ; std::_Container_base12::_Orphan_all
+
+; 617  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy, COMDAT
+; _this$ = ecx
+
+; 604  : 		{	// return reference to _Myproxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 605  : 		return (_Get_data()._Myproxy);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+
+; 606  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getpfirst, COMDAT
+; _this$ = ecx
+
+; 599  : 		{	// get address of iterator chain
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 600  : 		return (_Get_data()._Getpfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	mov	ecx, eax
+	call	?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Container_base12::_Getpfirst
+
+; 601  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getpfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+__Alproxy$ = -21					; size = 1
+_this$ = -12						; size = 4
+__$ArrayPad$ = -4					; size = 4
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Free_proxy, COMDAT
+; _this$ = ecx
+
+; 589  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 590  : 		typename _Alty::template rebind<_Container_proxy>::other
+; 591  : 			_Alproxy(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<AirTile> > &>
+
+; 592  : 		_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Orphan_all
+
+; 593  : 		_Alproxy.destroy(_Myproxy());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+
+; 594  : 		_Alproxy.deallocate(_Myproxy(), 1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::deallocate
+
+; 595  : 		_Myproxy() = 0;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	DWORD PTR [eax], 0
+
+; 596  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Free_proxy
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	1
+$LN5@Free_proxy:
+	DD	1
+	DD	$LN4@Free_proxy
+$LN4@Free_proxy:
+	DD	-21					; ffffffebH
+	DD	1
+	DD	$LN3@Free_proxy
+$LN3@Free_proxy:
+	DB	95					; 0000005fH
+	DB	65					; 00000041H
+	DB	108					; 0000006cH
+	DB	112					; 00000070H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	0
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Free_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+$T1 = -232						; size = 8
+__Alproxy$ = -21					; size = 1
+_this$ = -12						; size = 4
+__$ArrayPad$ = -4					; size = 4
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Alloc_proxy, COMDAT
+; _this$ = ecx
+
+; 580  : 		{	// construct proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 236				; 000000ecH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-236]
+	mov	ecx, 59					; 0000003bH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 581  : 		typename _Alty::template rebind<_Container_proxy>::other
+; 582  : 			_Alproxy(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<AirTile> > &>
+
+; 583  : 		_Myproxy() = _Alproxy.allocate(1);
+
+	push	1
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::allocate
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	DWORD PTR [eax], esi
+
+; 584  : 		_Alproxy.construct(_Myproxy(), _Container_proxy());
+
+	lea	ecx, DWORD PTR $T1[ebp]
+	call	??0_Container_proxy@std@@QAE@XZ		; std::_Container_proxy::_Container_proxy
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+
+; 585  : 		_Myproxy()->_Mycont = &_Get_data();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	mov	DWORD PTR [eax], esi
+
+; 586  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Alloc_prox
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 236				; 000000ecH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+$LN5@Alloc_prox:
+	DD	1
+	DD	$LN4@Alloc_prox
+$LN4@Alloc_prox:
+	DD	-21					; ffffffebH
+	DD	1
+	DD	$LN3@Alloc_prox
+$LN3@Alloc_prox:
+	DB	95					; 0000005fH
+	DB	65					; 00000041H
+	DB	108					; 0000006cH
+	DB	112					; 00000070H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	0
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Alloc_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::~_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >, COMDAT
+; _this$ = ecx
+
+; 555  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 556  : 		_Free_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Free_proxy
+
+; 557  : 		}
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::~_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+$T2 = -221						; size = 1
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >, COMDAT
+; _this$ = ecx
+
+; 542  : 		{	// default construct allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-228]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 541  : 		: _Mypair(_Zero_then_variadic_args_t())
+
+	movzx	eax, BYTE PTR $T2[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1><>
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 543  : 		_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Alloc_proxy
+
+; 544  : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 228				; 000000e4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAE@XZ
+__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-232]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QBEIU_Nil@2@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 1
+?max_size@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QBEIU_Nil@2@@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::max_size, COMDAT
+; _this$ = ecx
+
+; 905  : 		{	// get maximum size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 906  : 		return (_Mytraits::max_size(*this));
+
+	mov	eax, DWORD PTR _this$[ebp]
+	push	eax
+	call	?max_size@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAIABV?$allocator@UAirTile@@@2@@Z ; std::allocator_traits<std::allocator<AirTile> >::max_size
+	add	esp, 4
+
+; 907  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?max_size@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QBEIU_Nil@2@@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate, COMDAT
+; _this$ = ecx
+
+; 884  : 		{	// deallocate object at _Ptr, ignore size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 885  : 		_Mybase::deallocate(_Ptr, _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?deallocate@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@I@Z ; std::allocator<AirTile>::deallocate
+
+; 886  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?deallocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEXPAUAirTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::deallocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?allocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEPAUAirTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?allocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEPAUAirTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::allocate, COMDAT
+; _this$ = ecx
+
+; 873  : 		{	// allocate array of _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 874  : 		return (_Mybase::allocate(_Count));
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?allocate@?$allocator@UAirTile@@@std@@QAEPAUAirTile@@I@Z ; std::allocator<AirTile>::allocate
+
+; 875  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?allocate@?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAEPAUAirTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::allocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??0?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ PROC ; std::_Wrap_alloc<std::allocator<AirTile> >::_Wrap_alloc<std::allocator<AirTile> >, COMDAT
+; _this$ = ecx
+
+; 834  : 		{	// construct default allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 833  : 		: _Mybase()
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$allocator@UAirTile@@@std@@QAE@XZ	; std::allocator<AirTile>::allocator<AirTile>
+
+; 835  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@QAE@XZ ENDP ; std::_Wrap_alloc<std::allocator<AirTile> >::_Wrap_alloc<std::allocator<AirTile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAIABV?$allocator@UAirTile@@@2@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+?max_size@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAIABV?$allocator@UAirTile@@@2@@Z PROC ; std::allocator_traits<std::allocator<AirTile> >::max_size, COMDAT
+
+; 766  : 		{	// get maximum size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 767  : 		return (_Al.max_size());
+
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	?max_size@?$allocator@UAirTile@@@std@@QBEIXZ ; std::allocator<AirTile>::max_size
+
+; 768  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$allocator_traits@V?$allocator@UAirTile@@@std@@@std@@SAIABV?$allocator@UAirTile@@@2@@Z ENDP ; std::allocator_traits<std::allocator<AirTile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$allocator@UAirTile@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?max_size@?$allocator@UAirTile@@@std@@QBEIXZ PROC	; std::allocator<AirTile>::max_size, COMDAT
+; _this$ = ecx
+
+; 648  : 		{	// estimate maximum array size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 649  : 		return ((size_t)(-1) / sizeof (_Ty));
+
+	mov	eax, 89478485				; 05555555H
+
+; 650  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$allocator@UAirTile@@@std@@QBEIXZ ENDP	; std::allocator<AirTile>::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?allocate@?$allocator@UAirTile@@@std@@QAEPAUAirTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?allocate@?$allocator@UAirTile@@@std@@QAEPAUAirTile@@I@Z PROC ; std::allocator<AirTile>::allocate, COMDAT
+; _this$ = ecx
+
+; 624  : 		{	// allocate array of _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 625  : 		return (static_cast<pointer>(_Allocate(_Count, sizeof (_Ty))));
+
+	push	1
+	push	48					; 00000030H
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	call	?_Allocate@std@@YAPAXII_N@Z		; std::_Allocate
+	add	esp, 12					; 0000000cH
+
+; 626  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?allocate@?$allocator@UAirTile@@@std@@QAEPAUAirTile@@I@Z ENDP ; std::allocator<AirTile>::allocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?deallocate@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?deallocate@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@I@Z PROC ; std::allocator<AirTile>::deallocate, COMDAT
+; _this$ = ecx
+
+; 619  : 		{	// deallocate object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 620  : 		_Deallocate(_Ptr, _Count, sizeof (_Ty));
+
+	push	48					; 00000030H
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	call	?_Deallocate@std@@YAXPAXII@Z		; std::_Deallocate
+	add	esp, 12					; 0000000cH
+
+; 621  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?deallocate@?$allocator@UAirTile@@@std@@QAEXPAUAirTile@@I@Z ENDP ; std::allocator<AirTile>::deallocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??0?$allocator@UAirTile@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$allocator@UAirTile@@@std@@QAE@XZ PROC		; std::allocator<AirTile>::allocator<AirTile>, COMDAT
+; _this$ = ecx
+
+; 599  : 	allocator() _THROW0()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 600  : 		{	// construct default allocator (do nothing)
+; 601  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$allocator@UAirTile@@@std@@QAE@XZ ENDP		; std::allocator<AirTile>::allocator<AirTile>
+_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ??__FtileMap@@YAXXZ
 text$yd	SEGMENT
@@ -22554,7 +27602,7 @@ __$ArrayPad$ = -16					; size = 4
 __$EHRec$ = -12						; size = 12
 ?DrawMap@@YAXXZ PROC					; DrawMap, COMDAT
 
-; 81   : void DrawMap() {
+; 100  : void DrawMap() {
 
 	push	ebp
 	mov	ebp, esp
@@ -22577,13 +27625,13 @@ __$EHRec$ = -12						; size = 12
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 
-; 82   : 	int color[3] = { 0, 0, 0 };
+; 101  : 	int color[3] = { 0, 0, 0 };
 
 	mov	DWORD PTR _color$[ebp], 0
 	mov	DWORD PTR _color$[ebp+4], 0
 	mov	DWORD PTR _color$[ebp+8], 0
 
-; 83   : 	for (auto &tile : tileMap) {
+; 102  : 	for (auto &tile : tileMap) {
 
 	mov	DWORD PTR _<range>$L0$9[ebp], OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
 	push	12					; 0000000cH
@@ -22618,7 +27666,7 @@ $LN4@DrawMap:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
 	mov	DWORD PTR _tile$6[ebp], eax
 
-; 84   : 		if (tile.tileID == 1) { color[0] = 0; color[1] = 0; color[2] = 255; }
+; 103  : 		if (tile.tileID == 1) { color[0] = 0; color[1] = 0; color[2] = 255; }
 
 	mov	eax, DWORD PTR _tile$6[ebp]
 	cmp	DWORD PTR [eax+24], 1
@@ -22634,7 +27682,7 @@ $LN4@DrawMap:
 	mov	DWORD PTR _color$[ebp+eax], 255		; 000000ffH
 $LN8@DrawMap:
 
-; 85   : 		if (tile.tileID == 5) { color[0] = 255; color[1] = 0; color[2] = 0; }
+; 104  : 		if (tile.tileID == 5) { color[0] = 255; color[1] = 0; color[2] = 0; }
 
 	mov	eax, DWORD PTR _tile$6[ebp]
 	cmp	DWORD PTR [eax+24], 5
@@ -22650,7 +27698,7 @@ $LN8@DrawMap:
 	mov	DWORD PTR _color$[ebp+eax], 0
 $LN9@DrawMap:
 
-; 86   : 		if (tile.tileID == 6) { color[0] = 255; color[1] = 0; color[2] = 255; }
+; 105  : 		if (tile.tileID == 6) { color[0] = 255; color[1] = 0; color[2] = 255; }
 
 	mov	eax, DWORD PTR _tile$6[ebp]
 	cmp	DWORD PTR [eax+24], 6
@@ -22666,7 +27714,7 @@ $LN9@DrawMap:
 	mov	DWORD PTR _color$[ebp+eax], 255		; 000000ffH
 $LN10@DrawMap:
 
-; 87   : 		if (tile.tileID == 7) { color[0] = 255; color[1] = 0; color[2] = 255; }
+; 106  : 		if (tile.tileID == 7) { color[0] = 255; color[1] = 0; color[2] = 255; }
 
 	mov	eax, DWORD PTR _tile$6[ebp]
 	cmp	DWORD PTR [eax+24], 7
@@ -22682,7 +27730,7 @@ $LN10@DrawMap:
 	mov	DWORD PTR _color$[ebp+eax], 255		; 000000ffH
 $LN11@DrawMap:
 
-; 88   : 		DrawTile(tile, color);
+; 107  : 		DrawTile(tile, color);
 
 	lea	eax, DWORD PTR _color$[ebp]
 	push	eax
@@ -22696,7 +27744,7 @@ $LN11@DrawMap:
 	jmp	$LN2@DrawMap
 $LN3@DrawMap:
 
-; 89   : 	}
+; 108  : 	}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 	lea	ecx, DWORD PTR _<end>$L0$7[ebp]
@@ -22705,8 +27753,8 @@ $LN3@DrawMap:
 	lea	ecx, DWORD PTR _<begin>$L0$8[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 
-; 90   : 
-; 91   : 	for (auto &tile : movingTileMap) {
+; 109  : 
+; 110  : 	for (auto &tile : movingTileMap) {
 
 	mov	DWORD PTR _<range>$L1$5[ebp], OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
 	push	12					; 0000000cH
@@ -22741,7 +27789,7 @@ $LN7@DrawMap:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
 	mov	DWORD PTR _tile$2[ebp], eax
 
-; 92   : 		if (tile.tile.tileID == 8) { color[0] = 255; color[1] = 255; color[2] = 0; }
+; 111  : 		if (tile.tile.tileID == 8) { color[0] = 255; color[1] = 255; color[2] = 0; }
 
 	mov	eax, DWORD PTR _tile$2[ebp]
 	cmp	DWORD PTR [eax+24], 8
@@ -22757,7 +27805,7 @@ $LN7@DrawMap:
 	mov	DWORD PTR _color$[ebp+eax], 0
 $LN12@DrawMap:
 
-; 93   : 		DrawTile(tile.tile, color);
+; 112  : 		DrawTile(tile.tile, color);
 
 	lea	eax, DWORD PTR _color$[ebp]
 	push	eax
@@ -22771,7 +27819,7 @@ $LN12@DrawMap:
 	jmp	$LN5@DrawMap
 $LN6@DrawMap:
 
-; 94   : 	}
+; 113  : 	}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 	lea	ecx, DWORD PTR _<end>$L1$3[ebp]
@@ -22780,7 +27828,7 @@ $LN6@DrawMap:
 	lea	ecx, DWORD PTR _<begin>$L1$4[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
 
-; 95   : }
+; 114  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -22907,7 +27955,6 @@ text$x	ENDS
 ; File g:\projects\lotion\lotion\environment.cpp
 ;	COMDAT ?UpdateTile@@YAXH@Z
 _TEXT	SEGMENT
-tv164 = -352						; size = 4
 _tileB$2 = -152						; size = 4
 _<end>$L1$3 = -140					; size = 12
 _<begin>$L1$4 = -120					; size = 12
@@ -22922,7 +27969,7 @@ __$EHRec$ = -12						; size = 12
 _gameTime$ = 8						; size = 4
 ?UpdateTile@@YAXH@Z PROC				; UpdateTile, COMDAT
 
-; 65   : void UpdateTile(int gameTime) {
+; 81   : void UpdateTile(int gameTime) {
 
 	push	ebp
 	mov	ebp, esp
@@ -22930,12 +27977,12 @@ _gameTime$ = 8						; size = 4
 	push	__ehhandler$?UpdateTile@@YAXH@Z
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 340				; 00000154H
+	sub	esp, 336				; 00000150H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-352]
-	mov	ecx, 85					; 00000055H
+	lea	edi, DWORD PTR [ebp-348]
+	mov	ecx, 84					; 00000054H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	eax, DWORD PTR ___security_cookie
@@ -22945,14 +27992,14 @@ _gameTime$ = 8						; size = 4
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 
-; 66   : 	float deltaTimeS = (float)(gameTime) / 1000;
+; 82   : 	float deltaTimeS = (float)(gameTime) / 1000;
 
 	cvtsi2ss xmm0, DWORD PTR _gameTime$[ebp]
 	divss	xmm0, DWORD PTR __real@447a0000
 	movss	DWORD PTR _deltaTimeS$[ebp], xmm0
 
-; 67   : 
-; 68   : 	for (auto &tile : movingTileMap) {
+; 83   : 
+; 84   : 	for (auto &tile : movingTileMap) {
 
 	mov	DWORD PTR _<range>$L0$9[ebp], OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
 	push	12					; 0000000cH
@@ -22987,7 +28034,7 @@ $LN4@UpdateTile:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
 	mov	DWORD PTR _tile$6[ebp], eax
 
-; 69   : 		for (auto &tileB : tileMap) {
+; 85   : 		for (auto &tileB : tileMap) {
 
 	mov	DWORD PTR _<range>$L1$5[ebp], OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
 	push	12					; 0000000cH
@@ -23017,12 +28064,12 @@ $LN7@UpdateTile:
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
 	movzx	ecx, al
 	test	ecx, ecx
-	je	SHORT $LN6@UpdateTile
+	je	$LN6@UpdateTile
 	lea	ecx, DWORD PTR _<begin>$L1$4[ebp]
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
 	mov	DWORD PTR _tileB$2[ebp], eax
 
-; 70   : 			if (CheckCollision(tile.tile, tileB)) { tile.movingLeft = !tile.movingLeft; }
+; 86   : 			if (CheckCollision(tile.tile, tileB)) { 
 
 	mov	esi, DWORD PTR _tileB$2[ebp]
 	sub	esp, 32					; 00000020H
@@ -23038,24 +28085,56 @@ $LN7@UpdateTile:
 	add	esp, 64					; 00000040H
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN8@UpdateTile
+	je	SHORT $LN10@UpdateTile
+
+; 87   : 				if (CheckCollisionLeft(tile.tile, tileB)) { tile.movingLeft = true; }
+
+	mov	esi, DWORD PTR _tileB$2[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	mov	esi, DWORD PTR _tile$6[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionLeft@@YA_NUTile@@0@Z	; CheckCollisionLeft
+	add	esp, 64					; 00000040H
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN9@UpdateTile
 	mov	eax, DWORD PTR _tile$6[ebp]
-	movzx	ecx, BYTE PTR [eax+40]
-	test	ecx, ecx
-	jne	SHORT $LN12@UpdateTile
-	mov	DWORD PTR tv164[ebp], 1
-	jmp	SHORT $LN13@UpdateTile
-$LN12@UpdateTile:
-	mov	DWORD PTR tv164[ebp], 0
-$LN13@UpdateTile:
-	mov	edx, DWORD PTR _tile$6[ebp]
-	mov	al, BYTE PTR tv164[ebp]
-	mov	BYTE PTR [edx+40], al
-$LN8@UpdateTile:
+	mov	BYTE PTR [eax+40], 1
+$LN9@UpdateTile:
+
+; 88   : 				if (CheckCollisionRight(tile.tile, tileB)) { tile.movingLeft = false; }
+
+	mov	esi, DWORD PTR _tileB$2[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	mov	esi, DWORD PTR _tile$6[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionRight@@YA_NUTile@@0@Z	; CheckCollisionRight
+	add	esp, 64					; 00000040H
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN10@UpdateTile
+	mov	eax, DWORD PTR _tile$6[ebp]
+	mov	BYTE PTR [eax+40], 0
+$LN10@UpdateTile:
+
+; 89   : 			}
+
 	jmp	$LN5@UpdateTile
 $LN6@UpdateTile:
 
-; 71   : 		}
+; 90   : 		}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 	lea	ecx, DWORD PTR _<end>$L1$3[ebp]
@@ -23064,12 +28143,12 @@ $LN6@UpdateTile:
 	lea	ecx, DWORD PTR _<begin>$L1$4[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 
-; 72   : 		if (tile.movingLeft == true) { tile.tile.position.x -= tile.speed * deltaTimeS; }
+; 91   : 		if (tile.movingLeft == true) { tile.tile.position.x -= tile.speed * deltaTimeS; }
 
 	mov	eax, DWORD PTR _tile$6[ebp]
 	movzx	ecx, BYTE PTR [eax+40]
 	cmp	ecx, 1
-	jne	SHORT $LN9@UpdateTile
+	jne	SHORT $LN11@UpdateTile
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
 	mov	eax, DWORD PTR _tile$6[ebp]
 	mulsd	xmm0, QWORD PTR [eax+32]
@@ -23078,10 +28157,10 @@ $LN6@UpdateTile:
 	subsd	xmm1, xmm0
 	mov	edx, DWORD PTR _tile$6[ebp]
 	movsd	QWORD PTR [edx], xmm1
-	jmp	SHORT $LN10@UpdateTile
-$LN9@UpdateTile:
+	jmp	SHORT $LN12@UpdateTile
+$LN11@UpdateTile:
 
-; 73   : 		else { tile.tile.position.x += tile.speed * deltaTimeS; }
+; 92   : 		else { tile.tile.position.x += tile.speed * deltaTimeS; }
 
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
 	mov	eax, DWORD PTR _tile$6[ebp]
@@ -23090,11 +28169,11 @@ $LN9@UpdateTile:
 	addsd	xmm0, QWORD PTR [ecx]
 	mov	edx, DWORD PTR _tile$6[ebp]
 	movsd	QWORD PTR [edx], xmm0
-$LN10@UpdateTile:
+$LN12@UpdateTile:
 	jmp	$LN2@UpdateTile
 $LN3@UpdateTile:
 
-; 74   : 	}
+; 93   : 	}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 	lea	ecx, DWORD PTR _<end>$L0$7[ebp]
@@ -23103,7 +28182,7 @@ $LN3@UpdateTile:
 	lea	ecx, DWORD PTR _<begin>$L0$8[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
 
-; 75   : }
+; 94   : }
 
 	push	edx
 	mov	ecx, ebp
@@ -23121,13 +28200,13 @@ $LN3@UpdateTile:
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	xor	ecx, ebp
 	call	@__security_check_cookie@4
-	add	esp, 352				; 00000160H
+	add	esp, 348				; 0000015cH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-	npad	2
+	npad	1
 $LN24@UpdateTile:
 	DD	4
 	DD	$LN23@UpdateTile
@@ -23206,7 +28285,7 @@ __unwindfunclet$?UpdateTile@@YAXH@Z$3:
 __ehhandler$?UpdateTile@@YAXH@Z:
 	mov	edx, DWORD PTR [esp+8]
 	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-356]
+	mov	ecx, DWORD PTR [edx-352]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	ecx, DWORD PTR [edx-4]
@@ -23220,24 +28299,29 @@ text$x	ENDS
 ; File g:\projects\lotion\lotion\environment.cpp
 ;	COMDAT ?GenerateTileMap@@YAXXZ
 _TEXT	SEGMENT
-$T2 = -1148						; size = 16
-$T3 = -1124						; size = 16
-$T4 = -1100						; size = 16
-$T5 = -1076						; size = 16
-$T6 = -1052						; size = 16
-$T7 = -1028						; size = 16
-$T8 = -1004						; size = 16
-$T9 = -980						; size = 16
-$T10 = -956						; size = 16
-$T11 = -932						; size = 16
-$T12 = -908						; size = 16
-$T13 = -884						; size = 4
-_tempMovingTile$14 = -488				; size = 48
-_tempPushTile$15 = -432					; size = 48
-_tempTile$16 = -376					; size = 32
-_x$17 = -336						; size = 4
-_y$18 = -324						; size = 4
-_x$19 = -312						; size = 4
+$T2 = -1300						; size = 16
+$T3 = -1276						; size = 16
+$T4 = -1252						; size = 16
+$T5 = -1228						; size = 16
+$T6 = -1204						; size = 16
+$T7 = -1180						; size = 16
+$T8 = -1156						; size = 16
+$T9 = -1132						; size = 16
+$T10 = -1108						; size = 16
+$T11 = -1084						; size = 16
+$T12 = -1060						; size = 16
+$T13 = -1036						; size = 16
+$T14 = -1012						; size = 16
+$T15 = -988						; size = 16
+$T16 = -964						; size = 16
+$T17 = -940						; size = 4
+_tempMovingTile$18 = -544				; size = 48
+_tempPushTile$19 = -488					; size = 48
+_tempAirTile$20 = -432					; size = 48
+_tempTile$21 = -376					; size = 32
+_x$22 = -336						; size = 4
+_y$23 = -324						; size = 4
+_x$24 = -312						; size = 4
 _incrementY$ = -300					; size = 4
 _incrementX$ = -288					; size = 4
 _intString$ = -276					; size = 28
@@ -23247,7 +28331,7 @@ __$ArrayPad$ = -16					; size = 4
 __$EHRec$ = -12						; size = 12
 ?GenerateTileMap@@YAXXZ PROC				; GenerateTileMap, COMDAT
 
-; 9    : void GenerateTileMap() {
+; 10   : void GenerateTileMap() {
 
 	push	ebp
 	mov	ebp, esp
@@ -23255,12 +28339,12 @@ __$EHRec$ = -12						; size = 12
 	push	__ehhandler$?GenerateTileMap@@YAXXZ
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 1140				; 00000474H
+	sub	esp, 1292				; 0000050cH
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-1152]
-	mov	ecx, 285				; 0000011dH
+	lea	edi, DWORD PTR [ebp-1304]
+	mov	ecx, 323				; 00000143H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	eax, DWORD PTR ___security_cookie
@@ -23270,7 +28354,7 @@ __$EHRec$ = -12						; size = 12
 	lea	eax, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, eax
 
-; 10   : 	std::ifstream file("../Content/TileMap.txt");
+; 11   : 	std::ifstream file("../Content/TileMap.txt");
 
 	push	184					; 000000b8H
 	lea	ecx, DWORD PTR _file$[ebp]
@@ -23283,27 +28367,27 @@ __$EHRec$ = -12						; size = 12
 	call	??0?$basic_ifstream@DU?$char_traits@D@std@@@std@@QAE@PBDHH@Z ; std::basic_ifstream<char,std::char_traits<char> >::basic_ifstream<char,std::char_traits<char> >
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 
-; 11   : 	std::string str;
+; 12   : 	std::string str;
 
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 
-; 12   : 
-; 13   : 	std::string intString = "";
+; 13   : 
+; 14   : 	std::string intString = "";
 
 	push	OFFSET ??_C@_00CNPNBAHC@?$AA@
 	lea	ecx, DWORD PTR _intString$[ebp]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
 
-; 14   : 	int incrementX = 0, incrementY = 0;
+; 15   : 	int incrementX = 0, incrementY = 0;
 
 	mov	DWORD PTR _incrementX$[ebp], 0
 	mov	DWORD PTR _incrementY$[ebp], 0
 $LN2@GenerateTi:
 
-; 15   : 	while (std::getline(file, str))
+; 16   : 	while (std::getline(file, str))
 
 	lea	eax, DWORD PTR _str$[ebp]
 	push	eax
@@ -23311,10 +28395,10 @@ $LN2@GenerateTi:
 	push	ecx
 	call	??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAAV?$basic_istream@DU?$char_traits@D@std@@@0@AAV10@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z ; std::getline<char,std::char_traits<char>,std::allocator<char> >
 	add	esp, 8
-	mov	DWORD PTR $T13[ebp], eax
-	mov	edx, DWORD PTR $T13[ebp]
+	mov	DWORD PTR $T17[ebp], eax
+	mov	edx, DWORD PTR $T17[ebp]
 	mov	eax, DWORD PTR [edx]
-	mov	ecx, DWORD PTR $T13[ebp]
+	mov	ecx, DWORD PTR $T17[ebp]
 	add	ecx, DWORD PTR [eax+4]
 	mov	esi, esp
 	call	DWORD PTR __imp_??Bios_base@std@@QBE_NXZ
@@ -23324,24 +28408,24 @@ $LN2@GenerateTi:
 	test	ecx, ecx
 	je	$LN3@GenerateTi
 
-; 16   : 	{
-; 17   : 		for (int x = 0; x < str.length(); x++) {
+; 17   : 	{
+; 18   : 		for (int x = 0; x < str.length(); x++) {
 
-	mov	DWORD PTR _x$19[ebp], 0
+	mov	DWORD PTR _x$24[ebp], 0
 	jmp	SHORT $LN6@GenerateTi
 $LN4@GenerateTi:
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	add	eax, 1
-	mov	DWORD PTR _x$19[ebp], eax
+	mov	DWORD PTR _x$24[ebp], eax
 $LN6@GenerateTi:
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::length
-	cmp	DWORD PTR _x$19[ebp], eax
+	cmp	DWORD PTR _x$24[ebp], eax
 	jae	$LN5@GenerateTi
 
-; 18   : 			if (str[x] == ',' || (x == str.length() - 1 && str[x] == '}')) {
+; 19   : 			if (str[x] == ',' || (x == str.length() - 1 && str[x] == '}')) {
 
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator[]
@@ -23351,9 +28435,9 @@ $LN6@GenerateTi:
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	?length@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QBEIXZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::length
 	sub	eax, 1
-	cmp	DWORD PTR _x$19[ebp], eax
+	cmp	DWORD PTR _x$24[ebp], eax
 	jne	SHORT $LN13@GenerateTi
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator[]
@@ -23362,7 +28446,7 @@ $LN6@GenerateTi:
 	jne	SHORT $LN13@GenerateTi
 $LN15@GenerateTi:
 
-; 19   : 				tileMapGrid[incrementY][incrementX] = std::stoi(intString);
+; 20   : 				tileMapGrid[incrementY][incrementX] = std::stoi(intString);
 
 	push	10					; 0000000aH
 	push	0
@@ -23374,33 +28458,33 @@ $LN15@GenerateTi:
 	mov	edx, DWORD PTR _incrementX$[ebp]
 	mov	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[ecx+edx*4], eax
 
-; 20   : 				intString.clear();
+; 21   : 				intString.clear();
 
 	lea	ecx, DWORD PTR _intString$[ebp]
 	call	?clear@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEXXZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::clear
 
-; 21   : 				incrementX += 1;
+; 22   : 				incrementX += 1;
 
 	mov	eax, DWORD PTR _incrementX$[ebp]
 	add	eax, 1
 	mov	DWORD PTR _incrementX$[ebp], eax
 
-; 22   : 			}
-; 23   : 			else {
+; 23   : 			}
+; 24   : 			else {
 
 	jmp	SHORT $LN16@GenerateTi
 $LN13@GenerateTi:
 
-; 24   : 				if (str[x] != '{' && str[x] != '}') {
+; 25   : 				if (str[x] != '{' && str[x] != '}') {
 
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator[]
 	movsx	ecx, BYTE PTR [eax]
 	cmp	ecx, 123				; 0000007bH
 	je	SHORT $LN16@GenerateTi
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator[]
@@ -23408,9 +28492,9 @@ $LN13@GenerateTi:
 	cmp	ecx, 125				; 0000007dH
 	je	SHORT $LN16@GenerateTi
 
-; 25   : 					intString += str[x];
+; 26   : 					intString += str[x];
 
-	mov	eax, DWORD PTR _x$19[ebp]
+	mov	eax, DWORD PTR _x$24[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _str$[ebp]
 	call	??A?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAADI@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator[]
@@ -23421,187 +28505,192 @@ $LN13@GenerateTi:
 	call	??Y?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@D@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::operator+=
 $LN16@GenerateTi:
 
-; 26   : 				}
-; 27   : 			}
-; 28   : 		}
+; 27   : 				}
+; 28   : 			}
+; 29   : 		}
 
 	jmp	$LN4@GenerateTi
 $LN5@GenerateTi:
 
-; 29   : 		incrementX = 0;
+; 30   : 		incrementX = 0;
 
 	mov	DWORD PTR _incrementX$[ebp], 0
 
-; 30   : 		incrementY += 1;
+; 31   : 		incrementY += 1;
 
 	mov	eax, DWORD PTR _incrementY$[ebp]
 	add	eax, 1
 	mov	DWORD PTR _incrementY$[ebp], eax
 
-; 31   : 	}
+; 32   : 	}
 
 	jmp	$LN2@GenerateTi
 $LN3@GenerateTi:
 
-; 32   : 
-; 33   : 	for (int y = 0; y < MAPSIZEY; y++) {
+; 33   : 
+; 34   : 	for (int y = 0; y < MAPSIZEY; y++) {
 
-	mov	DWORD PTR _y$18[ebp], 0
+	mov	DWORD PTR _y$23[ebp], 0
 	jmp	SHORT $LN9@GenerateTi
 $LN7@GenerateTi:
-	mov	eax, DWORD PTR _y$18[ebp]
+	mov	eax, DWORD PTR _y$23[ebp]
 	add	eax, 1
-	mov	DWORD PTR _y$18[ebp], eax
+	mov	DWORD PTR _y$23[ebp], eax
 $LN9@GenerateTi:
-	cmp	DWORD PTR _y$18[ebp], 60		; 0000003cH
+	cmp	DWORD PTR _y$23[ebp], 60		; 0000003cH
 	jge	$LN8@GenerateTi
 
-; 34   : 		for (int x = 0; x < MAPSIZEX; x++) {
+; 35   : 		for (int x = 0; x < MAPSIZEX; x++) {
 
-	mov	DWORD PTR _x$17[ebp], 0
+	mov	DWORD PTR _x$22[ebp], 0
 	jmp	SHORT $LN12@GenerateTi
 $LN10@GenerateTi:
-	mov	eax, DWORD PTR _x$17[ebp]
+	mov	eax, DWORD PTR _x$22[ebp]
 	add	eax, 1
-	mov	DWORD PTR _x$17[ebp], eax
+	mov	DWORD PTR _x$22[ebp], eax
 $LN12@GenerateTi:
-	cmp	DWORD PTR _x$17[ebp], 80		; 00000050H
+	cmp	DWORD PTR _x$22[ebp], 80		; 00000050H
 	jge	$LN11@GenerateTi
 
-; 35   : 			Tile tempTile;
+; 36   : 			Tile tempTile;
 
-	lea	ecx, DWORD PTR _tempTile$16[ebp]
+	lea	ecx, DWORD PTR _tempTile$21[ebp]
 	call	??0Tile@@QAE@XZ
 
-; 36   : 			PushTile tempPushTile;
+; 37   : 			AirTile tempAirTile;
 
-	lea	ecx, DWORD PTR _tempPushTile$15[ebp]
+	lea	ecx, DWORD PTR _tempAirTile$20[ebp]
+	call	??0AirTile@@QAE@XZ
+
+; 38   : 			PushTile tempPushTile;
+
+	lea	ecx, DWORD PTR _tempPushTile$19[ebp]
 	call	??0PushTile@@QAE@XZ
 
-; 37   : 			MovingTile tempMovingTile;
+; 39   : 			MovingTile tempMovingTile;
 
-	lea	ecx, DWORD PTR _tempMovingTile$14[ebp]
+	lea	ecx, DWORD PTR _tempMovingTile$18[ebp]
 	call	??0MovingTile@@QAE@XZ
 
-; 38   : 
-; 39   : 			if (tileMapGrid[y][x] == 1) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 1; tileMap.push_back(tempTile); }
+; 40   : 
+; 41   : 			if (tileMapGrid[y][x] == 1) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 1; tileMap.push_back(tempTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
 	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 1
 	jne	SHORT $LN17@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempTile$16[ebp+20]
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempTile$21[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempTile$16[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempTile$21[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T12[ebp]
+	lea	ecx, DWORD PTR $T16[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempTile$16[ebp], edx
+	mov	DWORD PTR _tempTile$21[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempTile$16[ebp+4], ecx
+	mov	DWORD PTR _tempTile$21[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempTile$16[ebp+8], edx
+	mov	DWORD PTR _tempTile$21[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempTile$16[ebp+12], eax
-	mov	DWORD PTR _tempTile$16[ebp+24], 1
-	lea	eax, DWORD PTR _tempTile$16[ebp]
+	mov	DWORD PTR _tempTile$21[ebp+12], eax
+	mov	DWORD PTR _tempTile$21[ebp+24], 1
+	lea	eax, DWORD PTR _tempTile$21[ebp]
 	push	eax
 	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
 	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
 $LN17@GenerateTi:
 
-; 40   : 			if (tileMapGrid[y][x] == 2) { tempPushTile.tile.position = Vector2(x * tempPushTile.tile.width, y * tempPushTile.tile.height); tempPushTile.tile.tileID = 2; tempPushTile.end = false; pushTileMap.push_back(tempPushTile); }
+; 42   : 			if (tileMapGrid[y][x] == 2) { tempPushTile.tile.position = Vector2(x * tempPushTile.tile.width, y * tempPushTile.tile.height); tempPushTile.tile.tileID = 2; tempPushTile.end = false; pushTileMap.push_back(tempPushTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
 	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 2
 	jne	$LN18@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempPushTile$15[ebp+20]
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempPushTile$19[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempPushTile$15[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempPushTile$19[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T11[ebp]
+	lea	ecx, DWORD PTR $T15[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempPushTile$15[ebp], edx
+	mov	DWORD PTR _tempPushTile$19[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempPushTile$15[ebp+4], ecx
+	mov	DWORD PTR _tempPushTile$19[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempPushTile$15[ebp+8], edx
+	mov	DWORD PTR _tempPushTile$19[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempPushTile$15[ebp+12], eax
-	mov	DWORD PTR _tempPushTile$15[ebp+24], 2
-	mov	BYTE PTR _tempPushTile$15[ebp+44], 0
-	lea	eax, DWORD PTR _tempPushTile$15[ebp]
+	mov	DWORD PTR _tempPushTile$19[ebp+12], eax
+	mov	DWORD PTR _tempPushTile$19[ebp+24], 2
+	mov	BYTE PTR _tempPushTile$19[ebp+44], 0
+	lea	eax, DWORD PTR _tempPushTile$19[ebp]
 	push	eax
 	mov	ecx, OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	?push_back@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAEXABUPushTile@@@Z ; std::vector<PushTile,std::allocator<PushTile> >::push_back
 $LN18@GenerateTi:
 
-; 41   : 			if (tileMapGrid[y][x] == 3) { tempPushTile.tile.position = Vector2(x * tempPushTile.tile.width, y * tempPushTile.tile.height); tempPushTile.tile.tileID = 2; tempPushTile.end = true; pushTileMap.push_back(tempPushTile); }
+; 43   : 			if (tileMapGrid[y][x] == 3) { tempPushTile.tile.position = Vector2(x * tempPushTile.tile.width, y * tempPushTile.tile.height); tempPushTile.tile.tileID = 2; tempPushTile.end = true; pushTileMap.push_back(tempPushTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
 	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 3
 	jne	$LN19@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempPushTile$15[ebp+20]
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempPushTile$19[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempPushTile$15[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempPushTile$19[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T10[ebp]
+	lea	ecx, DWORD PTR $T14[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempPushTile$15[ebp], edx
+	mov	DWORD PTR _tempPushTile$19[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempPushTile$15[ebp+4], ecx
+	mov	DWORD PTR _tempPushTile$19[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempPushTile$15[ebp+8], edx
+	mov	DWORD PTR _tempPushTile$19[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempPushTile$15[ebp+12], eax
-	mov	DWORD PTR _tempPushTile$15[ebp+24], 2
-	mov	BYTE PTR _tempPushTile$15[ebp+44], 1
-	lea	eax, DWORD PTR _tempPushTile$15[ebp]
+	mov	DWORD PTR _tempPushTile$19[ebp+12], eax
+	mov	DWORD PTR _tempPushTile$19[ebp+24], 2
+	mov	BYTE PTR _tempPushTile$19[ebp+44], 1
+	lea	eax, DWORD PTR _tempPushTile$19[ebp]
 	push	eax
 	mov	ecx, OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	?push_back@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAEXABUPushTile@@@Z ; std::vector<PushTile,std::allocator<PushTile> >::push_back
 $LN19@GenerateTi:
 
-; 42   : 			if (tileMapGrid[y][x] == 4) { spawnTile.position = Vector2(x * spawnTile.width, y * spawnTile.height); spawnTile.tileID = 4; }
+; 44   : 			if (tileMapGrid[y][x] == 4) { spawnTile.position = Vector2(x * spawnTile.width, y * spawnTile.height); spawnTile.tileID = 4; }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
 	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 4
 	jne	SHORT $LN20@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
+	mov	eax, DWORD PTR _y$23[ebp]
 	imul	eax, DWORD PTR ?spawnTile@@3USpawnTile@@A+20
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
+	mov	ecx, DWORD PTR _x$22[ebp]
 	imul	ecx, DWORD PTR ?spawnTile@@3USpawnTile@@A+16
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T9[ebp]
+	lea	ecx, DWORD PTR $T13[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
 	mov	DWORD PTR ?spawnTile@@3USpawnTile@@A, edx
@@ -23614,256 +28703,388 @@ $LN19@GenerateTi:
 	mov	DWORD PTR ?spawnTile@@3USpawnTile@@A+24, 4
 $LN20@GenerateTi:
 
-; 43   : 			if (tileMapGrid[y][x] == 5) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 5; tileMap.push_back(tempTile); }
+; 45   : 			if (tileMapGrid[y][x] == 5) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 5; tileMap.push_back(tempTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
 	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 5
 	jne	SHORT $LN21@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempTile$16[ebp+20]
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempTile$21[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempTile$16[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempTile$21[ebp+16]
+	cvtsi2sd xmm0, ecx
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR $T12[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR _tempTile$21[ebp], edx
+	mov	ecx, DWORD PTR [eax+4]
+	mov	DWORD PTR _tempTile$21[ebp+4], ecx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR _tempTile$21[ebp+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR _tempTile$21[ebp+12], eax
+	mov	DWORD PTR _tempTile$21[ebp+24], 5
+	lea	eax, DWORD PTR _tempTile$21[ebp]
+	push	eax
+	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+$LN21@GenerateTi:
+
+; 46   : 			if (tileMapGrid[y][x] == 6) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 6; tempTile.height = 5; tileMap.push_back(tempTile); }
+
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 6
+	jne	$LN22@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempTile$21[ebp+20]
+	add	eax, 5
+	cvtsi2sd xmm0, eax
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempTile$21[ebp+16]
+	cvtsi2sd xmm0, ecx
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR $T11[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR _tempTile$21[ebp], edx
+	mov	ecx, DWORD PTR [eax+4]
+	mov	DWORD PTR _tempTile$21[ebp+4], ecx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR _tempTile$21[ebp+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR _tempTile$21[ebp+12], eax
+	mov	DWORD PTR _tempTile$21[ebp+24], 6
+	mov	DWORD PTR _tempTile$21[ebp+20], 5
+	lea	eax, DWORD PTR _tempTile$21[ebp]
+	push	eax
+	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+$LN22@GenerateTi:
+
+; 47   : 			if (tileMapGrid[y][x] == 7) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
+
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 7
+	jne	$LN23@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempTile$21[ebp+20]
+	add	eax, 5
+	cvtsi2sd xmm0, eax
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempTile$21[ebp+16]
+	cvtsi2sd xmm0, ecx
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR $T10[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR _tempTile$21[ebp], edx
+	mov	ecx, DWORD PTR [eax+4]
+	mov	DWORD PTR _tempTile$21[ebp+4], ecx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR _tempTile$21[ebp+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR _tempTile$21[ebp+12], eax
+	mov	DWORD PTR _tempTile$21[ebp+24], 7
+	mov	DWORD PTR _tempTile$21[ebp+20], 5
+	lea	eax, DWORD PTR _tempTile$21[ebp]
+	push	eax
+	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+$LN23@GenerateTi:
+
+; 48   : 			if (tileMapGrid[y][x] == 8) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
+
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 8
+	jne	$LN24@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempTile$21[ebp+20]
+	cvtsi2sd xmm0, eax
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempTile$21[ebp+16]
+	cvtsi2sd xmm0, ecx
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR $T9[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR _tempTile$21[ebp], edx
+	mov	ecx, DWORD PTR [eax+4]
+	mov	DWORD PTR _tempTile$21[ebp+4], ecx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR _tempTile$21[ebp+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR _tempTile$21[ebp+12], eax
+	mov	DWORD PTR _tempTile$21[ebp+24], 7
+	mov	DWORD PTR _tempTile$21[ebp+20], 5
+	lea	eax, DWORD PTR _tempTile$21[ebp]
+	push	eax
+	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+$LN24@GenerateTi:
+
+; 49   : 			if (tileMapGrid[y][x] == 9) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
+
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 9
+	jne	SHORT $LN25@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempMovingTile$18[ebp+20]
+	cvtsi2sd xmm0, eax
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempMovingTile$18[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T8[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempTile$16[ebp], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempTile$16[ebp+4], ecx
+	mov	DWORD PTR _tempMovingTile$18[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempTile$16[ebp+8], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempTile$16[ebp+12], eax
-	mov	DWORD PTR _tempTile$16[ebp+24], 5
-	lea	eax, DWORD PTR _tempTile$16[ebp]
+	mov	DWORD PTR _tempMovingTile$18[ebp+12], eax
+	mov	DWORD PTR _tempMovingTile$18[ebp+24], 8
+	lea	eax, DWORD PTR _tempMovingTile$18[ebp]
 	push	eax
-	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
-	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN21@GenerateTi:
+	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
+	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
+$LN25@GenerateTi:
 
-; 44   : 			if (tileMapGrid[y][x] == 6) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 6; tempTile.height = 5; tileMap.push_back(tempTile); }
+; 50   : 			if (tileMapGrid[y][x] == 10) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, (y * tempMovingTile.tile.height) + 5); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 6
-	jne	$LN22@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempTile$16[ebp+20]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 10 ; 0000000aH
+	jne	$LN26@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempMovingTile$18[ebp+20]
 	add	eax, 5
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempTile$16[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempMovingTile$18[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T7[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempTile$16[ebp], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempTile$16[ebp+4], ecx
+	mov	DWORD PTR _tempMovingTile$18[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempTile$16[ebp+8], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempTile$16[ebp+12], eax
-	mov	DWORD PTR _tempTile$16[ebp+24], 6
-	mov	DWORD PTR _tempTile$16[ebp+20], 5
-	lea	eax, DWORD PTR _tempTile$16[ebp]
+	mov	DWORD PTR _tempMovingTile$18[ebp+12], eax
+	mov	DWORD PTR _tempMovingTile$18[ebp+20], 5
+	mov	DWORD PTR _tempMovingTile$18[ebp+24], 8
+	lea	eax, DWORD PTR _tempMovingTile$18[ebp]
 	push	eax
-	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
-	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN22@GenerateTi:
+	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
+	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
+$LN26@GenerateTi:
 
-; 45   : 			if (tileMapGrid[y][x] == 7) { tempTile.position = Vector2(x * tempTile.width, (y * tempTile.height) + 5); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
+; 51   : 			if (tileMapGrid[y][x] == 11) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 7
-	jne	$LN23@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempTile$16[ebp+20]
-	add	eax, 5
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 11 ; 0000000bH
+	jne	$LN27@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempMovingTile$18[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempTile$16[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempMovingTile$18[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T6[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempTile$16[ebp], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempTile$16[ebp+4], ecx
+	mov	DWORD PTR _tempMovingTile$18[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempTile$16[ebp+8], edx
+	mov	DWORD PTR _tempMovingTile$18[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempTile$16[ebp+12], eax
-	mov	DWORD PTR _tempTile$16[ebp+24], 7
-	mov	DWORD PTR _tempTile$16[ebp+20], 5
-	lea	eax, DWORD PTR _tempTile$16[ebp]
+	mov	DWORD PTR _tempMovingTile$18[ebp+12], eax
+	mov	DWORD PTR _tempMovingTile$18[ebp+20], 5
+	mov	DWORD PTR _tempMovingTile$18[ebp+24], 8
+	lea	eax, DWORD PTR _tempMovingTile$18[ebp]
 	push	eax
-	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
-	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN23@GenerateTi:
+	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
+	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
+$LN27@GenerateTi:
 
-; 46   : 			if (tileMapGrid[y][x] == 8) { tempTile.position = Vector2(x * tempTile.width, y * tempTile.height); tempTile.tileID = 7; tempTile.height = 5; tileMap.push_back(tempTile); }
+; 52   : 			if (tileMapGrid[y][x] == 12) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 1; airTileMap.push_back(tempAirTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 8
-	jne	$LN24@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempTile$16[ebp+20]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 12 ; 0000000cH
+	jne	SHORT $LN28@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempAirTile$20[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempTile$16[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempAirTile$20[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T5[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempTile$16[ebp], edx
+	mov	DWORD PTR _tempAirTile$20[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempTile$16[ebp+4], ecx
+	mov	DWORD PTR _tempAirTile$20[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempTile$16[ebp+8], edx
+	mov	DWORD PTR _tempAirTile$20[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempTile$16[ebp+12], eax
-	mov	DWORD PTR _tempTile$16[ebp+24], 7
-	mov	DWORD PTR _tempTile$16[ebp+20], 5
-	lea	eax, DWORD PTR _tempTile$16[ebp]
+	mov	DWORD PTR _tempAirTile$20[ebp+12], eax
+	mov	DWORD PTR _tempAirTile$20[ebp+32], 1
+	lea	eax, DWORD PTR _tempAirTile$20[ebp]
 	push	eax
-	mov	ecx, OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
-	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN24@GenerateTi:
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+$LN28@GenerateTi:
 
-; 47   : 			if (tileMapGrid[y][x] == 9) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
+; 53   : 			if (tileMapGrid[y][x] == 13) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 2; airTileMap.push_back(tempAirTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 9
-	jne	SHORT $LN25@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempMovingTile$14[ebp+20]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 13 ; 0000000dH
+	jne	SHORT $LN29@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempAirTile$20[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempMovingTile$14[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempAirTile$20[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T4[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempMovingTile$14[ebp], edx
+	mov	DWORD PTR _tempAirTile$20[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempMovingTile$14[ebp+4], ecx
+	mov	DWORD PTR _tempAirTile$20[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempMovingTile$14[ebp+8], edx
+	mov	DWORD PTR _tempAirTile$20[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempMovingTile$14[ebp+12], eax
-	mov	DWORD PTR _tempMovingTile$14[ebp+24], 8
-	lea	eax, DWORD PTR _tempMovingTile$14[ebp]
+	mov	DWORD PTR _tempAirTile$20[ebp+12], eax
+	mov	DWORD PTR _tempAirTile$20[ebp+32], 2
+	lea	eax, DWORD PTR _tempAirTile$20[ebp]
 	push	eax
-	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
-	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
-$LN25@GenerateTi:
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+$LN29@GenerateTi:
 
-; 48   : 			if (tileMapGrid[y][x] == 10) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, (y * tempMovingTile.tile.height) + 5); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
+; 54   : 			if (tileMapGrid[y][x] == 14) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 3; airTileMap.push_back(tempAirTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 10 ; 0000000aH
-	jne	$LN26@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempMovingTile$14[ebp+20]
-	add	eax, 5
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 14 ; 0000000eH
+	jne	SHORT $LN30@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempAirTile$20[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempMovingTile$14[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempAirTile$20[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T3[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempMovingTile$14[ebp], edx
+	mov	DWORD PTR _tempAirTile$20[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempMovingTile$14[ebp+4], ecx
+	mov	DWORD PTR _tempAirTile$20[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempMovingTile$14[ebp+8], edx
+	mov	DWORD PTR _tempAirTile$20[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempMovingTile$14[ebp+12], eax
-	mov	DWORD PTR _tempMovingTile$14[ebp+20], 5
-	mov	DWORD PTR _tempMovingTile$14[ebp+24], 8
-	lea	eax, DWORD PTR _tempMovingTile$14[ebp]
+	mov	DWORD PTR _tempAirTile$20[ebp+12], eax
+	mov	DWORD PTR _tempAirTile$20[ebp+32], 3
+	lea	eax, DWORD PTR _tempAirTile$20[ebp]
 	push	eax
-	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
-	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
-$LN26@GenerateTi:
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+$LN30@GenerateTi:
 
-; 49   : 			if (tileMapGrid[y][x] == 11) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
+; 55   : 			if (tileMapGrid[y][x] == 15) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 4; airTileMap.push_back(tempAirTile); }
 
-	imul	eax, DWORD PTR _y$18[ebp], 320
-	mov	ecx, DWORD PTR _x$17[ebp]
-	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 11 ; 0000000bH
-	jne	$LN27@GenerateTi
-	mov	eax, DWORD PTR _y$18[ebp]
-	imul	eax, DWORD PTR _tempMovingTile$14[ebp+20]
+	imul	eax, DWORD PTR _y$23[ebp], 320
+	mov	ecx, DWORD PTR _x$22[ebp]
+	cmp	DWORD PTR ?tileMapGrid@@3PAY0FA@HA[eax+ecx*4], 15 ; 0000000fH
+	jne	SHORT $LN31@GenerateTi
+	mov	eax, DWORD PTR _y$23[ebp]
+	imul	eax, DWORD PTR _tempAirTile$20[ebp+20]
 	cvtsi2sd xmm0, eax
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _x$17[ebp]
-	imul	ecx, DWORD PTR _tempMovingTile$14[ebp+16]
+	mov	ecx, DWORD PTR _x$22[ebp]
+	imul	ecx, DWORD PTR _tempAirTile$20[ebp+16]
 	cvtsi2sd xmm0, ecx
 	sub	esp, 8
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T2[ebp]
 	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
 	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR _tempMovingTile$14[ebp], edx
+	mov	DWORD PTR _tempAirTile$20[ebp], edx
 	mov	ecx, DWORD PTR [eax+4]
-	mov	DWORD PTR _tempMovingTile$14[ebp+4], ecx
+	mov	DWORD PTR _tempAirTile$20[ebp+4], ecx
 	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR _tempMovingTile$14[ebp+8], edx
+	mov	DWORD PTR _tempAirTile$20[ebp+8], edx
 	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR _tempMovingTile$14[ebp+12], eax
-	mov	DWORD PTR _tempMovingTile$14[ebp+20], 5
-	mov	DWORD PTR _tempMovingTile$14[ebp+24], 8
-	lea	eax, DWORD PTR _tempMovingTile$14[ebp]
+	mov	DWORD PTR _tempAirTile$20[ebp+12], eax
+	mov	DWORD PTR _tempAirTile$20[ebp+32], 4
+	lea	eax, DWORD PTR _tempAirTile$20[ebp]
 	push	eax
-	mov	ecx, OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
-	call	?push_back@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAEXABUMovingTile@@@Z ; std::vector<MovingTile,std::allocator<MovingTile> >::push_back
-$LN27@GenerateTi:
+	mov	ecx, OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	call	?push_back@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAEXABUAirTile@@@Z ; std::vector<AirTile,std::allocator<AirTile> >::push_back
+$LN31@GenerateTi:
 
-; 50   : 		}
+; 56   : 		}
 
 	jmp	$LN10@GenerateTi
 $LN11@GenerateTi:
 
-; 51   : 	}
+; 57   : 	}
 
 	jmp	$LN7@GenerateTi
 $LN8@GenerateTi:
 
-; 52   : }
+; 58   : }
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 	lea	ecx, DWORD PTR _intString$[ebp]
@@ -23877,7 +29098,7 @@ $LN8@GenerateTi:
 	push	edx
 	mov	ecx, ebp
 	push	eax
-	lea	edx, DWORD PTR $LN40@GenerateTi
+	lea	edx, DWORD PTR $LN45@GenerateTi
 	call	@_RTC_CheckStackVars@8
 	pop	eax
 	pop	edx
@@ -23890,36 +29111,39 @@ $LN8@GenerateTi:
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	xor	ecx, ebp
 	call	@__security_check_cookie@4
-	add	esp, 1152				; 00000480H
+	add	esp, 1304				; 00000518H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-	npad	2
-$LN40@GenerateTi:
-	DD	6
-	DD	$LN39@GenerateTi
-$LN39@GenerateTi:
+	npad	3
+$LN45@GenerateTi:
+	DD	7
+	DD	$LN44@GenerateTi
+$LN44@GenerateTi:
 	DD	-204					; ffffff34H
 	DD	184					; 000000b8H
-	DD	$LN32@GenerateTi
+	DD	$LN36@GenerateTi
 	DD	-240					; ffffff10H
 	DD	28					; 0000001cH
-	DD	$LN33@GenerateTi
+	DD	$LN37@GenerateTi
 	DD	-276					; fffffeecH
 	DD	28					; 0000001cH
-	DD	$LN34@GenerateTi
+	DD	$LN38@GenerateTi
 	DD	-376					; fffffe88H
 	DD	32					; 00000020H
-	DD	$LN35@GenerateTi
+	DD	$LN39@GenerateTi
 	DD	-432					; fffffe50H
 	DD	48					; 00000030H
-	DD	$LN36@GenerateTi
+	DD	$LN40@GenerateTi
 	DD	-488					; fffffe18H
 	DD	48					; 00000030H
-	DD	$LN37@GenerateTi
-$LN37@GenerateTi:
+	DD	$LN41@GenerateTi
+	DD	-544					; fffffde0H
+	DD	48					; 00000030H
+	DD	$LN42@GenerateTi
+$LN42@GenerateTi:
 	DB	116					; 00000074H
 	DB	101					; 00000065H
 	DB	109					; 0000006dH
@@ -23935,7 +29159,7 @@ $LN37@GenerateTi:
 	DB	108					; 0000006cH
 	DB	101					; 00000065H
 	DB	0
-$LN36@GenerateTi:
+$LN41@GenerateTi:
 	DB	116					; 00000074H
 	DB	101					; 00000065H
 	DB	109					; 0000006dH
@@ -23949,7 +29173,20 @@ $LN36@GenerateTi:
 	DB	108					; 0000006cH
 	DB	101					; 00000065H
 	DB	0
-$LN35@GenerateTi:
+$LN40@GenerateTi:
+	DB	116					; 00000074H
+	DB	101					; 00000065H
+	DB	109					; 0000006dH
+	DB	112					; 00000070H
+	DB	65					; 00000041H
+	DB	105					; 00000069H
+	DB	114					; 00000072H
+	DB	84					; 00000054H
+	DB	105					; 00000069H
+	DB	108					; 0000006cH
+	DB	101					; 00000065H
+	DB	0
+$LN39@GenerateTi:
 	DB	116					; 00000074H
 	DB	101					; 00000065H
 	DB	109					; 0000006dH
@@ -23959,7 +29196,7 @@ $LN35@GenerateTi:
 	DB	108					; 0000006cH
 	DB	101					; 00000065H
 	DB	0
-$LN34@GenerateTi:
+$LN38@GenerateTi:
 	DB	105					; 00000069H
 	DB	110					; 0000006eH
 	DB	116					; 00000074H
@@ -23970,12 +29207,12 @@ $LN34@GenerateTi:
 	DB	110					; 0000006eH
 	DB	103					; 00000067H
 	DB	0
-$LN33@GenerateTi:
+$LN37@GenerateTi:
 	DB	115					; 00000073H
 	DB	116					; 00000074H
 	DB	114					; 00000072H
 	DB	0
-$LN32@GenerateTi:
+$LN36@GenerateTi:
 	DB	102					; 00000066H
 	DB	105					; 00000069H
 	DB	108					; 0000006cH
@@ -23996,7 +29233,7 @@ __unwindfunclet$?GenerateTileMap@@YAXXZ$2:
 __ehhandler$?GenerateTileMap@@YAXXZ:
 	mov	edx, DWORD PTR [esp+8]
 	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-1156]
+	mov	ecx, DWORD PTR [edx-1308]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	ecx, DWORD PTR [edx-4]
@@ -27056,6 +32293,44 @@ _this$ = -8						; size = 4
 	pop	ebp
 	ret	0
 ??0SpawnTile@@QAE@XZ ENDP				; SpawnTile::SpawnTile
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0AirTile@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0AirTile@@QAE@XZ PROC					; AirTile::AirTile, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0Tile@@QAE@XZ
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+32], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR __real@3fe0000000000000
+	movsd	QWORD PTR [eax+40], xmm0
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0AirTile@@QAE@XZ ENDP					; AirTile::AirTile
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ??0MovingTile@@QAE@XZ
@@ -34617,7 +39892,7 @@ _TEXT	SEGMENT
 ___formal$ = 8						; size = 4
 ?__empty_global_delete@@YAXPAX@Z PROC			; __empty_global_delete, COMDAT
 
-; 96   : }
+; 115  : }
 
 	push	ebp
 	mov	ebp, esp

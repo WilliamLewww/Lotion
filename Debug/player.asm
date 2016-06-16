@@ -111,10 +111,14 @@ PUBLIC	?right@Player@@QAENXZ				; Player::right
 PUBLIC	??0Player@@QAE@XZ				; Player::Player
 PUBLIC	?UpdatePlayer@@YAXH@Z				; UpdatePlayer
 PUBLIC	?DrawPlayer@@YAXXZ				; DrawPlayer
-PUBLIC	?CheckCollision@@YA_NUTile@@@Z			; CheckCollision
-PUBLIC	?HandleCollision@@YAXUTile@@@Z			; HandleCollision
+PUBLIC	?ResetPlayer@@YAXXZ				; ResetPlayer
 PUBLIC	?CheckCollisionTop@@YA_NUTile@@@Z		; CheckCollisionTop
 PUBLIC	?CheckCollisionBottom@@YA_NUTile@@@Z		; CheckCollisionBottom
+PUBLIC	?CheckCollisionLeft@@YA_NUTile@@@Z		; CheckCollisionLeft
+PUBLIC	?CheckCollisionRight@@YA_NUTile@@@Z		; CheckCollisionRight
+PUBLIC	?CheckCollision@@YA_NUTile@@@Z			; CheckCollision
+PUBLIC	?HandleCollision@@YAXUTile@@@Z			; HandleCollision
+PUBLIC	?HandleBasicCollision@@YAXUTile@@@Z		; HandleBasicCollision
 PUBLIC	?FloatingMovement@@YAXM@Z			; FloatingMovement
 PUBLIC	??0?$allocator@UTile@@@std@@QAE@XZ		; std::allocator<Tile>::allocator<Tile>
 PUBLIC	?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ; std::allocator<Tile>::deallocate
@@ -192,6 +196,26 @@ PUBLIC	?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@st
 PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >
 PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@ABV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >
 PUBLIC	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+PUBLIC	?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ; std::vector<AirTile,std::allocator<AirTile> >::begin
+PUBLIC	?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ; std::vector<AirTile,std::allocator<AirTile> >::end
+PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>
+PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>
+PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+PUBLIC	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEABUAirTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+PUBLIC	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+PUBLIC	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator==
+PUBLIC	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator!=
+PUBLIC	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Compat
+PUBLIC	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+PUBLIC	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEAAUAirTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+PUBLIC	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::__autoclassinit2
 PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
 PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
 PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
@@ -218,6 +242,26 @@ PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@
 PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
 PUBLIC	??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
 PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Myfirst
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Mylast
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1>::_Get_second
+PUBLIC	?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ; std::vector<MovingTile,std::allocator<MovingTile> >::begin
+PUBLIC	?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ; std::vector<MovingTile,std::allocator<MovingTile> >::end
+PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
+PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
+PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+PUBLIC	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEABUMovingTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+PUBLIC	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+PUBLIC	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator==
+PUBLIC	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator!=
+PUBLIC	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Compat
+PUBLIC	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+PUBLIC	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+PUBLIC	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::__autoclassinit2
 PUBLIC	??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
 PUBLIC	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
 PUBLIC	??$_Move_unchecked@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Move_unchecked<Tile *,Tile *>
@@ -340,20 +384,26 @@ PUBLIC	?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; gr
 PUBLIC	??_C@_0BG@EIAGFEK@?4?4?1Content?1player?4bmp?$AA@ ; `string'
 PUBLIC	??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@ ; `string'
 PUBLIC	??_C@_1EI@HGIDLLCM@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAo?$AAu?$AAt?$AAs?$AAi?$AAd?$AAe?$AA?5?$AAr?$AAa@ ; `string'
+PUBLIC	??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@ ; `string'
+PUBLIC	??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ ; `string'
+PUBLIC	??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ ; `string'
+PUBLIC	??_C@_1OC@EGHAOCGO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ ; `string'
+PUBLIC	??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@ ; `string'
+PUBLIC	??_C@_1OA@POONEEJK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NM@NIBONEGJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NK@FNOHGEBE@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AAs?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AA?$AA@ ; `string'
 PUBLIC	??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@ ; `string'
 PUBLIC	??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@ ; `string'
 PUBLIC	??_C@_1LO@MGELDLOO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1MO@FIOFHBNA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
-PUBLIC	??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@ ; `string'
-PUBLIC	??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ ; `string'
-PUBLIC	??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ ; `string'
 PUBLIC	??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
-PUBLIC	??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ ; `string'
-PUBLIC	??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@ ; `string'
 PUBLIC	??_C@_1NE@MNCPAIHH@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NK@NBKKOKHK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ ; `string'
 PUBLIC	??_C@_1NG@COIFKLBO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1CO@DGLIKNHI@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$AA@ ; `string'
@@ -395,7 +445,9 @@ EXTRN	?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A:BYTE ; keyList
 EXTRN	?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A:BYTE ; pressKeyList
 EXTRN	?spawnTile@@3USpawnTile@@A:BYTE			; spawnTile
 EXTRN	?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A:BYTE ; tileMap
+EXTRN	?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A:BYTE ; airTileMap
 EXTRN	?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A:BYTE ; pushTileMap
+EXTRN	?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A:BYTE ; movingTileMap
 EXTRN	___security_cookie:DWORD
 EXTRN	__fltused:DWORD
 _BSS	SEGMENT
@@ -490,6 +542,48 @@ CONST	SEGMENT
 ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ DB 'vector<T> too long'
 	DB	00H						; `string'
 CONST	ENDS
+;	COMDAT ??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'A', 00H
+	DB	'i', 00H, 'r', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e', 00H, '>'
+	DB	00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H
+	DB	'_', 00H, 'C', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H, 't'
+	DB	00H, 00H, 00H				; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1NK@NBKKOKHK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NK@NBKKOKHK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'M', 00H
+	DB	'o', 00H, 'v', 00H, 'i', 00H, 'n', 00H, 'g', 00H, 'T', 00H, 'i'
+	DB	00H, 'l', 00H, 'e', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H
+	DB	'>', 00H, ':', 00H, ':', 00H, '_', 00H, 'C', 00H, 'o', 00H, 'm'
+	DB	00H, 'p', 00H, 'a', 00H, 't', 00H, 00H, 00H	; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
 ??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
@@ -553,23 +647,6 @@ CONST	SEGMENT
 	DB	'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, '*'
 	DB	00H, 00H, 00H				; `string'
 CONST	ENDS
-;	COMDAT ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
-CONST	SEGMENT
-??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@ DB 'v'
-	DB	00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H
-	DB	'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
-	DB	00H, 'r', 00H, ' ', 00H, 'n', 00H, 'o', 00H, 't', 00H, ' ', 00H
-	DB	'd', 00H, 'e', 00H, 'r', 00H, 'e', 00H, 'f', 00H, 'e', 00H, 'r'
-	DB	00H, 'e', 00H, 'n', 00H, 'c', 00H, 'a', 00H, 'b', 00H, 'l', 00H
-	DB	'e', 00H, 00H, 00H				; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
-CONST	SEGMENT
-??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ DB '"'
-	DB	00H, 'o', 00H, 'u', 00H, 't', 00H, ' ', 00H, 'o', 00H, 'f', 00H
-	DB	' ', 00H, 'r', 00H, 'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"'
-	DB	00H, 00H, 00H				; `string'
-CONST	ENDS
 ;	COMDAT ??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
 ??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
@@ -590,32 +667,6 @@ CONST	SEGMENT
 	DB	00H, '>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H, 'e', 00H
 	DB	'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, '+'
 	DB	00H, '+', 00H, 00H, 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
-CONST	SEGMENT
-??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ DB '"'
-	DB	00H, 'S', 00H, 't', 00H, 'a', 00H, 'n', 00H, 'd', 00H, 'a', 00H
-	DB	'r', 00H, 'd', 00H, ' ', 00H, 'C', 00H, '+', 00H, '+', 00H, ' '
-	DB	00H, 'L', 00H, 'i', 00H, 'b', 00H, 'r', 00H, 'a', 00H, 'r', 00H
-	DB	'i', 00H, 'e', 00H, 's', 00H, ' ', 00H, 'O', 00H, 'u', 00H, 't'
-	DB	00H, ' ', 00H, 'o', 00H, 'f', 00H, ' ', 00H, 'R', 00H, 'a', 00H
-	DB	'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, ' ', 00H, '&', 00H, '&'
-	DB	00H, ' ', 00H, '0', 00H, 00H, 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
-CONST	SEGMENT
-??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ DB 'Stand'
-	DB	'ard C++ Libraries Out of Range', 00H	; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
-CONST	SEGMENT
-??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@ DB 'v'
-	DB	00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H
-	DB	'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
-	DB	00H, 'r', 00H, ' ', 00H, 'n', 00H, 'o', 00H, 't', 00H, ' ', 00H
-	DB	'i', 00H, 'n', 00H, 'c', 00H, 'r', 00H, 'e', 00H, 'm', 00H, 'e'
-	DB	00H, 'n', 00H, 't', 00H, 'a', 00H, 'b', 00H, 'l', 00H, 'e', 00H
-	DB	00H, 00H					; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1MO@FIOFHBNA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
@@ -681,6 +732,135 @@ CONST	SEGMENT
 	DB	00H, 'r', 00H, 's', 00H, ' ', 00H, 'i', 00H, 'n', 00H, 'c', 00H
 	DB	'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H, 't', 00H, 'i', 00H, 'b'
 	DB	00H, 'l', 00H, 'e', 00H, 00H, 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1NK@FNOHGEBE@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NK@FNOHGEBE@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'A', 00H
+	DB	'i', 00H, 'r', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e', 00H, '>'
+	DB	00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H
+	DB	'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
+	DB	00H, 'r', 00H, ' ', 00H, '*', 00H, 00H, 00H	; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1NM@NIBONEGJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NM@NIBONEGJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'A', 00H
+	DB	'i', 00H, 'r', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e', 00H, '>'
+	DB	00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H
+	DB	'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
+	DB	00H, 'r', 00H, ' ', 00H, '+', 00H, '+', 00H, 00H, 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1OA@POONEEJK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1OA@POONEEJK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'M', 00H
+	DB	'o', 00H, 'v', 00H, 'i', 00H, 'n', 00H, 'g', 00H, 'T', 00H, 'i'
+	DB	00H, 'l', 00H, 'e', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H
+	DB	'>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r'
+	DB	00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, '*', 00H
+	DB	00H, 00H					; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
+CONST	SEGMENT
+??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@ DB 'v'
+	DB	00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H
+	DB	'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
+	DB	00H, 'r', 00H, ' ', 00H, 'n', 00H, 'o', 00H, 't', 00H, ' ', 00H
+	DB	'd', 00H, 'e', 00H, 'r', 00H, 'e', 00H, 'f', 00H, 'e', 00H, 'r'
+	DB	00H, 'e', 00H, 'n', 00H, 'c', 00H, 'a', 00H, 'b', 00H, 'l', 00H
+	DB	'e', 00H, 00H, 00H				; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+CONST	SEGMENT
+??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@ DB '"'
+	DB	00H, 'o', 00H, 'u', 00H, 't', 00H, ' ', 00H, 'o', 00H, 'f', 00H
+	DB	' ', 00H, 'r', 00H, 'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"'
+	DB	00H, 00H, 00H				; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1OC@EGHAOCGO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1OC@EGHAOCGO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'M', 00H
+	DB	'o', 00H, 'v', 00H, 'i', 00H, 'n', 00H, 'g', 00H, 'T', 00H, 'i'
+	DB	00H, 'l', 00H, 'e', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H
+	DB	'>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r'
+	DB	00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, '+', 00H
+	DB	'+', 00H, 00H, 00H				; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+CONST	SEGMENT
+??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@ DB '"'
+	DB	00H, 'S', 00H, 't', 00H, 'a', 00H, 'n', 00H, 'd', 00H, 'a', 00H
+	DB	'r', 00H, 'd', 00H, ' ', 00H, 'C', 00H, '+', 00H, '+', 00H, ' '
+	DB	00H, 'L', 00H, 'i', 00H, 'b', 00H, 'r', 00H, 'a', 00H, 'r', 00H
+	DB	'i', 00H, 'e', 00H, 's', 00H, ' ', 00H, 'O', 00H, 'u', 00H, 't'
+	DB	00H, ' ', 00H, 'o', 00H, 'f', 00H, ' ', 00H, 'R', 00H, 'a', 00H
+	DB	'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, ' ', 00H, '&', 00H, '&'
+	DB	00H, ' ', 00H, '0', 00H, 00H, 00H		; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+CONST	SEGMENT
+??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@ DB 'Stand'
+	DB	'ard C++ Libraries Out of Range', 00H	; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
+CONST	SEGMENT
+??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@ DB 'v'
+	DB	00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H
+	DB	'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o'
+	DB	00H, 'r', 00H, ' ', 00H, 'n', 00H, 'o', 00H, 't', 00H, ' ', 00H
+	DB	'i', 00H, 'n', 00H, 'c', 00H, 'r', 00H, 'e', 00H, 'm', 00H, 'e'
+	DB	00H, 'n', 00H, 't', 00H, 'a', 00H, 'b', 00H, 'l', 00H, 'e', 00H
+	DB	00H, 00H					; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1EI@HGIDLLCM@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAo?$AAu?$AAt?$AAs?$AAi?$AAd?$AAe?$AA?5?$AAr?$AAa@
 CONST	SEGMENT
@@ -1137,6 +1317,38 @@ __ehfuncinfo$??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
+__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z$0
+__ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
 __unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z$0
 __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 019930522H
@@ -1146,6 +1358,38 @@ __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@
 	DD	2 DUP(00H)
 	DD	00H
 	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z$0
+__ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -1396,7 +1640,7 @@ xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
 __ehfuncinfo$?UpdatePlayer@@YAXH@Z DD 019930522H
-	DD	01dH
+	DD	023H
 	DD	FLAT:__unwindtable$?UpdatePlayer@@YAXH@Z
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
@@ -1418,48 +1662,60 @@ __unwindtable$?UpdatePlayer@@YAXH@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$14
 	DD	06H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$17
-	DD	07H
+	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$18
 	DD	08H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$21
-	DD	0ffffffffH
+	DD	09H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$22
 	DD	0aH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$25
-	DD	0bH
+	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$26
 	DD	0cH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$29
-	DD	0ffffffffH
+	DD	0dH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$30
 	DD	0eH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$33
 	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$34
 	DD	010H
-	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$37
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$35
 	DD	0ffffffffH
-	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$38
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$36
 	DD	012H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$39
 	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$40
 	DD	014H
-	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$41
-	DD	015H
-	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$42
-	DD	014H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$43
-	DD	017H
+	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$44
-	DD	018H
+	DD	016H
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$45
-	DD	019H
+	DD	0ffffffffH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$46
+	DD	018H
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$47
+	DD	0ffffffffH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$48
 	DD	01aH
 	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$49
-	DD	019H
-	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$49
+	DD	01bH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$50
+	DD	01aH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$51
+	DD	01dH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$52
+	DD	01eH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$53
+	DD	01fH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$54
+	DD	020H
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$57
+	DD	01fH
+	DD	FLAT:__unwindfunclet$?UpdatePlayer@@YAXH@Z$57
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -7019,6 +7275,1174 @@ __ehhandler$??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@
 text$x	ENDS
 ??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ENDP ; std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
 ; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::__autoclassinit2, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _classSize$[ebp]
+	push	eax
+	push	0
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	_memset
+	add	esp, 12					; 0000000cH
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 334  : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 335  : 		++*(_Mybase *)this;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+
+; 336  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 337  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 324  : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 325  : 		return ((reference)**(_Mybase *)this);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEABUMovingTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+
+; 326  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >, COMDAT
+; _this$ = ecx
+
+; 307  : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 306  : 		: _Mybase(_Parg, _Pvector)
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+
+; 308  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEXABV12@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEXABV12@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Compat, COMDAT
+; _this$ = ecx
+
+; 239  : 		{	// test for compatible iterator pair
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 240  : 		if (this->_Getcont() != _Right._Getcont())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	esi, eax
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	cmp	esi, eax
+	je	$LN1@Compat
+
+; 241  : 			{
+; 242  : 			_DEBUG_ERROR("vector iterators incompatible");
+
+	mov	esi, esp
+	push	242					; 000000f2H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AAs?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AA?$AA@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 243  : 			_SCL_SECURE_INVALID_ARGUMENT;
+
+	mov	eax, OFFSET ??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@
+	test	eax, eax
+	je	SHORT $LN4@Compat
+	xor	ecx, ecx
+	jne	SHORT $LN5@Compat
+$LN4@Compat:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN5@Compat
+	int	3
+$LN5@Compat:
+	mov	esi, esp
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NK@NBKKOKHK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN1@Compat:
+
+; 244  : 			}
+; 245  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEXABV12@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Compat
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator!=, COMDAT
+; _this$ = ecx
+
+; 212  : 		{	// test for iterator inequality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 213  : 		return (!(*this == _Right));
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator==
+	movzx	ecx, al
+	test	ecx, ecx
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 214  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator!=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator==, COMDAT
+; _this$ = ecx
+
+; 206  : 		{	// test for iterator equality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 207  : 		_Compat(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Compat
+
+; 208  : 		return (_Ptr == _Right._Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Right$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 209  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator==
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 95   : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 96   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 97   : 		if (this->_Getcont() == 0
+; 98   : 			|| _Ptr == 0
+; 99   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 100  : 			{	// report error
+; 101  : 			_DEBUG_ERROR("vector iterator not incrementable");
+
+	mov	esi, esp
+	push	101					; 00000065H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 102  : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1OC@EGHAOCGO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 103  : 			}
+; 104  : 
+; 105  :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 106  : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 107  : 		_SCL_SECURE_VALIDATE_RANGE(
+; 108  : 			_Ptr != _Tptr()
+; 109  : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 110  :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 111  : 
+; 112  : 		++_Ptr;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+8]
+	add	ecx, 48					; 00000030H
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [edx+8], ecx
+
+; 113  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 114  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEABUMovingTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEABUMovingTile@@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 65   : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 66   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 67   : 		if (this->_Getcont() == 0
+; 68   : 			|| _Ptr == 0
+; 69   : 			|| _Ptr < ((_Myvec *)this->_Getcont())->_Myfirst
+; 70   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	cmp	edx, DWORD PTR [eax+4]
+	jb	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 71   : 			{	// report error
+; 72   : 			_DEBUG_ERROR("vector iterator not dereferencable");
+
+	mov	esi, esp
+	push	72					; 00000048H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 73   : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1OA@POONEEJK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 74   : 			}
+; 75   : 
+; 76   :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 77   : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 78   : 		_SCL_SECURE_VALIDATE_RANGE(
+; 79   : 			_Ptr != _Tptr()
+; 80   : 			&& ((_Myvec *)this->_Getcont())->_Myfirst <= _Ptr
+; 81   : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 82   :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 83   : 
+; 84   : 		_Analysis_assume_(_Ptr != _Tptr());
+; 85   : 
+; 86   : 		return (*_Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+8]
+
+; 87   : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEABUMovingTile@@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >, COMDAT
+; _this$ = ecx
+
+; 47   : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 46   : 		: _Ptr(_Parg)
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	mov	DWORD PTR [eax+8], ecx
+
+; 48   : 		this->_Adopt(_Pvector);
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z ; std::_Iterator_base12::_Adopt
+
+; 49   : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::~_Iterator_base12
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::_Iterator_base12
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UMovingTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,MovingTile,int,MovingTile const *,MovingTile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ PROC ; std::vector<MovingTile,std::allocator<MovingTile> >::end, COMDAT
+; _this$ = ecx
+
+; 1070 : 		{	// return iterator for end of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1071 : 		return (iterator(this->_Mylast(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1072 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ENDP ; std::vector<MovingTile,std::allocator<MovingTile> >::end
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ PROC ; std::vector<MovingTile,std::allocator<MovingTile> >::begin, COMDAT
+; _this$ = ecx
+
+; 1060 : 		{	// return iterator for beginning of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1061 : 		return (iterator(this->_Myfirst(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Myfirst
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@PAUMovingTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1062 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ENDP ; std::vector<MovingTile,std::allocator<MovingTile> >::begin
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 313  : 		{	// return reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 314  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 315  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 655  : 		{	// return reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 656  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+	add	eax, 8
+
+; 657  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 645  : 		{	// return reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 646  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+	add	eax, 4
+
+; 647  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 635  : 		{	// return reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 636  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UMovingTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<MovingTile> >,std::_Vector_val<std::_Simple_types<MovingTile> >,1>::_Get_second
+
+; 637  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -8351,6 +9775,1174 @@ _this$ = -8						; size = 4
 ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::__autoclassinit2, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _classSize$[ebp]
+	push	eax
+	push	0
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	_memset
+	add	esp, 12					; 0000000cH
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 334  : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 335  : 		++*(_Mybase *)this;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+
+; 336  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 337  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEAAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEAAUAirTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 324  : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 325  : 		return ((reference)**(_Mybase *)this);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEABUAirTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+
+; 326  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEAAUAirTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >, COMDAT
+; _this$ = ecx
+
+; 307  : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 306  : 		: _Mybase(_Parg, _Pvector)
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+
+; 308  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEXABV12@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEXABV12@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Compat, COMDAT
+; _this$ = ecx
+
+; 239  : 		{	// test for compatible iterator pair
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 240  : 		if (this->_Getcont() != _Right._Getcont())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	esi, eax
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	cmp	esi, eax
+	je	$LN1@Compat
+
+; 241  : 			{
+; 242  : 			_DEBUG_ERROR("vector iterators incompatible");
+
+	mov	esi, esp
+	push	242					; 000000f2H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AAs?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AA?$AA@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 243  : 			_SCL_SECURE_INVALID_ARGUMENT;
+
+	mov	eax, OFFSET ??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@
+	test	eax, eax
+	je	SHORT $LN4@Compat
+	xor	ecx, ecx
+	jne	SHORT $LN5@Compat
+$LN4@Compat:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN5@Compat
+	int	3
+$LN5@Compat:
+	mov	esi, esp
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN1@Compat:
+
+; 244  : 			}
+; 245  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEXABV12@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Compat
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator!=, COMDAT
+; _this$ = ecx
+
+; 212  : 		{	// test for iterator inequality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 213  : 		return (!(*this == _Right));
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator==
+	movzx	ecx, al
+	test	ecx, ecx
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 214  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator!=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator==, COMDAT
+; _this$ = ecx
+
+; 206  : 		{	// test for iterator equality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 207  : 		_Compat(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Compat
+
+; 208  : 		return (_Ptr == _Right._Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Right$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 209  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator==
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 95   : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 96   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 97   : 		if (this->_Getcont() == 0
+; 98   : 			|| _Ptr == 0
+; 99   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 100  : 			{	// report error
+; 101  : 			_DEBUG_ERROR("vector iterator not incrementable");
+
+	mov	esi, esp
+	push	101					; 00000065H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 102  : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NM@NIBONEGJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 103  : 			}
+; 104  : 
+; 105  :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 106  : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 107  : 		_SCL_SECURE_VALIDATE_RANGE(
+; 108  : 			_Ptr != _Tptr()
+; 109  : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 110  :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 111  : 
+; 112  : 		++_Ptr;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+8]
+	add	ecx, 48					; 00000030H
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [edx+8], ecx
+
+; 113  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 114  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEABUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEABUAirTile@@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 65   : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 66   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 67   : 		if (this->_Getcont() == 0
+; 68   : 			|| _Ptr == 0
+; 69   : 			|| _Ptr < ((_Myvec *)this->_Getcont())->_Myfirst
+; 70   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	cmp	edx, DWORD PTR [eax+4]
+	jb	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 71   : 			{	// report error
+; 72   : 			_DEBUG_ERROR("vector iterator not dereferencable");
+
+	mov	esi, esp
+	push	72					; 00000048H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 73   : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NK@FNOHGEBE@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 74   : 			}
+; 75   : 
+; 76   :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 77   : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 78   : 		_SCL_SECURE_VALIDATE_RANGE(
+; 79   : 			_Ptr != _Tptr()
+; 80   : 			&& ((_Myvec *)this->_Getcont())->_Myfirst <= _Ptr
+; 81   : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 82   :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 83   : 
+; 84   : 		_Analysis_assume_(_Ptr != _Tptr());
+; 85   : 
+; 86   : 		return (*_Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+8]
+
+; 87   : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEABUAirTile@@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >, COMDAT
+; _this$ = ecx
+
+; 47   : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 46   : 		: _Ptr(_Parg)
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	mov	DWORD PTR [eax+8], ecx
+
+; 48   : 		this->_Adopt(_Pvector);
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z ; std::_Iterator_base12::_Adopt
+
+; 49   : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::~_Iterator_base12
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::_Iterator_base12
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UAirTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,AirTile,int,AirTile const *,AirTile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::end, COMDAT
+; _this$ = ecx
+
+; 1070 : 		{	// return iterator for end of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1071 : 		return (iterator(this->_Mylast(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1072 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::end
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ PROC ; std::vector<AirTile,std::allocator<AirTile> >::begin, COMDAT
+; _this$ = ecx
+
+; 1060 : 		{	// return iterator for beginning of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1061 : 		return (iterator(this->_Myfirst(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1062 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ENDP ; std::vector<AirTile,std::allocator<AirTile> >::begin
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 313  : 		{	// return reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 314  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 315  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 655  : 		{	// return reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 656  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 8
+
+; 657  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 645  : 		{	// return reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 646  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+	add	eax, 4
+
+; 647  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAPAUAirTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 635  : 		{	// return reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 636  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UAirTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<AirTile> >,std::_Vector_val<std::_Simple_types<AirTile> >,1>::_Get_second
+
+; 637  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<AirTile,std::allocator<AirTile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
 ;	COMDAT ??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z
 _TEXT	SEGMENT
@@ -9589,7 +12181,7 @@ text$yd	ENDS
 text$di	SEGMENT
 ??__EgroundTileList@@YAXXZ PROC				; `dynamic initializer for 'groundTileList'', COMDAT
 
-; 11   : std::vector<Tile> groundTileList;
+; 17   : std::vector<Tile> groundTileList;
 
 	push	ebp
 	mov	ebp, esp
@@ -13440,7 +16032,7 @@ __$EHRec$ = -12						; size = 12
 _deltaTimeS$ = 8					; size = 4
 ?FloatingMovement@@YAXM@Z PROC				; FloatingMovement, COMDAT
 
-; 92   : void FloatingMovement(float deltaTimeS) {
+; 135  : void FloatingMovement(float deltaTimeS) {
 
 	push	ebp
 	mov	ebp, esp
@@ -13463,17 +16055,17 @@ _deltaTimeS$ = 8					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR $T2[ebp], 0
 
-; 93   : 	player.velocityX = 0;
+; 136  : 	player.velocityX = 0;
 
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 
-; 94   : 	player.velocityY = 0;
+; 137  : 	player.velocityY = 0;
 
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 
-; 95   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LEFT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) == keyList.end()) player.velocityX = -player.speed * deltaTimeS;
+; 138  : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LEFT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) == keyList.end()) player.velocityX = -player.speed * deltaTimeS;
 
 	mov	DWORD PTR $T45[ebp], 1073741904		; 40000050H
 	lea	eax, DWORD PTR $T41[ebp]
@@ -13618,7 +16210,7 @@ $LN30@FloatingMo:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 $LN2@FloatingMo:
 
-; 96   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_LEFT) == keyList.end()) player.velocityX = player.speed * deltaTimeS;
+; 139  : 	if (std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_LEFT) == keyList.end()) player.velocityX = player.speed * deltaTimeS;
 
 	mov	DWORD PTR $T34[ebp], 1073741903		; 4000004fH
 	lea	eax, DWORD PTR $T30[ebp]
@@ -13761,7 +16353,7 @@ $LN46@FloatingMo:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 $LN3@FloatingMo:
 
-; 97   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_UP) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_DOWN) == keyList.end()) player.velocityY = -player.speed * deltaTimeS;
+; 140  : 	if (std::find(keyList.begin(), keyList.end(), SDLK_UP) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_DOWN) == keyList.end()) player.velocityY = -player.speed * deltaTimeS;
 
 	mov	DWORD PTR $T23[ebp], 1073741906		; 40000052H
 	lea	eax, DWORD PTR $T19[ebp]
@@ -13906,7 +16498,7 @@ $LN62@FloatingMo:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 $LN4@FloatingMo:
 
-; 98   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_DOWN) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_UP) == keyList.end()) player.velocityY = player.speed * deltaTimeS;
+; 141  : 	if (std::find(keyList.begin(), keyList.end(), SDLK_DOWN) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_UP) == keyList.end()) player.velocityY = player.speed * deltaTimeS;
 
 	mov	DWORD PTR $T12[ebp], 1073741905		; 40000051H
 	lea	eax, DWORD PTR $T8[ebp]
@@ -14049,7 +16641,7 @@ $LN78@FloatingMo:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 $LN5@FloatingMo:
 
-; 99   : }
+; 142  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -14222,6 +16814,934 @@ text$x	ENDS
 ?FloatingMovement@@YAXM@Z ENDP				; FloatingMovement
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\player.cpp
+;	COMDAT ?HandleBasicCollision@@YAXUTile@@@Z
+_TEXT	SEGMENT
+tv223 = -344						; size = 8
+tv205 = -344						; size = 8
+tv197 = -344						; size = 8
+tv184 = -344						; size = 8
+tv176 = -344						; size = 8
+tv247 = -336						; size = 8
+tv245 = -336						; size = 8
+tv243 = -336						; size = 8
+tv241 = -336						; size = 8
+tv239 = -336						; size = 8
+tv217 = -328						; size = 8
+tv201 = -328						; size = 8
+tv193 = -328						; size = 8
+tv180 = -328						; size = 8
+tv172 = -328						; size = 8
+$T1 = -316						; size = 16
+$T2 = -292						; size = 16
+$T3 = -268						; size = 16
+$T4 = -244						; size = 16
+_overlapY$ = -28					; size = 8
+_overlapX$ = -12					; size = 8
+_tile$ = 8						; size = 32
+?HandleBasicCollision@@YAXUTile@@@Z PROC		; HandleBasicCollision, COMDAT
+
+; 181  : void HandleBasicCollision(Tile tile) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 344				; 00000158H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-344]
+	mov	ecx, 86					; 00000056H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 182  : 	double overlapX, overlapY;
+; 183  : 	if (player.midpoint().x > tile.midpoint().x) overlapX = tile.right() - player.left();
+
+	lea	eax, DWORD PTR $T4[ebp]
+	push	eax
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
+	mov	esi, eax
+	lea	ecx, DWORD PTR $T3[ebp]
+	push	ecx
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
+	movsd	xmm0, QWORD PTR [esi]
+	comisd	xmm0, QWORD PTR [eax]
+	jbe	SHORT $LN2@HandleBasi
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv172[ebp]
+	movsd	xmm0, QWORD PTR tv172[ebp]
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	movsd	QWORD PTR tv239[ebp], xmm0
+	call	?left@Player@@QAENXZ			; Player::left
+	fstp	QWORD PTR tv176[ebp]
+	movsd	xmm0, QWORD PTR tv239[ebp]
+	subsd	xmm0, QWORD PTR tv176[ebp]
+	movsd	QWORD PTR _overlapX$[ebp], xmm0
+	jmp	SHORT $LN3@HandleBasi
+$LN2@HandleBasi:
+
+; 184  : 	else overlapX = -(player.right() - tile.left());
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?right@Player@@QAENXZ			; Player::right
+	fstp	QWORD PTR tv180[ebp]
+	movsd	xmm0, QWORD PTR tv180[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv241[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv184[ebp]
+	movsd	xmm0, QWORD PTR tv241[ebp]
+	subsd	xmm0, QWORD PTR tv184[ebp]
+	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
+	movsd	QWORD PTR _overlapX$[ebp], xmm0
+$LN3@HandleBasi:
+
+; 185  : 	if (player.midpoint().y > tile.midpoint().y) overlapY = tile.bottom() - player.top();
+
+	lea	eax, DWORD PTR $T2[ebp]
+	push	eax
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
+	mov	esi, eax
+	lea	ecx, DWORD PTR $T1[ebp]
+	push	ecx
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
+	movsd	xmm0, QWORD PTR [esi+8]
+	comisd	xmm0, QWORD PTR [eax+8]
+	jbe	SHORT $LN4@HandleBasi
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv193[ebp]
+	movsd	xmm0, QWORD PTR tv193[ebp]
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	movsd	QWORD PTR tv243[ebp], xmm0
+	call	?top@Player@@QAENXZ			; Player::top
+	fstp	QWORD PTR tv197[ebp]
+	movsd	xmm0, QWORD PTR tv243[ebp]
+	subsd	xmm0, QWORD PTR tv197[ebp]
+	movsd	QWORD PTR _overlapY$[ebp], xmm0
+	jmp	SHORT $LN5@HandleBasi
+$LN4@HandleBasi:
+
+; 186  : 	else overlapY = -(player.bottom() - tile.top());
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?bottom@Player@@QAENXZ			; Player::bottom
+	fstp	QWORD PTR tv201[ebp]
+	movsd	xmm0, QWORD PTR tv201[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv245[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv205[ebp]
+	movsd	xmm0, QWORD PTR tv245[ebp]
+	subsd	xmm0, QWORD PTR tv205[ebp]
+	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
+	movsd	QWORD PTR _overlapY$[ebp], xmm0
+$LN5@HandleBasi:
+
+; 187  : 
+; 188  : 	if (overlapX != 0 && overlapY != 0) {
+
+	movsd	xmm0, QWORD PTR _overlapX$[ebp]
+	ucomisd	xmm0, QWORD PTR __real@0000000000000000
+	lahf
+	test	ah, 68					; 00000044H
+	jnp	$LN8@HandleBasi
+	movsd	xmm0, QWORD PTR _overlapY$[ebp]
+	ucomisd	xmm0, QWORD PTR __real@0000000000000000
+	lahf
+	test	ah, 68					; 00000044H
+	jnp	$LN8@HandleBasi
+
+; 189  : 		if (abs(overlapY) < abs(overlapX)) {
+
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	call	?abs@@YANN@Z				; abs
+	add	esp, 8
+	fstp	QWORD PTR tv217[ebp]
+	movsd	xmm0, QWORD PTR tv217[ebp]
+	sub	esp, 8
+	movsd	xmm1, QWORD PTR _overlapX$[ebp]
+	movsd	QWORD PTR [esp], xmm1
+	movsd	QWORD PTR tv247[ebp], xmm0
+	call	?abs@@YANN@Z				; abs
+	add	esp, 8
+	fstp	QWORD PTR tv223[ebp]
+	movsd	xmm0, QWORD PTR tv223[ebp]
+	movsd	xmm1, QWORD PTR tv247[ebp]
+	comisd	xmm0, xmm1
+	jbe	$LN7@HandleBasi
+
+; 190  : 			if (overlapY < 0) {
+
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	comisd	xmm0, QWORD PTR _overlapY$[ebp]
+	jbe	SHORT $LN9@HandleBasi
+
+; 191  : 				if (player.velocityY > 0) {
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
+	comisd	xmm0, QWORD PTR __real@0000000000000000
+	jbe	SHORT $LN11@HandleBasi
+
+; 192  : 					player.onGround = true;
+
+	mov	BYTE PTR ?player@@3UPlayer@@A+24, 1
+
+; 193  : 					player.position.y += overlapY; player.velocityY = 0;
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	addsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
+$LN11@HandleBasi:
+
+; 194  : 				}
+; 195  : 			}
+; 196  : 			else {
+
+	jmp	SHORT $LN13@HandleBasi
+$LN9@HandleBasi:
+
+; 197  : 				if (player.velocityY < 0) {
+
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	comisd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
+	jbe	SHORT $LN13@HandleBasi
+
+; 198  : 					if (CheckCollisionBottom(tile)) { player.position.y += overlapY; player.velocityY = 0; }
+
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	lea	esi, DWORD PTR _tile$[ebp]
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionBottom@@YA_NUTile@@@Z	; CheckCollisionBottom
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN13@HandleBasi
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	addsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
+$LN13@HandleBasi:
+
+; 199  : 				}
+; 200  : 			}
+; 201  : 		}
+; 202  : 		else {
+
+	jmp	SHORT $LN8@HandleBasi
+$LN7@HandleBasi:
+
+; 203  : 			player.position.x += overlapX; player.velocityX = 0;
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
+	addsd	xmm0, QWORD PTR _overlapX$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
+$LN8@HandleBasi:
+
+; 204  : 		}
+; 205  : 	}
+; 206  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 344				; 00000158H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?HandleBasicCollision@@YAXUTile@@@Z ENDP		; HandleBasicCollision
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\player.cpp
+;	COMDAT ?HandleCollision@@YAXUTile@@@Z
+_TEXT	SEGMENT
+tv185 = -433						; size = 1
+tv287 = -432						; size = 8
+tv269 = -432						; size = 8
+tv261 = -432						; size = 8
+tv248 = -432						; size = 8
+tv240 = -432						; size = 8
+tv217 = -432						; size = 4
+tv151 = -428						; size = 4
+tv333 = -424						; size = 8
+tv331 = -424						; size = 8
+tv329 = -424						; size = 8
+tv327 = -424						; size = 8
+tv325 = -424						; size = 8
+tv215 = -424						; size = 4
+tv212 = -420						; size = 4
+tv281 = -416						; size = 8
+tv265 = -416						; size = 8
+tv257 = -416						; size = 8
+tv244 = -416						; size = 8
+tv236 = -416						; size = 8
+tv208 = -416						; size = 4
+tv218 = -412						; size = 4
+$T2 = -404						; size = 12
+$T3 = -384						; size = 12
+$T4 = -364						; size = 4
+$T5 = -352						; size = 4
+$T6 = -337						; size = 1
+$T7 = -328						; size = 16
+$T8 = -304						; size = 16
+$T9 = -280						; size = 16
+$T10 = -256						; size = 16
+_overlapY$ = -40					; size = 8
+_overlapX$ = -24					; size = 8
+__$EHRec$ = -12						; size = 12
+_tile$ = 8						; size = 32
+?HandleCollision@@YAXUTile@@@Z PROC			; HandleCollision, COMDAT
+
+; 208  : void HandleCollision(Tile tile) {
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?HandleCollision@@YAXUTile@@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 424				; 000001a8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-436]
+	mov	ecx, 106				; 0000006aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+
+; 209  : 	double overlapX, overlapY;
+; 210  : 	if (player.midpoint().x > tile.midpoint().x) overlapX = tile.right() - player.left();
+
+	lea	eax, DWORD PTR $T10[ebp]
+	push	eax
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
+	mov	esi, eax
+	lea	ecx, DWORD PTR $T9[ebp]
+	push	ecx
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
+	movsd	xmm0, QWORD PTR [esi]
+	comisd	xmm0, QWORD PTR [eax]
+	jbe	SHORT $LN2@HandleColl
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv236[ebp]
+	movsd	xmm0, QWORD PTR tv236[ebp]
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	movsd	QWORD PTR tv325[ebp], xmm0
+	call	?left@Player@@QAENXZ			; Player::left
+	fstp	QWORD PTR tv240[ebp]
+	movsd	xmm0, QWORD PTR tv325[ebp]
+	subsd	xmm0, QWORD PTR tv240[ebp]
+	movsd	QWORD PTR _overlapX$[ebp], xmm0
+	jmp	SHORT $LN3@HandleColl
+$LN2@HandleColl:
+
+; 211  : 	else overlapX = -(player.right() - tile.left());
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?right@Player@@QAENXZ			; Player::right
+	fstp	QWORD PTR tv244[ebp]
+	movsd	xmm0, QWORD PTR tv244[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv327[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv248[ebp]
+	movsd	xmm0, QWORD PTR tv327[ebp]
+	subsd	xmm0, QWORD PTR tv248[ebp]
+	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
+	movsd	QWORD PTR _overlapX$[ebp], xmm0
+$LN3@HandleColl:
+
+; 212  : 	if (player.midpoint().y > tile.midpoint().y) overlapY = tile.bottom() - player.top();
+
+	lea	eax, DWORD PTR $T8[ebp]
+	push	eax
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
+	mov	esi, eax
+	lea	ecx, DWORD PTR $T7[ebp]
+	push	ecx
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
+	movsd	xmm0, QWORD PTR [esi+8]
+	comisd	xmm0, QWORD PTR [eax+8]
+	jbe	SHORT $LN4@HandleColl
+	lea	ecx, DWORD PTR _tile$[ebp]
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv257[ebp]
+	movsd	xmm0, QWORD PTR tv257[ebp]
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	movsd	QWORD PTR tv329[ebp], xmm0
+	call	?top@Player@@QAENXZ			; Player::top
+	fstp	QWORD PTR tv261[ebp]
+	movsd	xmm0, QWORD PTR tv329[ebp]
+	subsd	xmm0, QWORD PTR tv261[ebp]
+	movsd	QWORD PTR _overlapY$[ebp], xmm0
+	jmp	SHORT $LN5@HandleColl
+$LN4@HandleColl:
+
+; 213  : 	else overlapY = -(player.bottom() - tile.top());
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?bottom@Player@@QAENXZ			; Player::bottom
+	fstp	QWORD PTR tv265[ebp]
+	movsd	xmm0, QWORD PTR tv265[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv331[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv269[ebp]
+	movsd	xmm0, QWORD PTR tv331[ebp]
+	subsd	xmm0, QWORD PTR tv269[ebp]
+	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
+	movsd	QWORD PTR _overlapY$[ebp], xmm0
+$LN5@HandleColl:
+
+; 214  : 
+; 215  : 	if (overlapX != 0 && overlapY != 0) {
+
+	movsd	xmm0, QWORD PTR _overlapX$[ebp]
+	ucomisd	xmm0, QWORD PTR __real@0000000000000000
+	lahf
+	test	ah, 68					; 00000044H
+	jnp	$LN8@HandleColl
+	movsd	xmm0, QWORD PTR _overlapY$[ebp]
+	ucomisd	xmm0, QWORD PTR __real@0000000000000000
+	lahf
+	test	ah, 68					; 00000044H
+	jnp	$LN8@HandleColl
+
+; 216  : 		if (abs(overlapY) < abs(overlapX)) {
+
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	call	?abs@@YANN@Z				; abs
+	add	esp, 8
+	fstp	QWORD PTR tv281[ebp]
+	movsd	xmm0, QWORD PTR tv281[ebp]
+	sub	esp, 8
+	movsd	xmm1, QWORD PTR _overlapX$[ebp]
+	movsd	QWORD PTR [esp], xmm1
+	movsd	QWORD PTR tv333[ebp], xmm0
+	call	?abs@@YANN@Z				; abs
+	add	esp, 8
+	fstp	QWORD PTR tv287[ebp]
+	movsd	xmm0, QWORD PTR tv287[ebp]
+	movsd	xmm1, QWORD PTR tv333[ebp]
+	comisd	xmm0, xmm1
+	jbe	$LN7@HandleColl
+
+; 217  : 			if (overlapY < 0) {
+
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	comisd	xmm0, QWORD PTR _overlapY$[ebp]
+	jbe	$LN9@HandleColl
+
+; 218  : 				if (player.velocityY > 0) {
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
+	comisd	xmm0, QWORD PTR __real@0000000000000000
+	jbe	$LN12@HandleColl
+
+; 219  : 					player.onGround = true;
+
+	mov	BYTE PTR ?player@@3UPlayer@@A+24, 1
+
+; 220  : 					player.position.y += overlapY; player.velocityY = 0;
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	addsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
+
+; 221  : 					if (std::find(groundTileList.begin(), groundTileList.end(), tile) == groundTileList.end()) groundTileList.push_back(tile);
+
+	lea	eax, DWORD PTR $T2[ebp]
+	push	eax
+	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
+	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
+	mov	DWORD PTR tv218[ebp], eax
+	mov	ecx, DWORD PTR tv218[ebp]
+	mov	DWORD PTR tv208[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	mov	edx, DWORD PTR tv208[ebp]
+	push	edx
+	lea	eax, DWORD PTR _tile$[ebp]
+	push	eax
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T5[ebp], esp
+	push	ecx
+	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
+	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
+	mov	DWORD PTR tv212[ebp], eax
+	sub	esp, 12					; 0000000cH
+	mov	edx, esp
+	mov	DWORD PTR $T4[ebp], esp
+	push	edx
+	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
+	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
+	mov	DWORD PTR tv215[ebp], eax
+	lea	eax, DWORD PTR $T3[ebp]
+	push	eax
+	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
+	add	esp, 32					; 00000020H
+	mov	DWORD PTR tv151[ebp], eax
+	mov	ecx, DWORD PTR tv151[ebp]
+	mov	DWORD PTR tv217[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 1
+	mov	ecx, DWORD PTR tv217[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+	mov	BYTE PTR tv185[ebp], al
+	mov	dl, BYTE PTR tv185[ebp]
+	mov	BYTE PTR $T6[ebp], dl
+	mov	BYTE PTR __$EHRec$[ebp+8], 0
+	lea	ecx, DWORD PTR $T3[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR $T2[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	movzx	eax, BYTE PTR $T6[ebp]
+	test	eax, eax
+	je	SHORT $LN12@HandleColl
+	lea	eax, DWORD PTR _tile$[ebp]
+	push	eax
+	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
+	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+$LN12@HandleColl:
+
+; 222  : 				}
+; 223  : 			}
+; 224  : 			else {
+
+	jmp	SHORT $LN14@HandleColl
+$LN9@HandleColl:
+
+; 225  : 				if (player.velocityY < 0) {
+
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	comisd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
+	jbe	SHORT $LN14@HandleColl
+
+; 226  : 					if (CheckCollisionBottom(tile)) { player.position.y += overlapY; player.velocityY = 0; }
+
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	lea	esi, DWORD PTR _tile$[ebp]
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionBottom@@YA_NUTile@@@Z	; CheckCollisionBottom
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN14@HandleColl
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	addsd	xmm0, QWORD PTR _overlapY$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
+$LN14@HandleColl:
+
+; 227  : 				}
+; 228  : 			}
+; 229  : 		}
+; 230  : 		else {
+
+	jmp	SHORT $LN8@HandleColl
+$LN7@HandleColl:
+
+; 231  : 			player.position.x += overlapX; player.velocityX = 0;
+
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
+	addsd	xmm0, QWORD PTR _overlapX$[ebp]
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
+$LN8@HandleColl:
+
+; 232  : 		}
+; 233  : 	}
+; 234  : }
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 436				; 000001b4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?HandleCollision@@YAXUTile@@@Z$0:
+	lea	ecx, DWORD PTR $T2[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?HandleCollision@@YAXUTile@@@Z$3:
+	lea	ecx, DWORD PTR $T3[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$?HandleCollision@@YAXUTile@@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-440]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?HandleCollision@@YAXUTile@@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?HandleCollision@@YAXUTile@@@Z ENDP			; HandleCollision
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\player.cpp
+;	COMDAT ?CheckCollision@@YA_NUTile@@@Z
+_TEXT	SEGMENT
+tv154 = -216						; size = 8
+tv146 = -216						; size = 8
+tv138 = -216						; size = 8
+tv130 = -216						; size = 8
+tv164 = -208						; size = 8
+tv162 = -208						; size = 8
+tv160 = -208						; size = 8
+tv158 = -208						; size = 8
+tv150 = -200						; size = 8
+tv142 = -200						; size = 8
+tv134 = -200						; size = 8
+tv94 = -200						; size = 8
+_tile$ = 8						; size = 32
+?CheckCollision@@YA_NUTile@@@Z PROC			; CheckCollision, COMDAT
+
+; 149  : bool CheckCollision(Tile tile) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 150  : 	if (player.left() <= tile.right() &&
+; 151  : 		player.right() >= tile.left() &&
+; 152  : 		player.top() <= tile.bottom() &&
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?left@Player@@QAENXZ			; Player::left
+	fstp	QWORD PTR tv94[ebp]
+	movsd	xmm0, QWORD PTR tv94[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv158[ebp], xmm0
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv130[ebp]
+	movsd	xmm0, QWORD PTR tv130[ebp]
+	movsd	xmm1, QWORD PTR tv158[ebp]
+	comisd	xmm0, xmm1
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?right@Player@@QAENXZ			; Player::right
+	fstp	QWORD PTR tv134[ebp]
+	movsd	xmm0, QWORD PTR tv134[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv160[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv138[ebp]
+	movsd	xmm0, QWORD PTR tv160[ebp]
+	comisd	xmm0, QWORD PTR tv138[ebp]
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?top@Player@@QAENXZ			; Player::top
+	fstp	QWORD PTR tv142[ebp]
+	movsd	xmm0, QWORD PTR tv142[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv162[ebp], xmm0
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv146[ebp]
+	movsd	xmm0, QWORD PTR tv146[ebp]
+	movsd	xmm1, QWORD PTR tv162[ebp]
+	comisd	xmm0, xmm1
+	jb	SHORT $LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?bottom@Player@@QAENXZ			; Player::bottom
+	fstp	QWORD PTR tv150[ebp]
+	movsd	xmm0, QWORD PTR tv150[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv164[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv154[ebp]
+	movsd	xmm0, QWORD PTR tv164[ebp]
+	comisd	xmm0, QWORD PTR tv154[ebp]
+	jb	SHORT $LN2@CheckColli
+
+; 153  : 		player.bottom() >= tile.top()) {
+; 154  : 		return true;
+
+	mov	al, 1
+	jmp	SHORT $LN1@CheckColli
+$LN2@CheckColli:
+
+; 155  : 	}
+; 156  : 
+; 157  : 	return false;
+
+	xor	al, al
+$LN1@CheckColli:
+
+; 158  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?CheckCollision@@YA_NUTile@@@Z ENDP			; CheckCollision
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\player.cpp
+;	COMDAT ?CheckCollisionRight@@YA_NUTile@@@Z
+_TEXT	SEGMENT
+tv157 = -216						; size = 8
+tv149 = -216						; size = 8
+tv141 = -216						; size = 8
+tv133 = -216						; size = 8
+tv167 = -208						; size = 8
+tv165 = -208						; size = 8
+tv163 = -208						; size = 8
+tv161 = -208						; size = 8
+tv153 = -200						; size = 8
+tv145 = -200						; size = 8
+tv137 = -200						; size = 8
+tv129 = -200						; size = 8
+_tile$ = 8						; size = 32
+?CheckCollisionRight@@YA_NUTile@@@Z PROC		; CheckCollisionRight, COMDAT
+
+; 171  : bool CheckCollisionRight(Tile tile) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 172  : 	if (player.left() <= tile.right() && player.left() >= tile.right() - 5 && player.top() <= tile.bottom() - 3 && player.bottom() >= tile.top() + 3) return true;
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?left@Player@@QAENXZ			; Player::left
+	fstp	QWORD PTR tv129[ebp]
+	movsd	xmm0, QWORD PTR tv129[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv161[ebp], xmm0
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv133[ebp]
+	movsd	xmm0, QWORD PTR tv133[ebp]
+	movsd	xmm1, QWORD PTR tv161[ebp]
+	comisd	xmm0, xmm1
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?left@Player@@QAENXZ			; Player::left
+	fstp	QWORD PTR tv137[ebp]
+	movsd	xmm0, QWORD PTR tv137[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv163[ebp], xmm0
+	call	?right@Tile@@QAENXZ			; Tile::right
+	fstp	QWORD PTR tv141[ebp]
+	movsd	xmm0, QWORD PTR tv141[ebp]
+	subsd	xmm0, QWORD PTR __real@4014000000000000
+	movsd	xmm1, QWORD PTR tv163[ebp]
+	comisd	xmm1, xmm0
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?top@Player@@QAENXZ			; Player::top
+	fstp	QWORD PTR tv145[ebp]
+	movsd	xmm0, QWORD PTR tv145[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv165[ebp], xmm0
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv149[ebp]
+	movsd	xmm0, QWORD PTR tv149[ebp]
+	subsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv165[ebp]
+	comisd	xmm0, xmm1
+	jb	SHORT $LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?bottom@Player@@QAENXZ			; Player::bottom
+	fstp	QWORD PTR tv153[ebp]
+	movsd	xmm0, QWORD PTR tv153[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv167[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv157[ebp]
+	movsd	xmm0, QWORD PTR tv157[ebp]
+	addsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv167[ebp]
+	comisd	xmm1, xmm0
+	jb	SHORT $LN2@CheckColli
+	mov	al, 1
+	jmp	SHORT $LN1@CheckColli
+$LN2@CheckColli:
+
+; 173  : 	return false;
+
+	xor	al, al
+$LN1@CheckColli:
+
+; 174  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?CheckCollisionRight@@YA_NUTile@@@Z ENDP		; CheckCollisionRight
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\player.cpp
+;	COMDAT ?CheckCollisionLeft@@YA_NUTile@@@Z
+_TEXT	SEGMENT
+tv157 = -216						; size = 8
+tv149 = -216						; size = 8
+tv141 = -216						; size = 8
+tv133 = -216						; size = 8
+tv167 = -208						; size = 8
+tv165 = -208						; size = 8
+tv163 = -208						; size = 8
+tv161 = -208						; size = 8
+tv153 = -200						; size = 8
+tv145 = -200						; size = 8
+tv137 = -200						; size = 8
+tv129 = -200						; size = 8
+_tile$ = 8						; size = 32
+?CheckCollisionLeft@@YA_NUTile@@@Z PROC			; CheckCollisionLeft, COMDAT
+
+; 176  : bool CheckCollisionLeft(Tile tile) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 177  : 	if (player.right() >= tile.left() && player.right() <= tile.left() + 5 && player.top() <= tile.bottom() - 3 && player.bottom() >= tile.top() + 3) return true;
+
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?right@Player@@QAENXZ			; Player::right
+	fstp	QWORD PTR tv129[ebp]
+	movsd	xmm0, QWORD PTR tv129[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv161[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv133[ebp]
+	movsd	xmm0, QWORD PTR tv161[ebp]
+	comisd	xmm0, QWORD PTR tv133[ebp]
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?right@Player@@QAENXZ			; Player::right
+	fstp	QWORD PTR tv137[ebp]
+	movsd	xmm0, QWORD PTR tv137[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv163[ebp], xmm0
+	call	?left@Tile@@QAENXZ			; Tile::left
+	fstp	QWORD PTR tv141[ebp]
+	movsd	xmm0, QWORD PTR tv141[ebp]
+	addsd	xmm0, QWORD PTR __real@4014000000000000
+	movsd	xmm1, QWORD PTR tv163[ebp]
+	comisd	xmm0, xmm1
+	jb	$LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?top@Player@@QAENXZ			; Player::top
+	fstp	QWORD PTR tv145[ebp]
+	movsd	xmm0, QWORD PTR tv145[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv165[ebp], xmm0
+	call	?bottom@Tile@@QAENXZ			; Tile::bottom
+	fstp	QWORD PTR tv149[ebp]
+	movsd	xmm0, QWORD PTR tv149[ebp]
+	subsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv165[ebp]
+	comisd	xmm0, xmm1
+	jb	SHORT $LN2@CheckColli
+	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
+	call	?bottom@Player@@QAENXZ			; Player::bottom
+	fstp	QWORD PTR tv153[ebp]
+	movsd	xmm0, QWORD PTR tv153[ebp]
+	lea	ecx, DWORD PTR _tile$[ebp]
+	movsd	QWORD PTR tv167[ebp], xmm0
+	call	?top@Tile@@QAENXZ			; Tile::top
+	fstp	QWORD PTR tv157[ebp]
+	movsd	xmm0, QWORD PTR tv157[ebp]
+	addsd	xmm0, QWORD PTR __real@4008000000000000
+	movsd	xmm1, QWORD PTR tv167[ebp]
+	comisd	xmm1, xmm0
+	jb	SHORT $LN2@CheckColli
+	mov	al, 1
+	jmp	SHORT $LN1@CheckColli
+$LN2@CheckColli:
+
+; 178  : 	return false;
+
+	xor	al, al
+$LN1@CheckColli:
+
+; 179  : }
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?CheckCollisionLeft@@YA_NUTile@@@Z ENDP			; CheckCollisionLeft
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\player.cpp
 ;	COMDAT ?CheckCollisionBottom@@YA_NUTile@@@Z
 _TEXT	SEGMENT
 tv157 = -216						; size = 8
@@ -14239,7 +17759,7 @@ tv129 = -200						; size = 8
 _tile$ = 8						; size = 32
 ?CheckCollisionBottom@@YA_NUTile@@@Z PROC		; CheckCollisionBottom, COMDAT
 
-; 118  : bool CheckCollisionBottom(Tile tile) {
+; 161  : bool CheckCollisionBottom(Tile tile) {
 
 	push	ebp
 	mov	ebp, esp
@@ -14252,7 +17772,7 @@ _tile$ = 8						; size = 32
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 119  : 	if (player.top() <= tile.bottom() && player.top() >= tile.bottom() - 5 && player.left() <= tile.right() - 3 && player.right() >= tile.left() + 3) return true;
+; 162  : 	if (player.top() <= tile.bottom() && player.top() >= tile.bottom() - 5 && player.left() <= tile.right() - 3 && player.right() >= tile.left() + 3) return true;
 
 	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
 	call	?top@Player@@QAENXZ			; Player::top
@@ -14309,12 +17829,12 @@ _tile$ = 8						; size = 32
 	jmp	SHORT $LN1@CheckColli
 $LN2@CheckColli:
 
-; 120  : 	return false;
+; 163  : 	return false;
 
 	xor	al, al
 $LN1@CheckColli:
 
-; 121  : }
+; 164  : }
 
 	pop	edi
 	pop	esi
@@ -14346,7 +17866,7 @@ tv129 = -200						; size = 8
 _tile$ = 8						; size = 32
 ?CheckCollisionTop@@YA_NUTile@@@Z PROC			; CheckCollisionTop, COMDAT
 
-; 123  : bool CheckCollisionTop(Tile tile) {
+; 166  : bool CheckCollisionTop(Tile tile) {
 
 	push	ebp
 	mov	ebp, esp
@@ -14359,7 +17879,7 @@ _tile$ = 8						; size = 32
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 124  : 	if (player.bottom() >= tile.top() && player.bottom() <= tile.top() + 5 && player.left() <= tile.right() + 3 && player.right() >= tile.left() + 3) return true;
+; 167  : 	if (player.bottom() >= tile.top() && player.bottom() <= tile.top() + 5 && player.left() <= tile.right() + 3 && player.right() >= tile.left() + 3) return true;
 
 	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
 	call	?bottom@Player@@QAENXZ			; Player::bottom
@@ -14415,12 +17935,12 @@ _tile$ = 8						; size = 32
 	jmp	SHORT $LN1@CheckColli
 $LN2@CheckColli:
 
-; 125  : 	return false;
+; 168  : 	return false;
 
 	xor	al, al
 $LN1@CheckColli:
 
-; 126  : }
+; 169  : }
 
 	pop	edi
 	pop	esi
@@ -14435,375 +17955,12 @@ $LN1@CheckColli:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\player.cpp
-;	COMDAT ?HandleCollision@@YAXUTile@@@Z
+;	COMDAT ?ResetPlayer@@YAXXZ
 _TEXT	SEGMENT
-tv185 = -433						; size = 1
-tv287 = -432						; size = 8
-tv269 = -432						; size = 8
-tv261 = -432						; size = 8
-tv248 = -432						; size = 8
-tv240 = -432						; size = 8
-tv217 = -432						; size = 4
-tv151 = -428						; size = 4
-tv333 = -424						; size = 8
-tv331 = -424						; size = 8
-tv329 = -424						; size = 8
-tv327 = -424						; size = 8
-tv325 = -424						; size = 8
-tv215 = -424						; size = 4
-tv212 = -420						; size = 4
-tv281 = -416						; size = 8
-tv265 = -416						; size = 8
-tv257 = -416						; size = 8
-tv244 = -416						; size = 8
-tv236 = -416						; size = 8
-tv208 = -416						; size = 4
-tv218 = -412						; size = 4
-$T2 = -404						; size = 12
-$T3 = -384						; size = 12
-$T4 = -364						; size = 4
-$T5 = -352						; size = 4
-$T6 = -337						; size = 1
-$T7 = -328						; size = 16
-$T8 = -304						; size = 16
-$T9 = -280						; size = 16
-$T10 = -256						; size = 16
-_overlapY$ = -40					; size = 8
-_overlapX$ = -24					; size = 8
-__$EHRec$ = -12						; size = 12
-_tile$ = 8						; size = 32
-?HandleCollision@@YAXUTile@@@Z PROC			; HandleCollision, COMDAT
+$T1 = -212						; size = 16
+?ResetPlayer@@YAXXZ PROC				; ResetPlayer, COMDAT
 
-; 128  : void HandleCollision(Tile tile) {
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?HandleCollision@@YAXUTile@@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 424				; 000001a8H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-436]
-	mov	ecx, 106				; 0000006aH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-
-; 129  : 	double overlapX, overlapY;
-; 130  : 	if (player.midpoint().x > tile.midpoint().x) overlapX = tile.right() - player.left();
-
-	lea	eax, DWORD PTR $T10[ebp]
-	push	eax
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
-	mov	esi, eax
-	lea	ecx, DWORD PTR $T9[ebp]
-	push	ecx
-	lea	ecx, DWORD PTR _tile$[ebp]
-	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
-	movsd	xmm0, QWORD PTR [esi]
-	comisd	xmm0, QWORD PTR [eax]
-	jbe	SHORT $LN2@HandleColl
-	lea	ecx, DWORD PTR _tile$[ebp]
-	call	?right@Tile@@QAENXZ			; Tile::right
-	fstp	QWORD PTR tv236[ebp]
-	movsd	xmm0, QWORD PTR tv236[ebp]
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	movsd	QWORD PTR tv325[ebp], xmm0
-	call	?left@Player@@QAENXZ			; Player::left
-	fstp	QWORD PTR tv240[ebp]
-	movsd	xmm0, QWORD PTR tv325[ebp]
-	subsd	xmm0, QWORD PTR tv240[ebp]
-	movsd	QWORD PTR _overlapX$[ebp], xmm0
-	jmp	SHORT $LN3@HandleColl
-$LN2@HandleColl:
-
-; 131  : 	else overlapX = -(player.right() - tile.left());
-
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?right@Player@@QAENXZ			; Player::right
-	fstp	QWORD PTR tv244[ebp]
-	movsd	xmm0, QWORD PTR tv244[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv327[ebp], xmm0
-	call	?left@Tile@@QAENXZ			; Tile::left
-	fstp	QWORD PTR tv248[ebp]
-	movsd	xmm0, QWORD PTR tv327[ebp]
-	subsd	xmm0, QWORD PTR tv248[ebp]
-	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
-	movsd	QWORD PTR _overlapX$[ebp], xmm0
-$LN3@HandleColl:
-
-; 132  : 	if (player.midpoint().y > tile.midpoint().y) overlapY = tile.bottom() - player.top();
-
-	lea	eax, DWORD PTR $T8[ebp]
-	push	eax
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?midpoint@Player@@QAE?AVVector2@@XZ	; Player::midpoint
-	mov	esi, eax
-	lea	ecx, DWORD PTR $T7[ebp]
-	push	ecx
-	lea	ecx, DWORD PTR _tile$[ebp]
-	call	?midpoint@Tile@@QAE?AVVector2@@XZ	; Tile::midpoint
-	movsd	xmm0, QWORD PTR [esi+8]
-	comisd	xmm0, QWORD PTR [eax+8]
-	jbe	SHORT $LN4@HandleColl
-	lea	ecx, DWORD PTR _tile$[ebp]
-	call	?bottom@Tile@@QAENXZ			; Tile::bottom
-	fstp	QWORD PTR tv257[ebp]
-	movsd	xmm0, QWORD PTR tv257[ebp]
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	movsd	QWORD PTR tv329[ebp], xmm0
-	call	?top@Player@@QAENXZ			; Player::top
-	fstp	QWORD PTR tv261[ebp]
-	movsd	xmm0, QWORD PTR tv329[ebp]
-	subsd	xmm0, QWORD PTR tv261[ebp]
-	movsd	QWORD PTR _overlapY$[ebp], xmm0
-	jmp	SHORT $LN5@HandleColl
-$LN4@HandleColl:
-
-; 133  : 	else overlapY = -(player.bottom() - tile.top());
-
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?bottom@Player@@QAENXZ			; Player::bottom
-	fstp	QWORD PTR tv265[ebp]
-	movsd	xmm0, QWORD PTR tv265[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv331[ebp], xmm0
-	call	?top@Tile@@QAENXZ			; Tile::top
-	fstp	QWORD PTR tv269[ebp]
-	movsd	xmm0, QWORD PTR tv331[ebp]
-	subsd	xmm0, QWORD PTR tv269[ebp]
-	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
-	movsd	QWORD PTR _overlapY$[ebp], xmm0
-$LN5@HandleColl:
-
-; 134  : 
-; 135  : 	if (overlapX != 0 && overlapY != 0) {
-
-	movsd	xmm0, QWORD PTR _overlapX$[ebp]
-	ucomisd	xmm0, QWORD PTR __real@0000000000000000
-	lahf
-	test	ah, 68					; 00000044H
-	jnp	$LN8@HandleColl
-	movsd	xmm0, QWORD PTR _overlapY$[ebp]
-	ucomisd	xmm0, QWORD PTR __real@0000000000000000
-	lahf
-	test	ah, 68					; 00000044H
-	jnp	$LN8@HandleColl
-
-; 136  : 		if (abs(overlapY) < abs(overlapX)) {
-
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR _overlapY$[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	call	?abs@@YANN@Z				; abs
-	add	esp, 8
-	fstp	QWORD PTR tv281[ebp]
-	movsd	xmm0, QWORD PTR tv281[ebp]
-	sub	esp, 8
-	movsd	xmm1, QWORD PTR _overlapX$[ebp]
-	movsd	QWORD PTR [esp], xmm1
-	movsd	QWORD PTR tv333[ebp], xmm0
-	call	?abs@@YANN@Z				; abs
-	add	esp, 8
-	fstp	QWORD PTR tv287[ebp]
-	movsd	xmm0, QWORD PTR tv287[ebp]
-	movsd	xmm1, QWORD PTR tv333[ebp]
-	comisd	xmm0, xmm1
-	jbe	$LN7@HandleColl
-
-; 137  : 			if (overlapY < 0) {
-
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	comisd	xmm0, QWORD PTR _overlapY$[ebp]
-	jbe	$LN9@HandleColl
-
-; 138  : 				if (player.velocityY > 0) {
-
-	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
-	comisd	xmm0, QWORD PTR __real@0000000000000000
-	jbe	$LN12@HandleColl
-
-; 139  : 					player.onGround = true;
-
-	mov	BYTE PTR ?player@@3UPlayer@@A+24, 1
-
-; 140  : 					player.position.y += overlapY; player.velocityY = 0;
-
-	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
-	addsd	xmm0, QWORD PTR _overlapY$[ebp]
-	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-
-; 141  : 					if (std::find(groundTileList.begin(), groundTileList.end(), tile) == groundTileList.end()) groundTileList.push_back(tile);
-
-	lea	eax, DWORD PTR $T2[ebp]
-	push	eax
-	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
-	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	DWORD PTR tv218[ebp], eax
-	mov	ecx, DWORD PTR tv218[ebp]
-	mov	DWORD PTR tv208[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-	mov	edx, DWORD PTR tv208[ebp]
-	push	edx
-	lea	eax, DWORD PTR _tile$[ebp]
-	push	eax
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T5[ebp], esp
-	push	ecx
-	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
-	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	DWORD PTR tv212[ebp], eax
-	sub	esp, 12					; 0000000cH
-	mov	edx, esp
-	mov	DWORD PTR $T4[ebp], esp
-	push	edx
-	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
-	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	DWORD PTR tv215[ebp], eax
-	lea	eax, DWORD PTR $T3[ebp]
-	push	eax
-	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
-	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv151[ebp], eax
-	mov	ecx, DWORD PTR tv151[ebp]
-	mov	DWORD PTR tv217[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 1
-	mov	ecx, DWORD PTR tv217[ebp]
-	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-	mov	BYTE PTR tv185[ebp], al
-	mov	dl, BYTE PTR tv185[ebp]
-	mov	BYTE PTR $T6[ebp], dl
-	mov	BYTE PTR __$EHRec$[ebp+8], 0
-	lea	ecx, DWORD PTR $T3[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR $T2[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	movzx	eax, BYTE PTR $T6[ebp]
-	test	eax, eax
-	je	SHORT $LN12@HandleColl
-	lea	eax, DWORD PTR _tile$[ebp]
-	push	eax
-	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
-	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN12@HandleColl:
-
-; 142  : 				}
-; 143  : 			}
-; 144  : 			else {
-
-	jmp	SHORT $LN14@HandleColl
-$LN9@HandleColl:
-
-; 145  : 				if (player.velocityY < 0) {
-
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	comisd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
-	jbe	SHORT $LN14@HandleColl
-
-; 146  : 					if (CheckCollisionBottom(tile)) { player.position.y += overlapY; player.velocityY = 0; }
-
-	sub	esp, 32					; 00000020H
-	mov	ecx, 8
-	lea	esi, DWORD PTR _tile$[ebp]
-	mov	edi, esp
-	rep movsd
-	call	?CheckCollisionBottom@@YA_NUTile@@@Z	; CheckCollisionBottom
-	add	esp, 32					; 00000020H
-	movzx	eax, al
-	test	eax, eax
-	je	SHORT $LN14@HandleColl
-	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
-	addsd	xmm0, QWORD PTR _overlapY$[ebp]
-	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN14@HandleColl:
-
-; 147  : 				}
-; 148  : 			}
-; 149  : 		}
-; 150  : 		else {
-
-	jmp	SHORT $LN8@HandleColl
-$LN7@HandleColl:
-
-; 151  : 			player.position.x += overlapX; player.velocityX = 0;
-
-	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
-	addsd	xmm0, QWORD PTR _overlapX$[ebp]
-	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-$LN8@HandleColl:
-
-; 152  : 		}
-; 153  : 	}
-; 154  : }
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 436				; 000001b4H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$?HandleCollision@@YAXUTile@@@Z$0:
-	lea	ecx, DWORD PTR $T2[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?HandleCollision@@YAXUTile@@@Z$3:
-	lea	ecx, DWORD PTR $T3[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$?HandleCollision@@YAXUTile@@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-440]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?HandleCollision@@YAXUTile@@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?HandleCollision@@YAXUTile@@@Z ENDP			; HandleCollision
-; Function compile flags: /Odtp /RTCsu /ZI
-; File g:\projects\lotion\lotion\player.cpp
-;	COMDAT ?CheckCollision@@YA_NUTile@@@Z
-_TEXT	SEGMENT
-tv154 = -216						; size = 8
-tv146 = -216						; size = 8
-tv138 = -216						; size = 8
-tv130 = -216						; size = 8
-tv164 = -208						; size = 8
-tv162 = -208						; size = 8
-tv160 = -208						; size = 8
-tv158 = -208						; size = 8
-tv150 = -200						; size = 8
-tv142 = -200						; size = 8
-tv134 = -200						; size = 8
-tv94 = -200						; size = 8
-_tile$ = 8						; size = 32
-?CheckCollision@@YA_NUTile@@@Z PROC			; CheckCollision, COMDAT
-
-; 106  : bool CheckCollision(Tile tile) {
+; 129  : void ResetPlayer() {
 
 	push	ebp
 	mov	ebp, esp
@@ -14816,72 +17973,36 @@ _tile$ = 8						; size = 32
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 107  : 	if (player.left() <= tile.right() &&
-; 108  : 		player.right() >= tile.left() &&
-; 109  : 		player.top() <= tile.bottom() &&
+; 130  : 	player.velocityX = 0; 
 
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?left@Player@@QAENXZ			; Player::left
-	fstp	QWORD PTR tv94[ebp]
-	movsd	xmm0, QWORD PTR tv94[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv158[ebp], xmm0
-	call	?right@Tile@@QAENXZ			; Tile::right
-	fstp	QWORD PTR tv130[ebp]
-	movsd	xmm0, QWORD PTR tv130[ebp]
-	movsd	xmm1, QWORD PTR tv158[ebp]
-	comisd	xmm0, xmm1
-	jb	$LN2@CheckColli
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?right@Player@@QAENXZ			; Player::right
-	fstp	QWORD PTR tv134[ebp]
-	movsd	xmm0, QWORD PTR tv134[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv160[ebp], xmm0
-	call	?left@Tile@@QAENXZ			; Tile::left
-	fstp	QWORD PTR tv138[ebp]
-	movsd	xmm0, QWORD PTR tv160[ebp]
-	comisd	xmm0, QWORD PTR tv138[ebp]
-	jb	$LN2@CheckColli
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?top@Player@@QAENXZ			; Player::top
-	fstp	QWORD PTR tv142[ebp]
-	movsd	xmm0, QWORD PTR tv142[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv162[ebp], xmm0
-	call	?bottom@Tile@@QAENXZ			; Tile::bottom
-	fstp	QWORD PTR tv146[ebp]
-	movsd	xmm0, QWORD PTR tv146[ebp]
-	movsd	xmm1, QWORD PTR tv162[ebp]
-	comisd	xmm0, xmm1
-	jb	SHORT $LN2@CheckColli
-	mov	ecx, OFFSET ?player@@3UPlayer@@A	; player
-	call	?bottom@Player@@QAENXZ			; Player::bottom
-	fstp	QWORD PTR tv150[ebp]
-	movsd	xmm0, QWORD PTR tv150[ebp]
-	lea	ecx, DWORD PTR _tile$[ebp]
-	movsd	QWORD PTR tv164[ebp], xmm0
-	call	?top@Tile@@QAENXZ			; Tile::top
-	fstp	QWORD PTR tv154[ebp]
-	movsd	xmm0, QWORD PTR tv164[ebp]
-	comisd	xmm0, QWORD PTR tv154[ebp]
-	jb	SHORT $LN2@CheckColli
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 
-; 110  : 		player.bottom() >= tile.top()) {
-; 111  : 		return true;
+; 131  : 	player.velocityY = 0; 
 
-	mov	al, 1
-	jmp	SHORT $LN1@CheckColli
-$LN2@CheckColli:
+	movsd	xmm0, QWORD PTR __real@0000000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 
-; 112  : 	}
-; 113  : 
-; 114  : 	return false;
+; 132  : 	player.position = Vector2(spawnTile.position.x, spawnTile.position.y);
 
-	xor	al, al
-$LN1@CheckColli:
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR ?spawnTile@@3USpawnTile@@A+8
+	movsd	QWORD PTR [esp], xmm0
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR ?spawnTile@@3USpawnTile@@A
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR $T1[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+	mov	ecx, DWORD PTR [eax]
+	mov	DWORD PTR ?player@@3UPlayer@@A, ecx
+	mov	edx, DWORD PTR [eax+4]
+	mov	DWORD PTR ?player@@3UPlayer@@A+4, edx
+	mov	ecx, DWORD PTR [eax+8]
+	mov	DWORD PTR ?player@@3UPlayer@@A+8, ecx
+	mov	edx, DWORD PTR [eax+12]
+	mov	DWORD PTR ?player@@3UPlayer@@A+12, edx
 
-; 115  : }
+; 133  : }
 
 	pop	edi
 	pop	esi
@@ -14892,7 +18013,7 @@ $LN1@CheckColli:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-?CheckCollision@@YA_NUTile@@@Z ENDP			; CheckCollision
+?ResetPlayer@@YAXXZ ENDP				; ResetPlayer
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\player.cpp
@@ -14932,7 +18053,7 @@ _TEXT	SEGMENT
 _texture$ = -8						; size = 4
 ?DrawPlayer@@YAXXZ PROC					; DrawPlayer, COMDAT
 
-; 156  : void DrawPlayer() {
+; 236  : void DrawPlayer() {
 
 	push	ebp
 	mov	ebp, esp
@@ -14945,14 +18066,14 @@ _texture$ = -8						; size = 4
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 157  : 	GLint texture = LoadTexture("../Content/player.bmp");
+; 237  : 	GLint texture = LoadTexture("../Content/player.bmp");
 
 	push	OFFSET ??_C@_0BG@EIAGFEK@?4?4?1Content?1player?4bmp?$AA@
 	call	?LoadTexture@@YAIPBD@Z			; LoadTexture
 	add	esp, 4
 	mov	DWORD PTR _texture$[ebp], eax
 
-; 158  : 	DrawRect(texture, player.position, player.width, player.height);
+; 238  : 	DrawRect(texture, player.position, player.width, player.height);
 
 	mov	eax, DWORD PTR ?player@@3UPlayer@@A+20
 	push	eax
@@ -14973,7 +18094,7 @@ _texture$ = -8						; size = 4
 	call	?DrawRect@@YAXIVVector2@@HH@Z		; DrawRect
 	add	esp, 28					; 0000001cH
 
-; 159  : }
+; 239  : }
 
 	pop	edi
 	pop	esi
@@ -14990,169 +18111,190 @@ _TEXT	ENDS
 ; File g:\projects\lotion\lotion\player.cpp
 ;	COMDAT ?UpdatePlayer@@YAXH@Z
 _TEXT	SEGMENT
-tv561 = -1828						; size = 4
-tv454 = -1828						; size = 4
-tv546 = -1821						; size = 1
-tv407 = -1821						; size = 1
-tv1040 = -1820						; size = 4
-tv998 = -1820						; size = 4
-tv512 = -1816						; size = 4
-tv373 = -1816						; size = 4
-tv1035 = -1812						; size = 4
-tv993 = -1812						; size = 4
-tv1082 = -1808						; size = 4
-tv1032 = -1808						; size = 4
-tv990 = -1808						; size = 4
-tv1093 = -1804						; size = 4
-tv1028 = -1804						; size = 4
-tv986 = -1804						; size = 4
-tv1116 = -1800						; size = 4
-tv1102 = -1800						; size = 4
-tv1091 = -1800						; size = 4
-tv884 = -1796						; size = 4
-tv662 = -1793						; size = 1
-tv608 = -1793						; size = 1
-tv498 = -1793						; size = 1
-tv359 = -1793						; size = 1
-tv309 = -1793						; size = 1
-tv255 = -1793						; size = 1
-tv1089 = -1792						; size = 4
-tv1070 = -1792						; size = 4
-tv1059 = -1792						; size = 4
-tv1023 = -1792						; size = 4
-tv981 = -1792						; size = 4
-tv964 = -1792						; size = 4
-tv953 = -1792						; size = 4
-tv1086 = -1788						; size = 4
-tv628 = -1788						; size = 4
-tv574 = -1788						; size = 4
-tv464 = -1788						; size = 4
-tv325 = -1788						; size = 4
-tv275 = -1788						; size = 4
-tv221 = -1788						; size = 4
-tv1464 = -1784						; size = 8
-tv1081 = -1784						; size = 4
-tv1068 = -1784						; size = 4
-tv1057 = -1784						; size = 4
-tv1018 = -1784						; size = 4
-tv976 = -1784						; size = 4
-tv962 = -1784						; size = 4
-tv951 = -1784						; size = 4
-tv1065 = -1780						; size = 4
-tv1054 = -1780						; size = 4
-tv1015 = -1780						; size = 4
-tv973 = -1780						; size = 4
-tv959 = -1780						; size = 4
-tv948 = -1780						; size = 4
-tv824 = -1780						; size = 4
-tv1516 = -1776						; size = 8
-tv1079 = -1776						; size = 4
-tv1061 = -1776						; size = 4
-tv1050 = -1776						; size = 4
-tv1011 = -1776						; size = 4
-tv969 = -1776						; size = 4
-tv955 = -1776						; size = 4
-tv944 = -1776						; size = 4
-tv942 = -1776						; size = 4
-tv939 = -1776						; size = 4
-tv936 = -1776						; size = 4
-tv933 = -1776						; size = 4
-tv1124 = -1772						; size = 4
-tv1123 = -1772						; size = 4
-tv1109 = -1772						; size = 4
-tv1095 = -1772						; size = 4
-tv941 = -1772						; size = 4
-tv938 = -1772						; size = 4
-tv935 = -1772						; size = 4
-tv932 = -1772						; size = 4
-tv830 = -1772						; size = 4
-tv270 = -1772						; size = 4
-tv75 = -1772						; size = 4
-tv69 = -1772						; size = 4
-$T2 = -1764						; size = 4
-$T3 = -1752						; size = 12
-$T4 = -1732						; size = 12
-$T5 = -1712						; size = 4
-$T6 = -1700						; size = 4
-$T7 = -1688						; size = 4
-$T8 = -1676						; size = 12
-$T9 = -1656						; size = 4
-$T10 = -1644						; size = 16
-$T11 = -1620						; size = 12
-$T12 = -1600						; size = 12
-$T13 = -1580						; size = 4
-$T14 = -1568						; size = 4
-$T15 = -1556						; size = 4
-$T16 = -1541						; size = 1
-$T17 = -1532						; size = 12
-$T18 = -1512						; size = 12
-$T19 = -1492						; size = 4
-$T20 = -1480						; size = 4
-$T21 = -1468						; size = 4
-$T22 = -1453						; size = 1
-$T23 = -1444						; size = 12
-$T24 = -1424						; size = 12
-$T25 = -1404						; size = 4
-$T26 = -1392						; size = 4
-$T27 = -1380						; size = 4
-$T28 = -1368						; size = 12
-$T29 = -1348						; size = 12
-$T30 = -1328						; size = 4
-$T31 = -1316						; size = 4
-$T32 = -1304						; size = 4
-$T33 = -1289						; size = 1
-$T34 = -1280						; size = 12
-$T35 = -1260						; size = 12
-$T36 = -1240						; size = 4
-$T37 = -1228						; size = 4
-$T38 = -1216						; size = 4
-$T39 = -1204						; size = 12
-$T40 = -1184						; size = 12
-$T41 = -1164						; size = 4
-$T42 = -1152						; size = 4
-$T43 = -1140						; size = 4
-$T44 = -1125						; size = 1
-$T45 = -1116						; size = 12
-$T46 = -1096						; size = 12
-$T47 = -1076						; size = 4
-$T48 = -1064						; size = 4
-$T49 = -1052						; size = 4
-$T50 = -1037						; size = 1
-$T51 = -1028						; size = 12
-$T52 = -1008						; size = 12
-$T53 = -988						; size = 4
-$T54 = -976						; size = 4
-$T55 = -964						; size = 4
-$T56 = -949						; size = 1
-$T57 = -940						; size = 4
-$T58 = -928						; size = 4
-$T59 = -916						; size = 4
-$T60 = -904						; size = 4
-_tile$61 = -316						; size = 4
-_<end>$L3$62 = -304					; size = 12
-_<begin>$L3$63 = -284					; size = 12
-_<range>$L3$64 = -264					; size = 4
-_tile$65 = -252						; size = 4
-_<end>$L2$66 = -240					; size = 12
-_<begin>$L2$67 = -220					; size = 12
-_<range>$L2$68 = -200					; size = 4
-_tempGroundTileList$ = -188				; size = 16
-_tile$69 = -164						; size = 4
-_<end>$L1$70 = -152					; size = 12
-_<begin>$L1$71 = -132					; size = 12
-_<range>$L1$72 = -112					; size = 4
-_trampolineCollison$ = -97				; size = 1
-_tile$73 = -88						; size = 4
-_<end>$L0$74 = -76					; size = 12
-_<begin>$L0$75 = -56					; size = 12
-_<range>$L0$76 = -36					; size = 4
+tv611 = -2032						; size = 4
+tv504 = -2032						; size = 4
+tv596 = -2025						; size = 1
+tv489 = -2025						; size = 1
+tv1214 = -2024						; size = 4
+tv1172 = -2024						; size = 4
+tv562 = -2020						; size = 4
+tv455 = -2020						; size = 4
+tv1209 = -2016						; size = 4
+tv1167 = -2016						; size = 4
+tv1260 = -2012						; size = 4
+tv1206 = -2012						; size = 4
+tv1164 = -2012						; size = 4
+tv1271 = -2008						; size = 4
+tv1202 = -2008						; size = 4
+tv1160 = -2008						; size = 4
+tv1327 = -2004						; size = 4
+tv1313 = -2004						; size = 4
+tv1269 = -2004						; size = 4
+tv1045 = -2000						; size = 4
+tv793 = -1997						; size = 1
+tv707 = -1997						; size = 1
+tv548 = -1997						; size = 1
+tv441 = -1997						; size = 1
+tv359 = -1997						; size = 1
+tv305 = -1997						; size = 1
+tv255 = -1997						; size = 1
+tv1267 = -1996						; size = 4
+tv1246 = -1996						; size = 4
+tv1235 = -1996						; size = 4
+tv1197 = -1996						; size = 4
+tv1155 = -1996						; size = 4
+tv1138 = -1996						; size = 4
+tv1127 = -1996						; size = 4
+tv1116 = -1996						; size = 4
+tv1264 = -1992						; size = 4
+tv727 = -1992						; size = 4
+tv673 = -1992						; size = 4
+tv514 = -1992						; size = 4
+tv375 = -1992						; size = 4
+tv325 = -1992						; size = 4
+tv271 = -1992						; size = 4
+tv221 = -1992						; size = 4
+tv1662 = -1988						; size = 8
+tv1259 = -1988						; size = 4
+tv1244 = -1988						; size = 4
+tv1233 = -1988						; size = 4
+tv1192 = -1988						; size = 4
+tv1150 = -1988						; size = 4
+tv1136 = -1988						; size = 4
+tv1125 = -1988						; size = 4
+tv1114 = -1988						; size = 4
+tv1241 = -1984						; size = 4
+tv1230 = -1984						; size = 4
+tv1189 = -1984						; size = 4
+tv1147 = -1984						; size = 4
+tv1133 = -1984						; size = 4
+tv1122 = -1984						; size = 4
+tv1111 = -1984						; size = 4
+tv985 = -1984						; size = 4
+tv1757 = -1980						; size = 8
+tv1257 = -1980						; size = 4
+tv1237 = -1980						; size = 4
+tv1226 = -1980						; size = 4
+tv1185 = -1980						; size = 4
+tv1143 = -1980						; size = 4
+tv1129 = -1980						; size = 4
+tv1118 = -1980						; size = 4
+tv1107 = -1980						; size = 4
+tv1105 = -1980						; size = 4
+tv1102 = -1980						; size = 4
+tv1099 = -1980						; size = 4
+tv1096 = -1980						; size = 4
+tv1320 = -1976						; size = 4
+tv1274 = -1976						; size = 4
+tv1273 = -1976						; size = 4
+tv1104 = -1976						; size = 4
+tv1101 = -1976						; size = 4
+tv1098 = -1976						; size = 4
+tv1095 = -1976						; size = 4
+tv991 = -1976						; size = 4
+tv626 = -1976						; size = 4
+tv620 = -1976						; size = 4
+tv320 = -1976						; size = 4
+tv75 = -1976						; size = 4
+tv69 = -1976						; size = 4
+$T2 = -1968						; size = 4
+$T3 = -1956						; size = 12
+$T4 = -1936						; size = 12
+$T5 = -1916						; size = 4
+$T6 = -1904						; size = 4
+$T7 = -1892						; size = 4
+$T8 = -1880						; size = 12
+$T9 = -1860						; size = 4
+$T10 = -1848						; size = 12
+$T11 = -1828						; size = 12
+$T12 = -1808						; size = 4
+$T13 = -1796						; size = 4
+$T14 = -1784						; size = 4
+$T15 = -1769						; size = 1
+$T16 = -1760						; size = 12
+$T17 = -1740						; size = 12
+$T18 = -1720						; size = 4
+$T19 = -1708						; size = 4
+$T20 = -1696						; size = 4
+$T21 = -1681						; size = 1
+$T22 = -1672						; size = 12
+$T23 = -1652						; size = 12
+$T24 = -1632						; size = 4
+$T25 = -1620						; size = 4
+$T26 = -1608						; size = 4
+$T27 = -1596						; size = 12
+$T28 = -1576						; size = 12
+$T29 = -1556						; size = 4
+$T30 = -1544						; size = 4
+$T31 = -1532						; size = 4
+$T32 = -1517						; size = 1
+$T33 = -1508						; size = 12
+$T34 = -1488						; size = 12
+$T35 = -1468						; size = 4
+$T36 = -1456						; size = 4
+$T37 = -1444						; size = 4
+$T38 = -1432						; size = 12
+$T39 = -1412						; size = 12
+$T40 = -1392						; size = 4
+$T41 = -1380						; size = 4
+$T42 = -1368						; size = 4
+$T43 = -1353						; size = 1
+$T44 = -1344						; size = 12
+$T45 = -1324						; size = 12
+$T46 = -1304						; size = 4
+$T47 = -1292						; size = 4
+$T48 = -1280						; size = 4
+$T49 = -1265						; size = 1
+$T50 = -1256						; size = 12
+$T51 = -1236						; size = 12
+$T52 = -1216						; size = 4
+$T53 = -1204						; size = 4
+$T54 = -1192						; size = 4
+$T55 = -1177						; size = 1
+$T56 = -1168						; size = 12
+$T57 = -1148						; size = 12
+$T58 = -1128						; size = 4
+$T59 = -1116						; size = 4
+$T60 = -1104						; size = 4
+$T61 = -1089						; size = 1
+$T62 = -1080						; size = 4
+$T63 = -1068						; size = 4
+$T64 = -1056						; size = 4
+$T65 = -1044						; size = 4
+_tile$66 = -456						; size = 4
+_<end>$L5$67 = -444					; size = 12
+_<begin>$L5$68 = -424					; size = 12
+_<range>$L5$69 = -404					; size = 4
+_tile$70 = -392						; size = 4
+_<end>$L4$71 = -380					; size = 12
+_<begin>$L4$72 = -360					; size = 12
+_<range>$L4$73 = -340					; size = 4
+_tempGroundTileList$ = -328				; size = 16
+_tile$74 = -304						; size = 4
+_<end>$L3$75 = -292					; size = 12
+_<begin>$L3$76 = -272					; size = 12
+_<range>$L3$77 = -252					; size = 4
+_movingTileCollision$ = -237				; size = 1
+_tile$78 = -228						; size = 4
+_<end>$L2$79 = -216					; size = 12
+_<begin>$L2$80 = -196					; size = 12
+_<range>$L2$81 = -176					; size = 4
+_trampolineCollison$ = -161				; size = 1
+_tile$82 = -152						; size = 4
+_<end>$L1$83 = -140					; size = 12
+_<begin>$L1$84 = -120					; size = 12
+_<range>$L1$85 = -100					; size = 4
+_tile$86 = -88						; size = 4
+_<end>$L0$87 = -76					; size = 12
+_<begin>$L0$88 = -56					; size = 12
+_<range>$L0$89 = -36					; size = 4
 _deltaTimeS$ = -24					; size = 4
 __$ArrayPad$ = -16					; size = 4
 __$EHRec$ = -12						; size = 12
 _gameTime$ = 8						; size = 4
 ?UpdatePlayer@@YAXH@Z PROC				; UpdatePlayer, COMDAT
 
-; 14   : void UpdatePlayer(int gameTime) {
+; 20   : void UpdatePlayer(int gameTime) {
 
 	push	ebp
 	mov	ebp, esp
@@ -15160,12 +18302,12 @@ _gameTime$ = 8						; size = 4
 	push	__ehhandler$?UpdatePlayer@@YAXH@Z
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 1816				; 00000718H
+	sub	esp, 2020				; 000007e4H
 	push	ebx
 	push	esi
 	push	edi
-	lea	edi, DWORD PTR [ebp-1828]
-	mov	ecx, 454				; 000001c6H
+	lea	edi, DWORD PTR [ebp-2032]
+	mov	ecx, 505				; 000001f9H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	mov	eax, DWORD PTR ___security_cookie
@@ -15176,51 +18318,51 @@ _gameTime$ = 8						; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR $T2[ebp], 0
 
-; 15   : 	float deltaTimeS = (float)(gameTime) / 1000;
+; 21   : 	float deltaTimeS = (float)(gameTime) / 1000;
 
 	cvtsi2ss xmm0, DWORD PTR _gameTime$[ebp]
 	divss	xmm0, DWORD PTR __real@447a0000
 	movss	DWORD PTR _deltaTimeS$[ebp], xmm0
 
-; 16   : 
-; 17   : 	for (auto &tile : pushTileMap) {
+; 22   : 
+; 23   : 	for (auto &tile : pushTileMap) {
 
-	mov	DWORD PTR _<range>$L0$76[ebp], OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
+	mov	DWORD PTR _<range>$L0$89[ebp], OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<begin>$L0$75[ebp]
+	lea	eax, DWORD PTR _<begin>$L0$88[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L0$76[ebp]
+	mov	ecx, DWORD PTR _<range>$L0$89[ebp]
 	call	?begin@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@2@XZ ; std::vector<PushTile,std::allocator<PushTile> >::begin
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<end>$L0$74[ebp]
+	lea	ecx, DWORD PTR _<end>$L0$87[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<end>$L0$74[ebp]
+	lea	eax, DWORD PTR _<end>$L0$87[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L0$76[ebp]
+	mov	ecx, DWORD PTR _<range>$L0$89[ebp]
 	call	?end@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@2@XZ ; std::vector<PushTile,std::allocator<PushTile> >::end
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 	jmp	SHORT $LN4@UpdatePlay
 $LN2@UpdatePlay:
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator++
 $LN4@UpdatePlay:
-	lea	eax, DWORD PTR _<end>$L0$74[ebp]
+	lea	eax, DWORD PTR _<end>$L0$87[ebp]
 	push	eax
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator!=
 	movzx	ecx, al
 	test	ecx, ecx
 	je	$LN3@UpdatePlay
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEAAUPushTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator*
-	mov	DWORD PTR _tile$73[ebp], eax
+	mov	DWORD PTR _tile$86[ebp], eax
 
-; 18   : 		if (CheckCollision(tile.tile) == true) {
+; 24   : 		if (CheckCollision(tile.tile) == true) {
 
-	mov	esi, DWORD PTR _tile$73[ebp]
+	mov	esi, DWORD PTR _tile$86[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
@@ -15229,44 +18371,44 @@ $LN4@UpdatePlay:
 	add	esp, 32					; 00000020H
 	movzx	eax, al
 	cmp	eax, 1
-	jne	$LN18@UpdatePlay
+	jne	$LN24@UpdatePlay
 
-; 19   : 			//0=up 1=down 2=right 3=left
-; 20   : 			if (tile.GetDirection(pushTileMap) == 0) { player.velocityY = tile.force * deltaTimeS; player.velocityX = 0; }
+; 25   : 			//0=up 1=down 2=right 3=left
+; 26   : 			if (tile.GetDirection(pushTileMap) == 0) { player.velocityY = tile.force * deltaTimeS; player.velocityX = 0; }
 
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
-	mov	DWORD PTR $T60[ebp], esp
+	mov	DWORD PTR $T65[ebp], esp
 	push	OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	??0?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE@ABV01@@Z ; std::vector<PushTile,std::allocator<PushTile> >::vector<PushTile,std::allocator<PushTile> >
-	mov	DWORD PTR tv932[ebp], eax
-	mov	ecx, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1095[ebp], eax
+	mov	ecx, DWORD PTR _tile$86[ebp]
 	call	?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ; PushTile::GetDirection
-	mov	DWORD PTR tv933[ebp], eax
-	cmp	DWORD PTR tv933[ebp], 0
-	jne	SHORT $LN15@UpdatePlay
+	mov	DWORD PTR tv1096[ebp], eax
+	cmp	DWORD PTR tv1096[ebp], 0
+	jne	SHORT $LN21@UpdatePlay
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
-	mov	eax, DWORD PTR _tile$73[ebp]
+	mov	eax, DWORD PTR _tile$86[ebp]
 	mulsd	xmm0, QWORD PTR [eax+32]
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-$LN15@UpdatePlay:
+$LN21@UpdatePlay:
 
-; 21   : 			if (tile.GetDirection(pushTileMap) == 1) { player.velocityY = -tile.force * deltaTimeS; player.velocityX = 0; }
+; 27   : 			if (tile.GetDirection(pushTileMap) == 1) { player.velocityY = -tile.force * deltaTimeS; player.velocityX = 0; }
 
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
-	mov	DWORD PTR $T59[ebp], esp
+	mov	DWORD PTR $T64[ebp], esp
 	push	OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	??0?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE@ABV01@@Z ; std::vector<PushTile,std::allocator<PushTile> >::vector<PushTile,std::allocator<PushTile> >
-	mov	DWORD PTR tv935[ebp], eax
-	mov	ecx, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1098[ebp], eax
+	mov	ecx, DWORD PTR _tile$86[ebp]
 	call	?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ; PushTile::GetDirection
-	mov	DWORD PTR tv936[ebp], eax
-	cmp	DWORD PTR tv936[ebp], 1
-	jne	SHORT $LN16@UpdatePlay
-	mov	eax, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1099[ebp], eax
+	cmp	DWORD PTR tv1099[ebp], 1
+	jne	SHORT $LN22@UpdatePlay
+	mov	eax, DWORD PTR _tile$86[ebp]
 	movsd	xmm0, QWORD PTR [eax+32]
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	cvtss2sd xmm1, DWORD PTR _deltaTimeS$[ebp]
@@ -15274,43 +18416,43 @@ $LN15@UpdatePlay:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-$LN16@UpdatePlay:
+$LN22@UpdatePlay:
 
-; 22   : 			if (tile.GetDirection(pushTileMap) == 2) { player.velocityX = tile.force * deltaTimeS; player.velocityY = 0; }
+; 28   : 			if (tile.GetDirection(pushTileMap) == 2) { player.velocityX = tile.force * deltaTimeS; player.velocityY = 0; }
 
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
-	mov	DWORD PTR $T58[ebp], esp
+	mov	DWORD PTR $T63[ebp], esp
 	push	OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	??0?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE@ABV01@@Z ; std::vector<PushTile,std::allocator<PushTile> >::vector<PushTile,std::allocator<PushTile> >
-	mov	DWORD PTR tv938[ebp], eax
-	mov	ecx, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1101[ebp], eax
+	mov	ecx, DWORD PTR _tile$86[ebp]
 	call	?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ; PushTile::GetDirection
-	mov	DWORD PTR tv939[ebp], eax
-	cmp	DWORD PTR tv939[ebp], 2
-	jne	SHORT $LN17@UpdatePlay
+	mov	DWORD PTR tv1102[ebp], eax
+	cmp	DWORD PTR tv1102[ebp], 2
+	jne	SHORT $LN23@UpdatePlay
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
-	mov	eax, DWORD PTR _tile$73[ebp]
+	mov	eax, DWORD PTR _tile$86[ebp]
 	mulsd	xmm0, QWORD PTR [eax+32]
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN17@UpdatePlay:
+$LN23@UpdatePlay:
 
-; 23   : 			if (tile.GetDirection(pushTileMap) == 3) { player.velocityX = -tile.force * deltaTimeS; player.velocityY = 0; }
+; 29   : 			if (tile.GetDirection(pushTileMap) == 3) { player.velocityX = -tile.force * deltaTimeS; player.velocityY = 0; }
 
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
-	mov	DWORD PTR $T57[ebp], esp
+	mov	DWORD PTR $T62[ebp], esp
 	push	OFFSET ?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A ; pushTileMap
 	call	??0?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@QAE@ABV01@@Z ; std::vector<PushTile,std::allocator<PushTile> >::vector<PushTile,std::allocator<PushTile> >
-	mov	DWORD PTR tv941[ebp], eax
-	mov	ecx, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1104[ebp], eax
+	mov	ecx, DWORD PTR _tile$86[ebp]
 	call	?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ; PushTile::GetDirection
-	mov	DWORD PTR tv942[ebp], eax
-	cmp	DWORD PTR tv942[ebp], 3
-	jne	SHORT $LN18@UpdatePlay
-	mov	eax, DWORD PTR _tile$73[ebp]
+	mov	DWORD PTR tv1105[ebp], eax
+	cmp	DWORD PTR tv1105[ebp], 3
+	jne	SHORT $LN24@UpdatePlay
+	mov	eax, DWORD PTR _tile$86[ebp]
 	movsd	xmm0, QWORD PTR [eax+32]
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	cvtss2sd xmm1, DWORD PTR _deltaTimeS$[ebp]
@@ -15318,678 +18460,839 @@ $LN17@UpdatePlay:
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN18@UpdatePlay:
+$LN24@UpdatePlay:
 
-; 24   : 		}
+; 30   : 		}
 
 	jmp	$LN2@UpdatePlay
 $LN3@UpdatePlay:
 
-; 25   : 	}
+; 31   : 	}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
-	lea	ecx, DWORD PTR _<end>$L0$74[ebp]
+	lea	ecx, DWORD PTR _<end>$L0$87[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 
-; 26   : 
-; 27   : 	if (floatingMovement) FloatingMovement(deltaTimeS);
+; 32   : 
+; 33   : 	if (floatingMovement) FloatingMovement(deltaTimeS);
 
 	movzx	eax, BYTE PTR ?floatingMovement@@3_NA	; floatingMovement
 	test	eax, eax
-	je	SHORT $LN19@UpdatePlay
+	je	SHORT $LN25@UpdatePlay
 	push	ecx
 	movss	xmm0, DWORD PTR _deltaTimeS$[ebp]
 	movss	DWORD PTR [esp], xmm0
 	call	?FloatingMovement@@YAXM@Z		; FloatingMovement
 	add	esp, 4
-$LN19@UpdatePlay:
+$LN25@UpdatePlay:
 
-; 28   : 
-; 29   : 	player.position.x += player.velocityX;
+; 34   : 
+; 35   : 	player.position.x += player.velocityX;
 
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
 	addsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+32
 	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
 
-; 30   : 	player.position.y += player.velocityY;
+; 36   : 	player.position.y += player.velocityY;
 
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
 	addsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
 
-; 31   : 	player.velocityX = 0;
+; 37   : 	player.velocityX = 0;
 
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
 
-; 32   : 
-; 33   : 	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_f) != pressKeyList.end()) floatingMovement = !floatingMovement;
+; 38   : 
+; 39   : 	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_r) != pressKeyList.end()) { ResetPlayer(); }
 
-	mov	DWORD PTR $T55[ebp], 102		; 00000066H
-	lea	eax, DWORD PTR $T51[ebp]
+	mov	DWORD PTR $T60[ebp], 114		; 00000072H
+	lea	eax, DWORD PTR $T56[ebp]
 	push	eax
 	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
 	mov	DWORD PTR tv75[ebp], eax
 	mov	ecx, DWORD PTR tv75[ebp]
-	mov	DWORD PTR tv944[ebp], ecx
+	mov	DWORD PTR tv1107[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
-	mov	edx, DWORD PTR tv944[ebp]
+	mov	edx, DWORD PTR tv1107[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T55[ebp]
+	lea	eax, DWORD PTR $T60[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T54[ebp], esp
+	mov	DWORD PTR $T59[ebp], esp
 	push	ecx
 	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv948[ebp], eax
+	mov	DWORD PTR tv1111[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T53[ebp], esp
+	mov	DWORD PTR $T58[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv951[ebp], eax
-	lea	eax, DWORD PTR $T52[ebp]
+	mov	DWORD PTR tv1114[ebp], eax
+	lea	eax, DWORD PTR $T57[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
 	mov	DWORD PTR tv221[ebp], eax
 	mov	ecx, DWORD PTR tv221[ebp]
-	mov	DWORD PTR tv953[ebp], ecx
+	mov	DWORD PTR tv1116[ebp], ecx
 	mov	BYTE PTR __$EHRec$[ebp+8], 3
-	mov	ecx, DWORD PTR tv953[ebp]
+	mov	ecx, DWORD PTR tv1116[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
 	mov	BYTE PTR tv255[ebp], al
 	mov	dl, BYTE PTR tv255[ebp]
-	mov	BYTE PTR $T56[ebp], dl
+	mov	BYTE PTR $T61[ebp], dl
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
-	lea	ecx, DWORD PTR $T52[ebp]
+	lea	ecx, DWORD PTR $T57[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR $T51[ebp]
+	lea	ecx, DWORD PTR $T56[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	movzx	eax, BYTE PTR $T56[ebp]
+	movzx	eax, BYTE PTR $T61[ebp]
 	test	eax, eax
-	je	SHORT $LN20@UpdatePlay
-	movzx	eax, BYTE PTR ?floatingMovement@@3_NA	; floatingMovement
-	test	eax, eax
-	jne	SHORT $LN45@UpdatePlay
-	mov	DWORD PTR tv270[ebp], 1
-	jmp	SHORT $LN46@UpdatePlay
-$LN45@UpdatePlay:
-	mov	DWORD PTR tv270[ebp], 0
-$LN46@UpdatePlay:
-	mov	cl, BYTE PTR tv270[ebp]
-	mov	BYTE PTR ?floatingMovement@@3_NA, cl	; floatingMovement
-$LN20@UpdatePlay:
+	je	SHORT $LN26@UpdatePlay
+	call	?ResetPlayer@@YAXXZ			; ResetPlayer
+$LN26@UpdatePlay:
 
-; 34   : 
-; 35   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LCTRL) != keyList.end()) { player.speed = 65; }
+; 40   : 	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_f) != pressKeyList.end()) floatingMovement = !floatingMovement;
 
-	mov	DWORD PTR $T49[ebp], 1073742048		; 400000e0H
-	lea	eax, DWORD PTR $T45[ebp]
+	mov	DWORD PTR $T54[ebp], 102		; 00000066H
+	lea	eax, DWORD PTR $T50[ebp]
 	push	eax
-	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
 	mov	DWORD PTR tv69[ebp], eax
 	mov	ecx, DWORD PTR tv69[ebp]
-	mov	DWORD PTR tv955[ebp], ecx
+	mov	DWORD PTR tv1118[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 4
-	mov	edx, DWORD PTR tv955[ebp]
+	mov	edx, DWORD PTR tv1118[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T49[ebp]
+	lea	eax, DWORD PTR $T54[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T48[ebp], esp
+	mov	DWORD PTR $T53[ebp], esp
 	push	ecx
-	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv959[ebp], eax
+	mov	DWORD PTR tv1122[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T47[ebp], esp
+	mov	DWORD PTR $T52[ebp], esp
 	push	edx
-	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	mov	ecx, OFFSET ?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; pressKeyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv962[ebp], eax
-	lea	eax, DWORD PTR $T46[ebp]
+	mov	DWORD PTR tv1125[ebp], eax
+	lea	eax, DWORD PTR $T51[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv275[ebp], eax
-	mov	ecx, DWORD PTR tv275[ebp]
-	mov	DWORD PTR tv964[ebp], ecx
+	mov	DWORD PTR tv271[ebp], eax
+	mov	ecx, DWORD PTR tv271[ebp]
+	mov	DWORD PTR tv1127[ebp], ecx
 	mov	BYTE PTR __$EHRec$[ebp+8], 5
-	mov	ecx, DWORD PTR tv964[ebp]
+	mov	ecx, DWORD PTR tv1127[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
-	mov	BYTE PTR tv309[ebp], al
-	mov	dl, BYTE PTR tv309[ebp]
-	mov	BYTE PTR $T50[ebp], dl
+	mov	BYTE PTR tv305[ebp], al
+	mov	dl, BYTE PTR tv305[ebp]
+	mov	BYTE PTR $T55[ebp], dl
 	mov	BYTE PTR __$EHRec$[ebp+8], 4
-	lea	ecx, DWORD PTR $T46[ebp]
+	lea	ecx, DWORD PTR $T51[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR $T45[ebp]
+	lea	ecx, DWORD PTR $T50[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	movzx	eax, BYTE PTR $T50[ebp]
+	movzx	eax, BYTE PTR $T55[ebp]
 	test	eax, eax
-	je	SHORT $LN21@UpdatePlay
-	movsd	xmm0, QWORD PTR __real@4050400000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+48, xmm0
-	jmp	SHORT $LN22@UpdatePlay
-$LN21@UpdatePlay:
+	je	SHORT $LN27@UpdatePlay
+	movzx	eax, BYTE PTR ?floatingMovement@@3_NA	; floatingMovement
+	test	eax, eax
+	jne	SHORT $LN62@UpdatePlay
+	mov	DWORD PTR tv320[ebp], 1
+	jmp	SHORT $LN63@UpdatePlay
+$LN62@UpdatePlay:
+	mov	DWORD PTR tv320[ebp], 0
+$LN63@UpdatePlay:
+	mov	cl, BYTE PTR tv320[ebp]
+	mov	BYTE PTR ?floatingMovement@@3_NA, cl	; floatingMovement
+$LN27@UpdatePlay:
 
-; 36   : 	else { player.speed = 50; }
+; 41   : 
+; 42   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LCTRL) != keyList.end()) { player.speed = 65; }
 
-	movsd	xmm0, QWORD PTR __real@4049000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+48, xmm0
-$LN22@UpdatePlay:
-
-; 37   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LEFT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) == keyList.end()) player.velocityX = -player.speed * deltaTimeS;
-
-	mov	DWORD PTR $T43[ebp], 1073741904		; 40000050H
-	lea	eax, DWORD PTR $T39[ebp]
+	mov	DWORD PTR $T48[ebp], 1073742048		; 400000e0H
+	lea	eax, DWORD PTR $T44[ebp]
 	push	eax
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1095[ebp], eax
-	mov	ecx, DWORD PTR tv1095[ebp]
-	mov	DWORD PTR tv969[ebp], ecx
+	mov	DWORD PTR tv1273[ebp], eax
+	mov	ecx, DWORD PTR tv1273[ebp]
+	mov	DWORD PTR tv1129[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 6
-	mov	edx, DWORD PTR $T2[ebp]
-	or	edx, 1
-	mov	DWORD PTR $T2[ebp], edx
-	mov	eax, DWORD PTR tv969[ebp]
+	mov	edx, DWORD PTR tv1129[ebp]
+	push	edx
+	lea	eax, DWORD PTR $T48[ebp]
 	push	eax
-	lea	ecx, DWORD PTR $T43[ebp]
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T47[ebp], esp
 	push	ecx
+	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
+	mov	DWORD PTR tv1133[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T42[ebp], esp
+	mov	DWORD PTR $T46[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
-	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv973[ebp], eax
-	sub	esp, 12					; 0000000cH
-	mov	eax, esp
-	mov	DWORD PTR $T41[ebp], esp
-	push	eax
-	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv976[ebp], eax
-	lea	ecx, DWORD PTR $T40[ebp]
-	push	ecx
+	mov	DWORD PTR tv1136[ebp], eax
+	lea	eax, DWORD PTR $T45[ebp]
+	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
 	mov	DWORD PTR tv325[ebp], eax
-	mov	edx, DWORD PTR tv325[ebp]
-	mov	DWORD PTR tv981[ebp], edx
-	mov	DWORD PTR __$EHRec$[ebp+8], 7
+	mov	ecx, DWORD PTR tv325[ebp]
+	mov	DWORD PTR tv1138[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 7
+	mov	ecx, DWORD PTR tv1138[ebp]
+	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
+	mov	BYTE PTR tv359[ebp], al
+	mov	dl, BYTE PTR tv359[ebp]
+	mov	BYTE PTR $T49[ebp], dl
+	mov	BYTE PTR __$EHRec$[ebp+8], 6
+	lea	ecx, DWORD PTR $T45[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR $T44[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+	movzx	eax, BYTE PTR $T49[ebp]
+	test	eax, eax
+	je	SHORT $LN28@UpdatePlay
+	movsd	xmm0, QWORD PTR __real@4050400000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+48, xmm0
+	jmp	SHORT $LN29@UpdatePlay
+$LN28@UpdatePlay:
+
+; 43   : 	else { player.speed = 50; }
+
+	movsd	xmm0, QWORD PTR __real@4049000000000000
+	movsd	QWORD PTR ?player@@3UPlayer@@A+48, xmm0
+$LN29@UpdatePlay:
+
+; 44   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_LEFT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) == keyList.end()) player.velocityX = -player.speed * deltaTimeS;
+
+	mov	DWORD PTR $T42[ebp], 1073741904		; 40000050H
+	lea	eax, DWORD PTR $T38[ebp]
+	push	eax
+	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
+	mov	DWORD PTR tv1274[ebp], eax
+	mov	ecx, DWORD PTR tv1274[ebp]
+	mov	DWORD PTR tv1143[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 8
+	mov	edx, DWORD PTR $T2[ebp]
+	or	edx, 1
+	mov	DWORD PTR $T2[ebp], edx
+	mov	eax, DWORD PTR tv1143[ebp]
+	push	eax
+	lea	ecx, DWORD PTR $T42[ebp]
+	push	ecx
+	sub	esp, 12					; 0000000cH
+	mov	edx, esp
+	mov	DWORD PTR $T41[ebp], esp
+	push	edx
+	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
+	mov	DWORD PTR tv1147[ebp], eax
+	sub	esp, 12					; 0000000cH
+	mov	eax, esp
+	mov	DWORD PTR $T40[ebp], esp
+	push	eax
+	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
+	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
+	mov	DWORD PTR tv1150[ebp], eax
+	lea	ecx, DWORD PTR $T39[ebp]
+	push	ecx
+	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
+	add	esp, 32					; 00000020H
+	mov	DWORD PTR tv375[ebp], eax
+	mov	edx, DWORD PTR tv375[ebp]
+	mov	DWORD PTR tv1155[ebp], edx
+	mov	DWORD PTR __$EHRec$[ebp+8], 9
 	mov	eax, DWORD PTR $T2[ebp]
 	or	eax, 2
 	mov	DWORD PTR $T2[ebp], eax
-	mov	ecx, DWORD PTR tv981[ebp]
+	mov	ecx, DWORD PTR tv1155[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
-	mov	BYTE PTR tv359[ebp], al
-	movzx	ecx, BYTE PTR tv359[ebp]
+	mov	BYTE PTR tv441[ebp], al
+	movzx	ecx, BYTE PTR tv441[ebp]
 	test	ecx, ecx
-	je	$LN47@UpdatePlay
-	mov	DWORD PTR $T38[ebp], 1073741903		; 4000004fH
-	lea	edx, DWORD PTR $T34[ebp]
+	je	$LN64@UpdatePlay
+	mov	DWORD PTR $T37[ebp], 1073741903		; 4000004fH
+	lea	edx, DWORD PTR $T33[ebp]
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1102[ebp], eax
-	mov	eax, DWORD PTR tv1102[ebp]
-	mov	DWORD PTR tv986[ebp], eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 8
+	mov	DWORD PTR tv1313[ebp], eax
+	mov	eax, DWORD PTR tv1313[ebp]
+	mov	DWORD PTR tv1160[ebp], eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 10		; 0000000aH
 	mov	ecx, DWORD PTR $T2[ebp]
 	or	ecx, 4
 	mov	DWORD PTR $T2[ebp], ecx
-	mov	edx, DWORD PTR tv986[ebp]
+	mov	edx, DWORD PTR tv1160[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T38[ebp]
+	lea	eax, DWORD PTR $T37[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T37[ebp], esp
+	mov	DWORD PTR $T36[ebp], esp
 	push	ecx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv990[ebp], eax
+	mov	DWORD PTR tv1164[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T36[ebp], esp
+	mov	DWORD PTR $T35[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv993[ebp], eax
-	lea	eax, DWORD PTR $T35[ebp]
+	mov	DWORD PTR tv1167[ebp], eax
+	lea	eax, DWORD PTR $T34[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv373[ebp], eax
-	mov	ecx, DWORD PTR tv373[ebp]
-	mov	DWORD PTR tv998[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 9
+	mov	DWORD PTR tv455[ebp], eax
+	mov	ecx, DWORD PTR tv455[ebp]
+	mov	DWORD PTR tv1172[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 11		; 0000000bH
 	mov	edx, DWORD PTR $T2[ebp]
 	or	edx, 8
 	mov	DWORD PTR $T2[ebp], edx
-	mov	ecx, DWORD PTR tv998[ebp]
+	mov	ecx, DWORD PTR tv1172[ebp]
 	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator==
-	mov	BYTE PTR tv407[ebp], al
-	movzx	eax, BYTE PTR tv407[ebp]
+	mov	BYTE PTR tv489[ebp], al
+	movzx	eax, BYTE PTR tv489[ebp]
 	test	eax, eax
-	je	SHORT $LN47@UpdatePlay
-	mov	DWORD PTR tv454[ebp], 1
-	jmp	SHORT $LN48@UpdatePlay
-$LN47@UpdatePlay:
-	mov	DWORD PTR tv454[ebp], 0
-$LN48@UpdatePlay:
-	mov	cl, BYTE PTR tv454[ebp]
-	mov	BYTE PTR $T44[ebp], cl
-	mov	DWORD PTR __$EHRec$[ebp+8], 8
+	je	SHORT $LN64@UpdatePlay
+	mov	DWORD PTR tv504[ebp], 1
+	jmp	SHORT $LN65@UpdatePlay
+$LN64@UpdatePlay:
+	mov	DWORD PTR tv504[ebp], 0
+$LN65@UpdatePlay:
+	mov	cl, BYTE PTR tv504[ebp]
+	mov	BYTE PTR $T43[ebp], cl
+	mov	DWORD PTR __$EHRec$[ebp+8], 10		; 0000000aH
 	mov	edx, DWORD PTR $T2[ebp]
 	and	edx, 8
-	je	SHORT $LN77@UpdatePlay
+	je	SHORT $LN98@UpdatePlay
 	and	DWORD PTR $T2[ebp], -9			; fffffff7H
-	lea	ecx, DWORD PTR $T35[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN77@UpdatePlay:
-	mov	DWORD PTR __$EHRec$[ebp+8], 7
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 4
-	je	SHORT $LN78@UpdatePlay
-	and	DWORD PTR $T2[ebp], -5			; fffffffbH
 	lea	ecx, DWORD PTR $T34[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN78@UpdatePlay:
-	mov	DWORD PTR __$EHRec$[ebp+8], 6
+$LN98@UpdatePlay:
+	mov	DWORD PTR __$EHRec$[ebp+8], 9
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 4
+	je	SHORT $LN99@UpdatePlay
+	and	DWORD PTR $T2[ebp], -5			; fffffffbH
+	lea	ecx, DWORD PTR $T33[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+$LN99@UpdatePlay:
+	mov	DWORD PTR __$EHRec$[ebp+8], 8
 	mov	ecx, DWORD PTR $T2[ebp]
 	and	ecx, 2
-	je	SHORT $LN79@UpdatePlay
+	je	SHORT $LN100@UpdatePlay
 	and	DWORD PTR $T2[ebp], -3			; fffffffdH
-	lea	ecx, DWORD PTR $T40[ebp]
+	lea	ecx, DWORD PTR $T39[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN79@UpdatePlay:
+$LN100@UpdatePlay:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	edx, DWORD PTR $T2[ebp]
 	and	edx, 1
-	je	SHORT $LN80@UpdatePlay
+	je	SHORT $LN101@UpdatePlay
 	and	DWORD PTR $T2[ebp], -2			; fffffffeH
-	lea	ecx, DWORD PTR $T39[ebp]
+	lea	ecx, DWORD PTR $T38[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN80@UpdatePlay:
-	movzx	eax, BYTE PTR $T44[ebp]
+$LN101@UpdatePlay:
+	movzx	eax, BYTE PTR $T43[ebp]
 	test	eax, eax
-	je	SHORT $LN23@UpdatePlay
+	je	SHORT $LN30@UpdatePlay
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+48
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	cvtss2sd xmm1, DWORD PTR _deltaTimeS$[ebp]
 	mulsd	xmm0, xmm1
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-$LN23@UpdatePlay:
+$LN30@UpdatePlay:
 
-; 38   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_LEFT) == keyList.end()) player.velocityX = player.speed * deltaTimeS;
+; 45   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_LEFT) == keyList.end()) player.velocityX = player.speed * deltaTimeS;
 
-	mov	DWORD PTR $T32[ebp], 1073741903		; 4000004fH
-	lea	eax, DWORD PTR $T28[ebp]
+	mov	DWORD PTR $T31[ebp], 1073741903		; 4000004fH
+	lea	eax, DWORD PTR $T27[ebp]
 	push	eax
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1109[ebp], eax
-	mov	ecx, DWORD PTR tv1109[ebp]
-	mov	DWORD PTR tv1011[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 10		; 0000000aH
+	mov	DWORD PTR tv1320[ebp], eax
+	mov	ecx, DWORD PTR tv1320[ebp]
+	mov	DWORD PTR tv1185[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 12		; 0000000cH
 	mov	edx, DWORD PTR $T2[ebp]
 	or	edx, 16					; 00000010H
 	mov	DWORD PTR $T2[ebp], edx
-	mov	eax, DWORD PTR tv1011[ebp]
+	mov	eax, DWORD PTR tv1185[ebp]
 	push	eax
-	lea	ecx, DWORD PTR $T32[ebp]
+	lea	ecx, DWORD PTR $T31[ebp]
 	push	ecx
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T31[ebp], esp
+	mov	DWORD PTR $T30[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1015[ebp], eax
+	mov	DWORD PTR tv1189[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	eax, esp
-	mov	DWORD PTR $T30[ebp], esp
+	mov	DWORD PTR $T29[ebp], esp
 	push	eax
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv1018[ebp], eax
-	lea	ecx, DWORD PTR $T29[ebp]
+	mov	DWORD PTR tv1192[ebp], eax
+	lea	ecx, DWORD PTR $T28[ebp]
 	push	ecx
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv464[ebp], eax
-	mov	edx, DWORD PTR tv464[ebp]
-	mov	DWORD PTR tv1023[ebp], edx
-	mov	DWORD PTR __$EHRec$[ebp+8], 11		; 0000000bH
+	mov	DWORD PTR tv514[ebp], eax
+	mov	edx, DWORD PTR tv514[ebp]
+	mov	DWORD PTR tv1197[ebp], edx
+	mov	DWORD PTR __$EHRec$[ebp+8], 13		; 0000000dH
 	mov	eax, DWORD PTR $T2[ebp]
 	or	eax, 32					; 00000020H
 	mov	DWORD PTR $T2[ebp], eax
-	mov	ecx, DWORD PTR tv1023[ebp]
+	mov	ecx, DWORD PTR tv1197[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
-	mov	BYTE PTR tv498[ebp], al
-	movzx	ecx, BYTE PTR tv498[ebp]
+	mov	BYTE PTR tv548[ebp], al
+	movzx	ecx, BYTE PTR tv548[ebp]
 	test	ecx, ecx
-	je	$LN49@UpdatePlay
-	mov	DWORD PTR $T27[ebp], 1073741904		; 40000050H
-	lea	edx, DWORD PTR $T23[ebp]
+	je	$LN66@UpdatePlay
+	mov	DWORD PTR $T26[ebp], 1073741904		; 40000050H
+	lea	edx, DWORD PTR $T22[ebp]
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1116[ebp], eax
-	mov	eax, DWORD PTR tv1116[ebp]
-	mov	DWORD PTR tv1028[ebp], eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 12		; 0000000cH
+	mov	DWORD PTR tv1327[ebp], eax
+	mov	eax, DWORD PTR tv1327[ebp]
+	mov	DWORD PTR tv1202[ebp], eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 14		; 0000000eH
 	mov	ecx, DWORD PTR $T2[ebp]
 	or	ecx, 64					; 00000040H
 	mov	DWORD PTR $T2[ebp], ecx
-	mov	edx, DWORD PTR tv1028[ebp]
+	mov	edx, DWORD PTR tv1202[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T27[ebp]
+	lea	eax, DWORD PTR $T26[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T26[ebp], esp
+	mov	DWORD PTR $T25[ebp], esp
 	push	ecx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1032[ebp], eax
+	mov	DWORD PTR tv1206[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T25[ebp], esp
+	mov	DWORD PTR $T24[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv1035[ebp], eax
-	lea	eax, DWORD PTR $T24[ebp]
+	mov	DWORD PTR tv1209[ebp], eax
+	lea	eax, DWORD PTR $T23[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv512[ebp], eax
-	mov	ecx, DWORD PTR tv512[ebp]
-	mov	DWORD PTR tv1040[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	DWORD PTR tv562[ebp], eax
+	mov	ecx, DWORD PTR tv562[ebp]
+	mov	DWORD PTR tv1214[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	edx, DWORD PTR $T2[ebp]
 	or	edx, 128				; 00000080H
 	mov	DWORD PTR $T2[ebp], edx
-	mov	ecx, DWORD PTR tv1040[ebp]
+	mov	ecx, DWORD PTR tv1214[ebp]
 	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator==
-	mov	BYTE PTR tv546[ebp], al
-	movzx	eax, BYTE PTR tv546[ebp]
+	mov	BYTE PTR tv596[ebp], al
+	movzx	eax, BYTE PTR tv596[ebp]
 	test	eax, eax
-	je	SHORT $LN49@UpdatePlay
-	mov	DWORD PTR tv561[ebp], 1
-	jmp	SHORT $LN50@UpdatePlay
-$LN49@UpdatePlay:
-	mov	DWORD PTR tv561[ebp], 0
-$LN50@UpdatePlay:
-	mov	cl, BYTE PTR tv561[ebp]
-	mov	BYTE PTR $T33[ebp], cl
-	mov	DWORD PTR __$EHRec$[ebp+8], 12		; 0000000cH
+	je	SHORT $LN66@UpdatePlay
+	mov	DWORD PTR tv611[ebp], 1
+	jmp	SHORT $LN67@UpdatePlay
+$LN66@UpdatePlay:
+	mov	DWORD PTR tv611[ebp], 0
+$LN67@UpdatePlay:
+	mov	cl, BYTE PTR tv611[ebp]
+	mov	BYTE PTR $T32[ebp], cl
+	mov	DWORD PTR __$EHRec$[ebp+8], 14		; 0000000eH
 	mov	edx, DWORD PTR $T2[ebp]
 	and	edx, 128				; 00000080H
-	je	SHORT $LN93@UpdatePlay
+	je	SHORT $LN114@UpdatePlay
 	and	DWORD PTR $T2[ebp], -129		; ffffff7fH
-	lea	ecx, DWORD PTR $T24[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN93@UpdatePlay:
-	mov	DWORD PTR __$EHRec$[ebp+8], 11		; 0000000bH
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 64					; 00000040H
-	je	SHORT $LN94@UpdatePlay
-	and	DWORD PTR $T2[ebp], -65			; ffffffbfH
 	lea	ecx, DWORD PTR $T23[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN94@UpdatePlay:
-	mov	DWORD PTR __$EHRec$[ebp+8], 10		; 0000000aH
+$LN114@UpdatePlay:
+	mov	DWORD PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 64					; 00000040H
+	je	SHORT $LN115@UpdatePlay
+	and	DWORD PTR $T2[ebp], -65			; ffffffbfH
+	lea	ecx, DWORD PTR $T22[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+$LN115@UpdatePlay:
+	mov	DWORD PTR __$EHRec$[ebp+8], 12		; 0000000cH
 	mov	ecx, DWORD PTR $T2[ebp]
 	and	ecx, 32					; 00000020H
-	je	SHORT $LN95@UpdatePlay
+	je	SHORT $LN116@UpdatePlay
 	and	DWORD PTR $T2[ebp], -33			; ffffffdfH
-	lea	ecx, DWORD PTR $T29[ebp]
+	lea	ecx, DWORD PTR $T28[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN95@UpdatePlay:
+$LN116@UpdatePlay:
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	edx, DWORD PTR $T2[ebp]
 	and	edx, 16					; 00000010H
-	je	SHORT $LN96@UpdatePlay
+	je	SHORT $LN117@UpdatePlay
 	and	DWORD PTR $T2[ebp], -17			; ffffffefH
-	lea	ecx, DWORD PTR $T28[ebp]
+	lea	ecx, DWORD PTR $T27[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN96@UpdatePlay:
-	movzx	eax, BYTE PTR $T33[ebp]
+$LN117@UpdatePlay:
+	movzx	eax, BYTE PTR $T32[ebp]
 	test	eax, eax
-	je	SHORT $LN24@UpdatePlay
+	je	SHORT $LN31@UpdatePlay
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
 	mulsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+48
 	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-$LN24@UpdatePlay:
+$LN31@UpdatePlay:
 
-; 39   : 
-; 40   : 	if (player.onGround == true) {
+; 46   : 
+; 47   : 	for (auto &tile : airTileMap) {
+
+	mov	DWORD PTR _<range>$L1$85[ebp], OFFSET ?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A ; airTileMap
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z
+	lea	eax, DWORD PTR _<begin>$L1$84[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _<range>$L1$85[ebp]
+	call	?begin@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ; std::vector<AirTile,std::allocator<AirTile> >::begin
+	mov	DWORD PTR __$EHRec$[ebp+8], 16		; 00000010H
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR _<end>$L1$83[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z
+	lea	eax, DWORD PTR _<end>$L1$83[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _<range>$L1$85[ebp]
+	call	?end@?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@2@XZ ; std::vector<AirTile,std::allocator<AirTile> >::end
+	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
+	jmp	SHORT $LN7@UpdatePlay
+$LN5@UpdatePlay:
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
+$LN7@UpdatePlay:
+	lea	eax, DWORD PTR _<end>$L1$83[ebp]
+	push	eax
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator!=
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN6@UpdatePlay
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QBEAAUAirTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator*
+	mov	DWORD PTR _tile$82[ebp], eax
+
+; 48   : 		if (CheckCollision(tile.tile) == true) {
+
+	mov	esi, DWORD PTR _tile$82[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollision@@YA_NUTile@@@Z		; CheckCollision
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	cmp	eax, 1
+	jne	$LN36@UpdatePlay
+
+; 49   : 			if (tile.direction == 1) { player.position.y -= tile.speed; }
+
+	mov	eax, DWORD PTR _tile$82[ebp]
+	cmp	DWORD PTR [eax+32], 1
+	jne	SHORT $LN33@UpdatePlay
+	mov	eax, DWORD PTR _tile$82[ebp]
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	subsd	xmm0, QWORD PTR [eax+40]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+$LN33@UpdatePlay:
+
+; 50   : 			if (tile.direction == 2) { player.position.y += tile.speed; }
+
+	mov	eax, DWORD PTR _tile$82[ebp]
+	cmp	DWORD PTR [eax+32], 2
+	jne	SHORT $LN34@UpdatePlay
+	mov	eax, DWORD PTR _tile$82[ebp]
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+8
+	addsd	xmm0, QWORD PTR [eax+40]
+	movsd	QWORD PTR ?player@@3UPlayer@@A+8, xmm0
+$LN34@UpdatePlay:
+
+; 51   : 			if (tile.direction == 3) { player.position.x -= tile.speed; }
+
+	mov	eax, DWORD PTR _tile$82[ebp]
+	cmp	DWORD PTR [eax+32], 3
+	jne	SHORT $LN35@UpdatePlay
+	mov	eax, DWORD PTR _tile$82[ebp]
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
+	subsd	xmm0, QWORD PTR [eax+40]
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
+$LN35@UpdatePlay:
+
+; 52   : 			if (tile.direction == 4) { player.position.x += tile.speed; }
+
+	mov	eax, DWORD PTR _tile$82[ebp]
+	cmp	DWORD PTR [eax+32], 4
+	jne	SHORT $LN36@UpdatePlay
+	mov	eax, DWORD PTR _tile$82[ebp]
+	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
+	addsd	xmm0, QWORD PTR [eax+40]
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
+$LN36@UpdatePlay:
+
+; 53   : 		}
+
+	jmp	$LN5@UpdatePlay
+$LN6@UpdatePlay:
+
+; 54   : 	}
+
+	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
+	lea	ecx, DWORD PTR _<end>$L1$83[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+
+; 55   : 
+; 56   : 	if (player.onGround == true) {
 
 	movzx	eax, BYTE PTR ?player@@3UPlayer@@A+24
 	cmp	eax, 1
-	jne	$LN25@UpdatePlay
+	jne	$LN37@UpdatePlay
 
-; 41   : 		if (jumpPress == false) {
+; 57   : 		if (jumpPress == false) {
 
 	movzx	eax, BYTE PTR ?jumpPress@@3_NA		; jumpPress
 	test	eax, eax
-	jne	$LN28@UpdatePlay
+	jne	$LN40@UpdatePlay
 
-; 42   : 			if (std::find(keyList.begin(), keyList.end(), SDLK_SPACE) != keyList.end()) {
+; 58   : 			if (std::find(keyList.begin(), keyList.end(), SDLK_SPACE) != keyList.end()) {
 
-	mov	DWORD PTR $T21[ebp], 32			; 00000020H
-	lea	eax, DWORD PTR $T17[ebp]
+	mov	DWORD PTR $T20[ebp], 32			; 00000020H
+	lea	eax, DWORD PTR $T16[ebp]
 	push	eax
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1123[ebp], eax
-	mov	ecx, DWORD PTR tv1123[ebp]
-	mov	DWORD PTR tv1050[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 14		; 0000000eH
-	mov	edx, DWORD PTR tv1050[ebp]
+	mov	DWORD PTR tv626[ebp], eax
+	mov	ecx, DWORD PTR tv626[ebp]
+	mov	DWORD PTR tv1226[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 18		; 00000012H
+	mov	edx, DWORD PTR tv1226[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T21[ebp]
+	lea	eax, DWORD PTR $T20[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T20[ebp], esp
+	mov	DWORD PTR $T19[ebp], esp
 	push	ecx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1054[ebp], eax
+	mov	DWORD PTR tv1230[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T19[ebp], esp
+	mov	DWORD PTR $T18[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv1057[ebp], eax
-	lea	eax, DWORD PTR $T18[ebp]
+	mov	DWORD PTR tv1233[ebp], eax
+	lea	eax, DWORD PTR $T17[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv574[ebp], eax
-	mov	ecx, DWORD PTR tv574[ebp]
-	mov	DWORD PTR tv1059[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
-	mov	ecx, DWORD PTR tv1059[ebp]
+	mov	DWORD PTR tv673[ebp], eax
+	mov	ecx, DWORD PTR tv673[ebp]
+	mov	DWORD PTR tv1235[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 19		; 00000013H
+	mov	ecx, DWORD PTR tv1235[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator!=
-	mov	BYTE PTR tv608[ebp], al
-	mov	dl, BYTE PTR tv608[ebp]
-	mov	BYTE PTR $T22[ebp], dl
-	mov	BYTE PTR __$EHRec$[ebp+8], 14		; 0000000eH
-	lea	ecx, DWORD PTR $T18[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	BYTE PTR tv707[ebp], al
+	mov	dl, BYTE PTR tv707[ebp]
+	mov	BYTE PTR $T21[ebp], dl
+	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
 	lea	ecx, DWORD PTR $T17[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	movzx	eax, BYTE PTR $T22[ebp]
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR $T16[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+	movzx	eax, BYTE PTR $T21[ebp]
 	test	eax, eax
-	je	SHORT $LN28@UpdatePlay
+	je	SHORT $LN40@UpdatePlay
 
-; 43   : 				player.velocityY = -player.jumpSpeed; player.onGround = false; jumpPress = true;
+; 59   : 				player.velocityY = -player.jumpSpeed; player.onGround = false; jumpPress = true;
 
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+56
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
 	mov	BYTE PTR ?player@@3UPlayer@@A+24, 0
 	mov	BYTE PTR ?jumpPress@@3_NA, 1		; jumpPress
-$LN28@UpdatePlay:
+$LN40@UpdatePlay:
 
-; 44   : 			}
-; 45   : 		}
-; 46   : 	}
-; 47   : 	else {
+; 60   : 			}
+; 61   : 		}
+; 62   : 	}
+; 63   : 	else {
 
-	jmp	SHORT $LN26@UpdatePlay
-$LN25@UpdatePlay:
+	jmp	SHORT $LN38@UpdatePlay
+$LN37@UpdatePlay:
 
-; 48   : 		player.velocityY += 9.8 * deltaTimeS;
+; 64   : 		player.velocityY += 9.8 * deltaTimeS;
 
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
 	mulsd	xmm0, QWORD PTR __real@402399999999999a
 	addsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN26@UpdatePlay:
+$LN38@UpdatePlay:
 
-; 49   : 	}
-; 50   : 
-; 51   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_SPACE) == keyList.end()) {
+; 65   : 	}
+; 66   : 
+; 67   : 	if (std::find(keyList.begin(), keyList.end(), SDLK_SPACE) == keyList.end()) {
 
-	mov	DWORD PTR $T15[ebp], 32			; 00000020H
-	lea	eax, DWORD PTR $T11[ebp]
+	mov	DWORD PTR $T14[ebp], 32			; 00000020H
+	lea	eax, DWORD PTR $T10[ebp]
 	push	eax
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1124[ebp], eax
-	mov	ecx, DWORD PTR tv1124[ebp]
-	mov	DWORD PTR tv1061[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 16		; 00000010H
-	mov	edx, DWORD PTR tv1061[ebp]
+	mov	DWORD PTR tv620[ebp], eax
+	mov	ecx, DWORD PTR tv620[ebp]
+	mov	DWORD PTR tv1237[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 20		; 00000014H
+	mov	edx, DWORD PTR tv1237[ebp]
 	push	edx
-	lea	eax, DWORD PTR $T15[ebp]
+	lea	eax, DWORD PTR $T14[ebp]
 	push	eax
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
-	mov	DWORD PTR $T14[ebp], esp
+	mov	DWORD PTR $T13[ebp], esp
 	push	ecx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?end@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::end
-	mov	DWORD PTR tv1065[ebp], eax
+	mov	DWORD PTR tv1241[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
-	mov	DWORD PTR $T13[ebp], esp
+	mov	DWORD PTR $T12[ebp], esp
 	push	edx
 	mov	ecx, OFFSET ?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A ; keyList
 	call	?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@2@XZ ; std::vector<int,std::allocator<int> >::begin
-	mov	DWORD PTR tv1068[ebp], eax
-	lea	eax, DWORD PTR $T12[ebp]
+	mov	DWORD PTR tv1244[ebp], eax
+	lea	eax, DWORD PTR $T11[ebp]
 	push	eax
 	call	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@W4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@V10@0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > >,enum <unnamed-enum-SDLK_UNKNOWN> >
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv628[ebp], eax
-	mov	ecx, DWORD PTR tv628[ebp]
-	mov	DWORD PTR tv1070[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
-	mov	ecx, DWORD PTR tv1070[ebp]
+	mov	DWORD PTR tv727[ebp], eax
+	mov	ecx, DWORD PTR tv727[ebp]
+	mov	DWORD PTR tv1246[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 21		; 00000015H
+	mov	ecx, DWORD PTR tv1246[ebp]
 	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<int> > >::operator==
-	mov	BYTE PTR tv662[ebp], al
-	mov	dl, BYTE PTR tv662[ebp]
-	mov	BYTE PTR $T16[ebp], dl
-	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
-	lea	ecx, DWORD PTR $T12[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	BYTE PTR tv793[ebp], al
+	mov	dl, BYTE PTR tv793[ebp]
+	mov	BYTE PTR $T15[ebp], dl
+	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
 	lea	ecx, DWORD PTR $T11[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-	movzx	eax, BYTE PTR $T16[ebp]
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR $T10[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+	movzx	eax, BYTE PTR $T15[ebp]
 	test	eax, eax
-	je	SHORT $LN31@UpdatePlay
+	je	SHORT $LN43@UpdatePlay
 
-; 52   : 		if (player.velocityY < 0 && player.onGround == false) player.velocityY += 9.8 * deltaTimeS;
+; 68   : 		if (player.velocityY < 0 && player.onGround == false) player.velocityY += 9.8 * deltaTimeS;
 
 	movsd	xmm0, QWORD PTR __real@0000000000000000
 	comisd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
-	jbe	SHORT $LN30@UpdatePlay
+	jbe	SHORT $LN42@UpdatePlay
 	movzx	eax, BYTE PTR ?player@@3UPlayer@@A+24
 	test	eax, eax
-	jne	SHORT $LN30@UpdatePlay
+	jne	SHORT $LN42@UpdatePlay
 	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
 	mulsd	xmm0, QWORD PTR __real@402399999999999a
 	addsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN30@UpdatePlay:
+$LN42@UpdatePlay:
 
-; 53   : 		if (player.onGround == true) jumpPress = false;
+; 69   : 		if (player.onGround == true) jumpPress = false;
 
 	movzx	eax, BYTE PTR ?player@@3UPlayer@@A+24
 	cmp	eax, 1
-	jne	SHORT $LN31@UpdatePlay
+	jne	SHORT $LN43@UpdatePlay
 	mov	BYTE PTR ?jumpPress@@3_NA, 0		; jumpPress
-$LN31@UpdatePlay:
+$LN43@UpdatePlay:
 
-; 54   : 	}
-; 55   : 
-; 56   : 	bool trampolineCollison = false;
+; 70   : 	}
+; 71   : 
+; 72   : 	bool trampolineCollison = false;
 
 	mov	BYTE PTR _trampolineCollison$[ebp], 0
 
-; 57   : 	for (auto &tile : tileMap) {
+; 73   : 	for (auto &tile : tileMap) {
 
-	mov	DWORD PTR _<range>$L1$72[ebp], OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
+	mov	DWORD PTR _<range>$L2$81[ebp], OFFSET ?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; tileMap
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<begin>$L1$71[ebp]
+	lea	eax, DWORD PTR _<begin>$L2$80[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L1$72[ebp]
+	mov	ecx, DWORD PTR _<range>$L2$81[ebp]
 	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	DWORD PTR __$EHRec$[ebp+8], 18		; 00000012H
+	mov	DWORD PTR __$EHRec$[ebp+8], 22		; 00000016H
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<end>$L1$70[ebp]
+	lea	ecx, DWORD PTR _<end>$L2$79[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<end>$L1$70[ebp]
+	lea	eax, DWORD PTR _<end>$L2$79[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L1$72[ebp]
+	mov	ecx, DWORD PTR _<range>$L2$81[ebp]
 	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	BYTE PTR __$EHRec$[ebp+8], 19		; 00000013H
-	jmp	SHORT $LN7@UpdatePlay
-$LN5@UpdatePlay:
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 23		; 00000017H
+	jmp	SHORT $LN10@UpdatePlay
+$LN8@UpdatePlay:
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-$LN7@UpdatePlay:
-	lea	eax, DWORD PTR _<end>$L1$70[ebp]
+$LN10@UpdatePlay:
+	lea	eax, DWORD PTR _<end>$L2$79[ebp]
 	push	eax
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
 	movzx	ecx, al
 	test	ecx, ecx
-	je	$LN6@UpdatePlay
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
+	je	$LN9@UpdatePlay
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-	mov	DWORD PTR _tile$69[ebp], eax
+	mov	DWORD PTR _tile$78[ebp], eax
 
-; 58   : 		if (CheckCollision(tile) == true) {
+; 74   : 		if (CheckCollision(tile) == true) {
 
-	mov	esi, DWORD PTR _tile$69[ebp]
+	mov	esi, DWORD PTR _tile$78[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
@@ -15998,59 +19301,40 @@ $LN7@UpdatePlay:
 	add	esp, 32					; 00000020H
 	movzx	eax, al
 	cmp	eax, 1
-	jne	$LN39@UpdatePlay
+	jne	$LN51@UpdatePlay
 
-; 59   : 			if (tile.tileID == 1) { HandleCollision(tile); }
+; 75   : 			if (tile.tileID == 1) { HandleCollision(tile); }
 
-	mov	eax, DWORD PTR _tile$69[ebp]
+	mov	eax, DWORD PTR _tile$78[ebp]
 	cmp	DWORD PTR [eax+24], 1
-	jne	SHORT $LN33@UpdatePlay
-	mov	esi, DWORD PTR _tile$69[ebp]
+	jne	SHORT $LN45@UpdatePlay
+	mov	esi, DWORD PTR _tile$78[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
 	rep movsd
 	call	?HandleCollision@@YAXUTile@@@Z		; HandleCollision
 	add	esp, 32					; 00000020H
-$LN33@UpdatePlay:
+$LN45@UpdatePlay:
 
-; 60   : 			if (tile.tileID == 5) { player.velocityX = 0; player.velocityY = 0; player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
+; 76   : 			if (tile.tileID == 5) { ResetPlayer(); }
 
-	mov	eax, DWORD PTR _tile$69[ebp]
+	mov	eax, DWORD PTR _tile$78[ebp]
 	cmp	DWORD PTR [eax+24], 5
-	jne	SHORT $LN34@UpdatePlay
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+32, xmm0
-	movsd	xmm0, QWORD PTR __real@0000000000000000
-	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?spawnTile@@3USpawnTile@@A+8
-	movsd	QWORD PTR [esp], xmm0
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR ?spawnTile@@3USpawnTile@@A
-	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T10[ebp]
-	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
-	mov	ecx, DWORD PTR [eax]
-	mov	DWORD PTR ?player@@3UPlayer@@A, ecx
-	mov	edx, DWORD PTR [eax+4]
-	mov	DWORD PTR ?player@@3UPlayer@@A+4, edx
-	mov	ecx, DWORD PTR [eax+8]
-	mov	DWORD PTR ?player@@3UPlayer@@A+8, ecx
-	mov	edx, DWORD PTR [eax+12]
-	mov	DWORD PTR ?player@@3UPlayer@@A+12, edx
-$LN34@UpdatePlay:
+	jne	SHORT $LN46@UpdatePlay
+	call	?ResetPlayer@@YAXXZ			; ResetPlayer
+$LN46@UpdatePlay:
 
-; 61   : 
-; 62   : 			if (tile.tileID == 6) { 
+; 77   : 
+; 78   : 			if (tile.tileID == 6) { 
 
-	mov	eax, DWORD PTR _tile$69[ebp]
+	mov	eax, DWORD PTR _tile$78[ebp]
 	cmp	DWORD PTR [eax+24], 6
-	jne	SHORT $LN35@UpdatePlay
+	jne	SHORT $LN47@UpdatePlay
 
-; 63   : 				if (CheckCollisionTop(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = -player.velocityY; } }
+; 79   : 				if (CheckCollisionTop(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = -player.velocityY; } }
 
-	mov	esi, DWORD PTR _tile$69[ebp]
+	mov	esi, DWORD PTR _tile$78[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
@@ -16059,50 +19343,50 @@ $LN34@UpdatePlay:
 	add	esp, 32					; 00000020H
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN36@UpdatePlay
+	je	SHORT $LN48@UpdatePlay
 	movzx	eax, BYTE PTR _trampolineCollison$[ebp]
 	test	eax, eax
-	jne	SHORT $LN36@UpdatePlay
+	jne	SHORT $LN48@UpdatePlay
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	ucomisd	xmm0, QWORD PTR __real@0000000000000000
 	lahf
 	test	ah, 68					; 00000044H
-	jnp	SHORT $LN38@UpdatePlay
+	jnp	SHORT $LN50@UpdatePlay
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN38@UpdatePlay:
-	jmp	SHORT $LN37@UpdatePlay
-$LN36@UpdatePlay:
+$LN50@UpdatePlay:
+	jmp	SHORT $LN49@UpdatePlay
+$LN48@UpdatePlay:
 
-; 64   : 				else { HandleCollision(tile); }
+; 80   : 				else { HandleCollision(tile); }
 
-	mov	esi, DWORD PTR _tile$69[ebp]
+	mov	esi, DWORD PTR _tile$78[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
 	rep movsd
 	call	?HandleCollision@@YAXUTile@@@Z		; HandleCollision
 	add	esp, 32					; 00000020H
-$LN37@UpdatePlay:
+$LN49@UpdatePlay:
 
-; 65   : 
-; 66   : 				trampolineCollison = true;
+; 81   : 
+; 82   : 				trampolineCollison = true;
 
 	mov	BYTE PTR _trampolineCollison$[ebp], 1
-$LN35@UpdatePlay:
+$LN47@UpdatePlay:
 
-; 67   : 			}
-; 68   : 
-; 69   : 			if (tile.tileID == 7) {
+; 83   : 			}
+; 84   : 
+; 85   : 			if (tile.tileID == 7) {
 
-	mov	eax, DWORD PTR _tile$69[ebp]
+	mov	eax, DWORD PTR _tile$78[ebp]
 	cmp	DWORD PTR [eax+24], 7
-	jne	$LN39@UpdatePlay
+	jne	$LN51@UpdatePlay
 
-; 70   : 				if (CheckCollision(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5; } }
+; 86   : 				if (CheckCollision(tile) && trampolineCollison == false) {
 
-	mov	esi, DWORD PTR _tile$69[ebp]
+	mov	esi, DWORD PTR _tile$78[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
@@ -16111,99 +19395,268 @@ $LN35@UpdatePlay:
 	add	esp, 32					; 00000020H
 	movzx	eax, al
 	test	eax, eax
-	je	SHORT $LN41@UpdatePlay
+	je	SHORT $LN52@UpdatePlay
 	movzx	eax, BYTE PTR _trampolineCollison$[ebp]
 	test	eax, eax
-	jne	SHORT $LN41@UpdatePlay
-	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
-	ucomisd	xmm0, QWORD PTR __real@0000000000000000
-	lahf
-	test	ah, 68					; 00000044H
-	jnp	SHORT $LN41@UpdatePlay
+	jne	SHORT $LN52@UpdatePlay
+
+; 87   : 					player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5;
+
 	movsd	xmm0, QWORD PTR ?player@@3UPlayer@@A+40
 	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
 	sub	esp, 8
 	movsd	xmm1, QWORD PTR ?player@@3UPlayer@@A+40
 	movsd	QWORD PTR [esp], xmm1
-	movsd	QWORD PTR tv1516[ebp], xmm0
+	movsd	QWORD PTR tv1757[ebp], xmm0
 	call	?abs@@YANN@Z				; abs
 	add	esp, 8
-	fstp	QWORD PTR tv1464[ebp]
-	movsd	xmm0, QWORD PTR tv1516[ebp]
-	divsd	xmm0, QWORD PTR tv1464[ebp]
+	fstp	QWORD PTR tv1662[ebp]
+	movsd	xmm0, QWORD PTR tv1757[ebp]
+	divsd	xmm0, QWORD PTR tv1662[ebp]
 	mulsd	xmm0, QWORD PTR __real@4004000000000000
 	movsd	QWORD PTR ?player@@3UPlayer@@A+40, xmm0
-$LN41@UpdatePlay:
+$LN52@UpdatePlay:
 
-; 71   : 
-; 72   : 				trampolineCollison = true;
+; 88   : 				}
+; 89   : 
+; 90   : 				trampolineCollison = true;
 
 	mov	BYTE PTR _trampolineCollison$[ebp], 1
-$LN39@UpdatePlay:
+$LN51@UpdatePlay:
 
-; 73   : 			}
-; 74   : 		}
+; 91   : 			}
+; 92   : 		}
 
-	jmp	$LN5@UpdatePlay
-$LN6@UpdatePlay:
+	jmp	$LN8@UpdatePlay
+$LN9@UpdatePlay:
 
-; 75   : 	}
+; 93   : 	}
 
-	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
-	lea	ecx, DWORD PTR _<end>$L1$70[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
+	lea	ecx, DWORD PTR _<end>$L2$79[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 
-; 76   : 
-; 77   : 	std::vector<Tile> tempGroundTileList;
+; 94   : 
+; 95   : 	bool movingTileCollision = false;
+
+	mov	BYTE PTR _movingTileCollision$[ebp], 0
+
+; 96   : 	for (auto &tile : movingTileMap) {
+
+	mov	DWORD PTR _<range>$L3$77[ebp], OFFSET ?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A ; movingTileMap
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z
+	lea	eax, DWORD PTR _<begin>$L3$76[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _<range>$L3$77[ebp]
+	call	?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ; std::vector<MovingTile,std::allocator<MovingTile> >::begin
+	mov	DWORD PTR __$EHRec$[ebp+8], 24		; 00000018H
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR _<end>$L3$75[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z
+	lea	eax, DWORD PTR _<end>$L3$75[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _<range>$L3$77[ebp]
+	call	?end@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@2@XZ ; std::vector<MovingTile,std::allocator<MovingTile> >::end
+	mov	BYTE PTR __$EHRec$[ebp+8], 25		; 00000019H
+	jmp	SHORT $LN13@UpdatePlay
+$LN11@UpdatePlay:
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator++
+$LN13@UpdatePlay:
+	lea	eax, DWORD PTR _<end>$L3$75[ebp]
+	push	eax
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator!=
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN12@UpdatePlay
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QBEAAUMovingTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::operator*
+	mov	DWORD PTR _tile$74[ebp], eax
+
+; 97   : 		if (CheckCollision(tile.tile) == true) {
+
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollision@@YA_NUTile@@@Z		; CheckCollision
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	cmp	eax, 1
+	jne	$LN58@UpdatePlay
+
+; 98   : 			movingTileCollision = true;
+
+	mov	BYTE PTR _movingTileCollision$[ebp], 1
+
+; 99   : 			HandleBasicCollision(tile.tile);
+
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?HandleBasicCollision@@YAXUTile@@@Z	; HandleBasicCollision
+	add	esp, 32					; 00000020H
+
+; 100  : 
+; 101  : 			if (CheckCollisionLeft(tile.tile) == true) { tile.movingLeft = false; }
+
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionLeft@@YA_NUTile@@@Z	; CheckCollisionLeft
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	cmp	eax, 1
+	jne	SHORT $LN54@UpdatePlay
+	mov	eax, DWORD PTR _tile$74[ebp]
+	mov	BYTE PTR [eax+40], 0
+$LN54@UpdatePlay:
+
+; 102  : 			if (CheckCollisionRight(tile.tile) == true) { tile.movingLeft = true; }
+
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionRight@@YA_NUTile@@@Z	; CheckCollisionRight
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	cmp	eax, 1
+	jne	SHORT $LN55@UpdatePlay
+	mov	eax, DWORD PTR _tile$74[ebp]
+	mov	BYTE PTR [eax+40], 1
+$LN55@UpdatePlay:
+
+; 103  : 			if (CheckCollisionLeft(tile.tile) == false && CheckCollisionRight(tile.tile) == false) {
+
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionLeft@@YA_NUTile@@@Z	; CheckCollisionLeft
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	test	eax, eax
+	jne	SHORT $LN58@UpdatePlay
+	mov	esi, DWORD PTR _tile$74[ebp]
+	sub	esp, 32					; 00000020H
+	mov	ecx, 8
+	mov	edi, esp
+	rep movsd
+	call	?CheckCollisionRight@@YA_NUTile@@@Z	; CheckCollisionRight
+	add	esp, 32					; 00000020H
+	movzx	eax, al
+	test	eax, eax
+	jne	SHORT $LN58@UpdatePlay
+
+; 104  : 				if (tile.movingLeft == true) {
+
+	mov	eax, DWORD PTR _tile$74[ebp]
+	movzx	ecx, BYTE PTR [eax+40]
+	cmp	ecx, 1
+	jne	SHORT $LN57@UpdatePlay
+
+; 105  : 					player.position.x -= tile.speed * deltaTimeS;
+
+	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
+	mov	eax, DWORD PTR _tile$74[ebp]
+	mulsd	xmm0, QWORD PTR [eax+32]
+	movsd	xmm1, QWORD PTR ?player@@3UPlayer@@A
+	subsd	xmm1, xmm0
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm1
+
+; 106  : 				}
+; 107  : 				else {
+
+	jmp	SHORT $LN58@UpdatePlay
+$LN57@UpdatePlay:
+
+; 108  : 					player.position.x += tile.speed * deltaTimeS;
+
+	cvtss2sd xmm0, DWORD PTR _deltaTimeS$[ebp]
+	mov	eax, DWORD PTR _tile$74[ebp]
+	mulsd	xmm0, QWORD PTR [eax+32]
+	addsd	xmm0, QWORD PTR ?player@@3UPlayer@@A
+	movsd	QWORD PTR ?player@@3UPlayer@@A, xmm0
+$LN58@UpdatePlay:
+
+; 109  : 				}
+; 110  : 			}
+; 111  : 		}
+
+	jmp	$LN11@UpdatePlay
+$LN12@UpdatePlay:
+
+; 112  : 	}
+
+	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
+	lea	ecx, DWORD PTR _<end>$L3$75[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+
+; 113  : 
+; 114  : 	std::vector<Tile> tempGroundTileList;
 
 	push	16					; 00000010H
 	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
 	call	?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z
 	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
 	call	??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >
-	mov	DWORD PTR __$EHRec$[ebp+8], 20		; 00000014H
+	mov	DWORD PTR __$EHRec$[ebp+8], 26		; 0000001aH
 
-; 78   : 	for (auto &tile : groundTileList) {
+; 115  : 	for (auto &tile : groundTileList) {
 
-	mov	DWORD PTR _<range>$L2$68[ebp], OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
+	mov	DWORD PTR _<range>$L4$73[ebp], OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<begin>$L2$67[ebp]
+	lea	eax, DWORD PTR _<begin>$L4$72[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L2$68[ebp]
+	mov	ecx, DWORD PTR _<range>$L4$73[ebp]
 	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	BYTE PTR __$EHRec$[ebp+8], 21		; 00000015H
+	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<end>$L2$66[ebp]
+	lea	ecx, DWORD PTR _<end>$L4$71[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<end>$L2$66[ebp]
+	lea	eax, DWORD PTR _<end>$L4$71[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L2$68[ebp]
+	mov	ecx, DWORD PTR _<range>$L4$73[ebp]
 	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
-	jmp	SHORT $LN10@UpdatePlay
-$LN8@UpdatePlay:
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	jmp	SHORT $LN16@UpdatePlay
+$LN14@UpdatePlay:
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
 	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-$LN10@UpdatePlay:
-	lea	eax, DWORD PTR _<end>$L2$66[ebp]
+$LN16@UpdatePlay:
+	lea	eax, DWORD PTR _<end>$L4$71[ebp]
 	push	eax
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
 	movzx	ecx, al
 	test	ecx, ecx
-	je	SHORT $LN9@UpdatePlay
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
+	je	SHORT $LN15@UpdatePlay
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-	mov	DWORD PTR _tile$65[ebp], eax
+	mov	DWORD PTR _tile$70[ebp], eax
 
-; 79   : 		if (CheckCollision(tile) == false) {
+; 116  : 		if (CheckCollision(tile) == false) {
 
-	mov	esi, DWORD PTR _tile$65[ebp]
+	mov	esi, DWORD PTR _tile$70[ebp]
 	sub	esp, 32					; 00000020H
 	mov	ecx, 8
 	mov	edi, esp
@@ -16212,88 +19665,88 @@ $LN10@UpdatePlay:
 	add	esp, 32					; 00000020H
 	movzx	eax, al
 	test	eax, eax
-	jne	SHORT $LN42@UpdatePlay
+	jne	SHORT $LN59@UpdatePlay
 
-; 80   : 			tempGroundTileList.push_back(tile);
+; 117  : 			tempGroundTileList.push_back(tile);
 
-	mov	eax, DWORD PTR _tile$65[ebp]
+	mov	eax, DWORD PTR _tile$70[ebp]
 	push	eax
 	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
 	call	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-$LN42@UpdatePlay:
+$LN59@UpdatePlay:
 
-; 81   : 		}
+; 118  : 		}
 
-	jmp	SHORT $LN8@UpdatePlay
-$LN9@UpdatePlay:
+	jmp	SHORT $LN14@UpdatePlay
+$LN15@UpdatePlay:
 
-; 82   : 	}
+; 119  : 	}
 
-	mov	BYTE PTR __$EHRec$[ebp+8], 21		; 00000015H
-	lea	ecx, DWORD PTR _<end>$L2$66[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
+	lea	ecx, DWORD PTR _<end>$L4$71[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 
-; 83   : 
-; 84   : 	for (auto &tile : tempGroundTileList) {
+; 120  : 
+; 121  : 	for (auto &tile : tempGroundTileList) {
 
 	lea	eax, DWORD PTR _tempGroundTileList$[ebp]
-	mov	DWORD PTR _<range>$L3$64[ebp], eax
+	mov	DWORD PTR _<range>$L5$69[ebp], eax
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<begin>$L3$63[ebp]
+	lea	eax, DWORD PTR _<begin>$L5$68[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L3$64[ebp]
+	mov	ecx, DWORD PTR _<range>$L5$69[ebp]
 	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	BYTE PTR __$EHRec$[ebp+8], 23		; 00000017H
+	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
 	push	12					; 0000000cH
-	lea	ecx, DWORD PTR _<end>$L3$62[ebp]
+	lea	ecx, DWORD PTR _<end>$L5$67[ebp]
 	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	lea	eax, DWORD PTR _<end>$L3$62[ebp]
+	lea	eax, DWORD PTR _<end>$L5$67[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _<range>$L3$64[ebp]
+	mov	ecx, DWORD PTR _<range>$L5$69[ebp]
 	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
-	jmp	SHORT $LN13@UpdatePlay
-$LN11@UpdatePlay:
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
+	jmp	SHORT $LN19@UpdatePlay
+$LN17@UpdatePlay:
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
 	call	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-$LN13@UpdatePlay:
-	lea	eax, DWORD PTR _<end>$L3$62[ebp]
+$LN19@UpdatePlay:
+	lea	eax, DWORD PTR _<end>$L5$67[ebp]
 	push	eax
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
 	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
 	movzx	ecx, al
 	test	ecx, ecx
-	je	$LN12@UpdatePlay
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
+	je	$LN18@UpdatePlay
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-	mov	DWORD PTR _tile$61[ebp], eax
+	mov	DWORD PTR _tile$66[ebp], eax
 
-; 85   : 		groundTileList.erase(std::remove(groundTileList.begin(), groundTileList.end(), tile), groundTileList.end());
+; 122  : 		groundTileList.erase(std::remove(groundTileList.begin(), groundTileList.end(), tile), groundTileList.end());
 
 	lea	eax, DWORD PTR $T8[ebp]
 	push	eax
 	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	DWORD PTR tv830[ebp], eax
-	mov	ecx, DWORD PTR tv830[ebp]
-	mov	DWORD PTR tv1079[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 25		; 00000019H
+	mov	DWORD PTR tv991[ebp], eax
+	mov	ecx, DWORD PTR tv991[ebp]
+	mov	DWORD PTR tv1257[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
 	mov	DWORD PTR $T9[ebp], esp
-	mov	edx, DWORD PTR tv1079[ebp]
+	mov	edx, DWORD PTR tv1257[ebp]
 	push	edx
 	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
-	mov	DWORD PTR tv824[ebp], eax
-	mov	eax, DWORD PTR tv824[ebp]
-	mov	DWORD PTR tv1081[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
-	mov	ecx, DWORD PTR _tile$61[ebp]
+	mov	DWORD PTR tv985[ebp], eax
+	mov	eax, DWORD PTR tv985[ebp]
+	mov	DWORD PTR tv1259[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
+	mov	ecx, DWORD PTR _tile$66[ebp]
 	push	ecx
 	sub	esp, 12					; 0000000cH
 	mov	edx, esp
@@ -16301,71 +19754,74 @@ $LN13@UpdatePlay:
 	push	edx
 	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	DWORD PTR tv1086[ebp], eax
+	mov	DWORD PTR tv1264[ebp], eax
 	sub	esp, 12					; 0000000cH
 	mov	eax, esp
 	mov	DWORD PTR $T5[ebp], esp
 	push	eax
 	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	DWORD PTR tv1089[ebp], eax
+	mov	DWORD PTR tv1267[ebp], eax
 	lea	ecx, DWORD PTR $T4[ebp]
 	push	ecx
 	call	??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
 	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv884[ebp], eax
-	mov	edx, DWORD PTR tv884[ebp]
-	mov	DWORD PTR tv1091[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
+	mov	DWORD PTR tv1045[ebp], eax
+	mov	edx, DWORD PTR tv1045[ebp]
+	mov	DWORD PTR tv1269[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 33		; 00000021H
 	sub	esp, 12					; 0000000cH
 	mov	ecx, esp
 	mov	DWORD PTR $T7[ebp], esp
-	mov	eax, DWORD PTR tv1091[ebp]
+	mov	eax, DWORD PTR tv1269[ebp]
 	push	eax
 	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
-	mov	DWORD PTR tv1093[ebp], eax
+	mov	DWORD PTR tv1271[ebp], eax
 	lea	ecx, DWORD PTR $T3[ebp]
 	push	ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 34		; 00000022H
 	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	call	?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z ; std::vector<Tile,std::allocator<Tile> >::erase
-	mov	DWORD PTR tv1082[ebp], eax
+	mov	DWORD PTR tv1260[ebp], eax
 	lea	ecx, DWORD PTR $T3[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	BYTE PTR __$EHRec$[ebp+8], 25		; 00000019H
+	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
 	lea	ecx, DWORD PTR $T4[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	lea	ecx, DWORD PTR $T8[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	jmp	$LN11@UpdatePlay
-$LN12@UpdatePlay:
+	jmp	$LN17@UpdatePlay
+$LN18@UpdatePlay:
 
-; 86   : 	}
+; 123  : 	}
 
-	mov	BYTE PTR __$EHRec$[ebp+8], 23		; 00000017H
-	lea	ecx, DWORD PTR _<end>$L3$62[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
+	lea	ecx, DWORD PTR _<end>$L5$67[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 
-; 87   : 	tempGroundTileList.clear();
+; 124  : 	tempGroundTileList.clear();
 
 	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
 	call	?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ; std::vector<Tile,std::allocator<Tile> >::clear
 
-; 88   : 
-; 89   : 	if (groundTileList.size() == 0) player.onGround = false;
+; 125  : 
+; 126  : 	if (groundTileList.size() == 0 && movingTileCollision == false) player.onGround = false;
 
 	mov	ecx, OFFSET ?groundTileList@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A ; groundTileList
 	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
 	test	eax, eax
-	jne	SHORT $LN43@UpdatePlay
+	jne	SHORT $LN60@UpdatePlay
+	movzx	eax, BYTE PTR _movingTileCollision$[ebp]
+	test	eax, eax
+	jne	SHORT $LN60@UpdatePlay
 	mov	BYTE PTR ?player@@3UPlayer@@A+24, 0
-$LN43@UpdatePlay:
+$LN60@UpdatePlay:
 
-; 90   : }
+; 127  : }
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
@@ -16373,7 +19829,7 @@ $LN43@UpdatePlay:
 	push	edx
 	mov	ecx, ebp
 	push	eax
-	lea	edx, DWORD PTR $LN130@UpdatePlay
+	lea	edx, DWORD PTR $LN159@UpdatePlay
 	call	@_RTC_CheckStackVars@8
 	pop	eax
 	pop	edx
@@ -16386,45 +19842,57 @@ $LN43@UpdatePlay:
 	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
 	xor	ecx, ebp
 	call	@__security_check_cookie@4
-	add	esp, 1828				; 00000724H
+	add	esp, 2032				; 000007f0H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-	npad	3
-$LN130@UpdatePlay:
-	DD	9
-	DD	$LN129@UpdatePlay
-$LN129@UpdatePlay:
+	npad	2
+$LN159@UpdatePlay:
+	DD	13					; 0000000dH
+	DD	$LN158@UpdatePlay
+$LN158@UpdatePlay:
 	DD	-56					; ffffffc8H
 	DD	12					; 0000000cH
-	DD	$LN119@UpdatePlay
+	DD	$LN144@UpdatePlay
 	DD	-76					; ffffffb4H
 	DD	12					; 0000000cH
-	DD	$LN120@UpdatePlay
-	DD	-132					; ffffff7cH
+	DD	$LN145@UpdatePlay
+	DD	-120					; ffffff88H
 	DD	12					; 0000000cH
-	DD	$LN121@UpdatePlay
-	DD	-152					; ffffff68H
+	DD	$LN146@UpdatePlay
+	DD	-140					; ffffff74H
 	DD	12					; 0000000cH
-	DD	$LN122@UpdatePlay
-	DD	-188					; ffffff44H
+	DD	$LN147@UpdatePlay
+	DD	-196					; ffffff3cH
+	DD	12					; 0000000cH
+	DD	$LN148@UpdatePlay
+	DD	-216					; ffffff28H
+	DD	12					; 0000000cH
+	DD	$LN149@UpdatePlay
+	DD	-272					; fffffef0H
+	DD	12					; 0000000cH
+	DD	$LN150@UpdatePlay
+	DD	-292					; fffffedcH
+	DD	12					; 0000000cH
+	DD	$LN151@UpdatePlay
+	DD	-328					; fffffeb8H
 	DD	16					; 00000010H
-	DD	$LN123@UpdatePlay
-	DD	-220					; ffffff24H
+	DD	$LN152@UpdatePlay
+	DD	-360					; fffffe98H
 	DD	12					; 0000000cH
-	DD	$LN124@UpdatePlay
-	DD	-240					; ffffff10H
+	DD	$LN153@UpdatePlay
+	DD	-380					; fffffe84H
 	DD	12					; 0000000cH
-	DD	$LN125@UpdatePlay
-	DD	-284					; fffffee4H
+	DD	$LN154@UpdatePlay
+	DD	-424					; fffffe58H
 	DD	12					; 0000000cH
-	DD	$LN126@UpdatePlay
-	DD	-304					; fffffed0H
+	DD	$LN155@UpdatePlay
+	DD	-444					; fffffe44H
 	DD	12					; 0000000cH
-	DD	$LN127@UpdatePlay
-$LN127@UpdatePlay:
+	DD	$LN156@UpdatePlay
+$LN156@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	101					; 00000065H
 	DB	110					; 0000006eH
@@ -16432,9 +19900,9 @@ $LN127@UpdatePlay:
 	DB	62					; 0000003eH
 	DB	36					; 00000024H
 	DB	76					; 0000004cH
-	DB	51					; 00000033H
+	DB	53					; 00000035H
 	DB	0
-$LN126@UpdatePlay:
+$LN155@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	98					; 00000062H
 	DB	101					; 00000065H
@@ -16444,9 +19912,9 @@ $LN126@UpdatePlay:
 	DB	62					; 0000003eH
 	DB	36					; 00000024H
 	DB	76					; 0000004cH
-	DB	51					; 00000033H
+	DB	53					; 00000035H
 	DB	0
-$LN125@UpdatePlay:
+$LN154@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	101					; 00000065H
 	DB	110					; 0000006eH
@@ -16454,9 +19922,9 @@ $LN125@UpdatePlay:
 	DB	62					; 0000003eH
 	DB	36					; 00000024H
 	DB	76					; 0000004cH
-	DB	50					; 00000032H
+	DB	52					; 00000034H
 	DB	0
-$LN124@UpdatePlay:
+$LN153@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	98					; 00000062H
 	DB	101					; 00000065H
@@ -16466,9 +19934,9 @@ $LN124@UpdatePlay:
 	DB	62					; 0000003eH
 	DB	36					; 00000024H
 	DB	76					; 0000004cH
-	DB	50					; 00000032H
+	DB	52					; 00000034H
 	DB	0
-$LN123@UpdatePlay:
+$LN152@UpdatePlay:
 	DB	116					; 00000074H
 	DB	101					; 00000065H
 	DB	109					; 0000006dH
@@ -16488,7 +19956,51 @@ $LN123@UpdatePlay:
 	DB	115					; 00000073H
 	DB	116					; 00000074H
 	DB	0
-$LN122@UpdatePlay:
+$LN151@UpdatePlay:
+	DB	60					; 0000003cH
+	DB	101					; 00000065H
+	DB	110					; 0000006eH
+	DB	100					; 00000064H
+	DB	62					; 0000003eH
+	DB	36					; 00000024H
+	DB	76					; 0000004cH
+	DB	51					; 00000033H
+	DB	0
+$LN150@UpdatePlay:
+	DB	60					; 0000003cH
+	DB	98					; 00000062H
+	DB	101					; 00000065H
+	DB	103					; 00000067H
+	DB	105					; 00000069H
+	DB	110					; 0000006eH
+	DB	62					; 0000003eH
+	DB	36					; 00000024H
+	DB	76					; 0000004cH
+	DB	51					; 00000033H
+	DB	0
+$LN149@UpdatePlay:
+	DB	60					; 0000003cH
+	DB	101					; 00000065H
+	DB	110					; 0000006eH
+	DB	100					; 00000064H
+	DB	62					; 0000003eH
+	DB	36					; 00000024H
+	DB	76					; 0000004cH
+	DB	50					; 00000032H
+	DB	0
+$LN148@UpdatePlay:
+	DB	60					; 0000003cH
+	DB	98					; 00000062H
+	DB	101					; 00000065H
+	DB	103					; 00000067H
+	DB	105					; 00000069H
+	DB	110					; 0000006eH
+	DB	62					; 0000003eH
+	DB	36					; 00000024H
+	DB	76					; 0000004cH
+	DB	50					; 00000032H
+	DB	0
+$LN147@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	101					; 00000065H
 	DB	110					; 0000006eH
@@ -16498,7 +20010,7 @@ $LN122@UpdatePlay:
 	DB	76					; 0000004cH
 	DB	49					; 00000031H
 	DB	0
-$LN121@UpdatePlay:
+$LN146@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	98					; 00000062H
 	DB	101					; 00000065H
@@ -16510,7 +20022,7 @@ $LN121@UpdatePlay:
 	DB	76					; 0000004cH
 	DB	49					; 00000031H
 	DB	0
-$LN120@UpdatePlay:
+$LN145@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	101					; 00000065H
 	DB	110					; 0000006eH
@@ -16520,7 +20032,7 @@ $LN120@UpdatePlay:
 	DB	76					; 0000004cH
 	DB	48					; 00000030H
 	DB	0
-$LN119@UpdatePlay:
+$LN144@UpdatePlay:
 	DB	60					; 0000003cH
 	DB	98					; 00000062H
 	DB	101					; 00000065H
@@ -16536,141 +20048,159 @@ _TEXT	ENDS
 ;	COMDAT text$x
 text$x	SEGMENT
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$0:
-	lea	ecx, DWORD PTR _<begin>$L0$75[ebp]
+	lea	ecx, DWORD PTR _<begin>$L0$88[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$1:
-	lea	ecx, DWORD PTR _<end>$L0$74[ebp]
+	lea	ecx, DWORD PTR _<end>$L0$87[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$6:
-	lea	ecx, DWORD PTR $T51[ebp]
+	lea	ecx, DWORD PTR $T56[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$9:
-	lea	ecx, DWORD PTR $T52[ebp]
+	lea	ecx, DWORD PTR $T57[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$10:
-	lea	ecx, DWORD PTR $T45[ebp]
+	lea	ecx, DWORD PTR $T50[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$13:
-	lea	ecx, DWORD PTR $T46[ebp]
+	lea	ecx, DWORD PTR $T51[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$14:
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 1
-	je	$LN66@UpdatePlay
-	and	DWORD PTR $T2[ebp], -2			; fffffffeH
-	lea	ecx, DWORD PTR $T39[ebp]
+	lea	ecx, DWORD PTR $T44[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN66@UpdatePlay:
-	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$17:
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 2
-	je	$LN70@UpdatePlay
-	and	DWORD PTR $T2[ebp], -3			; fffffffdH
-	lea	ecx, DWORD PTR $T40[ebp]
+	lea	ecx, DWORD PTR $T45[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN70@UpdatePlay:
-	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$18:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 4
-	je	$LN72@UpdatePlay
-	and	DWORD PTR $T2[ebp], -5			; fffffffbH
-	lea	ecx, DWORD PTR $T34[ebp]
+	and	eax, 1
+	je	$LN87@UpdatePlay
+	and	DWORD PTR $T2[ebp], -2			; fffffffeH
+	lea	ecx, DWORD PTR $T38[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN72@UpdatePlay:
+$LN87@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$21:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 8
-	je	$LN76@UpdatePlay
-	and	DWORD PTR $T2[ebp], -9			; fffffff7H
-	lea	ecx, DWORD PTR $T35[ebp]
+	and	eax, 2
+	je	$LN91@UpdatePlay
+	and	DWORD PTR $T2[ebp], -3			; fffffffdH
+	lea	ecx, DWORD PTR $T39[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN76@UpdatePlay:
+$LN91@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$22:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 16					; 00000010H
-	je	$LN82@UpdatePlay
-	and	DWORD PTR $T2[ebp], -17			; ffffffefH
-	lea	ecx, DWORD PTR $T28[ebp]
+	and	eax, 4
+	je	$LN93@UpdatePlay
+	and	DWORD PTR $T2[ebp], -5			; fffffffbH
+	lea	ecx, DWORD PTR $T33[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN82@UpdatePlay:
+$LN93@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$25:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 32					; 00000020H
-	je	$LN86@UpdatePlay
-	and	DWORD PTR $T2[ebp], -33			; ffffffdfH
-	lea	ecx, DWORD PTR $T29[ebp]
+	and	eax, 8
+	je	$LN97@UpdatePlay
+	and	DWORD PTR $T2[ebp], -9			; fffffff7H
+	lea	ecx, DWORD PTR $T34[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN86@UpdatePlay:
+$LN97@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$26:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 64					; 00000040H
-	je	$LN88@UpdatePlay
-	and	DWORD PTR $T2[ebp], -65			; ffffffbfH
-	lea	ecx, DWORD PTR $T23[ebp]
+	and	eax, 16					; 00000010H
+	je	$LN103@UpdatePlay
+	and	DWORD PTR $T2[ebp], -17			; ffffffefH
+	lea	ecx, DWORD PTR $T27[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN88@UpdatePlay:
+$LN103@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$29:
 	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 128				; 00000080H
-	je	$LN92@UpdatePlay
-	and	DWORD PTR $T2[ebp], -129		; ffffff7fH
-	lea	ecx, DWORD PTR $T24[ebp]
+	and	eax, 32					; 00000020H
+	je	$LN107@UpdatePlay
+	and	DWORD PTR $T2[ebp], -33			; ffffffdfH
+	lea	ecx, DWORD PTR $T28[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-$LN92@UpdatePlay:
+$LN107@UpdatePlay:
 	ret	0
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$30:
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 64					; 00000040H
+	je	$LN109@UpdatePlay
+	and	DWORD PTR $T2[ebp], -65			; ffffffbfH
+	lea	ecx, DWORD PTR $T22[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+$LN109@UpdatePlay:
+	ret	0
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$33:
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 128				; 00000080H
+	je	$LN113@UpdatePlay
+	and	DWORD PTR $T2[ebp], -129		; ffffff7fH
+	lea	ecx, DWORD PTR $T23[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+$LN113@UpdatePlay:
+	ret	0
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$34:
+	lea	ecx, DWORD PTR _<begin>$L1$84[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$35:
+	lea	ecx, DWORD PTR _<end>$L1$83[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$36:
+	lea	ecx, DWORD PTR $T16[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$39:
 	lea	ecx, DWORD PTR $T17[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$33:
-	lea	ecx, DWORD PTR $T18[ebp]
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$40:
+	lea	ecx, DWORD PTR $T10[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$34:
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$43:
 	lea	ecx, DWORD PTR $T11[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$37:
-	lea	ecx, DWORD PTR $T12[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$38:
-	lea	ecx, DWORD PTR _<begin>$L1$71[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$39:
-	lea	ecx, DWORD PTR _<end>$L1$70[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$40:
-	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
-	jmp	??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$41:
-	lea	ecx, DWORD PTR _<begin>$L2$67[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$42:
-	lea	ecx, DWORD PTR _<end>$L2$66[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$43:
-	lea	ecx, DWORD PTR _<begin>$L3$63[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$44:
-	lea	ecx, DWORD PTR _<end>$L3$62[ebp]
+	lea	ecx, DWORD PTR _<begin>$L2$80[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$45:
-	lea	ecx, DWORD PTR $T8[ebp]
+	lea	ecx, DWORD PTR _<end>$L2$79[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 __unwindfunclet$?UpdatePlayer@@YAXH@Z$46:
+	lea	ecx, DWORD PTR _<begin>$L3$76[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$47:
+	lea	ecx, DWORD PTR _<end>$L3$75[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$48:
+	lea	ecx, DWORD PTR _tempGroundTileList$[ebp]
+	jmp	??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$49:
+	lea	ecx, DWORD PTR _<begin>$L4$72[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$50:
+	lea	ecx, DWORD PTR _<end>$L4$71[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$51:
+	lea	ecx, DWORD PTR _<begin>$L5$68[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$52:
+	lea	ecx, DWORD PTR _<end>$L5$67[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$53:
+	lea	ecx, DWORD PTR $T8[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$54:
 	mov	ecx, DWORD PTR $T9[ebp]
 	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?UpdatePlayer@@YAXH@Z$49:
+__unwindfunclet$?UpdatePlayer@@YAXH@Z$57:
 	lea	ecx, DWORD PTR $T4[ebp]
 	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
 __ehhandler$?UpdatePlayer@@YAXH@Z:
 	mov	edx, DWORD PTR [esp+8]
 	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-1832]
+	mov	ecx, DWORD PTR [edx-2036]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	ecx, DWORD PTR [edx-4]
@@ -20394,7 +23924,7 @@ _tileMap$ = 8						; size = 16
 ?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z PROC ; PushTile::GetDirection, COMDAT
 ; _this$ = ecx
 
-; 59   : 	inline int GetDirection(std::vector<PushTile> tileMap) {
+; 67   : 	inline int GetDirection(std::vector<PushTile> tileMap) {
 
 	push	ebp
 	mov	ebp, esp
@@ -20421,7 +23951,7 @@ _tileMap$ = 8						; size = 16
 	mov	DWORD PTR _this$[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 
-; 60   : 		for (auto &otherTile : tileMap) {
+; 68   : 		for (auto &otherTile : tileMap) {
 
 	lea	eax, DWORD PTR _tileMap$[ebp]
 	mov	DWORD PTR _<range>$L0$18[ebp], eax
@@ -20457,8 +23987,8 @@ $LN4@GetDirecti:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEAAUPushTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator*
 	mov	DWORD PTR _otherTile$15[ebp], eax
 
-; 61   : 			//othertile = left
-; 62   : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 69   : 			//othertile = left
+; 70   : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -20479,7 +24009,7 @@ $LN4@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN8@GetDirecti
 
-; 63   : 				if (end == true) return 2;
+; 71   : 				if (end == true) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -20499,12 +24029,12 @@ $LN4@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN6@GetDirecti:
 
-; 64   : 				otherTile.initialDirection = 2;
+; 72   : 				otherTile.initialDirection = 2;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 2
 
-; 65   : 				if (initialDirection == -1) return 3;
+; 73   : 				if (initialDirection == -1) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -20523,7 +24053,7 @@ $LN6@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN7@GetDirecti:
 
-; 66   : 				if (initialDirection != 2) return 3;
+; 74   : 				if (initialDirection != 2) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 2
@@ -20542,9 +24072,9 @@ $LN7@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN8@GetDirecti:
 
-; 67   : 			}
-; 68   : 			//othertile = right
-; 69   : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 75   : 			}
+; 76   : 			//othertile = right
+; 77   : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -20564,7 +24094,7 @@ $LN8@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN12@GetDirecti
 
-; 70   : 				if (end == true) return 3;
+; 78   : 				if (end == true) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -20584,12 +24114,12 @@ $LN8@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN10@GetDirecti:
 
-; 71   : 				otherTile.initialDirection = 3;
+; 79   : 				otherTile.initialDirection = 3;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 3
 
-; 72   : 				if (initialDirection == -1) return 2;
+; 80   : 				if (initialDirection == -1) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -20608,7 +24138,7 @@ $LN10@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN11@GetDirecti:
 
-; 73   : 				if (initialDirection != 3) return 2;
+; 81   : 				if (initialDirection != 3) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 3
@@ -20627,9 +24157,9 @@ $LN11@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN12@GetDirecti:
 
-; 74   : 			}
-; 75   : 			//othertile = down
-; 76   : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 82   : 			}
+; 83   : 			//othertile = down
+; 84   : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -20650,7 +24180,7 @@ $LN12@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN16@GetDirecti
 
-; 77   : 				if (end == true) return 0;
+; 85   : 				if (end == true) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -20670,12 +24200,12 @@ $LN12@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN14@GetDirecti:
 
-; 78   : 				otherTile.initialDirection = 0;
+; 86   : 				otherTile.initialDirection = 0;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 0
 
-; 79   : 				if (initialDirection == -1) return 1;
+; 87   : 				if (initialDirection == -1) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -20694,7 +24224,7 @@ $LN14@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN15@GetDirecti:
 
-; 80   : 				if (initialDirection != 0) return 1;
+; 88   : 				if (initialDirection != 0) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 0
@@ -20713,9 +24243,9 @@ $LN15@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN16@GetDirecti:
 
-; 81   : 			}
-; 82   : 			//othertile = up
-; 83   : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 89   : 			}
+; 90   : 			//othertile = up
+; 91   : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -20735,7 +24265,7 @@ $LN16@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN20@GetDirecti
 
-; 84   : 				if (end == true) return 1;
+; 92   : 				if (end == true) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -20755,12 +24285,12 @@ $LN16@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN18@GetDirecti:
 
-; 85   : 				otherTile.initialDirection = 1;
+; 93   : 				otherTile.initialDirection = 1;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 1
 
-; 86   : 				if (initialDirection == -1) return 0;
+; 94   : 				if (initialDirection == -1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -20779,7 +24309,7 @@ $LN18@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN19@GetDirecti:
 
-; 87   : 				if (initialDirection != 1) return 0;
+; 95   : 				if (initialDirection != 1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 1
@@ -20798,12 +24328,12 @@ $LN19@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN20@GetDirecti:
 
-; 88   : 			}
+; 96   : 			}
 
 	jmp	$LN2@GetDirecti
 $LN3@GetDirecti:
 
-; 89   : 		}
+; 97   : 		}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 	lea	ecx, DWORD PTR _<end>$L0$16[ebp]
@@ -20812,8 +24342,8 @@ $LN3@GetDirecti:
 	lea	ecx, DWORD PTR _<begin>$L0$17[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 
-; 90   : 
-; 91   : 		return -1;
+; 98   : 
+; 99   : 		return -1;
 
 	mov	DWORD PTR $T2[ebp], -1
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
@@ -20822,7 +24352,7 @@ $LN3@GetDirecti:
 	mov	eax, DWORD PTR $T2[ebp]
 $LN1@GetDirecti:
 
-; 92   : 	};
+; 100  : 	};
 
 	push	edx
 	mov	ecx, ebp

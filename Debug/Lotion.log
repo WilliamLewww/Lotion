@@ -1,4 +1,10 @@
 ﻿  environment.cpp
-g:\projects\lotion\lotion\environment.cpp(17): warning C4018: '<': signed/unsigned mismatch
+g:\projects\lotion\lotion\environment.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  spritebatch.cpp
+  player.cpp
+  main.cpp
+  joiner.cpp
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.exe
   Lotion.vcxproj -> G:\Projects\Lotion\Debug\Lotion.pdb (Partial PDB)

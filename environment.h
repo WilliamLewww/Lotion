@@ -32,6 +32,14 @@ struct MovingTile {
 	bool movingLeft = false;
 };
 
+struct AirTile {
+	Tile tile;
+
+	// 1 = up; 2 = down; 3 = left; 4 = right;
+	int direction = -1;
+	double speed = .5;
+};
+
 struct SpawnTile {
 	Vector2 position;
 	int width = 10, height = 10;
@@ -95,6 +103,7 @@ struct PushTile {
 extern SpawnTile spawnTile;
 
 extern std::vector<Tile> tileMap;
+extern std::vector<AirTile> airTileMap;
 extern std::vector<PushTile> pushTileMap;
 extern std::vector<MovingTile> movingTileMap;
 void GenerateTileMap();

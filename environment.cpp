@@ -3,6 +3,7 @@
 SpawnTile spawnTile;
 
 std::vector<Tile> tileMap;
+std::vector<AirTile> airTileMap;
 std::vector<PushTile> pushTileMap;
 std::vector<MovingTile> movingTileMap;
 
@@ -33,6 +34,7 @@ void GenerateTileMap() {
 	for (int y = 0; y < MAPSIZEY; y++) {
 		for (int x = 0; x < MAPSIZEX; x++) {
 			Tile tempTile;
+			AirTile tempAirTile;
 			PushTile tempPushTile;
 			MovingTile tempMovingTile;
 
@@ -47,6 +49,10 @@ void GenerateTileMap() {
 			if (tileMapGrid[y][x] == 9) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
 			if (tileMapGrid[y][x] == 10) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, (y * tempMovingTile.tile.height) + 5); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
 			if (tileMapGrid[y][x] == 11) { tempMovingTile.tile.position = Vector2(x * tempMovingTile.tile.width, y * tempMovingTile.tile.height); tempMovingTile.tile.height = 5; tempMovingTile.tile.tileID = 8; movingTileMap.push_back(tempMovingTile); }
+			if (tileMapGrid[y][x] == 12) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 1; airTileMap.push_back(tempAirTile); }
+			if (tileMapGrid[y][x] == 13) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 2; airTileMap.push_back(tempAirTile); }
+			if (tileMapGrid[y][x] == 14) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 3; airTileMap.push_back(tempAirTile); }
+			if (tileMapGrid[y][x] == 15) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 4; airTileMap.push_back(tempAirTile); }
 		}
 	}
 }
@@ -54,11 +60,21 @@ void GenerateTileMap() {
 bool CheckCollision(Tile tileA, Tile tileB) {
 	if (tileA.left() <= tileB.right() &&
 		tileA.right() >= tileB.left() &&
-		tileA.top() <= tileB.bottom() &&
-		tileA.bottom() >= tileB.top()) {
+		tileA.top() < tileB.bottom() &&
+		tileA.bottom() > tileB.top()) {
 		return true;
 	}
 
+	return false;
+}
+
+bool CheckCollisionRight(Tile tileA, Tile tileB) {
+	if (tileA.left() <= tileB.right() && tileA.left() >= tileB.right() - 5 && tileA.top() <= tileB.bottom() - 3 && tileA.bottom() >= tileB.top() + 3) return true;
+	return false;
+}
+
+bool CheckCollisionLeft(Tile tileA, Tile tileB) {
+	if (tileA.right() >= tileB.left() && tileA.right() <= tileB.left() + 5 && tileA.top() <= tileB.bottom() - 3 && tileA.bottom() >= tileB.top() + 3) return true;
 	return false;
 }
 
@@ -67,7 +83,10 @@ void UpdateTile(int gameTime) {
 
 	for (auto &tile : movingTileMap) {
 		for (auto &tileB : tileMap) {
-			if (CheckCollision(tile.tile, tileB)) { tile.movingLeft = !tile.movingLeft; }
+			if (CheckCollision(tile.tile, tileB)) { 
+				if (CheckCollisionLeft(tile.tile, tileB)) { tile.movingLeft = true; }
+				if (CheckCollisionRight(tile.tile, tileB)) { tile.movingLeft = false; }
+			}
 		}
 		if (tile.movingLeft == true) { tile.tile.position.x -= tile.speed * deltaTimeS; }
 		else { tile.tile.position.x += tile.speed * deltaTimeS; }

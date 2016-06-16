@@ -2,10 +2,16 @@
 
 Player player;
 
-bool CheckCollision(Tile tile);
-void HandleCollision(Tile tile);
+void ResetPlayer();
+
 bool CheckCollisionTop(Tile tile);
 bool CheckCollisionBottom(Tile tile);
+bool CheckCollisionLeft(Tile tile);
+bool CheckCollisionRight(Tile tile);
+
+bool CheckCollision(Tile tile);
+void HandleCollision(Tile tile);
+void HandleBasicCollision(Tile tile);
 void FloatingMovement(float deltaTimeS);
 
 std::vector<Tile> groundTileList;
@@ -30,12 +36,22 @@ void UpdatePlayer(int gameTime) {
 	player.position.y += player.velocityY;
 	player.velocityX = 0;
 
+	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_r) != pressKeyList.end()) { ResetPlayer(); }
 	if (std::find(pressKeyList.begin(), pressKeyList.end(), SDLK_f) != pressKeyList.end()) floatingMovement = !floatingMovement;
 
 	if (std::find(keyList.begin(), keyList.end(), SDLK_LCTRL) != keyList.end()) { player.speed = 65; }
 	else { player.speed = 50; }
 	if (std::find(keyList.begin(), keyList.end(), SDLK_LEFT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) == keyList.end()) player.velocityX = -player.speed * deltaTimeS;
 	if (std::find(keyList.begin(), keyList.end(), SDLK_RIGHT) != keyList.end() && std::find(keyList.begin(), keyList.end(), SDLK_LEFT) == keyList.end()) player.velocityX = player.speed * deltaTimeS;
+
+	for (auto &tile : airTileMap) {
+		if (CheckCollision(tile.tile) == true) {
+			if (tile.direction == 1) { player.position.y -= tile.speed; }
+			if (tile.direction == 2) { player.position.y += tile.speed; }
+			if (tile.direction == 3) { player.position.x -= tile.speed; }
+			if (tile.direction == 4) { player.position.x += tile.speed; }
+		}
+	}
 
 	if (player.onGround == true) {
 		if (jumpPress == false) {
@@ -57,7 +73,7 @@ void UpdatePlayer(int gameTime) {
 	for (auto &tile : tileMap) {
 		if (CheckCollision(tile) == true) {
 			if (tile.tileID == 1) { HandleCollision(tile); }
-			if (tile.tileID == 5) { player.velocityX = 0; player.velocityY = 0; player.position = Vector2(spawnTile.position.x, spawnTile.position.y); }
+			if (tile.tileID == 5) { ResetPlayer(); }
 
 			if (tile.tileID == 6) { 
 				if (CheckCollisionTop(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = -player.velocityY; } }
@@ -67,9 +83,30 @@ void UpdatePlayer(int gameTime) {
 			}
 
 			if (tile.tileID == 7) {
-				if (CheckCollision(tile) && trampolineCollison == false) { if (player.velocityY != 0) { player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5; } }
+				if (CheckCollision(tile) && trampolineCollison == false) {
+					player.velocityY = (-player.velocityY / abs(player.velocityY)) * 2.5;
+				}
 
 				trampolineCollison = true;
+			}
+		}
+	}
+
+	bool movingTileCollision = false;
+	for (auto &tile : movingTileMap) {
+		if (CheckCollision(tile.tile) == true) {
+			movingTileCollision = true;
+			HandleBasicCollision(tile.tile);
+
+			if (CheckCollisionLeft(tile.tile) == true) { tile.movingLeft = false; }
+			if (CheckCollisionRight(tile.tile) == true) { tile.movingLeft = true; }
+			if (CheckCollisionLeft(tile.tile) == false && CheckCollisionRight(tile.tile) == false) {
+				if (tile.movingLeft == true) {
+					player.position.x -= tile.speed * deltaTimeS;
+				}
+				else {
+					player.position.x += tile.speed * deltaTimeS;
+				}
 			}
 		}
 	}
@@ -86,7 +123,13 @@ void UpdatePlayer(int gameTime) {
 	}
 	tempGroundTileList.clear();
 
-	if (groundTileList.size() == 0) player.onGround = false;
+	if (groundTileList.size() == 0 && movingTileCollision == false) player.onGround = false;
+}
+
+void ResetPlayer() {
+	player.velocityX = 0; 
+	player.velocityY = 0; 
+	player.position = Vector2(spawnTile.position.x, spawnTile.position.y);
 }
 
 void FloatingMovement(float deltaTimeS) {
@@ -123,6 +166,43 @@ bool CheckCollisionBottom(Tile tile) {
 bool CheckCollisionTop(Tile tile) {
 	if (player.bottom() >= tile.top() && player.bottom() <= tile.top() + 5 && player.left() <= tile.right() + 3 && player.right() >= tile.left() + 3) return true;
 	return false;
+}
+
+bool CheckCollisionRight(Tile tile) {
+	if (player.left() <= tile.right() && player.left() >= tile.right() - 5 && player.top() <= tile.bottom() - 3 && player.bottom() >= tile.top() + 3) return true;
+	return false;
+}
+
+bool CheckCollisionLeft(Tile tile) {
+	if (player.right() >= tile.left() && player.right() <= tile.left() + 5 && player.top() <= tile.bottom() - 3 && player.bottom() >= tile.top() + 3) return true;
+	return false;
+}
+
+void HandleBasicCollision(Tile tile) {
+	double overlapX, overlapY;
+	if (player.midpoint().x > tile.midpoint().x) overlapX = tile.right() - player.left();
+	else overlapX = -(player.right() - tile.left());
+	if (player.midpoint().y > tile.midpoint().y) overlapY = tile.bottom() - player.top();
+	else overlapY = -(player.bottom() - tile.top());
+
+	if (overlapX != 0 && overlapY != 0) {
+		if (abs(overlapY) < abs(overlapX)) {
+			if (overlapY < 0) {
+				if (player.velocityY > 0) {
+					player.onGround = true;
+					player.position.y += overlapY; player.velocityY = 0;
+				}
+			}
+			else {
+				if (player.velocityY < 0) {
+					if (CheckCollisionBottom(tile)) { player.position.y += overlapY; player.velocityY = 0; }
+				}
+			}
+		}
+		else {
+			player.position.x += overlapX; player.velocityX = 0;
+		}
+	}
 }
 
 void HandleCollision(Tile tile) {
