@@ -41,6 +41,86 @@ PUBLIC	?top@Tile@@QAENXZ				; Tile::top
 PUBLIC	?bottom@Tile@@QAENXZ				; Tile::bottom
 PUBLIC	?left@Tile@@QAENXZ				; Tile::left
 PUBLIC	?right@Tile@@QAENXZ				; Tile::right
+PUBLIC	??0?$allocator@UTile@@@std@@QAE@XZ		; std::allocator<Tile>::allocator<Tile>
+PUBLIC	?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ; std::allocator<Tile>::deallocate
+PUBLIC	?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ; std::allocator<Tile>::allocate
+PUBLIC	?max_size@?$allocator@UTile@@@std@@QBEIXZ	; std::allocator<Tile>::max_size
+PUBLIC	?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ; std::allocator_traits<std::allocator<Tile> >::max_size
+PUBLIC	??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >
+PUBLIC	?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
+PUBLIC	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
+PUBLIC	?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
+PUBLIC	??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+PUBLIC	??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+PUBLIC	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
+PUBLIC	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
+PUBLIC	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
+PUBLIC	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+PUBLIC	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+PUBLIC	??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >
+PUBLIC	??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >
+PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+PUBLIC	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>
+PUBLIC	??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >
+PUBLIC	??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
+PUBLIC	?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::capacity
+PUBLIC	?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
+PUBLIC	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
+PUBLIC	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
+PUBLIC	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
+PUBLIC	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
+PUBLIC	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
+PUBLIC	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
+PUBLIC	?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z ; std::vector<Tile,std::allocator<Tile> >::erase
+PUBLIC	?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ; std::vector<Tile,std::allocator<Tile> >::clear
+PUBLIC	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+PUBLIC	?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
+PUBLIC	?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::_Inside
+PUBLIC	?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
+PUBLIC	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
+PUBLIC	?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Tidy
+PUBLIC	?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Xlen
+PUBLIC	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
+PUBLIC	?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2
+PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+PUBLIC	??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=
+PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
+PUBLIC	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
+PUBLIC	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+PUBLIC	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
+PUBLIC	??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
+PUBLIC	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
+PUBLIC	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
+PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked
+PUBLIC	?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked
+PUBLIC	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
+PUBLIC	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
+PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+PUBLIC	??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
+PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2
 PUBLIC	?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ; PushTile::GetDirection
 PUBLIC	??0?$allocator@UPushTile@@@std@@QAE@ABV01@@Z	; std::allocator<PushTile>::allocator<PushTile>
 PUBLIC	?deallocate@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@I@Z ; std::allocator<PushTile>::deallocate
@@ -120,60 +200,6 @@ PUBLIC	?CheckCollision@@YA_NUTile@@@Z			; CheckCollision
 PUBLIC	?HandleCollision@@YAXUTile@@@Z			; HandleCollision
 PUBLIC	?HandleBasicCollision@@YAXUTile@@@Z		; HandleBasicCollision
 PUBLIC	?FloatingMovement@@YAXM@Z			; FloatingMovement
-PUBLIC	??0?$allocator@UTile@@@std@@QAE@XZ		; std::allocator<Tile>::allocator<Tile>
-PUBLIC	?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ; std::allocator<Tile>::deallocate
-PUBLIC	?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ; std::allocator<Tile>::allocate
-PUBLIC	?max_size@?$allocator@UTile@@@std@@QBEIXZ	; std::allocator<Tile>::max_size
-PUBLIC	?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ; std::allocator_traits<std::allocator<Tile> >::max_size
-PUBLIC	??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >
-PUBLIC	?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
-PUBLIC	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
-PUBLIC	?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
-PUBLIC	??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-PUBLIC	??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-PUBLIC	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
-PUBLIC	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
-PUBLIC	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
-PUBLIC	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-PUBLIC	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-PUBLIC	??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >
-PUBLIC	??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >
-PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-PUBLIC	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-PUBLIC	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-PUBLIC	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>
-PUBLIC	??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >
-PUBLIC	??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
-PUBLIC	?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::capacity
-PUBLIC	?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
-PUBLIC	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-PUBLIC	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-PUBLIC	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
-PUBLIC	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
-PUBLIC	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
-PUBLIC	?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::push_back
-PUBLIC	?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z ; std::vector<Tile,std::allocator<Tile> >::erase
-PUBLIC	?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ; std::vector<Tile,std::allocator<Tile> >::clear
-PUBLIC	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-PUBLIC	?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
-PUBLIC	?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::_Inside
-PUBLIC	?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
-PUBLIC	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
-PUBLIC	?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Tidy
-PUBLIC	?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Xlen
-PUBLIC	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
-PUBLIC	?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2
 PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@HV?$allocator@H@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@H@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >::_Get_data
 PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@HV?$allocator@H@std@@@std@@@std@@QAEAAPAHXZ ; std::_Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >::_Myfirst
 PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@HV?$allocator@H@std@@@std@@@std@@QAEAAPAHXZ ; std::_Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >::_Mylast
@@ -216,32 +242,6 @@ PUBLIC	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@st
 PUBLIC	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::operator++
 PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >
 PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<AirTile> > >::__autoclassinit2
-PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-PUBLIC	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-PUBLIC	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-PUBLIC	??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=
-PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-PUBLIC	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-PUBLIC	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-PUBLIC	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
-PUBLIC	??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
-PUBLIC	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
-PUBLIC	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
-PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked
-PUBLIC	?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked
-PUBLIC	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-PUBLIC	??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-PUBLIC	??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
-PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2
 PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
 PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Myfirst
 PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAPAUMovingTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Mylast
@@ -264,25 +264,25 @@ PUBLIC	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@
 PUBLIC	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@std@@@std@@QAEXI@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<MovingTile> > >::__autoclassinit2
 PUBLIC	??$remove@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::remove<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
 PUBLIC	??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z ; std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >,Tile>
+PUBLIC	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >
+PUBLIC	??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >
 PUBLIC	??$_Move_unchecked@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Move_unchecked<Tile *,Tile *>
 PUBLIC	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
 PUBLIC	??$construct@UTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile &>
 PUBLIC	??$construct@UTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile const &>
-PUBLIC	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >
-PUBLIC	??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >
+PUBLIC	??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >
 PUBLIC	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
 PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAXPAUTile@@0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<Tile> > >
-PUBLIC	??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >
 PUBLIC	?deallocate@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@2@I@Z ; std::allocator<std::_Container_proxy>::deallocate
 PUBLIC	?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::allocator<std::_Container_proxy>::allocate
 PUBLIC	?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::allocate
 PUBLIC	?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::deallocate
-PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>
 PUBLIC	??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >
+PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
 PUBLIC	??$_Umove@PAUTile@@@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEPAUTile@@PAU2@00@Z ; std::vector<Tile,std::allocator<Tile> >::_Umove<Tile *>
-PUBLIC	??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>
-PUBLIC	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >
 PUBLIC	??$_Debug_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@0PB_WI@Z ; std::_Debug_range<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 PUBLIC	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@YAPAHV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<int> > >
 PUBLIC	??$_Find@PAHW4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YAPAHPAH0ABW4<unnamed-enum-SDLK_UNKNOWN>@@@Z ; std::_Find<int *,enum <unnamed-enum-SDLK_UNKNOWN> >
@@ -292,6 +292,9 @@ PUBLIC	??$_Remove@PAUTile@@U1@@std@@YAPAUTile@@PAU1@0ABU1@@Z ; std::_Remove<Tile
 PUBLIC	??$_Rechecked@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@YAAAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@AAV10@PAUTile@@@Z ; std::_Rechecked<std::_Vector_val<std::_Simple_types<Tile> > >
 PUBLIC	??$_Debug_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@0PB_WI@Z ; std::_Debug_range<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > > >
 PUBLIC	??$_Find@PAUTile@@U1@@std@@YAPAUTile@@PAU1@0ABU1@@Z ; std::_Find<Tile *,Tile>
+PUBLIC	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
+PUBLIC	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
+PUBLIC	??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
 PUBLIC	??$_Ptr_move_cat@UTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUTile@@0@Z ; std::_Ptr_move_cat<Tile,Tile>
 PUBLIC	??$_Move_unchecked1@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00U_Trivially_copyable_ptr_iterator_tag@0@@Z ; std::_Move_unchecked1<Tile *,Tile *>
 PUBLIC	??$_Addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<Tile const >
@@ -299,22 +302,19 @@ PUBLIC	??$forward@AAUTile@@@std@@YAAAUTile@@AAU1@@Z	; std::forward<Tile &>
 PUBLIC	??$construct@UTile@@AAU1@@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAXAAV?$allocator@UTile@@@1@PAUTile@@AAU3@@Z ; std::allocator_traits<std::allocator<Tile> >::construct<Tile,Tile &>
 PUBLIC	??$forward@ABUTile@@@std@@YAABUTile@@ABU1@@Z	; std::forward<Tile const &>
 PUBLIC	??$construct@UTile@@ABU1@@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAXAAV?$allocator@UTile@@@1@PAUTile@@ABU3@@Z ; std::allocator_traits<std::allocator<Tile> >::construct<Tile,Tile const &>
-PUBLIC	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
-PUBLIC	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
-PUBLIC	??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
+PUBLIC	??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ; std::forward<std::allocator<PushTile> >
 PUBLIC	??$addressof@UTile@@@std@@YAPAUTile@@AAU1@@Z	; std::addressof<Tile>
 PUBLIC	??$destroy@UTile@@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::destroy<Tile>
-PUBLIC	??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ; std::forward<std::allocator<PushTile> >
+PUBLIC	??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
+PUBLIC	??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
+PUBLIC	??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+PUBLIC	??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ; std::addressof<PushTile>
+PUBLIC	??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
 PUBLIC	??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
 PUBLIC	??$?0UTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><Tile>
-PUBLIC	??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
 PUBLIC	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@$$QAU31@@Z ; std::allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
 PUBLIC	??$_Uninitialized_move@PAUTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Uninitialized_move<Tile *,Tile *,std::_Wrap_alloc<std::allocator<Tile> > >
-PUBLIC	??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
-PUBLIC	??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
-PUBLIC	??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ; std::addressof<PushTile>
-PUBLIC	??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
 PUBLIC	??$_Iter_cat@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YA?AUrandom_access_iterator_tag@0@ABV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@@Z ; std::_Iter_cat<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 PUBLIC	??$_Debug_range2@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@0PB_WIUrandom_access_iterator_tag@0@@Z ; std::_Debug_range2<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 PUBLIC	??$_Find@PAHW4<unnamed-enum-SDLK_UNKNOWN>@@@std@@YAPAHPAH0ABW4<unnamed-enum-SDLK_UNKNOWN>@@U?$integral_constant@_N$0A@@0@@Z ; std::_Find<int *,enum <unnamed-enum-SDLK_UNKNOWN> >
@@ -322,30 +322,30 @@ PUBLIC	??$move@AAUTile@@@std@@YA$$QAUTile@@AAU1@@Z	; std::move<Tile &>
 PUBLIC	??$_Iter_cat@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@@std@@YA?AUrandom_access_iterator_tag@0@ABV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@@Z ; std::_Iter_cat<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > > >
 PUBLIC	??$_Debug_range2@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@0PB_WIUrandom_access_iterator_tag@0@@Z ; std::_Debug_range2<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > > >
 PUBLIC	??$_Find@PAUTile@@U1@@std@@YAPAUTile@@PAU1@0ABU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Find<Tile *,Tile>
-PUBLIC	??$_Copy_memmove@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Copy_memmove<Tile *,Tile *>
-PUBLIC	??$construct@UTile@@AAU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@AAU2@@Z ; std::allocator<Tile>::construct<Tile,Tile &>
-PUBLIC	??$construct@UTile@@ABU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@ABU2@@Z ; std::allocator<Tile>::construct<Tile,Tile const &>
 PUBLIC	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
 PUBLIC	??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z ; std::_Unchecked<PushTile *>
 PUBLIC	??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
 PUBLIC	??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<PushTile *,PushTile *>
+PUBLIC	??$_Copy_memmove@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Copy_memmove<Tile *,Tile *>
+PUBLIC	??$construct@UTile@@AAU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@AAU2@@Z ; std::allocator<Tile>::construct<Tile,Tile &>
+PUBLIC	??$construct@UTile@@ABU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@ABU2@@Z ; std::allocator<Tile>::construct<Tile,Tile const &>
 PUBLIC	??$_Addressof@UTile@@@std@@YAPAUTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<Tile>
 PUBLIC	??$destroy@UTile@@@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAXAAV?$allocator@UTile@@@1@PAUTile@@@Z ; std::allocator_traits<std::allocator<Tile> >::destroy<Tile>
 PUBLIC	??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::allocator<std::_Container_proxy>::destroy<std::_Container_proxy>
+PUBLIC	??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<PushTile>
+PUBLIC	??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::allocator<std::_Container_proxy>::construct<std::_Container_proxy,std::_Container_proxy>
 PUBLIC	??$_Unchecked@PAUTile@@@std@@YAPAUTile@@PAU1@@Z	; std::_Unchecked<Tile *>
 PUBLIC	??$_Uninitialized_move_al_unchecked@PAUTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Uninitialized_move_al_unchecked<Tile *,Tile *,std::_Wrap_alloc<std::allocator<Tile> > >
 PUBLIC	??$_Rechecked@PAUTile@@PAU1@@std@@YAAAPAUTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<Tile *,Tile *>
-PUBLIC	??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<PushTile>
-PUBLIC	??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
 PUBLIC	??$move@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::move<std::_Wrap_alloc<std::allocator<PushTile> > &>
 PUBLIC	??$_Debug_pointer@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YAXAAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@PB_WI@Z ; std::_Debug_pointer<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 PUBLIC	??$_Debug_pointer@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@@std@@YAXAAV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@PB_WI@Z ; std::_Debug_pointer<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > > >
 PUBLIC	??$_Ptr_copy_cat@$$CBUPushTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQBUPushTile@@ABQAU2@@Z ; std::_Ptr_copy_cat<PushTile const ,PushTile>
 PUBLIC	??$_Uninitialized_copy_al_unchecked1@PBUPushTile@@PAU1@V?$allocator@UPushTile@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_copy_al_unchecked1<PushTile const *,PushTile *,std::allocator<PushTile> >
 PUBLIC	??$destroy@UTile@@@?$allocator@UTile@@@std@@QAEXPAUTile@@@Z ; std::allocator<Tile>::destroy<Tile>
-PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTile@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<Tile *,Tile *,std::allocator<Tile> >
 PUBLIC	??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ; std::allocator<PushTile>::destroy<PushTile>
+PUBLIC	??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTile@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_move_al_unchecked1<Tile *,Tile *,std::allocator<Tile> >
 PUBLIC	??$construct@UPushTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::construct<PushTile,PushTile const &>
 PUBLIC	??$construct@UTile@@U1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@$$QAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile>
 PUBLIC	??$forward@ABUPushTile@@@std@@YAABUPushTile@@ABU1@@Z ; std::forward<PushTile const &>
@@ -397,15 +397,15 @@ PUBLIC	??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$A
 PUBLIC	??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@ ; `string'
 PUBLIC	??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@ ; `string'
 PUBLIC	??_C@_1LO@MGELDLOO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1MO@FIOFHBNA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NE@MNCPAIHH@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
-PUBLIC	??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
-PUBLIC	??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NK@NBKKOKHK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
 PUBLIC	??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
-PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ ; `string'
 PUBLIC	??_C@_1NG@COIFKLBO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ ; `string'
 PUBLIC	??_C@_1CO@DGLIKNHI@?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$AA@ ; `string'
 PUBLIC	__real@0000000000000000
 PUBLIC	__real@4000000000000000
@@ -443,11 +443,11 @@ EXTRN	___CxxFrameHandler3:PROC
 EXTRN	_memset:PROC
 EXTRN	?keyList@@3V?$vector@HV?$allocator@H@std@@@std@@A:BYTE ; keyList
 EXTRN	?pressKeyList@@3V?$vector@HV?$allocator@H@std@@@std@@A:BYTE ; pressKeyList
-EXTRN	?spawnTile@@3USpawnTile@@A:BYTE			; spawnTile
 EXTRN	?tileMap@@3V?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@A:BYTE ; tileMap
-EXTRN	?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A:BYTE ; airTileMap
-EXTRN	?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A:BYTE ; pushTileMap
 EXTRN	?movingTileMap@@3V?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@A:BYTE ; movingTileMap
+EXTRN	?airTileMap@@3V?$vector@UAirTile@@V?$allocator@UAirTile@@@std@@@std@@A:BYTE ; airTileMap
+EXTRN	?spawnTile@@3USpawnTile@@A:BYTE			; spawnTile
+EXTRN	?pushTileMap@@3V?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@A:BYTE ; pushTileMap
 EXTRN	___security_cookie:DWORD
 EXTRN	__fltused:DWORD
 _BSS	SEGMENT
@@ -516,6 +516,11 @@ CONST	SEGMENT
 	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, 'r', 00H, 'a', 00H, 'n', 00H
 	DB	'g', 00H, 'e', 00H, 00H, 00H			; `string'
 CONST	ENDS
+;	COMDAT ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
+CONST	SEGMENT
+??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ DB 'vector<T> too long'
+	DB	00H						; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_1NG@COIFKLBO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
 ??_C@_1NG@COIFKLBO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
@@ -536,11 +541,6 @@ CONST	SEGMENT
 	DB	00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H
 	DB	':', 00H, '_', 00H, 'C', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a'
 	DB	00H, 't', 00H, 00H, 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
-CONST	SEGMENT
-??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@ DB 'vector<T> too long'
-	DB	00H						; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1NE@PKGEKJGN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
@@ -583,48 +583,6 @@ CONST	SEGMENT
 	DB	00H, 'l', 00H, 'e', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H
 	DB	'>', 00H, ':', 00H, ':', 00H, '_', 00H, 'C', 00H, 'o', 00H, 'm'
 	DB	00H, 'p', 00H, 'a', 00H, 't', 00H, 00H, 00H	; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
-CONST	SEGMENT
-??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
-	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
-	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
-	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
-	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
-	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
-	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
-	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
-	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
-	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
-	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
-	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
-	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
-	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'P', 00H
-	DB	'u', 00H, 's', 00H, 'h', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e'
-	DB	00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H
-	DB	':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't'
-	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, '*', 00H, 00H, 00H ; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
-CONST	SEGMENT
-??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
-	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
-	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
-	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
-	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
-	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
-	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
-	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
-	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
-	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
-	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
-	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
-	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
-	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'P', 00H
-	DB	'u', 00H, 's', 00H, 'h', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e'
-	DB	00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H
-	DB	':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't'
-	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, '+', 00H, '+', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1NE@MNCPAIHH@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
@@ -687,6 +645,48 @@ CONST	SEGMENT
 	DB	'i', 00H, 'l', 00H, 'e', 00H, '>', 00H, ' ', 00H, '>', 00H, ' '
 	DB	00H, '>', 00H, ':', 00H, ':', 00H, '_', 00H, 'C', 00H, 'o', 00H
 	DB	'm', 00H, 'p', 00H, 'a', 00H, 't', 00H, 00H, 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NM@EONCPDKK@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'P', 00H
+	DB	'u', 00H, 's', 00H, 'h', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e'
+	DB	00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H
+	DB	':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't'
+	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, '*', 00H, 00H, 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+CONST	SEGMENT
+??_C@_1NO@MMDDECIN@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'V', 00H
+	DB	'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H, '_', 00H, 'c'
+	DB	00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H
+	DB	't', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r'
+	DB	00H, '<', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_'
+	DB	00H, 'V', 00H, 'e', 00H, 'c', 00H, 't', 00H, 'o', 00H, 'r', 00H
+	DB	'_', 00H, 'v', 00H, 'a', 00H, 'l', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'S', 00H, 'i'
+	DB	00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H, 't', 00H
+	DB	'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's', 00H, 't'
+	DB	00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H, 'P', 00H
+	DB	'u', 00H, 's', 00H, 'h', 00H, 'T', 00H, 'i', 00H, 'l', 00H, 'e'
+	DB	00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>', 00H, ':', 00H
+	DB	':', 00H, 'o', 00H, 'p', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 't'
+	DB	00H, 'o', 00H, 'r', 00H, ' ', 00H, '+', 00H, '+', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1LO@MGELDLOO@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
@@ -1349,18 +1349,6 @@ __ehfuncinfo$?begin@?$vector@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
-__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z$0
-__ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 019930522H
-	DD	01H
-	DD	FLAT:__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
 __unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z$0
 __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAE@PAUAirTile@@PBU_Container_base12@1@@Z DD 019930522H
@@ -1438,148 +1426,6 @@ __ehfuncinfo$?begin@?$vector@HV?$allocator@H@std@@@std@@QAE?AV?$_Vector_iterator
 	DD	2 DUP(00H)
 	DD	00H
 	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__unwindtable$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z$0
-__ehfuncinfo$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z DD 019930522H
-	DD	01H
-	DD	FLAT:__unwindtable$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__catchsym$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$2 DD 040H
-	DD	00H
-	DD	00H
-	DD	FLAT:__catch$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$0
-__unwindtable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 0ffffffffH
-	DD	00H
-	DD	0ffffffffH
-	DD	00H
-__tryblocktable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 00H
-	DD	00H
-	DD	01H
-	DD	01H
-	DD	FLAT:__catchsym$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$2
-__ehfuncinfo$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 019930522H
-	DD	02H
-	DD	FLAT:__unwindtable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-	DD	01H
-	DD	FLAT:__tryblocktable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z DD 019930522H
-	DD	06H
-	DD	FLAT:__unwindtable$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-__unwindtable$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$0
-	DD	00H
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$1
-	DD	01H
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$2
-	DD	02H
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$3
-	DD	01H
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$5
-	DD	04H
-	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$7
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__unwindtable$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z$0
-__ehfuncinfo$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z DD 019930522H
-	DD	01H
-	DD	FLAT:__unwindtable$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
-__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ$0
-__ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
-	DD	01H
-	DD	FLAT:__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	01H
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -1826,6 +1672,160 @@ __unwindtable$?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPus
 __ehfuncinfo$?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z DD 019930522H
 	DD	03H
 	DD	FLAT:__unwindtable$?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z$0
+__ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z$0
+__ehfuncinfo$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__catchsym$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$2 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$0
+__unwindtable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 0ffffffffH
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+__tryblocktable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 00H
+	DD	00H
+	DD	01H
+	DD	01H
+	DD	FLAT:__catchsym$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$2
+__ehfuncinfo$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z DD 019930522H
+	DD	02H
+	DD	FLAT:__unwindtable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z DD 019930522H
+	DD	06H
+	DD	FLAT:__unwindtable$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+__unwindtable$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$0
+	DD	00H
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$1
+	DD	01H
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$2
+	DD	02H
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$3
+	DD	01H
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$5
+	DD	04H
+	DD	FLAT:__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$7
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z$0
+__ehfuncinfo$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ$0
+__ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
 	DD	00H
@@ -2283,42 +2283,6 @@ _<_Args_0>$ = 12					; size = 4
 ??$construct@UPushTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@ABU2@@Z ENDP ; std::_Wrap_alloc<std::allocator<PushTile> >::construct<PushTile,PushTile const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Ptr$ = 8						; size = 4
-??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z PROC ; std::allocator<PushTile>::destroy<PushTile>, COMDAT
-; _this$ = ecx
-
-; 643  : 		{	// destroy object at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 644  : 		_Ptr->~_Uty();
-; 645  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ENDP ; std::allocator<PushTile>::destroy<PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
 ;	COMDAT ??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTile@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z
 _TEXT	SEGMENT
@@ -2468,6 +2432,42 @@ __ehhandler$??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTil
 	jmp	___CxxFrameHandler3
 text$x	ENDS
 ??$_Uninitialized_move_al_unchecked1@PAUTile@@PAU1@V?$allocator@UTile@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ENDP ; std::_Uninitialized_move_al_unchecked1<Tile *,Tile *,std::allocator<Tile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z PROC ; std::allocator<PushTile>::destroy<PushTile>, COMDAT
+; _this$ = ecx
+
+; 643  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 644  : 		_Ptr->~_Uty();
+; 645  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ENDP ; std::allocator<PushTile>::destroy<PushTile>
+_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$destroy@UTile@@@?$allocator@UTile@@@std@@QAEXPAUTile@@@Z
@@ -2786,84 +2786,6 @@ __Arg$ = 8						; size = 4
 ??$move@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ENDP ; std::move<std::_Wrap_alloc<std::allocator<PushTile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z
-_TEXT	SEGMENT
-__Al$ = 8						; size = 4
-__Ptr$ = 12						; size = 4
-??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z PROC ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>, COMDAT
-
-; 761  : 		{	// destroy object at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 762  : 		_Al.destroy(_Ptr);
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Al$[ebp]
-	call	??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ; std::allocator<PushTile>::destroy<PushTile>
-
-; 763  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ENDP ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
-;	COMDAT ??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z
-_TEXT	SEGMENT
-__Val$ = 8						; size = 4
-___formal$ = 12						; size = 1
-??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z PROC ; std::_Addressof<PushTile>, COMDAT
-
-; 707  : 	{	// return address of object _Val
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 708  : 	return (reinterpret_cast<_Ty *>(
-
-	mov	eax, DWORD PTR __Val$[ebp]
-
-; 709  : 		&const_cast<char&>(
-; 710  : 		reinterpret_cast<const volatile char&>(_Val))));
-; 711  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
 ;	COMDAT ??$_Rechecked@PAUTile@@PAU1@@std@@YAAAPAUTile@@AAPAU1@PAU1@@Z
 _TEXT	SEGMENT
@@ -3069,6 +2991,84 @@ $LN1@construct:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z PROC ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>, COMDAT
+
+; 761  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 762  : 		_Al.destroy(_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@UPushTile@@@?$allocator@UPushTile@@@std@@QAEXPAUPushTile@@@Z ; std::allocator<PushTile>::destroy<PushTile>
+
+; 763  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ENDP ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z
+_TEXT	SEGMENT
+__Val$ = 8						; size = 4
+___formal$ = 12						; size = 1
+??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z PROC ; std::_Addressof<PushTile>, COMDAT
+
+; 707  : 	{	// return address of object _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 708  : 	return (reinterpret_cast<_Ty *>(
+
+	mov	eax, DWORD PTR __Val$[ebp]
+
+; 709  : 		&const_cast<char&>(
+; 710  : 		reinterpret_cast<const volatile char&>(_Val))));
+; 711  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<PushTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -3181,215 +3181,6 @@ ___formal$ = 12						; size = 1
 	ret	0
 ??$_Addressof@UTile@@@std@@YAPAUTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ENDP ; std::_Addressof<Tile>
 _TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z
-_TEXT	SEGMENT
-__Dest$ = 8						; size = 4
-__Src$ = 12						; size = 4
-??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z PROC ; std::_Rechecked<PushTile *,PushTile *>, COMDAT
-
-; 465  : 	{	// reset checked from unchecked, generic
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 466  : 	_Dest = _Src;
-
-	mov	eax, DWORD PTR __Dest$[ebp]
-	mov	ecx, DWORD PTR __Src$[ebp]
-	mov	DWORD PTR [eax], ecx
-
-; 467  : 	return (_Dest);
-
-	mov	eax, DWORD PTR __Dest$[ebp]
-
-; 468  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z ENDP ; std::_Rechecked<PushTile *,PushTile *>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
-;	COMDAT ??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
-_TEXT	SEGMENT
-$T1 = -209						; size = 1
-$T2 = -197						; size = 1
-__First$ = 8						; size = 4
-__Last$ = 12						; size = 4
-__Dest$ = 16						; size = 4
-__Al$ = 20						; size = 4
-??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
-
-; 293  : 	{	// copy [_First, _Last) to raw _Dest, using _Al, choose optimization
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 294  : 	return (_Uninitialized_copy_al_unchecked1(_First, _Last, _Dest, _Al,
-
-	lea	eax, DWORD PTR __Dest$[ebp]
-	push	eax
-	lea	ecx, DWORD PTR __First$[ebp]
-	push	ecx
-	lea	edx, DWORD PTR $T2[ebp]
-	push	edx
-	call	??$_Ptr_copy_cat@$$CBUPushTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQBUPushTile@@ABQAU2@@Z ; std::_Ptr_copy_cat<PushTile const ,PushTile>
-	add	esp, 12					; 0000000cH
-	movzx	eax, BYTE PTR $T1[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Al$[ebp]
-	push	ecx
-	mov	edx, DWORD PTR __Dest$[ebp]
-	push	edx
-	mov	eax, DWORD PTR __Last$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __First$[ebp]
-	push	ecx
-	call	??$_Uninitialized_copy_al_unchecked1@PBUPushTile@@PAU1@V?$allocator@UPushTile@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_copy_al_unchecked1<PushTile const *,PushTile *,std::allocator<PushTile> >
-	add	esp, 20					; 00000014H
-
-; 295  : 		_Ptr_copy_cat(_First, _Dest)));
-; 296  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z
-_TEXT	SEGMENT
-__Src$ = 8						; size = 4
-??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z PROC ; std::_Unchecked<PushTile *>, COMDAT
-
-; 438  : 	{	// construct unchecked from checked, generic
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 439  : 	return (_Src);
-
-	mov	eax, DWORD PTR __Src$[ebp]
-
-; 440  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z ENDP ; std::_Unchecked<PushTile *>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
-_TEXT	SEGMENT
-$T2 = -212						; size = 4
-__$EHRec$ = -12						; size = 12
-__Iter$ = 8						; size = 12
-??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z PROC ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >, COMDAT
-
-; 265  : 	{	// convert to unchecked
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 266  : 	return (_Iter._Unchecked());
-
-	lea	ecx, DWORD PTR __Iter$[ebp]
-	call	?_Unchecked@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEPBUPushTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::_Unchecked
-	mov	DWORD PTR $T2[ebp], eax
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR __Iter$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR $T2[ebp]
-
-; 267  : 	}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z$0:
-	lea	ecx, DWORD PTR __Iter$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ENDP ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$construct@UTile@@ABU1@@?$allocator@UTile@@@std@@QAEXPAUTile@@ABU2@@Z
@@ -3601,6 +3392,215 @@ __Dest$ = 16						; size = 4
 	ret	0
 ??$_Copy_memmove@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ENDP ; std::_Copy_memmove<Tile *,Tile *>
 _TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z
+_TEXT	SEGMENT
+__Dest$ = 8						; size = 4
+__Src$ = 12						; size = 4
+??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z PROC ; std::_Rechecked<PushTile *,PushTile *>, COMDAT
+
+; 465  : 	{	// reset checked from unchecked, generic
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 466  : 	_Dest = _Src;
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+	mov	ecx, DWORD PTR __Src$[ebp]
+	mov	DWORD PTR [eax], ecx
+
+; 467  : 	return (_Dest);
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+
+; 468  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z ENDP ; std::_Rechecked<PushTile *,PushTile *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
+;	COMDAT ??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+$T2 = -197						; size = 1
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+__Al$ = 20						; size = 4
+??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+
+; 293  : 	{	// copy [_First, _Last) to raw _Dest, using _Al, choose optimization
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 294  : 	return (_Uninitialized_copy_al_unchecked1(_First, _Last, _Dest, _Al,
+
+	lea	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	lea	edx, DWORD PTR $T2[ebp]
+	push	edx
+	call	??$_Ptr_copy_cat@$$CBUPushTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQBUPushTile@@ABQAU2@@Z ; std::_Ptr_copy_cat<PushTile const ,PushTile>
+	add	esp, 12					; 0000000cH
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Dest$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Uninitialized_copy_al_unchecked1@PBUPushTile@@PAU1@V?$allocator@UPushTile@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@U_General_ptr_iterator_tag@0@@Z ; std::_Uninitialized_copy_al_unchecked1<PushTile const *,PushTile *,std::allocator<PushTile> >
+	add	esp, 20					; 00000014H
+
+; 295  : 		_Ptr_copy_cat(_First, _Dest)));
+; 296  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z
+_TEXT	SEGMENT
+__Src$ = 8						; size = 4
+??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z PROC ; std::_Unchecked<PushTile *>, COMDAT
+
+; 438  : 	{	// construct unchecked from checked, generic
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 439  : 	return (_Src);
+
+	mov	eax, DWORD PTR __Src$[ebp]
+
+; 440  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z ENDP ; std::_Unchecked<PushTile *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
+_TEXT	SEGMENT
+$T2 = -212						; size = 4
+__$EHRec$ = -12						; size = 12
+__Iter$ = 8						; size = 12
+??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z PROC ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >, COMDAT
+
+; 265  : 	{	// convert to unchecked
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 266  : 	return (_Iter._Unchecked());
+
+	lea	ecx, DWORD PTR __Iter$[ebp]
+	call	?_Unchecked@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEPBUPushTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::_Unchecked
+	mov	DWORD PTR $T2[ebp], eax
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Iter$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR $T2[ebp]
+
+; 267  : 	}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z$0:
+	lea	ecx, DWORD PTR __Iter$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ENDP ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
 ;	COMDAT ??$_Find@PAUTile@@U1@@std@@YAPAUTile@@PAU1@0ABU1@U?$integral_constant@_N$0A@@0@@Z
@@ -4108,166 +4108,6 @@ ___formal$ = 12						; size = 4
 ??$_Iter_cat@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YA?AUrandom_access_iterator_tag@0@ABV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@@Z ENDP ; std::_Iter_cat<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Ptr$ = 8						; size = 4
-??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z PROC ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>, COMDAT
-; _this$ = ecx
-
-; 900  : 		{	// destroy object at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 901  : 		_Mytraits::destroy(*this, _Ptr);
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	push	ecx
-	call	??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
-	add	esp, 8
-
-; 902  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ENDP ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
-;	COMDAT ??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z
-_TEXT	SEGMENT
-$T1 = -209						; size = 1
-__Val$ = 8						; size = 4
-??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z PROC ; std::addressof<PushTile>, COMDAT
-
-; 715  : 	{	// return address of _Val
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 716  : 	return (_Addressof(_Val, is_function<_Ty>()));
-
-	movzx	eax, BYTE PTR $T1[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Val$[ebp]
-	push	ecx
-	call	??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<PushTile>
-	add	esp, 8
-
-; 717  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ENDP ; std::addressof<PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___formal$ = 8						; size = 4
-??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>, COMDAT
-; _this$ = ecx
-
-; 609  : 		{	// construct from a related allocator (do nothing)
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 610  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
-;	COMDAT ??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z PROC ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>, COMDAT
-
-; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 1299 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1300 : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
 ;	COMDAT ??$_Uninitialized_move@PAUTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAPAUTile@@PAU1@00AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z
 _TEXT	SEGMENT
@@ -4418,47 +4258,6 @@ __Arg$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z
-_TEXT	SEGMENT
-__Al$ = 8						; size = 4
-__Ptr$ = 12						; size = 4
-??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z PROC ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>, COMDAT
-
-; 761  : 		{	// destroy object at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 762  : 		_Al.destroy(_Ptr);
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Al$[ebp]
-	call	??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::allocator<std::_Container_proxy>::destroy<std::_Container_proxy>
-
-; 763  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z ENDP ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$?0UTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UTile@@@1@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -4528,11 +4327,178 @@ __Arg$ = 8						; size = 4
 ??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z PROC ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>, COMDAT
+; _this$ = ecx
+
+; 900  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 901  : 		_Mytraits::destroy(*this, _Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	??$destroy@UPushTile@@@?$allocator_traits@V?$allocator@UPushTile@@@std@@@std@@SAXAAV?$allocator@UPushTile@@@1@PAUPushTile@@@Z ; std::allocator_traits<std::allocator<PushTile> >::destroy<PushTile>
+	add	esp, 8
+
+; 902  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ENDP ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xstddef
+;	COMDAT ??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+__Val$ = 8						; size = 4
+??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z PROC ; std::addressof<PushTile>, COMDAT
+
+; 715  : 	{	// return address of _Val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 716  : 	return (_Addressof(_Val, is_function<_Ty>()));
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Val$[ebp]
+	push	ecx
+	call	??$_Addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@U?$integral_constant@_N$0A@@0@@Z ; std::_Addressof<PushTile>
+	add	esp, 8
+
+; 717  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ENDP ; std::addressof<PushTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z PROC ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>, COMDAT
+
+; 761  : 		{	// destroy object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 762  : 		_Al.destroy(_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@U_Container_proxy@std@@@?$allocator@U_Container_proxy@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::allocator<std::_Container_proxy>::destroy<std::_Container_proxy>
+
+; 763  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$destroy@U_Container_proxy@std@@@?$allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@PAU_Container_proxy@1@@Z ENDP ; std::allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 4
+??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>, COMDAT
+; _this$ = ecx
+
+; 609  : 		{	// construct from a related allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 610  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
-;	COMDAT ??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z
+;	COMDAT ??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
-??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z PROC ; std::forward<std::allocator<PushTile> >, COMDAT
+??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z PROC ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>, COMDAT
 
 ; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
 
@@ -4559,7 +4525,7 @@ __Arg$ = 8						; size = 4
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ENDP ; std::forward<std::allocator<PushTile> >
+??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -4652,197 +4618,11 @@ __Val$ = 8						; size = 4
 ??$addressof@UTile@@@std@@YAPAUTile@@AAU1@@Z ENDP	; std::addressof<Tile>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
-;	COMDAT ??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
-_TEXT	SEGMENT
-tv67 = -260						; size = 4
-tv148 = -256						; size = 4
-tv147 = -252						; size = 4
-tv144 = -248						; size = 4
-tv143 = -244						; size = 4
-$T2 = -236						; size = 4
-$T3 = -224						; size = 4
-$T4 = -212						; size = 4
-__$EHRec$ = -12						; size = 12
-__First$ = 8						; size = 12
-__Last$ = 20						; size = 12
-__Dest$ = 32						; size = 4
-__Al$ = 36						; size = 4
-??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
-
-; 303  : 	{	// copy [_First, _Last) to raw _Dest, using _Al
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 248				; 000000f8H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-260]
-	mov	ecx, 62					; 0000003eH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
-
-; 304  : 		// note: only called internally from elsewhere in the STL, debug checks
-; 305  : 		// and deprecation warnings omitted
-; 306  : 	return (_Rechecked(_Dest,
-
-	mov	eax, DWORD PTR __Al$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Dest$[ebp]
-	push	ecx
-	call	??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z ; std::_Unchecked<PushTile *>
-	add	esp, 4
-	push	eax
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T3[ebp], esp
-	lea	edx, DWORD PTR __Last$[ebp]
-	push	edx
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv143[ebp], eax
-	call	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
-	add	esp, 12					; 0000000cH
-	mov	DWORD PTR tv144[ebp], eax
-	mov	eax, DWORD PTR tv144[ebp]
-	push	eax
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T2[ebp], esp
-	lea	edx, DWORD PTR __First$[ebp]
-	push	edx
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv147[ebp], eax
-	call	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
-	add	esp, 12					; 0000000cH
-	mov	DWORD PTR tv148[ebp], eax
-	mov	eax, DWORD PTR tv148[ebp]
-	push	eax
-	call	??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
-	add	esp, 16					; 00000010H
-	mov	DWORD PTR tv67[ebp], eax
-	mov	ecx, DWORD PTR tv67[ebp]
-	push	ecx
-	lea	edx, DWORD PTR __Dest$[ebp]
-	push	edx
-	call	??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<PushTile *,PushTile *>
-	add	esp, 8
-	mov	eax, DWORD PTR [eax]
-	mov	DWORD PTR $T4[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 0
-	lea	ecx, DWORD PTR __First$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR __Last$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR $T4[ebp]
-
-; 307  : 		_Uninitialized_copy_al_unchecked(_Unchecked(_First), _Unchecked(_Last),
-; 308  : 			_Unchecked(_Dest), _Al)));
-; 309  : 	}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 260				; 00000104H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z$0:
-	lea	ecx, DWORD PTR __Last$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z$1:
-	lea	ecx, DWORD PTR __First$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-264]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___formal$ = 8						; size = 1
-__Val1$ = 12						; size = 4
-??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
-; _this$ = ecx
-
-; 288  : 		{	// construct from forwarded values
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 286  : 		: _Ty1(_STD forward<_Other1>(_Val1)),
-
-	mov	eax, DWORD PTR __Val1$[ebp]
-	push	eax
-	call	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAU01@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> >
-
-; 287  : 			_Myval2(_STD forward<_Other2>(_Val2)...)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<PushTile> >::_Vector_val<std::_Simple_types<PushTile> >
-
-; 289  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
-;	COMDAT ??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z
+;	COMDAT ??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
-??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z PROC ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z PROC ; std::forward<std::allocator<PushTile> >, COMDAT
 
 ; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
 
@@ -4869,7 +4649,7 @@ __Arg$ = 8						; size = 4
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
+??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ENDP ; std::forward<std::allocator<PushTile> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -5152,6 +4932,226 @@ ___formal$ = 16						; size = 4
 	pop	ebp
 	ret	0
 ??$_Ptr_move_cat@UTile@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUTile@@0@Z ENDP ; std::_Ptr_move_cat<Tile,Tile>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory
+;	COMDAT ??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+tv67 = -260						; size = 4
+tv148 = -256						; size = 4
+tv147 = -252						; size = 4
+tv144 = -248						; size = 4
+tv143 = -244						; size = 4
+$T2 = -236						; size = 4
+$T3 = -224						; size = 4
+$T4 = -212						; size = 4
+__$EHRec$ = -12						; size = 12
+__First$ = 8						; size = 12
+__Last$ = 20						; size = 12
+__Dest$ = 32						; size = 4
+__Al$ = 36						; size = 4
+??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+
+; 303  : 	{	// copy [_First, _Last) to raw _Dest, using _Al
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 248				; 000000f8H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-260]
+	mov	ecx, 62					; 0000003eH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 1
+
+; 304  : 		// note: only called internally from elsewhere in the STL, debug checks
+; 305  : 		// and deprecation warnings omitted
+; 306  : 	return (_Rechecked(_Dest,
+
+	mov	eax, DWORD PTR __Al$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	call	??$_Unchecked@PAUPushTile@@@std@@YAPAUPushTile@@PAU1@@Z ; std::_Unchecked<PushTile *>
+	add	esp, 4
+	push	eax
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T3[ebp], esp
+	lea	edx, DWORD PTR __Last$[ebp]
+	push	edx
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv143[ebp], eax
+	call	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
+	add	esp, 12					; 0000000cH
+	mov	DWORD PTR tv144[ebp], eax
+	mov	eax, DWORD PTR tv144[ebp]
+	push	eax
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T2[ebp], esp
+	lea	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv147[ebp], eax
+	call	??$_Unchecked@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@YAPBUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@@Z ; std::_Unchecked<std::_Vector_val<std::_Simple_types<PushTile> > >
+	add	esp, 12					; 0000000cH
+	mov	DWORD PTR tv148[ebp], eax
+	mov	eax, DWORD PTR tv148[ebp]
+	push	eax
+	call	??$_Uninitialized_copy_al_unchecked@PBUPushTile@@PAU1@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAPAUPushTile@@PBU1@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy_al_unchecked<PushTile const *,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
+	add	esp, 16					; 00000010H
+	mov	DWORD PTR tv67[ebp], eax
+	mov	ecx, DWORD PTR tv67[ebp]
+	push	ecx
+	lea	edx, DWORD PTR __Dest$[ebp]
+	push	edx
+	call	??$_Rechecked@PAUPushTile@@PAU1@@std@@YAAAPAUPushTile@@AAPAU1@PAU1@@Z ; std::_Rechecked<PushTile *,PushTile *>
+	add	esp, 8
+	mov	eax, DWORD PTR [eax]
+	mov	DWORD PTR $T4[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 0
+	lea	ecx, DWORD PTR __First$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Last$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR $T4[ebp]
+
+; 307  : 		_Uninitialized_copy_al_unchecked(_Unchecked(_First), _Unchecked(_Last),
+; 308  : 			_Unchecked(_Dest), _Al)));
+; 309  : 	}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 260				; 00000104H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z$0:
+	lea	ecx, DWORD PTR __Last$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z$1:
+	lea	ecx, DWORD PTR __First$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-264]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 1
+__Val1$ = 12						; size = 4
+??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+; _this$ = ecx
+
+; 288  : 		{	// construct from forwarded values
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 286  : 		: _Ty1(_STD forward<_Other1>(_Val1)),
+
+	mov	eax, DWORD PTR __Val1$[ebp]
+	push	eax
+	call	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAU01@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> >
+
+; 287  : 			_Myval2(_STD forward<_Other2>(_Val2)...)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<PushTile> >::_Vector_val<std::_Simple_types<PushTile> >
+
+; 289  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\type_traits
+;	COMDAT ??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z PROC ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+
+; 1298 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 1299 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1300 : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ENDP ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
@@ -5820,114 +5820,6 @@ __ehhandler$??$_Debug_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@
 text$x	ENDS
 ??$_Debug_range@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@std@@@std@@YAXV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@H@std@@@std@@@0@0PB_WI@Z ENDP ; std::_Debug_range<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int> > > >
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
-_TEXT	SEGMENT
-__First$ = 8						; size = 4
-__Last$ = 12						; size = 4
-__Al$ = 16						; size = 4
-??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
-
-; 163  : 	{	// destroy [_First, _Last)
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 164  : 	for (; _First != _Last; ++_First)
-
-	jmp	SHORT $LN4@Destroy_ra
-$LN2@Destroy_ra:
-	mov	eax, DWORD PTR __First$[ebp]
-	add	eax, 48					; 00000030H
-	mov	DWORD PTR __First$[ebp], eax
-$LN4@Destroy_ra:
-	mov	eax, DWORD PTR __First$[ebp]
-	cmp	eax, DWORD PTR __Last$[ebp]
-	je	SHORT $LN1@Destroy_ra
-
-; 165  : 		_Al.destroy(_STD addressof(*_First));
-
-	mov	eax, DWORD PTR __First$[ebp]
-	push	eax
-	call	??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ; std::addressof<PushTile>
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR __Al$[ebp]
-	call	??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
-	jmp	SHORT $LN2@Destroy_ra
-$LN1@Destroy_ra:
-
-; 166  : 	}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>, COMDAT
-; _this$ = ecx
-
-; 850  : 		{	// construct from a related allocator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 849  : 		: _Mybase(_STD forward<_Other>(_Right))
-
-	mov	eax, DWORD PTR __Right$[ebp]
-	push	eax
-	call	??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
-
-; 851  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
 ;	COMDAT ??$_Umove@PAUTile@@@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEPAUTile@@PAU2@00@Z
 _TEXT	SEGMENT
@@ -6038,6 +5930,114 @@ _<_Args_0>$ = 12					; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>, COMDAT
+; _this$ = ecx
+
+; 850  : 		{	// construct from a related allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 849  : 		: _Mybase(_STD forward<_Other>(_Right))
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	call	??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0UTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><Tile>
+
+; 851  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Al$ = 16						; size = 4
+??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z PROC ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+
+; 163  : 	{	// destroy [_First, _Last)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 164  : 	for (; _First != _Last; ++_First)
+
+	jmp	SHORT $LN4@Destroy_ra
+$LN2@Destroy_ra:
+	mov	eax, DWORD PTR __First$[ebp]
+	add	eax, 48					; 00000030H
+	mov	DWORD PTR __First$[ebp], eax
+$LN4@Destroy_ra:
+	mov	eax, DWORD PTR __First$[ebp]
+	cmp	eax, DWORD PTR __Last$[ebp]
+	je	SHORT $LN1@Destroy_ra
+
+; 165  : 		_Al.destroy(_STD addressof(*_First));
+
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$addressof@UPushTile@@@std@@YAPAUPushTile@@AAU1@@Z ; std::addressof<PushTile>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	??$destroy@UPushTile@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAEXPAUPushTile@@@Z ; std::_Wrap_alloc<std::allocator<PushTile> >::destroy<PushTile>
+	jmp	SHORT $LN2@Destroy_ra
+$LN1@Destroy_ra:
+
+; 166  : 	}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAXPAUPushTile@@0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ENDP ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<PushTile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
@@ -6085,11 +6085,11 @@ __Ptr$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z
+;	COMDAT ??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
 _TEXT	SEGMENT
 _this$ = -8						; size = 4
 __Right$ = 8						; size = 4
-??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>, COMDAT
+??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>, COMDAT
 ; _this$ = ecx
 
 ; 850  : 		{	// construct from a related allocator
@@ -6112,11 +6112,11 @@ __Right$ = 8						; size = 4
 
 	mov	eax, DWORD PTR __Right$[ebp]
 	push	eax
-	call	??$forward@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<Tile> > &>
+	call	??$forward@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YAAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > &>
 	add	esp, 4
 	push	eax
 	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0UTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><Tile>
+	call	??$?0UPushTile@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UPushTile@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><PushTile>
 
 ; 851  : 		}
 
@@ -6130,7 +6130,7 @@ __Right$ = 8						; size = 4
 	mov	esp, ebp
 	pop	ebp
 	ret	4
-??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+??$?0AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<PushTile> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
@@ -6323,55 +6323,6 @@ __Count$ = 12						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >, COMDAT
-; _this$ = ecx
-
-; 850  : 		{	// construct from a related allocator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 849  : 		: _Mybase(_STD forward<_Other>(_Right))
-
-	mov	eax, DWORD PTR __Right$[ebp]
-	push	eax
-	call	??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ; std::forward<std::allocator<PushTile> >
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$allocator@UPushTile@@@std@@QAE@ABV01@@Z ; std::allocator<PushTile>::allocator<PushTile>
-
-; 851  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAXPAUTile@@0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z
 _TEXT	SEGMENT
 __First$ = 8						; size = 4
@@ -6476,211 +6427,54 @@ ___formal$ = 8						; size = 1
 ??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z
 _TEXT	SEGMENT
-tv66 = -268						; size = 4
-tv142 = -264						; size = 4
-tv139 = -260						; size = 4
-tv145 = -256						; size = 4
-$T2 = -248						; size = 4
-$T3 = -236						; size = 4
-$T4 = -224						; size = 4
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-__First$ = 8						; size = 12
-__Last$ = 20						; size = 12
-__Ptr$ = 32						; size = 4
-??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z PROC ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >, COMDAT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z PROC ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >, COMDAT
 ; _this$ = ecx
 
-; 1674 : 		{	// copy initializing [_First, _Last), using allocator
+; 850  : 		{	// construct from a related allocator
 
 	push	ebp
 	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 256				; 00000100H
+	sub	esp, 204				; 000000ccH
 	push	ebx
 	push	esi
 	push	edi
 	push	ecx
-	lea	edi, DWORD PTR [ebp-268]
-	mov	ecx, 64					; 00000040H
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
-
-; 1675 : 		return (_Uninitialized_copy(_First, _Last,
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Getal
-	push	eax
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T3[ebp], esp
-	lea	edx, DWORD PTR __Last$[ebp]
-	push	edx
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv145[ebp], eax
-	mov	eax, DWORD PTR tv145[ebp]
-	mov	DWORD PTR tv139[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 2
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T2[ebp], esp
-	lea	edx, DWORD PTR __First$[ebp]
-	push	edx
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv142[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 1
-	call	??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
-	add	esp, 32					; 00000020H
-	mov	DWORD PTR tv66[ebp], eax
-	mov	eax, DWORD PTR tv66[ebp]
-	mov	DWORD PTR $T4[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 0
-	lea	ecx, DWORD PTR __First$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR __Last$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR $T4[ebp]
-
-; 1676 : 			_Ptr, this->_Getal()));
-; 1677 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 268				; 0000010cH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	28					; 0000001cH
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$0:
-	lea	ecx, DWORD PTR __Last$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$1:
-	lea	ecx, DWORD PTR __First$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$2:
-	mov	ecx, DWORD PTR $T3[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-272]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z ENDP ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
-_TEXT	SEGMENT
-$T2 = -221						; size = 1
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-__Al$ = 8						; size = 4
-??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
-; _this$ = ecx
-
-; 550  : 		{	// construct allocator from _Al
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-228]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 548  : 		: _Mypair(_One_then_variadic_args_t(),
+; 849  : 		: _Mybase(_STD forward<_Other>(_Right))
 
-	mov	eax, DWORD PTR __Al$[ebp]
+	mov	eax, DWORD PTR __Right$[ebp]
 	push	eax
-	call	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
+	call	??$forward@V?$allocator@UPushTile@@@std@@@std@@YA$$QAV?$allocator@UPushTile@@@0@AAV10@@Z ; std::forward<std::allocator<PushTile> >
 	add	esp, 4
 	push	eax
-	movzx	ecx, BYTE PTR $T2[ebp]
-	push	ecx
 	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
+	call	??0?$allocator@UPushTile@@@std@@QAE@ABV01@@Z ; std::allocator<PushTile>::allocator<PushTile>
 
-; 551  : 		_Alloc_proxy();
+; 851  : 		}
 
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Alloc_proxy
-
-; 552  : 		}
-
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
 	pop	edi
 	pop	esi
 	pop	ebx
-	add	esp, 228				; 000000e4H
+	add	esp, 204				; 000000ccH
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
 	pop	ebp
 	ret	4
+??$?0V?$allocator@UPushTile@@@std@@@?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@QAE@$$QAV?$allocator@UPushTile@@@1@@Z ENDP ; std::_Wrap_alloc<std::allocator<PushTile> >::_Wrap_alloc<std::allocator<PushTile> ><std::allocator<PushTile> >
 _TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z$0:
-	mov	ecx, DWORD PTR _this$[ebp]
-	jmp	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@XZ
-__ehhandler$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-232]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
 ;	COMDAT ??$construct@UTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@ABU2@@Z
@@ -6891,6 +6685,212 @@ __Dest$ = 16						; size = 4
 	ret	0
 ??$_Move_unchecked@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ENDP ; std::_Move_unchecked<Tile *,Tile *>
 _TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
+_TEXT	SEGMENT
+tv66 = -268						; size = 4
+tv142 = -264						; size = 4
+tv139 = -260						; size = 4
+tv145 = -256						; size = 4
+$T2 = -248						; size = 4
+$T3 = -236						; size = 4
+$T4 = -224						; size = 4
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+__First$ = 8						; size = 12
+__Last$ = 20						; size = 12
+__Ptr$ = 32						; size = 4
+??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z PROC ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >, COMDAT
+; _this$ = ecx
+
+; 1674 : 		{	// copy initializing [_First, _Last), using allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 256				; 00000100H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-268]
+	mov	ecx, 64					; 00000040H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], 1
+
+; 1675 : 		return (_Uninitialized_copy(_First, _Last,
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T3[ebp], esp
+	lea	edx, DWORD PTR __Last$[ebp]
+	push	edx
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv145[ebp], eax
+	mov	eax, DWORD PTR tv145[ebp]
+	mov	DWORD PTR tv139[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 2
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T2[ebp], esp
+	lea	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv142[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 1
+	call	??$_Uninitialized_copy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@PAUPushTile@@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@2@@std@@YAPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@0@0PAU1@AAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@@Z ; std::_Uninitialized_copy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >,PushTile *,std::_Wrap_alloc<std::allocator<PushTile> > >
+	add	esp, 32					; 00000020H
+	mov	DWORD PTR tv66[ebp], eax
+	mov	eax, DWORD PTR tv66[ebp]
+	mov	DWORD PTR $T4[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 0
+	lea	ecx, DWORD PTR __First$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Last$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR $T4[ebp]
+
+; 1676 : 			_Ptr, this->_Getal()));
+; 1677 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 268				; 0000010cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	28					; 0000001cH
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$0:
+	lea	ecx, DWORD PTR __Last$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$1:
+	lea	ecx, DWORD PTR __First$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z$2:
+	mov	ecx, DWORD PTR $T3[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-272]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$_Ucopy@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@@?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@IAEPAUPushTile@@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@1@0PAU2@@Z ENDP ; std::vector<PushTile,std::allocator<PushTile> >::_Ucopy<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<PushTile> > > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
+_TEXT	SEGMENT
+$T2 = -221						; size = 1
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+__Al$ = 8						; size = 4
+??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z PROC ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >, COMDAT
+; _this$ = ecx
+
+; 550  : 		{	// construct allocator from _Al
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-228]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 548  : 		: _Mypair(_One_then_variadic_args_t(),
+
+	mov	eax, DWORD PTR __Al$[ebp]
+	push	eax
+	call	??$forward@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@std@@YA$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@0@AAU10@@Z ; std::forward<std::_Wrap_alloc<std::allocator<PushTile> > >
+	add	esp, 4
+	push	eax
+	movzx	ecx, BYTE PTR $T2[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<PushTile> >,std::_Vector_val<std::_Simple_types<PushTile> >,1><std::_Wrap_alloc<std::allocator<PushTile> > >
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 551  : 		_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Alloc_proxy
+
+; 552  : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 228				; 000000e4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@2@$00@std@@QAE@XZ
+__ehhandler$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-232]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$?0U?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@std@@@?$_Vector_alloc@U?$_Vec_base_types@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@std@@QAE@$$QAU?$_Wrap_alloc@V?$allocator@UPushTile@@@std@@@1@@Z ENDP ; std::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > >::_Vector_alloc<std::_Vec_base_types<PushTile,std::allocator<PushTile> > ><std::_Wrap_alloc<std::allocator<PushTile> > >
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
 ;	COMDAT ??$find@V?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@UTile@@@std@@YA?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@0@V10@0ABUTile@@@Z
@@ -8441,1338 +8441,6 @@ _this$ = -8						; size = 4
 	pop	ebp
 	ret	0
 ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UMovingTile@@V?$allocator@UMovingTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UMovingTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<MovingTile,std::allocator<MovingTile> > >::_Get_data
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-_classSize$ = 8						; size = 4
-?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _classSize$[ebp]
-	push	eax
-	push	0
-	mov	ecx, DWORD PTR _this$[ebp]
-	push	ecx
-	call	_memset
-	add	esp, 12					; 0000000cH
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++, COMDAT
-; _this$ = ecx
-
-; 334  : 		{	// preincrement
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 335  : 		++*(_Mybase *)this;
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-
-; 336  : 		return (*this);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 337  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*, COMDAT
-; _this$ = ecx
-
-; 324  : 		{	// return designated object
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 325  : 		return ((reference)**(_Mybase *)this);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-
-; 326  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked, COMDAT
-; _this$ = ecx
-
-; 319  : 		{	// make an unchecked iterator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 320  : 		return (_Unchecked_type(this->_Ptr));
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+8]
-
-; 321  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked, COMDAT
-; _this$ = ecx
-
-; 313  : 		{	// reset from unchecked iterator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 314  : 		this->_Ptr = _Right;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __Right$[ebp]
-	mov	DWORD PTR [eax+8], ecx
-
-; 315  : 		return (*this);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 316  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Parg$ = 8						; size = 4
-__Pvector$ = 12						; size = 4
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-
-; 307  : 		{	// construct with pointer _Parg
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 306  : 		: _Mybase(_Parg, _Pvector)
-
-	mov	eax, DWORD PTR __Pvector$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Parg$[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-
-; 308  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR ___that$[ebp]
-	mov	edx, DWORD PTR [ecx+8]
-	mov	DWORD PTR [eax+8], edx
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR ___that$[ebp]
-	mov	edx, DWORD PTR [ecx+8]
-	mov	DWORD PTR [eax+8], edx
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR ___that$[ebp]
-	mov	edx, DWORD PTR [ecx+8]
-	mov	DWORD PTR [eax+8], edx
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat, COMDAT
-; _this$ = ecx
-
-; 239  : 		{	// test for compatible iterator pair
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 240  : 		if (this->_Getcont() != _Right._Getcont())
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	mov	esi, eax
-	mov	ecx, DWORD PTR __Right$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	cmp	esi, eax
-	je	$LN1@Compat
-
-; 241  : 			{
-; 242  : 			_DEBUG_ERROR("vector iterators incompatible");
-
-	mov	esi, esp
-	push	242					; 000000f2H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AAs?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AA?$AA@
-	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
-	add	esp, 12					; 0000000cH
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 243  : 			_SCL_SECURE_INVALID_ARGUMENT;
-
-	mov	eax, OFFSET ??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@
-	test	eax, eax
-	je	SHORT $LN4@Compat
-	xor	ecx, ecx
-	jne	SHORT $LN5@Compat
-$LN4@Compat:
-	mov	esi, esp
-	push	OFFSET ??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@
-	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
-	push	0
-	push	243					; 000000f3H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	2
-	call	DWORD PTR __imp___CrtDbgReportW
-	add	esp, 24					; 00000018H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-	cmp	eax, 1
-	jne	SHORT $LN5@Compat
-	int	3
-$LN5@Compat:
-	mov	esi, esp
-	push	0
-	push	243					; 000000f3H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1MO@FIOFHBNA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
-	push	OFFSET ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CC?$AA?$AA@
-	call	DWORD PTR __imp___invalid_parameter
-	add	esp, 20					; 00000014H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-$LN1@Compat:
-
-; 244  : 			}
-; 245  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
-_TEXT	SEGMENT
-tv69 = -208						; size = 4
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<, COMDAT
-; _this$ = ecx
-
-; 217  : 		{	// test if this < _Right
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 208				; 000000d0H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-208]
-	mov	ecx, 52					; 00000034H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 218  : 		_Compat(_Right);
-
-	mov	eax, DWORD PTR __Right$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
-
-; 219  : 		return (_Ptr < _Right._Ptr);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __Right$[ebp]
-	mov	edx, DWORD PTR [eax+8]
-	cmp	edx, DWORD PTR [ecx+8]
-	jae	SHORT $LN3@operator
-	mov	DWORD PTR tv69[ebp], 1
-	jmp	SHORT $LN4@operator
-$LN3@operator:
-	mov	DWORD PTR tv69[ebp], 0
-$LN4@operator:
-	mov	al, BYTE PTR tv69[ebp]
-
-; 220  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 208				; 000000d0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
-_TEXT	SEGMENT
-tv69 = -208						; size = 4
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=, COMDAT
-; _this$ = ecx
-
-; 212  : 		{	// test for iterator inequality
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 208				; 000000d0H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-208]
-	mov	ecx, 52					; 00000034H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 213  : 		return (!(*this == _Right));
-
-	mov	eax, DWORD PTR __Right$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-	movzx	ecx, al
-	test	ecx, ecx
-	jne	SHORT $LN3@operator
-	mov	DWORD PTR tv69[ebp], 1
-	jmp	SHORT $LN4@operator
-$LN3@operator:
-	mov	DWORD PTR tv69[ebp], 0
-$LN4@operator:
-	mov	al, BYTE PTR tv69[ebp]
-
-; 214  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 208				; 000000d0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
-_TEXT	SEGMENT
-tv69 = -208						; size = 4
-_this$ = -8						; size = 4
-__Right$ = 8						; size = 4
-??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==, COMDAT
-; _this$ = ecx
-
-; 206  : 		{	// test for iterator equality
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 208				; 000000d0H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-208]
-	mov	ecx, 52					; 00000034H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 207  : 		_Compat(_Right);
-
-	mov	eax, DWORD PTR __Right$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
-
-; 208  : 		return (_Ptr == _Right._Ptr);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __Right$[ebp]
-	mov	edx, DWORD PTR [eax+8]
-	cmp	edx, DWORD PTR [ecx+8]
-	jne	SHORT $LN3@operator
-	mov	DWORD PTR tv69[ebp], 1
-	jmp	SHORT $LN4@operator
-$LN3@operator:
-	mov	DWORD PTR tv69[ebp], 0
-$LN4@operator:
-	mov	al, BYTE PTR tv69[ebp]
-
-; 209  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 208				; 000000d0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++, COMDAT
-; _this$ = ecx
-
-; 95   : 		{	// preincrement
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 96   :  #if _ITERATOR_DEBUG_LEVEL == 2
-; 97   : 		if (this->_Getcont() == 0
-; 98   : 			|| _Ptr == 0
-; 99   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	test	eax, eax
-	je	SHORT $LN3@operator
-	mov	eax, DWORD PTR _this$[ebp]
-	cmp	DWORD PTR [eax+8], 0
-	je	SHORT $LN3@operator
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR [eax+8]
-	cmp	edx, DWORD PTR [ecx+8]
-	ja	SHORT $LN2@operator
-$LN3@operator:
-
-; 100  : 			{	// report error
-; 101  : 			_DEBUG_ERROR("vector iterator not incrementable");
-
-	mov	esi, esp
-	push	101					; 00000065H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
-	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
-	add	esp, 12					; 0000000cH
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 102  : 			_SCL_SECURE_OUT_OF_RANGE;
-
-	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
-	test	eax, eax
-	je	SHORT $LN5@operator
-	xor	ecx, ecx
-	jne	SHORT $LN6@operator
-$LN5@operator:
-	mov	esi, esp
-	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
-	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
-	push	0
-	push	102					; 00000066H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	2
-	call	DWORD PTR __imp___CrtDbgReportW
-	add	esp, 24					; 00000018H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-	cmp	eax, 1
-	jne	SHORT $LN6@operator
-	int	3
-$LN6@operator:
-	mov	esi, esp
-	push	0
-	push	102					; 00000066H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
-	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
-	call	DWORD PTR __imp___invalid_parameter
-	add	esp, 20					; 00000014H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-$LN2@operator:
-
-; 103  : 			}
-; 104  : 
-; 105  :  #elif _ITERATOR_DEBUG_LEVEL == 1
-; 106  : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
-; 107  : 		_SCL_SECURE_VALIDATE_RANGE(
-; 108  : 			_Ptr != _Tptr()
-; 109  : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
-; 110  :  #endif /* _ITERATOR_DEBUG_LEVEL */
-; 111  : 
-; 112  : 		++_Ptr;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR [eax+8]
-	add	ecx, 32					; 00000020H
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	DWORD PTR [edx+8], ecx
-
-; 113  : 		return (*this);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 114  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*, COMDAT
-; _this$ = ecx
-
-; 65   : 		{	// return designated object
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 66   :  #if _ITERATOR_DEBUG_LEVEL == 2
-; 67   : 		if (this->_Getcont() == 0
-; 68   : 			|| _Ptr == 0
-; 69   : 			|| _Ptr < ((_Myvec *)this->_Getcont())->_Myfirst
-; 70   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	test	eax, eax
-	je	SHORT $LN3@operator
-	mov	eax, DWORD PTR _this$[ebp]
-	cmp	DWORD PTR [eax+8], 0
-	je	SHORT $LN3@operator
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR [ecx+8]
-	cmp	edx, DWORD PTR [eax+4]
-	jb	SHORT $LN3@operator
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR [eax+8]
-	cmp	edx, DWORD PTR [ecx+8]
-	ja	SHORT $LN2@operator
-$LN3@operator:
-
-; 71   : 			{	// report error
-; 72   : 			_DEBUG_ERROR("vector iterator not dereferencable");
-
-	mov	esi, esp
-	push	72					; 00000048H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
-	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
-	add	esp, 12					; 0000000cH
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-
-; 73   : 			_SCL_SECURE_OUT_OF_RANGE;
-
-	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
-	test	eax, eax
-	je	SHORT $LN5@operator
-	xor	ecx, ecx
-	jne	SHORT $LN6@operator
-$LN5@operator:
-	mov	esi, esp
-	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
-	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
-	push	0
-	push	73					; 00000049H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	2
-	call	DWORD PTR __imp___CrtDbgReportW
-	add	esp, 24					; 00000018H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-	cmp	eax, 1
-	jne	SHORT $LN6@operator
-	int	3
-$LN6@operator:
-	mov	esi, esp
-	push	0
-	push	73					; 00000049H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1NE@MNCPAIHH@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
-	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
-	call	DWORD PTR __imp___invalid_parameter
-	add	esp, 20					; 00000014H
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-$LN2@operator:
-
-; 74   : 			}
-; 75   : 
-; 76   :  #elif _ITERATOR_DEBUG_LEVEL == 1
-; 77   : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
-; 78   : 		_SCL_SECURE_VALIDATE_RANGE(
-; 79   : 			_Ptr != _Tptr()
-; 80   : 			&& ((_Myvec *)this->_Getcont())->_Myfirst <= _Ptr
-; 81   : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
-; 82   :  #endif /* _ITERATOR_DEBUG_LEVEL */
-; 83   : 
-; 84   : 		_Analysis_assume_(_Ptr != _Tptr());
-; 85   : 
-; 86   : 		return (*_Ptr);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+8]
-
-; 87   : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-__Parg$ = 8						; size = 4
-__Pvector$ = 12						; size = 4
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
-; _this$ = ecx
-
-; 47   : 		{	// construct with pointer _Parg
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 46   : 		: _Ptr(_Parg)
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __Parg$[ebp]
-	mov	DWORD PTR [eax+8], ecx
-
-; 48   : 		this->_Adopt(_Pvector);
-
-	mov	eax, DWORD PTR __Pvector$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z ; std::_Iterator_base12::_Adopt
-
-; 49   : 		}
-
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z$0:
-	mov	ecx, DWORD PTR _this$[ebp]
-	jmp	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
-__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??4_Iterator_base12@std@@QAEAAU01@ABU01@@Z ; std::_Iterator_base12::operator=
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0_Iterator_base12@std@@QAE@ABU01@@Z	; std::_Iterator_base12::_Iterator_base12
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___that$ = 8						; size = 4
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR ___that$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0_Iterator_base12@std@@QAE@ABU01@@Z	; std::_Iterator_base12::_Iterator_base12
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::~_Iterator_base12
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::_Iterator_base12
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UAirTile@@@std@@@std@@@std@@QAEXI@Z
@@ -12212,3713 +10880,6 @@ text$di	SEGMENT
 	ret	0
 ??__EgroundTileList@@YAXXZ ENDP				; `dynamic initializer for 'groundTileList''
 text$di	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-_classSize$ = 8						; size = 4
-?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _classSize$[ebp]
-	push	eax
-	push	0
-	mov	ecx, DWORD PTR _this$[ebp]
-	push	ecx
-	call	_memset
-	add	esp, 12					; 0000000cH
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
-_TEXT	SEGMENT
-__Pnext$ = -48						; size = 4
-__Lock$ = -36						; size = 4
-_this$ = -24						; size = 4
-__$ArrayPad$ = -16					; size = 4
-__$EHRec$ = -12						; size = 12
-__First$ = 8						; size = 4
-__Last$ = 12						; size = 4
-?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range, COMDAT
-; _this$ = ecx
-
-; 1798 : 		{	// orphan iterators within specified (inclusive) range
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 232				; 000000e8H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-244]
-	mov	ecx, 58					; 0000003aH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	mov	DWORD PTR __$ArrayPad$[ebp], eax
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1799 : 		_Lockit _Lock(_LOCK_DEBUG);
-
-	mov	esi, esp
-	push	3
-	lea	ecx, DWORD PTR __Lock$[ebp]
-	call	DWORD PTR __imp_??0_Lockit@std@@QAE@H@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 1800 : 		const_iterator **_Pnext = (const_iterator **)this->_Getpfirst();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
-	mov	DWORD PTR __Pnext$[ebp], eax
-
-; 1801 : 		if (_Pnext != 0)
-
-	cmp	DWORD PTR __Pnext$[ebp], 0
-	je	SHORT $LN4@Orphan_ran
-$LN2@Orphan_ran:
-
-; 1802 : 			{	// test an iterator
-; 1803 : 			while (*_Pnext != 0)
-
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	cmp	DWORD PTR [eax], 0
-	je	SHORT $LN4@Orphan_ran
-
-; 1804 : 				if ((*_Pnext)->_Ptr < _First || _Last < (*_Pnext)->_Ptr)
-
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	mov	ecx, DWORD PTR [eax]
-	mov	edx, DWORD PTR [ecx+8]
-	cmp	edx, DWORD PTR __First$[ebp]
-	jb	SHORT $LN7@Orphan_ran
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	mov	ecx, DWORD PTR [eax]
-	mov	edx, DWORD PTR __Last$[ebp]
-	cmp	edx, DWORD PTR [ecx+8]
-	jae	SHORT $LN5@Orphan_ran
-$LN7@Orphan_ran:
-
-; 1805 : 					_Pnext = (const_iterator **)(*_Pnext)->_Getpnext();
-
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	mov	ecx, DWORD PTR [eax]
-	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
-	mov	DWORD PTR __Pnext$[ebp], eax
-
-; 1806 : 				else
-
-	jmp	SHORT $LN6@Orphan_ran
-$LN5@Orphan_ran:
-
-; 1807 : 					{	// orphan the iterator
-; 1808 : 					(*_Pnext)->_Clrcont();
-
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	mov	ecx, DWORD PTR [eax]
-	call	?_Clrcont@_Iterator_base12@std@@QAEXXZ	; std::_Iterator_base12::_Clrcont
-
-; 1809 : 					*_Pnext = *(const_iterator **)(*_Pnext)->_Getpnext();
-
-	mov	eax, DWORD PTR __Pnext$[ebp]
-	mov	ecx, DWORD PTR [eax]
-	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
-	mov	ecx, DWORD PTR __Pnext$[ebp]
-	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR [ecx], edx
-$LN6@Orphan_ran:
-
-; 1810 : 					}
-
-	jmp	SHORT $LN2@Orphan_ran
-$LN4@Orphan_ran:
-
-; 1811 : 			}
-; 1812 : 		}
-
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	mov	esi, esp
-	lea	ecx, DWORD PTR __Lock$[ebp]
-	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN13@Orphan_ran
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
-	xor	ecx, ebp
-	call	@__security_check_cookie@4
-	add	esp, 244				; 000000f4H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-$LN13@Orphan_ran:
-	DD	1
-	DD	$LN12@Orphan_ran
-$LN12@Orphan_ran:
-	DD	-36					; ffffffdcH
-	DD	4
-	DD	$LN10@Orphan_ran
-$LN10@Orphan_ran:
-	DB	95					; 0000005fH
-	DB	76					; 0000004cH
-	DB	111					; 0000006fH
-	DB	99					; 00000063H
-	DB	107					; 0000006bH
-	DB	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z$0:
-	mov	esi, esp
-	lea	ecx, DWORD PTR __Lock$[ebp]
-	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
-	cmp	esi, esp
-	jmp	__RTC_CheckEsp
-__ehhandler$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-248]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	ecx, DWORD PTR [edx-4]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Xlen, COMDAT
-; _this$ = ecx
-
-; 1787 : 		{	// report a length_error
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1788 : 		_Xlength_error("vector<T> too long");
-
-	mov	esi, esp
-	push	OFFSET ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
-	call	DWORD PTR __imp_?_Xlength_error@std@@YAXPBD@Z
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-$LN2@Xlen:
-
-; 1789 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Xlen
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Tidy, COMDAT
-; _this$ = ecx
-
-; 1659 : 		{	// free all storage
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1660 : 		if (this->_Myfirst() != pointer())
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	cmp	DWORD PTR [eax], 0
-	je	$LN1@Tidy
-
-; 1661 : 			{	// something to free, destroy and deallocate it
-; 1662 : 			this->_Orphan_all();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-
-; 1663 : 			_Destroy(this->_Myfirst(), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-
-; 1664 : 			this->_Getal().deallocate(this->_Myfirst(),
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [esi]
-	sub	ecx, DWORD PTR [eax]
-	sar	ecx, 5
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	edx, DWORD PTR [eax]
-	push	edx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
-
-; 1665 : 				this->_Myend() - this->_Myfirst());
-; 1666 : 			this->_Myfirst() = pointer();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	DWORD PTR [eax], 0
-
-; 1667 : 			this->_Mylast() = pointer();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	DWORD PTR [eax], 0
-
-; 1668 : 			this->_Myend() = pointer();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	DWORD PTR [eax], 0
-$LN1@Tidy:
-
-; 1669 : 			}
-; 1670 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Tidy
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Count$ = 8						; size = 4
-?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Reserve, COMDAT
-; _this$ = ecx
-
-; 1649 : 		{	// ensure room for _Count new elements, grow exponentially
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1650 : 		if (_Unused_capacity() < _Count)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
-	cmp	eax, DWORD PTR __Count$[ebp]
-	jae	SHORT $LN4@Reserve
-
-; 1651 : 			{	// need more room, try to get it
-; 1652 : 			if (max_size() - size() < _Count)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
-	sub	esi, eax
-	cmp	esi, DWORD PTR __Count$[ebp]
-	jae	SHORT $LN3@Reserve
-
-; 1653 : 				_Xlen();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Xlen
-$LN3@Reserve:
-
-; 1654 : 			_Reallocate(_Grow_to(size() + _Count));
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
-	add	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
-$LN4@Reserve:
-
-; 1655 : 			}
-; 1656 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Reserve
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-_TEXT	SEGMENT
-__Size$ = -48						; size = 4
-__Ptr$ = -36						; size = 4
-_this$ = -24						; size = 4
-__$EHRec$ = -16						; size = 16
-__Count$ = 8						; size = 4
-?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Reallocate, COMDAT
-; _this$ = ecx
-
-; 1624 : 		{	// move to array of exactly _Count elements
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	push	ecx
-	sub	esp, 228				; 000000e4H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-244]
-	mov	ecx, 57					; 00000039H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp+4]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR __$EHRec$[ebp], esp
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1625 : 		pointer _Ptr = this->_Getal().allocate(_Count);
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
-	mov	DWORD PTR __Ptr$[ebp], eax
-
-; 1626 : 
-; 1627 : 		_TRY_BEGIN
-
-	mov	DWORD PTR __$EHRec$[ebp+12], 0
-
-; 1628 : 		_Umove(this->_Myfirst(), this->_Mylast(), _Ptr);
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	edx, DWORD PTR [eax]
-	push	edx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$_Umove@PAUTile@@@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEPAUTile@@PAU2@00@Z ; std::vector<Tile,std::allocator<Tile> >::_Umove<Tile *>
-	jmp	SHORT $LN5@Reallocate
-__catch$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$0:
-
-; 1629 : 		_CATCH_ALL
-; 1630 : 		this->_Getal().deallocate(_Ptr, _Count);
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Ptr$[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
-
-; 1631 : 		_RERAISE;
-
-	push	0
-	push	0
-	call	__CxxThrowException@8
-
-; 1632 : 		_CATCH_END
-
-	mov	eax, $LN8@Reallocate
-	ret	0
-$LN5@Reallocate:
-	mov	DWORD PTR __$EHRec$[ebp+12], -1
-	jmp	SHORT __tryend$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$1
-$LN8@Reallocate:
-	mov	DWORD PTR __$EHRec$[ebp+12], -1
-__tryend$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$1:
-
-; 1633 : 
-; 1634 : 		size_type _Size = size();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
-	mov	DWORD PTR __Size$[ebp], eax
-
-; 1635 : 		if (this->_Myfirst() != pointer())
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	cmp	DWORD PTR [eax], 0
-	je	SHORT $LN3@Reallocate
-
-; 1636 : 			{	// destroy and deallocate old array
-; 1637 : 			_Destroy(this->_Myfirst(), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-
-; 1638 : 			this->_Getal().deallocate(this->_Myfirst(),
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	eax, DWORD PTR [eax]
-	sub	eax, DWORD PTR [esi]
-	sar	eax, 5
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
-$LN3@Reallocate:
-
-; 1639 : 				this->_Myend() - this->_Myfirst());
-; 1640 : 			}
-; 1641 : 
-; 1642 : 		this->_Orphan_all();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-
-; 1643 : 		this->_Myend() = _Ptr + _Count;
-
-	mov	esi, DWORD PTR __Count$[ebp]
-	shl	esi, 5
-	add	esi, DWORD PTR __Ptr$[ebp]
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	DWORD PTR [eax], esi
-
-; 1644 : 		this->_Mylast() = _Ptr + _Size;
-
-	mov	esi, DWORD PTR __Size$[ebp]
-	shl	esi, 5
-	add	esi, DWORD PTR __Ptr$[ebp]
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	DWORD PTR [eax], esi
-
-; 1645 : 		this->_Myfirst() = _Ptr;
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR __Ptr$[ebp]
-	mov	DWORD PTR [eax], ecx
-$LN4@Reallocate:
-
-; 1646 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 244				; 000000f4H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-248]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z
-_TEXT	SEGMENT
-tv78 = -208						; size = 4
-_this$ = -8						; size = 4
-__Ptr$ = 8						; size = 4
-?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Inside, COMDAT
-; _this$ = ecx
-
-; 1619 : 		{	// test if _Ptr points inside vector
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 208				; 000000d0H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-208]
-	mov	ecx, 52					; 00000034H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1620 : 		return (_Ptr < this->_Mylast() && this->_Myfirst() <= _Ptr);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR __Ptr$[ebp]
-	cmp	ecx, DWORD PTR [eax]
-	jae	SHORT $LN3@Inside
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	edx, DWORD PTR [eax]
-	cmp	edx, DWORD PTR __Ptr$[ebp]
-	ja	SHORT $LN3@Inside
-	mov	DWORD PTR tv78[ebp], 1
-	jmp	SHORT $LN4@Inside
-$LN3@Inside:
-	mov	DWORD PTR tv78[ebp], 0
-$LN4@Inside:
-	mov	al, BYTE PTR tv78[ebp]
-
-; 1621 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 208				; 000000d0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Inside
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z
-_TEXT	SEGMENT
-tv73 = -220						; size = 4
-__Capacity$ = -20					; size = 4
-_this$ = -8						; size = 4
-__Count$ = 8						; size = 4
-?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Grow_to, COMDAT
-; _this$ = ecx
-
-; 1608 : 		{	// grow by 50% or at least to _Count
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1609 : 		size_type _Capacity = capacity();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::capacity
-	mov	DWORD PTR __Capacity$[ebp], eax
-
-; 1610 : 
-; 1611 : 		_Capacity = max_size() - _Capacity / 2 < _Capacity
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
-	mov	ecx, DWORD PTR __Capacity$[ebp]
-	shr	ecx, 1
-	sub	eax, ecx
-	cmp	eax, DWORD PTR __Capacity$[ebp]
-	jae	SHORT $LN4@Grow_to
-	mov	DWORD PTR tv73[ebp], 0
-	jmp	SHORT $LN5@Grow_to
-$LN4@Grow_to:
-	mov	edx, DWORD PTR __Capacity$[ebp]
-	shr	edx, 1
-	add	edx, DWORD PTR __Capacity$[ebp]
-	mov	DWORD PTR tv73[ebp], edx
-$LN5@Grow_to:
-	mov	eax, DWORD PTR tv73[ebp]
-	mov	DWORD PTR __Capacity$[ebp], eax
-
-; 1612 : 			? 0 : _Capacity + _Capacity / 2;	// try to grow by 50%
-; 1613 : 		if (_Capacity < _Count)
-
-	mov	eax, DWORD PTR __Capacity$[ebp]
-	cmp	eax, DWORD PTR __Count$[ebp]
-	jae	SHORT $LN2@Grow_to
-
-; 1614 : 			_Capacity = _Count;
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	mov	DWORD PTR __Capacity$[ebp], eax
-$LN2@Grow_to:
-
-; 1615 : 		return (_Capacity);
-
-	mov	eax, DWORD PTR __Capacity$[ebp]
-
-; 1616 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__First$ = 8						; size = 4
-__Last$ = 12						; size = 4
-?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Destroy, COMDAT
-; _this$ = ecx
-
-; 1603 : 		{	// destroy [_First, _Last) using allocator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1604 : 		_Destroy_range(_First, _Last, this->_Getal());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	push	eax
-	mov	eax, DWORD PTR __Last$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __First$[ebp]
-	push	ecx
-	call	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAXPAUTile@@0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<Tile> > >
-	add	esp, 12					; 0000000cH
-
-; 1605 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::clear, COMDAT
-; _this$ = ecx
-
-; 1543 : 		{	// erase all
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1544 : 		this->_Orphan_all();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-
-; 1545 : 		_Destroy(this->_Myfirst(), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-
-; 1546 : 		this->_Mylast() = this->_Myfirst();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [esi]
-	mov	DWORD PTR [eax], ecx
-
-; 1547 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::clear
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
-_TEXT	SEGMENT
-tv94 = -392						; size = 4
-tv324 = -388						; size = 4
-tv350 = -384						; size = 4
-tv339 = -380						; size = 4
-tv335 = -380						; size = 4
-tv331 = -380						; size = 4
-tv319 = -380						; size = 4
-tv346 = -376						; size = 4
-tv338 = -376						; size = 4
-tv334 = -376						; size = 4
-tv330 = -376						; size = 4
-$T2 = -368						; size = 4
-$T3 = -356						; size = 4
-$T4 = -344						; size = 4
-$T5 = -332						; size = 4
-$T6 = -320						; size = 12
-$T7 = -300						; size = 12
-$T8 = -277						; size = 1
-__Ptr$9 = -76						; size = 4
-__Last$10 = -64						; size = 12
-__First$11 = -44					; size = 12
-_this$ = -24						; size = 4
-__$ArrayPad$ = -16					; size = 4
-__$EHRec$ = -12						; size = 12
-___$ReturnUdt$ = 8					; size = 4
-__First_arg$ = 12					; size = 12
-__Last_arg$ = 24					; size = 12
-?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::erase, COMDAT
-; _this$ = ecx
-
-; 1499 : 		{	// erase [_First, _Last)
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 380				; 0000017cH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-392]
-	mov	ecx, 95					; 0000005fH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	mov	DWORD PTR __$ArrayPad$[ebp], eax
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	DWORD PTR $T2[ebp], 0
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
-
-; 1500 : 		if (_First_arg == begin() && _Last_arg == end())
-
-	lea	eax, DWORD PTR $T7[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
-	mov	DWORD PTR tv346[ebp], eax
-	mov	ecx, DWORD PTR tv346[ebp]
-	mov	DWORD PTR tv319[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 2
-	mov	edx, DWORD PTR $T2[ebp]
-	or	edx, 1
-	mov	DWORD PTR $T2[ebp], edx
-	mov	eax, DWORD PTR tv319[ebp]
-	push	eax
-	lea	ecx, DWORD PTR __First_arg$[ebp]
-	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-	movzx	ecx, al
-	test	ecx, ecx
-	je	SHORT $LN9@erase
-	lea	edx, DWORD PTR $T6[ebp]
-	push	edx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
-	mov	DWORD PTR tv350[ebp], eax
-	mov	eax, DWORD PTR tv350[ebp]
-	mov	DWORD PTR tv324[ebp], eax
-	mov	DWORD PTR __$EHRec$[ebp+8], 3
-	mov	ecx, DWORD PTR $T2[ebp]
-	or	ecx, 2
-	mov	DWORD PTR $T2[ebp], ecx
-	mov	edx, DWORD PTR tv324[ebp]
-	push	edx
-	lea	ecx, DWORD PTR __Last_arg$[ebp]
-	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
-	movzx	eax, al
-	test	eax, eax
-	je	SHORT $LN9@erase
-	mov	DWORD PTR tv94[ebp], 1
-	jmp	SHORT $LN10@erase
-$LN9@erase:
-	mov	DWORD PTR tv94[ebp], 0
-$LN10@erase:
-	mov	cl, BYTE PTR tv94[ebp]
-	mov	BYTE PTR $T8[ebp], cl
-	mov	DWORD PTR __$EHRec$[ebp+8], 2
-	mov	edx, DWORD PTR $T2[ebp]
-	and	edx, 2
-	je	SHORT $LN17@erase
-	and	DWORD PTR $T2[ebp], -3			; fffffffdH
-	lea	ecx, DWORD PTR $T6[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-$LN17@erase:
-	mov	DWORD PTR __$EHRec$[ebp+8], 1
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 1
-	je	SHORT $LN18@erase
-	and	DWORD PTR $T2[ebp], -2			; fffffffeH
-	lea	ecx, DWORD PTR $T7[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-$LN18@erase:
-	movzx	ecx, BYTE PTR $T8[ebp]
-	test	ecx, ecx
-	je	SHORT $LN2@erase
-
-; 1501 : 			clear();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ; std::vector<Tile,std::allocator<Tile> >::clear
-	jmp	$LN3@erase
-$LN2@erase:
-
-; 1502 : 		else if (_First_arg != _Last_arg)
-
-	lea	eax, DWORD PTR __Last_arg$[ebp]
-	push	eax
-	lea	ecx, DWORD PTR __First_arg$[ebp]
-	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
-	movzx	ecx, al
-	test	ecx, ecx
-	je	$LN3@erase
-
-; 1503 : 			{	// clear partial
-; 1504 : 			iterator _First = _Make_iter(_First_arg);
-
-	push	12					; 0000000cH
-	lea	ecx, DWORD PTR __First$11[ebp]
-	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T5[ebp], esp
-	lea	eax, DWORD PTR __First_arg$[ebp]
-	push	eax
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv330[ebp], eax
-	lea	ecx, DWORD PTR __First$11[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
-	mov	DWORD PTR tv331[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 4
-
-; 1505 : 			iterator _Last = _Make_iter(_Last_arg);
-
-	push	12					; 0000000cH
-	lea	ecx, DWORD PTR __Last$10[ebp]
-	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T4[ebp], esp
-	lea	eax, DWORD PTR __Last_arg$[ebp]
-	push	eax
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv334[ebp], eax
-	lea	ecx, DWORD PTR __Last$10[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
-	mov	DWORD PTR tv335[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 5
-
-; 1506 : 
-; 1507 : 			if (_First != _Last)
-
-	lea	eax, DWORD PTR __Last$10[ebp]
-	push	eax
-	lea	ecx, DWORD PTR __First$11[ebp]
-	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
-	movzx	ecx, al
-	test	ecx, ecx
-	je	$LN5@erase
-
-; 1508 : 				{	// worth doing, copy down over hole
-; 1509 :  #if _ITERATOR_DEBUG_LEVEL == 2
-; 1510 : 				if (_Last < _First || _VICONT(_First) != &this->_Get_data()
-; 1511 : 					|| _VIPTR(_First) < this->_Myfirst()
-; 1512 : 					|| this->_Mylast() < _VIPTR(_Last))
-
-	lea	eax, DWORD PTR __First$11[ebp]
-	push	eax
-	lea	ecx, DWORD PTR __Last$10[ebp]
-	call	??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
-	movzx	ecx, al
-	test	ecx, ecx
-	jne	SHORT $LN7@erase
-	lea	ecx, DWORD PTR __First$11[ebp]
-	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	cmp	esi, eax
-	jne	SHORT $LN7@erase
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR __First$11[ebp+8]
-	cmp	ecx, DWORD PTR [eax]
-	jb	SHORT $LN7@erase
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	cmp	eax, DWORD PTR __Last$10[ebp+8]
-	jae	SHORT $LN6@erase
-$LN7@erase:
-
-; 1513 : 					_DEBUG_ERROR("vector erase iterator outside range");
-
-	mov	esi, esp
-	push	1513					; 000005e9H
-	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
-	push	OFFSET ??_C@_1EI@HGIDLLCM@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAo?$AAu?$AAt?$AAs?$AAi?$AAd?$AAe?$AA?5?$AAr?$AAa@
-	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
-	add	esp, 12					; 0000000cH
-	cmp	esi, esp
-	call	__RTC_CheckEsp
-$LN6@erase:
-
-; 1514 : 				pointer _Ptr = _Move_unchecked(_VIPTR(_Last), this->_Mylast(),
-
-	mov	eax, DWORD PTR __First$11[ebp+8]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	edx, DWORD PTR __Last$10[ebp+8]
-	push	edx
-	call	??$_Move_unchecked@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Move_unchecked<Tile *,Tile *>
-	add	esp, 12					; 0000000cH
-	mov	DWORD PTR __Ptr$9[ebp], eax
-
-; 1515 : 					_VIPTR(_First));
-; 1516 : 				_Orphan_range(_VIPTR(_First), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR __First$11[ebp+8]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
-
-; 1517 : 
-; 1518 :  #else /* _ITERATOR_DEBUG_LEVEL == 2 */
-; 1519 : 				pointer _Ptr = _Move_unchecked(_VIPTR(_Last), this->_Mylast(),
-; 1520 : 					_VIPTR(_First));
-; 1521 :  #endif /* _ITERATOR_DEBUG_LEVEL == 2 */
-; 1522 : 
-; 1523 : 				_Destroy(_Ptr, this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR __Ptr$9[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
-
-; 1524 : 				this->_Mylast() = _Ptr;
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR __Ptr$9[ebp]
-	mov	DWORD PTR [eax], ecx
-$LN5@erase:
-
-; 1525 : 				}
-; 1526 : 			}
-
-	mov	BYTE PTR __$EHRec$[ebp+8], 4
-	lea	ecx, DWORD PTR __Last$10[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	BYTE PTR __$EHRec$[ebp+8], 1
-	lea	ecx, DWORD PTR __First$11[ebp]
-	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-$LN3@erase:
-
-; 1527 : 		return (_Make_iter(_First_arg));
-
-	sub	esp, 12					; 0000000cH
-	mov	ecx, esp
-	mov	DWORD PTR $T3[ebp], esp
-	lea	eax, DWORD PTR __First_arg$[ebp]
-	push	eax
-	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
-	mov	DWORD PTR tv338[ebp], eax
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
-	mov	DWORD PTR tv339[ebp], eax
-	mov	edx, DWORD PTR $T2[ebp]
-	or	edx, 4
-	mov	DWORD PTR $T2[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 0
-	lea	ecx, DWORD PTR __First_arg$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR __Last_arg$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1528 : 		}
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN30@erase
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
-	xor	ecx, ebp
-	call	@__security_check_cookie@4
-	add	esp, 392				; 00000188H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	28					; 0000001cH
-	npad	1
-$LN30@erase:
-	DD	2
-	DD	$LN29@erase
-$LN29@erase:
-	DD	-44					; ffffffd4H
-	DD	12					; 0000000cH
-	DD	$LN26@erase
-	DD	-64					; ffffffc0H
-	DD	12					; 0000000cH
-	DD	$LN27@erase
-$LN27@erase:
-	DB	95					; 0000005fH
-	DB	76					; 0000004cH
-	DB	97					; 00000061H
-	DB	115					; 00000073H
-	DB	116					; 00000074H
-	DB	0
-$LN26@erase:
-	DB	95					; 0000005fH
-	DB	70					; 00000046H
-	DB	105					; 00000069H
-	DB	114					; 00000072H
-	DB	115					; 00000073H
-	DB	116					; 00000074H
-	DB	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$0:
-	lea	ecx, DWORD PTR __Last_arg$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$1:
-	lea	ecx, DWORD PTR __First_arg$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$2:
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 1
-	je	$LN14@erase
-	and	DWORD PTR $T2[ebp], -2			; fffffffeH
-	lea	ecx, DWORD PTR $T7[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-$LN14@erase:
-	ret	0
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$3:
-	mov	eax, DWORD PTR $T2[ebp]
-	and	eax, 2
-	je	$LN16@erase
-	and	DWORD PTR $T2[ebp], -3			; fffffffdH
-	lea	ecx, DWORD PTR $T6[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-$LN16@erase:
-	ret	0
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$5:
-	lea	ecx, DWORD PTR __First$11[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$7:
-	lea	ecx, DWORD PTR __Last$10[ebp]
-	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-396]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	ecx, DWORD PTR [edx-4]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::erase
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z
-_TEXT	SEGMENT
-tv225 = -220						; size = 4
-tv172 = -220						; size = 4
-__Idx$1 = -20						; size = 4
-_this$ = -8						; size = 4
-__Val$ = 8						; size = 4
-?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::push_back, COMDAT
-; _this$ = ecx
-
-; 1278 : 		{	// insert element at end
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1279 : 		if (_Inside(_STD addressof(_Val)))
-
-	mov	eax, DWORD PTR __Val$[ebp]
-	push	eax
-	call	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::_Inside
-	movzx	ecx, al
-	test	ecx, ecx
-	je	$LN2@push_back
-
-; 1280 : 			{	// push back an element
-; 1281 : 			size_type _Idx = _STD addressof(_Val) - this->_Myfirst();
-
-	mov	eax, DWORD PTR __Val$[ebp]
-	push	eax
-	call	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
-	add	esp, 4
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	sub	esi, DWORD PTR [eax]
-	sar	esi, 5
-	mov	DWORD PTR __Idx$1[ebp], esi
-
-; 1282 : 			if (this->_Mylast() == this->_Myend())
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	ecx, DWORD PTR [esi]
-	cmp	ecx, DWORD PTR [eax]
-	jne	SHORT $LN4@push_back
-
-; 1283 : 				_Reserve(1);
-
-	push	1
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
-$LN4@push_back:
-
-; 1284 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
-
-; 1285 : 			this->_Getal().construct(this->_Mylast(),
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR __Idx$1[ebp]
-	shl	ecx, 5
-	add	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	edx, DWORD PTR [eax]
-	push	edx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	??$construct@UTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile &>
-
-; 1286 : 				this->_Myfirst()[_Idx]);
-; 1287 : 			++this->_Mylast();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	DWORD PTR tv172[ebp], eax
-	mov	eax, DWORD PTR tv172[ebp]
-	mov	ecx, DWORD PTR [eax]
-	add	ecx, 32					; 00000020H
-	mov	edx, DWORD PTR tv172[ebp]
-	mov	DWORD PTR [edx], ecx
-
-; 1288 : 			}
-; 1289 : 		else
-
-	jmp	SHORT $LN1@push_back
-$LN2@push_back:
-
-; 1290 : 			{	// push back a non-element
-; 1291 : 			if (this->_Mylast() == this->_Myend())
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	ecx, DWORD PTR [esi]
-	cmp	ecx, DWORD PTR [eax]
-	jne	SHORT $LN5@push_back
-
-; 1292 : 				_Reserve(1);
-
-	push	1
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
-$LN5@push_back:
-
-; 1293 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
-
-; 1294 : 			this->_Getal().construct(this->_Mylast(),
-
-	mov	eax, DWORD PTR __Val$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [eax]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	??$construct@UTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile const &>
-
-; 1295 : 				_Val);
-; 1296 : 			++this->_Mylast();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	DWORD PTR tv225[ebp], eax
-	mov	eax, DWORD PTR tv225[ebp]
-	mov	ecx, DWORD PTR [eax]
-	add	ecx, 32					; 00000020H
-	mov	edx, DWORD PTR tv225[ebp]
-	mov	DWORD PTR [edx], ecx
-$LN1@push_back:
-
-; 1297 : 			}
-; 1298 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::push_back
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
-_TEXT	SEGMENT
-$T1 = -209						; size = 1
-_this$ = -8						; size = 4
-?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::max_size, COMDAT
-; _this$ = ecx
-
-; 1187 : 		{	// return maximum possible length of sequence
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1188 : 		return (this->_Getal().max_size());
-
-	movzx	eax, BYTE PTR $T1[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	mov	ecx, eax
-	call	?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
-
-; 1189 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::max_size
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::size, COMDAT
-; _this$ = ecx
-
-; 1182 : 		{	// return length of sequence
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1183 : 		return (this->_Mylast() - this->_Myfirst());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [esi]
-	sub	ecx, DWORD PTR [eax]
-	sar	ecx, 5
-	mov	eax, ecx
-
-; 1184 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::size
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
-_TEXT	SEGMENT
-$T2 = -224						; size = 4
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-___$ReturnUdt$ = 8					; size = 4
-__Where$ = 12						; size = 12
-?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Make_iter, COMDAT
-; _this$ = ecx
-
-; 1080 : 		{	// make iterator from const_iterator
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-228]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	DWORD PTR $T2[ebp], 0
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 1081 : 		return (iterator(_Where._Ptr, &this->_Get_data()));
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	push	eax
-	mov	eax, DWORD PTR __Where$[ebp+8]
-	push	eax
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-	mov	ecx, DWORD PTR $T2[ebp]
-	or	ecx, 1
-	mov	DWORD PTR $T2[ebp], ecx
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	lea	ecx, DWORD PTR __Where$[ebp]
-	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1082 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 228				; 000000e4H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	16					; 00000010H
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z$0:
-	lea	ecx, DWORD PTR __Where$[ebp]
-	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
-__ehhandler$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-232]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-___$ReturnUdt$ = 8					; size = 4
-?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::end, COMDAT
-; _this$ = ecx
-
-; 1070 : 		{	// return iterator for end of mutable sequence
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1071 : 		return (iterator(this->_Mylast(), &this->_Get_data()));
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1072 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::end
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-___$ReturnUdt$ = 8					; size = 4
-?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::begin, COMDAT
-; _this$ = ecx
-
-; 1060 : 		{	// return iterator for beginning of mutable sequence
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1061 : 		return (iterator(this->_Myfirst(), &this->_Get_data()));
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1062 : 		}
-
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::begin
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity, COMDAT
-; _this$ = ecx
-
-; 1050 : 		{	// micro-optimization for capacity() - size()
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1051 : 		return (this->_Myend() - this->_Mylast());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-	mov	ecx, DWORD PTR [esi]
-	sub	ecx, DWORD PTR [eax]
-	sar	ecx, 5
-	mov	eax, ecx
-
-; 1052 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::capacity, COMDAT
-; _this$ = ecx
-
-; 1045 : 		{	// return current length of allocated storage
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1046 : 		return (this->_Myend() - this->_Myfirst());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-	mov	ecx, DWORD PTR [esi]
-	sub	ecx, DWORD PTR [eax]
-	sar	ecx, 5
-	mov	eax, ecx
-
-; 1047 : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::capacity
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >, COMDAT
-; _this$ = ecx
-
-; 978  : 		{	// destroy the object
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 979  : 		_Tidy();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Tidy
-
-; 980  : 		}
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >, COMDAT
-; _this$ = ecx
-
-; 710  : 		{	// construct empty vector
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 709  : 		: _Mybase()
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-
-; 711  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second, COMDAT
-; _this$ = ecx
-
-; 318  : 		{	// return const reference to second
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 319  : 		return (_Myval2);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 320  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second, COMDAT
-; _this$ = ecx
-
-; 313  : 		{	// return reference to second
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 314  : 		return (_Myval2);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 315  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first, COMDAT
-; _this$ = ecx
-
-; 298  : 		{	// return const reference to first
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 299  : 		return (*this);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 300  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
-;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first, COMDAT
-; _this$ = ecx
-
-; 293  : 		{	// return reference to first
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 294  : 		return (*this);
-
-	mov	eax, DWORD PTR _this$[ebp]
-
-; 295  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-;	COMDAT ??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >, COMDAT
-; _this$ = ecx
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1_Container_base12@std@@QAE@XZ	; std::_Container_base12::~_Container_base12
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >, COMDAT
-; _this$ = ecx
-
-; 478  : 	_Vector_val()
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 479  : 		{	// initialize values
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0_Container_base12@std@@QAE@XZ	; std::_Container_base12::_Container_base12
-
-; 480  : 		_Myfirst = pointer();
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	DWORD PTR [eax+4], 0
-
-; 481  : 		_Mylast = pointer();
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	DWORD PTR [eax+8], 0
-
-; 482  : 		_Myend = pointer();
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	DWORD PTR [eax+12], 0
-
-; 483  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend, COMDAT
-; _this$ = ecx
-
-; 670  : 		{	// return const reference to _Myend
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 671  : 		return (_Get_data()._Myend);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 12					; 0000000cH
-
-; 672  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend, COMDAT
-; _this$ = ecx
-
-; 665  : 		{	// return reference to _Myend
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 666  : 		return (_Get_data()._Myend);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 12					; 0000000cH
-
-; 667  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast, COMDAT
-; _this$ = ecx
-
-; 660  : 		{	// return const reference to _Mylast
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 661  : 		return (_Get_data()._Mylast);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 8
-
-; 662  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast, COMDAT
-; _this$ = ecx
-
-; 655  : 		{	// return reference to _Mylast
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 656  : 		return (_Get_data()._Mylast);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 8
-
-; 657  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst, COMDAT
-; _this$ = ecx
-
-; 650  : 		{	// return const reference to _Myfirst
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 651  : 		return (_Get_data()._Myfirst);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 4
-
-; 652  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst, COMDAT
-; _this$ = ecx
-
-; 645  : 		{	// return reference to _Myfirst
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 646  : 		return (_Get_data()._Myfirst);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	add	eax, 4
-
-; 647  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data, COMDAT
-; _this$ = ecx
-
-; 640  : 		{	// return const reference to _Vector_val
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 641  : 		return (_Mypair._Get_second());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-
-; 642  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data, COMDAT
-; _this$ = ecx
-
-; 635  : 		{	// return reference to _Vector_val
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 636  : 		return (_Mypair._Get_second());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
-
-; 637  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal, COMDAT
-; _this$ = ecx
-
-; 630  : 		{	// return const reference to allocator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 631  : 		return (_Mypair._Get_first());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-
-; 632  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal, COMDAT
-; _this$ = ecx
-
-; 625  : 		{	// return reference to allocator
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 626  : 		return (_Mypair._Get_first());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
-
-; 627  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all, COMDAT
-; _this$ = ecx
-
-; 615  : 		{	// orphan all iterators
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 616  : 		_Get_data()._Orphan_all();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	mov	ecx, eax
-	call	?_Orphan_all@_Container_base12@std@@QAEXXZ ; std::_Container_base12::_Orphan_all
-
-; 617  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy, COMDAT
-; _this$ = ecx
-
-; 604  : 		{	// return reference to _Myproxy
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 605  : 		return (_Get_data()._Myproxy);
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-
-; 606  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst, COMDAT
-; _this$ = ecx
-
-; 599  : 		{	// get address of iterator chain
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 600  : 		return (_Get_data()._Getpfirst());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	mov	ecx, eax
-	call	?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Container_base12::_Getpfirst
-
-; 601  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
-_TEXT	SEGMENT
-__Alproxy$ = -21					; size = 1
-_this$ = -12						; size = 4
-__$ArrayPad$ = -4					; size = 4
-?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy, COMDAT
-; _this$ = ecx
-
-; 589  : 		{	// destroy proxy
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 220				; 000000dcH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-220]
-	mov	ecx, 55					; 00000037H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	mov	DWORD PTR __$ArrayPad$[ebp], eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 590  : 		typename _Alty::template rebind<_Container_proxy>::other
-; 591  : 			_Alproxy(_Getal());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	push	eax
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
-
-; 592  : 		_Orphan_all();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
-
-; 593  : 		_Alproxy.destroy(_Myproxy());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
-
-; 594  : 		_Alproxy.deallocate(_Myproxy(), 1);
-
-	push	1
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::deallocate
-
-; 595  : 		_Myproxy() = 0;
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	DWORD PTR [eax], 0
-
-; 596  : 		}
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN5@Free_proxy
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
-	xor	ecx, ebp
-	call	@__security_check_cookie@4
-	add	esp, 220				; 000000dcH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-	npad	1
-$LN5@Free_proxy:
-	DD	1
-	DD	$LN4@Free_proxy
-$LN4@Free_proxy:
-	DD	-21					; ffffffebH
-	DD	1
-	DD	$LN3@Free_proxy
-$LN3@Free_proxy:
-	DB	95					; 0000005fH
-	DB	65					; 00000041H
-	DB	108					; 0000006cH
-	DB	112					; 00000070H
-	DB	114					; 00000072H
-	DB	111					; 0000006fH
-	DB	120					; 00000078H
-	DB	121					; 00000079H
-	DB	0
-?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
-_TEXT	SEGMENT
-$T1 = -232						; size = 8
-__Alproxy$ = -21					; size = 1
-_this$ = -12						; size = 4
-__$ArrayPad$ = -4					; size = 4
-?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy, COMDAT
-; _this$ = ecx
-
-; 580  : 		{	// construct proxy
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 236				; 000000ecH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-236]
-	mov	ecx, 59					; 0000003bH
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	mov	DWORD PTR __$ArrayPad$[ebp], eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 581  : 		typename _Alty::template rebind<_Container_proxy>::other
-; 582  : 			_Alproxy(_Getal());
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
-	push	eax
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
-
-; 583  : 		_Myproxy() = _Alproxy.allocate(1);
-
-	push	1
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::allocate
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	DWORD PTR [eax], esi
-
-; 584  : 		_Alproxy.construct(_Myproxy(), _Container_proxy());
-
-	lea	ecx, DWORD PTR $T1[ebp]
-	call	??0_Container_proxy@std@@QAE@XZ		; std::_Container_proxy::_Container_proxy
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	eax, DWORD PTR [eax]
-	push	eax
-	lea	ecx, DWORD PTR __Alproxy$[ebp]
-	call	??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
-
-; 585  : 		_Myproxy()->_Mycont = &_Get_data();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
-	mov	esi, eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
-	mov	eax, DWORD PTR [eax]
-	mov	DWORD PTR [eax], esi
-
-; 586  : 		}
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN5@Alloc_prox
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
-	xor	ecx, ebp
-	call	@__security_check_cookie@4
-	add	esp, 236				; 000000ecH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-$LN5@Alloc_prox:
-	DD	1
-	DD	$LN4@Alloc_prox
-$LN4@Alloc_prox:
-	DD	-21					; ffffffebH
-	DD	1
-	DD	$LN3@Alloc_prox
-$LN3@Alloc_prox:
-	DB	95					; 0000005fH
-	DB	65					; 00000041H
-	DB	108					; 0000006cH
-	DB	112					; 00000070H
-	DB	114					; 00000072H
-	DB	111					; 0000006fH
-	DB	120					; 00000078H
-	DB	121					; 00000079H
-	DB	0
-?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >, COMDAT
-; _this$ = ecx
-
-; 555  : 		{	// destroy proxy
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-216]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 556  : 		_Free_proxy();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
-
-; 557  : 		}
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 216				; 000000d8H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-220]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
-;	COMDAT ??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-$T2 = -221						; size = 1
-_this$ = -20						; size = 4
-__$EHRec$ = -12						; size = 12
-??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >, COMDAT
-; _this$ = ecx
-
-; 542  : 		{	// default construct allocator
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 216				; 000000d8H
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-228]
-	mov	ecx, 54					; 00000036H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 541  : 		: _Mypair(_Zero_then_variadic_args_t())
-
-	movzx	eax, BYTE PTR $T2[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
-	mov	DWORD PTR __$EHRec$[ebp+8], 0
-
-; 543  : 		_Alloc_proxy();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
-
-; 544  : 		}
-
-	mov	DWORD PTR __$EHRec$[ebp+8], -1
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 228				; 000000e4H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ$0:
-	mov	ecx, DWORD PTR _this$[ebp]
-	jmp	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
-__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-232]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-___formal$ = 8						; size = 1
-?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::max_size, COMDAT
-; _this$ = ecx
-
-; 905  : 		{	// get maximum size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 906  : 		return (_Mytraits::max_size(*this));
-
-	mov	eax, DWORD PTR _this$[ebp]
-	push	eax
-	call	?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ; std::allocator_traits<std::allocator<Tile> >::max_size
-	add	esp, 4
-
-; 907  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Ptr$ = 8						; size = 4
-__Count$ = 12						; size = 4
-?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate, COMDAT
-; _this$ = ecx
-
-; 884  : 		{	// deallocate object at _Ptr, ignore size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 885  : 		_Mybase::deallocate(_Ptr, _Count);
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Ptr$[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ; std::allocator<Tile>::deallocate
-
-; 886  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Count$ = 8						; size = 4
-?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::allocate, COMDAT
-; _this$ = ecx
-
-; 873  : 		{	// allocate array of _Count elements
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 874  : 		return (_Mybase::allocate(_Count));
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ; std::allocator<Tile>::allocate
-
-; 875  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >, COMDAT
-; _this$ = ecx
-
-; 834  : 		{	// construct default allocator (do nothing)
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 833  : 		: _Mybase()
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$allocator@UTile@@@std@@QAE@XZ	; std::allocator<Tile>::allocator<Tile>
-
-; 835  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z
-_TEXT	SEGMENT
-__Al$ = 8						; size = 4
-?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z PROC ; std::allocator_traits<std::allocator<Tile> >::max_size, COMDAT
-
-; 766  : 		{	// get maximum size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 192				; 000000c0H
-	push	ebx
-	push	esi
-	push	edi
-	lea	edi, DWORD PTR [ebp-192]
-	mov	ecx, 48					; 00000030H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 767  : 		return (_Al.max_size());
-
-	mov	ecx, DWORD PTR __Al$[ebp]
-	call	?max_size@?$allocator@UTile@@@std@@QBEIXZ ; std::allocator<Tile>::max_size
-
-; 768  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 192				; 000000c0H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ENDP ; std::allocator_traits<std::allocator<Tile> >::max_size
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?max_size@?$allocator@UTile@@@std@@QBEIXZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-?max_size@?$allocator@UTile@@@std@@QBEIXZ PROC		; std::allocator<Tile>::max_size, COMDAT
-; _this$ = ecx
-
-; 648  : 		{	// estimate maximum array size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 649  : 		return ((size_t)(-1) / sizeof (_Ty));
-
-	mov	eax, 134217727				; 07ffffffH
-
-; 650  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?max_size@?$allocator@UTile@@@std@@QBEIXZ ENDP		; std::allocator<Tile>::max_size
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Count$ = 8						; size = 4
-?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z PROC	; std::allocator<Tile>::allocate, COMDAT
-; _this$ = ecx
-
-; 624  : 		{	// allocate array of _Count elements
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 625  : 		return (static_cast<pointer>(_Allocate(_Count, sizeof (_Ty))));
-
-	push	1
-	push	32					; 00000020H
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	call	?_Allocate@std@@YAPAXII_N@Z		; std::_Allocate
-	add	esp, 12					; 0000000cH
-
-; 626  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ENDP	; std::allocator<Tile>::allocate
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-__Ptr$ = 8						; size = 4
-__Count$ = 12						; size = 4
-?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z PROC ; std::allocator<Tile>::deallocate, COMDAT
-; _this$ = ecx
-
-; 619  : 		{	// deallocate object at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 620  : 		_Deallocate(_Ptr, _Count, sizeof (_Ty));
-
-	push	32					; 00000020H
-	mov	eax, DWORD PTR __Count$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR __Ptr$[ebp]
-	push	ecx
-	call	?_Deallocate@std@@YAXPAXII@Z		; std::_Deallocate
-	add	esp, 12					; 0000000cH
-
-; 621  : 		}
-
-	pop	edi
-	pop	esi
-	pop	ebx
-	add	esp, 204				; 000000ccH
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ENDP ; std::allocator<Tile>::deallocate
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu /ZI
-; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
-;	COMDAT ??0?$allocator@UTile@@@std@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -8						; size = 4
-??0?$allocator@UTile@@@std@@QAE@XZ PROC			; std::allocator<Tile>::allocator<Tile>, COMDAT
-; _this$ = ecx
-
-; 599  : 	allocator() _THROW0()
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 204				; 000000ccH
-	push	ebx
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-204]
-	mov	ecx, 51					; 00000033H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 600  : 		{	// construct default allocator (do nothing)
-; 601  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	pop	edi
-	pop	esi
-	pop	ebx
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0?$allocator@UTile@@@std@@QAE@XZ ENDP			; std::allocator<Tile>::allocator<Tile>
-_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\player.cpp
 ;	COMDAT ?FloatingMovement@@YAXM@Z
@@ -23924,7 +18885,7 @@ _tileMap$ = 8						; size = 16
 ?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z PROC ; PushTile::GetDirection, COMDAT
 ; _this$ = ecx
 
-; 67   : 	inline int GetDirection(std::vector<PushTile> tileMap) {
+; 107  : 	inline int GetDirection(std::vector<PushTile> tileMap) {
 
 	push	ebp
 	mov	ebp, esp
@@ -23951,7 +18912,7 @@ _tileMap$ = 8						; size = 16
 	mov	DWORD PTR _this$[ebp], ecx
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 
-; 68   : 		for (auto &otherTile : tileMap) {
+; 108  : 		for (auto &otherTile : tileMap) {
 
 	lea	eax, DWORD PTR _tileMap$[ebp]
 	mov	DWORD PTR _<range>$L0$18[ebp], eax
@@ -23987,8 +18948,8 @@ $LN4@GetDirecti:
 	call	??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QBEAAUPushTile@@XZ ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<PushTile> > >::operator*
 	mov	DWORD PTR _otherTile$15[ebp], eax
 
-; 69   : 			//othertile = left
-; 70   : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 109  : 			//othertile = left
+; 110  : 			if (otherTile.tile.position.x == (tile.position.x - tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -24009,7 +18970,7 @@ $LN4@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN8@GetDirecti
 
-; 71   : 				if (end == true) return 2;
+; 111  : 				if (end == true) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -24029,12 +18990,12 @@ $LN4@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN6@GetDirecti:
 
-; 72   : 				otherTile.initialDirection = 2;
+; 112  : 				otherTile.initialDirection = 2;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 2
 
-; 73   : 				if (initialDirection == -1) return 3;
+; 113  : 				if (initialDirection == -1) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -24053,7 +19014,7 @@ $LN6@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN7@GetDirecti:
 
-; 74   : 				if (initialDirection != 2) return 3;
+; 114  : 				if (initialDirection != 2) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 2
@@ -24072,9 +19033,9 @@ $LN7@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN8@GetDirecti:
 
-; 75   : 			}
-; 76   : 			//othertile = right
-; 77   : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
+; 115  : 			}
+; 116  : 			//othertile = right
+; 117  : 			if (otherTile.tile.position.x == (tile.position.x + tile.width) && (otherTile.tile.position.y == tile.position.y)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+16]
@@ -24094,7 +19055,7 @@ $LN8@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN12@GetDirecti
 
-; 78   : 				if (end == true) return 3;
+; 118  : 				if (end == true) return 3;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -24114,12 +19075,12 @@ $LN8@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN10@GetDirecti:
 
-; 79   : 				otherTile.initialDirection = 3;
+; 119  : 				otherTile.initialDirection = 3;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 3
 
-; 80   : 				if (initialDirection == -1) return 2;
+; 120  : 				if (initialDirection == -1) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -24138,7 +19099,7 @@ $LN10@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN11@GetDirecti:
 
-; 81   : 				if (initialDirection != 3) return 2;
+; 121  : 				if (initialDirection != 3) return 2;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 3
@@ -24157,9 +19118,9 @@ $LN11@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN12@GetDirecti:
 
-; 82   : 			}
-; 83   : 			//othertile = down
-; 84   : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 122  : 			}
+; 123  : 			//othertile = down
+; 124  : 			if (otherTile.tile.position.y == (tile.position.y - tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -24180,7 +19141,7 @@ $LN12@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN16@GetDirecti
 
-; 85   : 				if (end == true) return 0;
+; 125  : 				if (end == true) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -24200,12 +19161,12 @@ $LN12@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN14@GetDirecti:
 
-; 86   : 				otherTile.initialDirection = 0;
+; 126  : 				otherTile.initialDirection = 0;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 0
 
-; 87   : 				if (initialDirection == -1) return 1;
+; 127  : 				if (initialDirection == -1) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -24224,7 +19185,7 @@ $LN14@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN15@GetDirecti:
 
-; 88   : 				if (initialDirection != 0) return 1;
+; 128  : 				if (initialDirection != 0) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 0
@@ -24243,9 +19204,9 @@ $LN15@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN16@GetDirecti:
 
-; 89   : 			}
-; 90   : 			//othertile = up
-; 91   : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
+; 129  : 			}
+; 130  : 			//othertile = up
+; 131  : 			if (otherTile.tile.position.y == (tile.position.y + tile.height) && (otherTile.tile.position.x == tile.position.x)) {
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cvtsi2sd xmm0, DWORD PTR [eax+20]
@@ -24265,7 +19226,7 @@ $LN16@GetDirecti:
 	test	ah, 68					; 00000044H
 	jp	$LN20@GetDirecti
 
-; 92   : 				if (end == true) return 1;
+; 132  : 				if (end == true) return 1;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movzx	ecx, BYTE PTR [eax+44]
@@ -24285,12 +19246,12 @@ $LN16@GetDirecti:
 	jmp	$LN1@GetDirecti
 $LN18@GetDirecti:
 
-; 93   : 				otherTile.initialDirection = 1;
+; 133  : 				otherTile.initialDirection = 1;
 
 	mov	eax, DWORD PTR _otherTile$15[ebp]
 	mov	DWORD PTR [eax+40], 1
 
-; 94   : 				if (initialDirection == -1) return 0;
+; 134  : 				if (initialDirection == -1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], -1
@@ -24309,7 +19270,7 @@ $LN18@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN19@GetDirecti:
 
-; 95   : 				if (initialDirection != 1) return 0;
+; 135  : 				if (initialDirection != 1) return 0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+40], 1
@@ -24328,12 +19289,12 @@ $LN19@GetDirecti:
 	jmp	SHORT $LN1@GetDirecti
 $LN20@GetDirecti:
 
-; 96   : 			}
+; 136  : 			}
 
 	jmp	$LN2@GetDirecti
 $LN3@GetDirecti:
 
-; 97   : 		}
+; 137  : 		}
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 1
 	lea	ecx, DWORD PTR _<end>$L0$16[ebp]
@@ -24342,8 +19303,8 @@ $LN3@GetDirecti:
 	lea	ecx, DWORD PTR _<begin>$L0$17[ebp]
 	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UPushTile@@@std@@@std@@@std@@QAE@XZ
 
-; 98   : 
-; 99   : 		return -1;
+; 138  : 
+; 139  : 		return -1;
 
 	mov	DWORD PTR $T2[ebp], -1
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
@@ -24352,7 +19313,7 @@ $LN3@GetDirecti:
 	mov	eax, DWORD PTR $T2[ebp]
 $LN1@GetDirecti:
 
-; 100  : 	};
+; 140  : 	};
 
 	push	edx
 	mov	ecx, ebp
@@ -24433,6 +19394,5045 @@ __ehhandler$?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushT
 	jmp	___CxxFrameHandler3
 text$x	ENDS
 ?GetDirection@PushTile@@QAEHV?$vector@UPushTile@@V?$allocator@UPushTile@@@std@@@std@@@Z ENDP ; PushTile::GetDirection
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _classSize$[ebp]
+	push	eax
+	push	0
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	_memset
+	add	esp, 12					; 0000000cH
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??4?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 334  : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 335  : 		++*(_Mybase *)this;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
+
+; 336  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 337  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 324  : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 325  : 		return ((reference)**(_Mybase *)this);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
+
+; 326  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEAAUTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked, COMDAT
+; _this$ = ecx
+
+; 319  : 		{	// make an unchecked iterator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 320  : 		return (_Unchecked_type(this->_Ptr));
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+8]
+
+; 321  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Unchecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEPAUTile@@XZ ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Unchecked
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked, COMDAT
+; _this$ = ecx
+
+; 313  : 		{	// reset from unchecked iterator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 314  : 		this->_Ptr = _Right;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Right$[ebp]
+	mov	DWORD PTR [eax+8], ecx
+
+; 315  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 316  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Rechecked@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV12@PAUTile@@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Rechecked
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+
+; 307  : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 306  : 		: _Mybase(_Parg, _Pvector)
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+
+; 308  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR ___that$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	mov	DWORD PTR [eax+8], edx
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??4?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR ___that$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	mov	DWORD PTR [eax+8], edx
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@$$QAV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR ___that$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	mov	DWORD PTR [eax+8], edx
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::~_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat, COMDAT
+; _this$ = ecx
+
+; 239  : 		{	// test for compatible iterator pair
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 240  : 		if (this->_Getcont() != _Right._Getcont())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	esi, eax
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	cmp	esi, eax
+	je	$LN1@Compat
+
+; 241  : 			{
+; 242  : 			_DEBUG_ERROR("vector iterators incompatible");
+
+	mov	esi, esp
+	push	242					; 000000f2H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1DM@HINDPMBP@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AAs?$AA?5?$AAi?$AAn?$AAc?$AAo?$AAm?$AAp?$AAa?$AAt?$AAi?$AAb?$AAl?$AAe?$AA?$AA@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 243  : 			_SCL_SECURE_INVALID_ARGUMENT;
+
+	mov	eax, OFFSET ??_C@_0CI@FNPHFCCM@Standard?5C?$CL?$CL?5Libraries?5Invalid?5A@
+	test	eax, eax
+	je	SHORT $LN4@Compat
+	xor	ecx, ecx
+	jne	SHORT $LN5@Compat
+$LN4@Compat:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FO@GJIHNDLM@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAI?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN5@Compat
+	int	3
+$LN5@Compat:
+	mov	esi, esp
+	push	0
+	push	243					; 000000f3H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1MO@FIOFHBNA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1CG@JNLFBNGN@?$AA?$CC?$AAi?$AAn?$AAv?$AAa?$AAl?$AAi?$AAd?$AA?5?$AAa?$AAr?$AAg?$AAu?$AAm?$AAe?$AAn?$AAt?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN1@Compat:
+
+; 244  : 			}
+; 245  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<, COMDAT
+; _this$ = ecx
+
+; 217  : 		{	// test if this < _Right
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 218  : 		_Compat(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
+
+; 219  : 		return (_Ptr < _Right._Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Right$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	jae	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 220  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=, COMDAT
+; _this$ = ecx
+
+; 212  : 		{	// test for iterator inequality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 213  : 		return (!(*this == _Right));
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+	movzx	ecx, al
+	test	ecx, ecx
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 214  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z
+_TEXT	SEGMENT
+tv69 = -208						; size = 4
+_this$ = -8						; size = 4
+__Right$ = 8						; size = 4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==, COMDAT
+; _this$ = ecx
+
+; 206  : 		{	// test for iterator equality
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 207  : 		_Compat(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Compat@?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEXABV12@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Compat
+
+; 208  : 		return (_Ptr == _Right._Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Right$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	jne	SHORT $LN3@operator
+	mov	DWORD PTR tv69[ebp], 1
+	jmp	SHORT $LN4@operator
+$LN3@operator:
+	mov	DWORD PTR tv69[ebp], 0
+$LN4@operator:
+	mov	al, BYTE PTR tv69[ebp]
+
+; 209  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++, COMDAT
+; _this$ = ecx
+
+; 95   : 		{	// preincrement
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 96   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 97   : 		if (this->_Getcont() == 0
+; 98   : 			|| _Ptr == 0
+; 99   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 100  : 			{	// report error
+; 101  : 			_DEBUG_ERROR("vector iterator not incrementable");
+
+	mov	esi, esp
+	push	101					; 00000065H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EE@EJDKCLKB@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAi?$AAn?$AAc?$AAr?$AAe?$AAm?$AAe?$AAn?$AAt?$AAa?$AAb?$AAl@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 102  : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	102					; 00000066H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NG@NCMKFBLG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 103  : 			}
+; 104  : 
+; 105  :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 106  : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 107  : 		_SCL_SECURE_VALIDATE_RANGE(
+; 108  : 			_Ptr != _Tptr()
+; 109  : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 110  :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 111  : 
+; 112  : 		++_Ptr;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+8]
+	add	ecx, 32					; 00000020H
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [edx+8], ecx
+
+; 113  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 114  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??E?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEAAV01@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator++
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*, COMDAT
+; _this$ = ecx
+
+; 65   : 		{	// return designated object
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 66   :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 67   : 		if (this->_Getcont() == 0
+; 68   : 			|| _Ptr == 0
+; 69   : 			|| _Ptr < ((_Myvec *)this->_Getcont())->_Myfirst
+; 70   : 			|| ((_Myvec *)this->_Getcont())->_Mylast <= _Ptr)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	test	eax, eax
+	je	SHORT $LN3@operator
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+8], 0
+	je	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [ecx+8]
+	cmp	edx, DWORD PTR [eax+4]
+	jb	SHORT $LN3@operator
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR [eax+8]
+	cmp	edx, DWORD PTR [ecx+8]
+	ja	SHORT $LN2@operator
+$LN3@operator:
+
+; 71   : 			{	// report error
+; 72   : 			_DEBUG_ERROR("vector iterator not dereferencable");
+
+	mov	esi, esp
+	push	72					; 00000048H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EG@FOHJJHAC@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr?$AAe?$AAn?$AAc?$AAa?$AAb@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+
+; 73   : 			_SCL_SECURE_OUT_OF_RANGE;
+
+	mov	eax, OFFSET ??_C@_0CE@OFMIGAMM@Standard?5C?$CL?$CL?5Libraries?5Out?5of?5Ra@
+	test	eax, eax
+	je	SHORT $LN5@operator
+	xor	ecx, ecx
+	jne	SHORT $LN6@operator
+$LN5@operator:
+	mov	esi, esp
+	push	OFFSET ??_C@_1FG@IBPIFFN@?$AA?$CC?$AAS?$AAt?$AAa?$AAn?$AAd?$AAa?$AAr?$AAd?$AA?5?$AAC?$AA?$CL?$AA?$CL?$AA?5?$AAL?$AAi?$AAb?$AAr?$AAa?$AAr?$AAi?$AAe?$AAs?$AA?5?$AAO?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAR@
+	push	OFFSET ??_C@_17CNPHIMPH@?$AA?$CF?$AAl?$AAs?$AA?$AA@
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	2
+	call	DWORD PTR __imp___CrtDbgReportW
+	add	esp, 24					; 00000018H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	cmp	eax, 1
+	jne	SHORT $LN6@operator
+	int	3
+$LN6@operator:
+	mov	esi, esp
+	push	0
+	push	73					; 00000049H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1NE@MNCPAIHH@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAV?$AAe?$AAc?$AAt?$AAo?$AAr?$AA_?$AAc?$AAo?$AAn?$AAs?$AAt?$AA_?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
+	push	OFFSET ??_C@_1BO@MEPPHOO@?$AA?$CC?$AAo?$AAu?$AAt?$AA?5?$AAo?$AAf?$AA?5?$AAr?$AAa?$AAn?$AAg?$AAe?$AA?$CC?$AA?$AA@
+	call	DWORD PTR __imp___invalid_parameter
+	add	esp, 20					; 00000014H
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@operator:
+
+; 74   : 			}
+; 75   : 
+; 76   :  #elif _ITERATOR_DEBUG_LEVEL == 1
+; 77   : 		_SCL_SECURE_VALIDATE(this->_Getcont() != 0);
+; 78   : 		_SCL_SECURE_VALIDATE_RANGE(
+; 79   : 			_Ptr != _Tptr()
+; 80   : 			&& ((_Myvec *)this->_Getcont())->_Myfirst <= _Ptr
+; 81   : 			&& _Ptr < ((_Myvec *)this->_Getcont())->_Mylast);
+; 82   :  #endif /* _ITERATOR_DEBUG_LEVEL */
+; 83   : 
+; 84   : 		_Analysis_assume_(_Ptr != _Tptr());
+; 85   : 
+; 86   : 		return (*_Ptr);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+8]
+
+; 87   : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??D?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBEABUTile@@XZ ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator*
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+__Parg$ = 8						; size = 4
+__Pvector$ = 12						; size = 4
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z PROC ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >, COMDAT
+; _this$ = ecx
+
+; 47   : 		{	// construct with pointer _Parg
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 46   : 		: _Ptr(_Parg)
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __Parg$[ebp]
+	mov	DWORD PTR [eax+8], ecx
+
+; 48   : 		this->_Adopt(_Pvector);
+
+	mov	eax, DWORD PTR __Pvector$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Adopt@_Iterator_base12@std@@QAEXPBU_Container_base12@2@@Z ; std::_Iterator_base12::_Adopt
+
+; 49   : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+__ehhandler$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ENDP ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??4_Iterator_base12@std@@QAEAAU01@ABU01@@Z ; std::_Iterator_base12::operator=
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??4?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAEAAU01@$$QAU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::operator=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Iterator_base12@std@@QAE@ABU01@@Z	; std::_Iterator_base12::_Iterator_base12
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@$$QAU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___that$ = 8						; size = 4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR ___that$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Iterator_base12@std@@QAE@ABU01@@Z	; std::_Iterator_base12::_Iterator_base12
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@ABU01@@Z ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::~_Iterator_base12
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::~_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ PROC ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Iterator_base12@std@@QAE@XZ		; std::_Iterator_base12::_Iterator_base12
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Iterator012@Urandom_access_iterator_tag@std@@UTile@@HPBU3@ABU3@U_Iterator_base12@2@@std@@QAE@XZ ENDP ; std::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>::_Iterator012<std::random_access_iterator_tag,Tile,int,Tile const *,Tile const &,std::_Iterator_base12>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+_classSize$ = 8						; size = 4
+?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _classSize$[ebp]
+	push	eax
+	push	0
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	call	_memset
+	add	esp, 12					; 0000000cH
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?__autoclassinit2@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::__autoclassinit2
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
+_TEXT	SEGMENT
+__Pnext$ = -48						; size = 4
+__Lock$ = -36						; size = 4
+_this$ = -24						; size = 4
+__$ArrayPad$ = -16					; size = 4
+__$EHRec$ = -12						; size = 12
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range, COMDAT
+; _this$ = ecx
+
+; 1798 : 		{	// orphan iterators within specified (inclusive) range
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 232				; 000000e8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-244]
+	mov	ecx, 58					; 0000003aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1799 : 		_Lockit _Lock(_LOCK_DEBUG);
+
+	mov	esi, esp
+	push	3
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??0_Lockit@std@@QAE@H@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 1800 : 		const_iterator **_Pnext = (const_iterator **)this->_Getpfirst();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1801 : 		if (_Pnext != 0)
+
+	cmp	DWORD PTR __Pnext$[ebp], 0
+	je	SHORT $LN4@Orphan_ran
+$LN2@Orphan_ran:
+
+; 1802 : 			{	// test an iterator
+; 1803 : 			while (*_Pnext != 0)
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN4@Orphan_ran
+
+; 1804 : 				if ((*_Pnext)->_Ptr < _First || _Last < (*_Pnext)->_Ptr)
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	mov	edx, DWORD PTR [ecx+8]
+	cmp	edx, DWORD PTR __First$[ebp]
+	jb	SHORT $LN7@Orphan_ran
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	mov	edx, DWORD PTR __Last$[ebp]
+	cmp	edx, DWORD PTR [ecx+8]
+	jae	SHORT $LN5@Orphan_ran
+$LN7@Orphan_ran:
+
+; 1805 : 					_Pnext = (const_iterator **)(*_Pnext)->_Getpnext();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1806 : 				else
+
+	jmp	SHORT $LN6@Orphan_ran
+$LN5@Orphan_ran:
+
+; 1807 : 					{	// orphan the iterator
+; 1808 : 					(*_Pnext)->_Clrcont();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Clrcont@_Iterator_base12@std@@QAEXXZ	; std::_Iterator_base12::_Clrcont
+
+; 1809 : 					*_Pnext = *(const_iterator **)(*_Pnext)->_Getpnext();
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+$LN6@Orphan_ran:
+
+; 1810 : 					}
+
+	jmp	SHORT $LN2@Orphan_ran
+$LN4@Orphan_ran:
+
+; 1811 : 			}
+; 1812 : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	esi, esp
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN13@Orphan_ran
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 244				; 000000f4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+$LN13@Orphan_ran:
+	DD	1
+	DD	$LN12@Orphan_ran
+$LN12@Orphan_ran:
+	DD	-36					; ffffffdcH
+	DD	4
+	DD	$LN10@Orphan_ran
+$LN10@Orphan_ran:
+	DB	95					; 0000005fH
+	DB	76					; 0000004cH
+	DB	111					; 0000006fH
+	DB	99					; 00000063H
+	DB	107					; 0000006bH
+	DB	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z$0:
+	mov	esi, esp
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	DWORD PTR __imp_??1_Lockit@std@@QAE@XZ
+	cmp	esi, esp
+	jmp	__RTC_CheckEsp
+__ehhandler$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-248]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	ecx, DWORD PTR [edx-4]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Xlen, COMDAT
+; _this$ = ecx
+
+; 1787 : 		{	// report a length_error
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1788 : 		_Xlength_error("vector<T> too long");
+
+	mov	esi, esp
+	push	OFFSET ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long?$AA@
+	call	DWORD PTR __imp_?_Xlength_error@std@@YAXPBD@Z
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN2@Xlen:
+
+; 1789 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Xlen
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Tidy, COMDAT
+; _this$ = ecx
+
+; 1659 : 		{	// free all storage
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1660 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	$LN1@Tidy
+
+; 1661 : 			{	// something to free, destroy and deallocate it
+; 1662 : 			this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+
+; 1663 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+
+; 1664 : 			this->_Getal().deallocate(this->_Myfirst(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 5
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
+
+; 1665 : 				this->_Myend() - this->_Myfirst());
+; 1666 : 			this->_Myfirst() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	DWORD PTR [eax], 0
+
+; 1667 : 			this->_Mylast() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	DWORD PTR [eax], 0
+
+; 1668 : 			this->_Myend() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	DWORD PTR [eax], 0
+$LN1@Tidy:
+
+; 1669 : 			}
+; 1670 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Tidy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Reserve, COMDAT
+; _this$ = ecx
+
+; 1649 : 		{	// ensure room for _Count new elements, grow exponentially
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1650 : 		if (_Unused_capacity() < _Count)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
+	cmp	eax, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN4@Reserve
+
+; 1651 : 			{	// need more room, try to get it
+; 1652 : 			if (max_size() - size() < _Count)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
+	sub	esi, eax
+	cmp	esi, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN3@Reserve
+
+; 1653 : 				_Xlen();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Xlen@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Xlen
+$LN3@Reserve:
+
+; 1654 : 			_Reallocate(_Grow_to(size() + _Count));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
+	add	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
+$LN4@Reserve:
+
+; 1655 : 			}
+; 1656 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Reserve
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+_TEXT	SEGMENT
+__Size$ = -48						; size = 4
+__Ptr$ = -36						; size = 4
+_this$ = -24						; size = 4
+__$EHRec$ = -16						; size = 16
+__Count$ = 8						; size = 4
+?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Reallocate, COMDAT
+; _this$ = ecx
+
+; 1624 : 		{	// move to array of exactly _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	sub	esp, 228				; 000000e4H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-244]
+	mov	ecx, 57					; 00000039H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1625 : 		pointer _Ptr = this->_Getal().allocate(_Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
+	mov	DWORD PTR __Ptr$[ebp], eax
+
+; 1626 : 
+; 1627 : 		_TRY_BEGIN
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+
+; 1628 : 		_Umove(this->_Myfirst(), this->_Mylast(), _Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$_Umove@PAUTile@@@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEPAUTile@@PAU2@00@Z ; std::vector<Tile,std::allocator<Tile> >::_Umove<Tile *>
+	jmp	SHORT $LN5@Reallocate
+__catch$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$0:
+
+; 1629 : 		_CATCH_ALL
+; 1630 : 		this->_Getal().deallocate(_Ptr, _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
+
+; 1631 : 		_RERAISE;
+
+	push	0
+	push	0
+	call	__CxxThrowException@8
+
+; 1632 : 		_CATCH_END
+
+	mov	eax, $LN8@Reallocate
+	ret	0
+$LN5@Reallocate:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+	jmp	SHORT __tryend$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$1
+$LN8@Reallocate:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+__tryend$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z$1:
+
+; 1633 : 
+; 1634 : 		size_type _Size = size();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::size
+	mov	DWORD PTR __Size$[ebp], eax
+
+; 1635 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN3@Reallocate
+
+; 1636 : 			{	// destroy and deallocate old array
+; 1637 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+
+; 1638 : 			this->_Getal().deallocate(this->_Myfirst(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	eax, DWORD PTR [eax]
+	sub	eax, DWORD PTR [esi]
+	sar	eax, 5
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
+$LN3@Reallocate:
+
+; 1639 : 				this->_Myend() - this->_Myfirst());
+; 1640 : 			}
+; 1641 : 
+; 1642 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+
+; 1643 : 		this->_Myend() = _Ptr + _Count;
+
+	mov	esi, DWORD PTR __Count$[ebp]
+	shl	esi, 5
+	add	esi, DWORD PTR __Ptr$[ebp]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	DWORD PTR [eax], esi
+
+; 1644 : 		this->_Mylast() = _Ptr + _Size;
+
+	mov	esi, DWORD PTR __Size$[ebp]
+	shl	esi, 5
+	add	esi, DWORD PTR __Ptr$[ebp]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	DWORD PTR [eax], esi
+
+; 1645 : 		this->_Myfirst() = _Ptr;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	mov	DWORD PTR [eax], ecx
+$LN4@Reallocate:
+
+; 1646 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 244				; 000000f4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-248]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Reallocate@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Reallocate
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z
+_TEXT	SEGMENT
+tv78 = -208						; size = 4
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Inside, COMDAT
+; _this$ = ecx
+
+; 1619 : 		{	// test if _Ptr points inside vector
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 208				; 000000d0H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-208]
+	mov	ecx, 52					; 00000034H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1620 : 		return (_Ptr < this->_Mylast() && this->_Myfirst() <= _Ptr);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	cmp	ecx, DWORD PTR [eax]
+	jae	SHORT $LN3@Inside
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	cmp	edx, DWORD PTR __Ptr$[ebp]
+	ja	SHORT $LN3@Inside
+	mov	DWORD PTR tv78[ebp], 1
+	jmp	SHORT $LN4@Inside
+$LN3@Inside:
+	mov	DWORD PTR tv78[ebp], 0
+$LN4@Inside:
+	mov	al, BYTE PTR tv78[ebp]
+
+; 1621 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 208				; 000000d0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Inside
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z
+_TEXT	SEGMENT
+tv73 = -220						; size = 4
+__Capacity$ = -20					; size = 4
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Grow_to, COMDAT
+; _this$ = ecx
+
+; 1608 : 		{	// grow by 50% or at least to _Count
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1609 : 		size_type _Capacity = capacity();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::capacity
+	mov	DWORD PTR __Capacity$[ebp], eax
+
+; 1610 : 
+; 1611 : 		_Capacity = max_size() - _Capacity / 2 < _Capacity
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ; std::vector<Tile,std::allocator<Tile> >::max_size
+	mov	ecx, DWORD PTR __Capacity$[ebp]
+	shr	ecx, 1
+	sub	eax, ecx
+	cmp	eax, DWORD PTR __Capacity$[ebp]
+	jae	SHORT $LN4@Grow_to
+	mov	DWORD PTR tv73[ebp], 0
+	jmp	SHORT $LN5@Grow_to
+$LN4@Grow_to:
+	mov	edx, DWORD PTR __Capacity$[ebp]
+	shr	edx, 1
+	add	edx, DWORD PTR __Capacity$[ebp]
+	mov	DWORD PTR tv73[ebp], edx
+$LN5@Grow_to:
+	mov	eax, DWORD PTR tv73[ebp]
+	mov	DWORD PTR __Capacity$[ebp], eax
+
+; 1612 : 			? 0 : _Capacity + _Capacity / 2;	// try to grow by 50%
+; 1613 : 		if (_Capacity < _Count)
+
+	mov	eax, DWORD PTR __Capacity$[ebp]
+	cmp	eax, DWORD PTR __Count$[ebp]
+	jae	SHORT $LN2@Grow_to
+
+; 1614 : 			_Capacity = _Count;
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	mov	DWORD PTR __Capacity$[ebp], eax
+$LN2@Grow_to:
+
+; 1615 : 		return (_Capacity);
+
+	mov	eax, DWORD PTR __Capacity$[ebp]
+
+; 1616 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Grow_to@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEII@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Grow_to
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Destroy, COMDAT
+; _this$ = ecx
+
+; 1603 : 		{	// destroy [_First, _Last) using allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1604 : 		_Destroy_range(_First, _Last, this->_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Destroy_range@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@std@@YAXPAUTile@@0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@0@@Z ; std::_Destroy_range<std::_Wrap_alloc<std::allocator<Tile> > >
+	add	esp, 12					; 0000000cH
+
+; 1605 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ PROC ; std::vector<Tile,std::allocator<Tile> >::clear, COMDAT
+; _this$ = ecx
+
+; 1543 : 		{	// erase all
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1544 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+
+; 1545 : 		_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+
+; 1546 : 		this->_Mylast() = this->_Myfirst();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], ecx
+
+; 1547 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::clear
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
+_TEXT	SEGMENT
+tv94 = -392						; size = 4
+tv324 = -388						; size = 4
+tv350 = -384						; size = 4
+tv339 = -380						; size = 4
+tv335 = -380						; size = 4
+tv331 = -380						; size = 4
+tv319 = -380						; size = 4
+tv346 = -376						; size = 4
+tv338 = -376						; size = 4
+tv334 = -376						; size = 4
+tv330 = -376						; size = 4
+$T2 = -368						; size = 4
+$T3 = -356						; size = 4
+$T4 = -344						; size = 4
+$T5 = -332						; size = 4
+$T6 = -320						; size = 12
+$T7 = -300						; size = 12
+$T8 = -277						; size = 1
+__Ptr$9 = -76						; size = 4
+__Last$10 = -64						; size = 12
+__First$11 = -44					; size = 12
+_this$ = -24						; size = 4
+__$ArrayPad$ = -16					; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+__First_arg$ = 12					; size = 12
+__Last_arg$ = 24					; size = 12
+?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z PROC ; std::vector<Tile,std::allocator<Tile> >::erase, COMDAT
+; _this$ = ecx
+
+; 1499 : 		{	// erase [_First, _Last)
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 380				; 0000017cH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-392]
+	mov	ecx, 95					; 0000005fH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	DWORD PTR $T2[ebp], 0
+	mov	DWORD PTR __$EHRec$[ebp+8], 1
+
+; 1500 : 		if (_First_arg == begin() && _Last_arg == end())
+
+	lea	eax, DWORD PTR $T7[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::begin
+	mov	DWORD PTR tv346[ebp], eax
+	mov	ecx, DWORD PTR tv346[ebp]
+	mov	DWORD PTR tv319[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 2
+	mov	edx, DWORD PTR $T2[ebp]
+	or	edx, 1
+	mov	DWORD PTR $T2[ebp], edx
+	mov	eax, DWORD PTR tv319[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __First_arg$[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+	movzx	ecx, al
+	test	ecx, ecx
+	je	SHORT $LN9@erase
+	lea	edx, DWORD PTR $T6[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ; std::vector<Tile,std::allocator<Tile> >::end
+	mov	DWORD PTR tv350[ebp], eax
+	mov	eax, DWORD PTR tv350[ebp]
+	mov	DWORD PTR tv324[ebp], eax
+	mov	DWORD PTR __$EHRec$[ebp+8], 3
+	mov	ecx, DWORD PTR $T2[ebp]
+	or	ecx, 2
+	mov	DWORD PTR $T2[ebp], ecx
+	mov	edx, DWORD PTR tv324[ebp]
+	push	edx
+	lea	ecx, DWORD PTR __Last_arg$[ebp]
+	call	??8?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator==
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN9@erase
+	mov	DWORD PTR tv94[ebp], 1
+	jmp	SHORT $LN10@erase
+$LN9@erase:
+	mov	DWORD PTR tv94[ebp], 0
+$LN10@erase:
+	mov	cl, BYTE PTR tv94[ebp]
+	mov	BYTE PTR $T8[ebp], cl
+	mov	DWORD PTR __$EHRec$[ebp+8], 2
+	mov	edx, DWORD PTR $T2[ebp]
+	and	edx, 2
+	je	SHORT $LN17@erase
+	and	DWORD PTR $T2[ebp], -3			; fffffffdH
+	lea	ecx, DWORD PTR $T6[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+$LN17@erase:
+	mov	DWORD PTR __$EHRec$[ebp+8], 1
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 1
+	je	SHORT $LN18@erase
+	and	DWORD PTR $T2[ebp], -2			; fffffffeH
+	lea	ecx, DWORD PTR $T7[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+$LN18@erase:
+	movzx	ecx, BYTE PTR $T8[ebp]
+	test	ecx, ecx
+	je	SHORT $LN2@erase
+
+; 1501 : 			clear();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?clear@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXXZ ; std::vector<Tile,std::allocator<Tile> >::clear
+	jmp	$LN3@erase
+$LN2@erase:
+
+; 1502 : 		else if (_First_arg != _Last_arg)
+
+	lea	eax, DWORD PTR __Last_arg$[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __First_arg$[ebp]
+	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN3@erase
+
+; 1503 : 			{	// clear partial
+; 1504 : 			iterator _First = _Make_iter(_First_arg);
+
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR __First$11[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T5[ebp], esp
+	lea	eax, DWORD PTR __First_arg$[ebp]
+	push	eax
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv330[ebp], eax
+	lea	ecx, DWORD PTR __First$11[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
+	mov	DWORD PTR tv331[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 4
+
+; 1505 : 			iterator _Last = _Make_iter(_Last_arg);
+
+	push	12					; 0000000cH
+	lea	ecx, DWORD PTR __Last$10[ebp]
+	call	?__autoclassinit2@?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAEXI@Z
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T4[ebp], esp
+	lea	eax, DWORD PTR __Last_arg$[ebp]
+	push	eax
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv334[ebp], eax
+	lea	ecx, DWORD PTR __Last$10[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
+	mov	DWORD PTR tv335[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 5
+
+; 1506 : 
+; 1507 : 			if (_First != _Last)
+
+	lea	eax, DWORD PTR __Last$10[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __First$11[ebp]
+	call	??9?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator!=
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN5@erase
+
+; 1508 : 				{	// worth doing, copy down over hole
+; 1509 :  #if _ITERATOR_DEBUG_LEVEL == 2
+; 1510 : 				if (_Last < _First || _VICONT(_First) != &this->_Get_data()
+; 1511 : 					|| _VIPTR(_First) < this->_Myfirst()
+; 1512 : 					|| this->_Mylast() < _VIPTR(_Last))
+
+	lea	eax, DWORD PTR __First$11[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __Last$10[ebp]
+	call	??M?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QBE_NABV01@@Z ; std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::operator<
+	movzx	ecx, al
+	test	ecx, ecx
+	jne	SHORT $LN7@erase
+	lea	ecx, DWORD PTR __First$11[ebp]
+	call	?_Getcont@_Iterator_base12@std@@QBEPBU_Container_base12@2@XZ ; std::_Iterator_base12::_Getcont
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	cmp	esi, eax
+	jne	SHORT $LN7@erase
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR __First$11[ebp+8]
+	cmp	ecx, DWORD PTR [eax]
+	jb	SHORT $LN7@erase
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	cmp	eax, DWORD PTR __Last$10[ebp+8]
+	jae	SHORT $LN6@erase
+$LN7@erase:
+
+; 1513 : 					_DEBUG_ERROR("vector erase iterator outside range");
+
+	mov	esi, esp
+	push	1513					; 000005e9H
+	push	OFFSET ??_C@_1IM@NCODKBJH@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe?$AAs?$AA?5?$AA?$CI?$AAx?$AA8?$AA6?$AA?$CJ?$AA?2?$AAm?$AAi?$AAc?$AAr?$AAo?$AAs?$AAo?$AAf?$AAt@
+	push	OFFSET ??_C@_1EI@HGIDLLCM@?$AAv?$AAe?$AAc?$AAt?$AAo?$AAr?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt?$AAo?$AAr?$AA?5?$AAo?$AAu?$AAt?$AAs?$AAi?$AAd?$AAe?$AA?5?$AAr?$AAa@
+	call	DWORD PTR __imp_?_Debug_message@std@@YAXPB_W0I@Z
+	add	esp, 12					; 0000000cH
+	cmp	esi, esp
+	call	__RTC_CheckEsp
+$LN6@erase:
+
+; 1514 : 				pointer _Ptr = _Move_unchecked(_VIPTR(_Last), this->_Mylast(),
+
+	mov	eax, DWORD PTR __First$11[ebp+8]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	edx, DWORD PTR __Last$10[ebp+8]
+	push	edx
+	call	??$_Move_unchecked@PAUTile@@PAU1@@std@@YAPAUTile@@PAU1@00@Z ; std::_Move_unchecked<Tile *,Tile *>
+	add	esp, 12					; 0000000cH
+	mov	DWORD PTR __Ptr$9[ebp], eax
+
+; 1515 : 					_VIPTR(_First));
+; 1516 : 				_Orphan_range(_VIPTR(_First), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR __First$11[ebp+8]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
+
+; 1517 : 
+; 1518 :  #else /* _ITERATOR_DEBUG_LEVEL == 2 */
+; 1519 : 				pointer _Ptr = _Move_unchecked(_VIPTR(_Last), this->_Mylast(),
+; 1520 : 					_VIPTR(_First));
+; 1521 :  #endif /* _ITERATOR_DEBUG_LEVEL == 2 */
+; 1522 : 
+; 1523 : 				_Destroy(_Ptr, this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$9[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Destroy
+
+; 1524 : 				this->_Mylast() = _Ptr;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR __Ptr$9[ebp]
+	mov	DWORD PTR [eax], ecx
+$LN5@erase:
+
+; 1525 : 				}
+; 1526 : 			}
+
+	mov	BYTE PTR __$EHRec$[ebp+8], 4
+	lea	ecx, DWORD PTR __Last$10[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	BYTE PTR __$EHRec$[ebp+8], 1
+	lea	ecx, DWORD PTR __First$11[ebp]
+	call	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+$LN3@erase:
+
+; 1527 : 		return (_Make_iter(_First_arg));
+
+	sub	esp, 12					; 0000000cH
+	mov	ecx, esp
+	mov	DWORD PTR $T3[ebp], esp
+	lea	eax, DWORD PTR __First_arg$[ebp]
+	push	eax
+	call	??0?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@ABV01@@Z
+	mov	DWORD PTR tv338[ebp], eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
+	mov	DWORD PTR tv339[ebp], eax
+	mov	edx, DWORD PTR $T2[ebp]
+	or	edx, 4
+	mov	DWORD PTR $T2[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 0
+	lea	ecx, DWORD PTR __First_arg$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Last_arg$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1528 : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN30@erase
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 392				; 00000188H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	28					; 0000001cH
+	npad	1
+$LN30@erase:
+	DD	2
+	DD	$LN29@erase
+$LN29@erase:
+	DD	-44					; ffffffd4H
+	DD	12					; 0000000cH
+	DD	$LN26@erase
+	DD	-64					; ffffffc0H
+	DD	12					; 0000000cH
+	DD	$LN27@erase
+$LN27@erase:
+	DB	95					; 0000005fH
+	DB	76					; 0000004cH
+	DB	97					; 00000061H
+	DB	115					; 00000073H
+	DB	116					; 00000074H
+	DB	0
+$LN26@erase:
+	DB	95					; 0000005fH
+	DB	70					; 00000046H
+	DB	105					; 00000069H
+	DB	114					; 00000072H
+	DB	115					; 00000073H
+	DB	116					; 00000074H
+	DB	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$0:
+	lea	ecx, DWORD PTR __Last_arg$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$1:
+	lea	ecx, DWORD PTR __First_arg$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$2:
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 1
+	je	$LN14@erase
+	and	DWORD PTR $T2[ebp], -2			; fffffffeH
+	lea	ecx, DWORD PTR $T7[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+$LN14@erase:
+	ret	0
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$3:
+	mov	eax, DWORD PTR $T2[ebp]
+	and	eax, 2
+	je	$LN16@erase
+	and	DWORD PTR $T2[ebp], -3			; fffffffdH
+	lea	ecx, DWORD PTR $T6[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+$LN16@erase:
+	ret	0
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$5:
+	lea	ecx, DWORD PTR __First$11[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__unwindfunclet$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z$7:
+	lea	ecx, DWORD PTR __Last$10[ebp]
+	jmp	??1?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-396]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	ecx, DWORD PTR [edx-4]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?erase@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@0@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::erase
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z
+_TEXT	SEGMENT
+tv225 = -220						; size = 4
+tv172 = -220						; size = 4
+__Idx$1 = -20						; size = 4
+_this$ = -8						; size = 4
+__Val$ = 8						; size = 4
+?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::push_back, COMDAT
+; _this$ = ecx
+
+; 1278 : 		{	// insert element at end
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1279 : 		if (_Inside(_STD addressof(_Val)))
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	call	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Inside@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBE_NPBUTile@@@Z ; std::vector<Tile,std::allocator<Tile> >::_Inside
+	movzx	ecx, al
+	test	ecx, ecx
+	je	$LN2@push_back
+
+; 1280 : 			{	// push back an element
+; 1281 : 			size_type _Idx = _STD addressof(_Val) - this->_Myfirst();
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	call	??$addressof@$$CBUTile@@@std@@YAPBUTile@@ABU1@@Z ; std::addressof<Tile const >
+	add	esp, 4
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	sub	esi, DWORD PTR [eax]
+	sar	esi, 5
+	mov	DWORD PTR __Idx$1[ebp], esi
+
+; 1282 : 			if (this->_Mylast() == this->_Myend())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	ecx, DWORD PTR [esi]
+	cmp	ecx, DWORD PTR [eax]
+	jne	SHORT $LN4@push_back
+
+; 1283 : 				_Reserve(1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
+$LN4@push_back:
+
+; 1284 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
+
+; 1285 : 			this->_Getal().construct(this->_Mylast(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR __Idx$1[ebp]
+	shl	ecx, 5
+	add	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	??$construct@UTile@@AAU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@AAU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile &>
+
+; 1286 : 				this->_Myfirst()[_Idx]);
+; 1287 : 			++this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	DWORD PTR tv172[ebp], eax
+	mov	eax, DWORD PTR tv172[ebp]
+	mov	ecx, DWORD PTR [eax]
+	add	ecx, 32					; 00000020H
+	mov	edx, DWORD PTR tv172[ebp]
+	mov	DWORD PTR [edx], ecx
+
+; 1288 : 			}
+; 1289 : 		else
+
+	jmp	SHORT $LN1@push_back
+$LN2@push_back:
+
+; 1290 : 			{	// push back a non-element
+; 1291 : 			if (this->_Mylast() == this->_Myend())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	ecx, DWORD PTR [esi]
+	cmp	ecx, DWORD PTR [eax]
+	jne	SHORT $LN5@push_back
+
+; 1292 : 				_Reserve(1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Reserve@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXI@Z ; std::vector<Tile,std::allocator<Tile> >::_Reserve
+$LN5@push_back:
+
+; 1293 : 			_Orphan_range(this->_Mylast(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IBEXPAUTile@@0@Z ; std::vector<Tile,std::allocator<Tile> >::_Orphan_range
+
+; 1294 : 			this->_Getal().construct(this->_Mylast(),
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	??$construct@UTile@@ABU1@@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@ABU2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::construct<Tile,Tile const &>
+
+; 1295 : 				_Val);
+; 1296 : 			++this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	DWORD PTR tv225[ebp], eax
+	mov	eax, DWORD PTR tv225[ebp]
+	mov	ecx, DWORD PTR [eax]
+	add	ecx, 32					; 00000020H
+	mov	edx, DWORD PTR tv225[ebp]
+	mov	DWORD PTR [edx], ecx
+$LN1@push_back:
+
+; 1297 : 			}
+; 1298 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?push_back@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAEXABUTile@@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::push_back
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+$T1 = -209						; size = 1
+_this$ = -8						; size = 4
+?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::max_size, COMDAT
+; _this$ = ecx
+
+; 1187 : 		{	// return maximum possible length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1188 : 		return (this->_Getal().max_size());
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	mov	ecx, eax
+	call	?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
+
+; 1189 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::size, COMDAT
+; _this$ = ecx
+
+; 1182 : 		{	// return length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1183 : 		return (this->_Mylast() - this->_Myfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 5
+	mov	eax, ecx
+
+; 1184 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?size@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
+_TEXT	SEGMENT
+$T2 = -224						; size = 4
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+__Where$ = 12						; size = 12
+?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z PROC ; std::vector<Tile,std::allocator<Tile> >::_Make_iter, COMDAT
+; _this$ = ecx
+
+; 1080 : 		{	// make iterator from const_iterator
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-228]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	DWORD PTR $T2[ebp], 0
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 1081 : 		return (iterator(_Where._Ptr, &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	push	eax
+	mov	eax, DWORD PTR __Where$[ebp+8]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+	mov	ecx, DWORD PTR $T2[ebp]
+	or	ecx, 1
+	mov	DWORD PTR $T2[ebp], ecx
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Where$[ebp]
+	call	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1082 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 228				; 000000e4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	16					; 00000010H
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z$0:
+	lea	ecx, DWORD PTR __Where$[ebp]
+	jmp	??1?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@XZ
+__ehhandler$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-232]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Make_iter@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@V?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@@Z ENDP ; std::vector<Tile,std::allocator<Tile> >::_Make_iter
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::end, COMDAT
+; _this$ = ecx
+
+; 1070 : 		{	// return iterator for end of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1071 : 		return (iterator(this->_Mylast(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1072 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?end@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::end
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+___$ReturnUdt$ = 8					; size = 4
+?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::begin, COMDAT
+; _this$ = ecx
+
+; 1060 : 		{	// return iterator for beginning of mutable sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1061 : 		return (iterator(this->_Myfirst(), &this->_Get_data()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@std@@QAE@PAUTile@@PBU_Container_base12@1@@Z ; std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >::_Vector_iterator<std::_Vector_val<std::_Simple_types<Tile> > >
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1062 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?begin@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE?AV?$_Vector_iterator@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@@2@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::begin
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity, COMDAT
+; _this$ = ecx
+
+; 1050 : 		{	// micro-optimization for capacity() - size()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1051 : 		return (this->_Myend() - this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 5
+	mov	eax, ecx
+
+; 1052 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Unused_capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::_Unused_capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ PROC ; std::vector<Tile,std::allocator<Tile> >::capacity, COMDAT
+; _this$ = ecx
+
+; 1045 : 		{	// return current length of allocated storage
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1046 : 		return (this->_Myend() - this->_Myfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 5
+	mov	eax, ecx
+
+; 1047 : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?capacity@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QBEIXZ ENDP ; std::vector<Tile,std::allocator<Tile> >::capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >, COMDAT
+; _this$ = ecx
+
+; 978  : 		{	// destroy the object
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 979  : 		_Tidy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Tidy@?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@IAEXXZ ; std::vector<Tile,std::allocator<Tile> >::_Tidy
+
+; 980  : 		}
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::~vector<Tile,std::allocator<Tile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >, COMDAT
+; _this$ = ecx
+
+; 710  : 		{	// construct empty vector
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 709  : 		: _Mybase()
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+
+; 711  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$vector@UTile@@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::vector<Tile,std::allocator<Tile> >::vector<Tile,std::allocator<Tile> >
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::~_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 318  : 		{	// return const reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 319  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 320  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 313  : 		{	// return reference to second
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 314  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 315  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 298  : 		{	// return const reference to first
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 299  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 300  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 293  : 		{	// return reference to first
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 294  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 295  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+;	COMDAT ??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >, COMDAT
+; _this$ = ecx
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1_Container_base12@std@@QAE@XZ	; std::_Container_base12::~_Container_base12
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??1?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<Tile> >::~_Vector_val<std::_Simple_types<Tile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >, COMDAT
+; _this$ = ecx
+
+; 478  : 	_Vector_val()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 479  : 		{	// initialize values
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Container_base12@std@@QAE@XZ	; std::_Container_base12::_Container_base12
+
+; 480  : 		_Myfirst = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+4], 0
+
+; 481  : 		_Mylast = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+8], 0
+
+; 482  : 		_Myend = pointer();
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+12], 0
+
+; 483  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Vector_val@U?$_Simple_types@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<Tile> >::_Vector_val<std::_Simple_types<Tile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 670  : 		{	// return const reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 671  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 672  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 665  : 		{	// return reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 666  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 667  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 660  : 		{	// return const reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 661  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 8
+
+; 662  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 655  : 		{	// return reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 656  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 8
+
+; 657  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 650  : 		{	// return const reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 651  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 4
+
+; 652  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABQAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 645  : 		{	// return reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 646  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	add	eax, 4
+
+; 647  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAUTile@@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 640  : 		{	// return const reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 641  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+
+; 642  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 635  : 		{	// return reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 636  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_second
+
+; 637  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 630  : 		{	// return const reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 631  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+
+; 632  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 625  : 		{	// return reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 626  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Get_first
+
+; 627  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all, COMDAT
+; _this$ = ecx
+
+; 615  : 		{	// orphan all iterators
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 616  : 		_Get_data()._Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	mov	ecx, eax
+	call	?_Orphan_all@_Container_base12@std@@QAEXXZ ; std::_Container_base12::_Orphan_all
+
+; 617  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy, COMDAT
+; _this$ = ecx
+
+; 604  : 		{	// return reference to _Myproxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 605  : 		return (_Get_data()._Myproxy);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+
+; 606  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst, COMDAT
+; _this$ = ecx
+
+; 599  : 		{	// get address of iterator chain
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 600  : 		return (_Get_data()._Getpfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	mov	ecx, eax
+	call	?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Container_base12::_Getpfirst
+
+; 601  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getpfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+__Alproxy$ = -21					; size = 1
+_this$ = -12						; size = 4
+__$ArrayPad$ = -4					; size = 4
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy, COMDAT
+; _this$ = ecx
+
+; 589  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 220				; 000000dcH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-220]
+	mov	ecx, 55					; 00000037H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 590  : 		typename _Alty::template rebind<_Container_proxy>::other
+; 591  : 			_Alproxy(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+
+; 592  : 		_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Orphan_all
+
+; 593  : 		_Alproxy.destroy(_Myproxy());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$destroy@U_Container_proxy@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+
+; 594  : 		_Alproxy.deallocate(_Myproxy(), 1);
+
+	push	1
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	?deallocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::deallocate
+
+; 595  : 		_Myproxy() = 0;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	DWORD PTR [eax], 0
+
+; 596  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Free_proxy
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 220				; 000000dcH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	1
+$LN5@Free_proxy:
+	DD	1
+	DD	$LN4@Free_proxy
+$LN4@Free_proxy:
+	DD	-21					; ffffffebH
+	DD	1
+	DD	$LN3@Free_proxy
+$LN3@Free_proxy:
+	DB	95					; 0000005fH
+	DB	65					; 00000041H
+	DB	108					; 0000006cH
+	DB	112					; 00000070H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	0
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+$T1 = -232						; size = 8
+__Alproxy$ = -21					; size = 1
+_this$ = -12						; size = 4
+__$ArrayPad$ = -4					; size = 4
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy, COMDAT
+; _this$ = ecx
+
+; 580  : 		{	// construct proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 236				; 000000ecH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-236]
+	mov	ecx, 59					; 0000003bH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 581  : 		typename _Alty::template rebind<_Container_proxy>::other
+; 582  : 			_Alproxy(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$?0AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAE@AAU?$_Wrap_alloc@V?$allocator@UTile@@@std@@@1@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::_Wrap_alloc<std::allocator<std::_Container_proxy> ><std::_Wrap_alloc<std::allocator<Tile> > &>
+
+; 583  : 		_Myproxy() = _Alproxy.allocate(1);
+
+	push	1
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	?allocate@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::allocate
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	DWORD PTR [eax], esi
+
+; 584  : 		_Alproxy.construct(_Myproxy(), _Container_proxy());
+
+	lea	ecx, DWORD PTR $T1[ebp]
+	call	??0_Container_proxy@std@@QAE@XZ		; std::_Container_proxy::_Container_proxy
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Alproxy$[ebp]
+	call	??$construct@U_Container_proxy@std@@U12@@?$_Wrap_alloc@V?$allocator@U_Container_proxy@std@@@std@@@std@@QAEXPAU_Container_proxy@1@$$QAU21@@Z ; std::_Wrap_alloc<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+
+; 585  : 		_Myproxy()->_Mycont = &_Get_data();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Get_data
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	mov	DWORD PTR [eax], esi
+
+; 586  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Alloc_prox
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 236				; 000000ecH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+$LN5@Alloc_prox:
+	DD	1
+	DD	$LN4@Alloc_prox
+$LN4@Alloc_prox:
+	DD	-21					; ffffffebH
+	DD	1
+	DD	$LN3@Alloc_prox
+$LN3@Alloc_prox:
+	DB	95					; 0000005fH
+	DB	65					; 00000041H
+	DB	108					; 0000006cH
+	DB	112					; 00000070H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	0
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >, COMDAT
+; _this$ = ecx
+
+; 555  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-216]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 556  : 		_Free_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Free_proxy
+
+; 557  : 		}
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 216				; 000000d8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-220]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::~_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector
+;	COMDAT ??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+$T2 = -221						; size = 1
+_this$ = -20						; size = 4
+__$EHRec$ = -12						; size = 12
+??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >, COMDAT
+; _this$ = ecx
+
+; 542  : 		{	// default construct allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 216				; 000000d8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-228]
+	mov	ecx, 54					; 00000036H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 541  : 		: _Mypair(_Zero_then_variadic_args_t())
+
+	movzx	eax, BYTE PTR $T2[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0$$V@?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1>::_Compressed_pair<std::_Wrap_alloc<std::allocator<Tile> >,std::_Vector_val<std::_Simple_types<Tile> >,1><>
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 543  : 		_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Alloc_proxy
+
+; 544  : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 228				; 000000e4H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ$0:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Compressed_pair@U?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@V?$_Vector_val@U?$_Simple_types@UTile@@@std@@@2@$00@std@@QAE@XZ
+__ehhandler$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-232]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$_Vector_alloc@U?$_Vec_base_types@UTile@@V?$allocator@UTile@@@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >::_Vector_alloc<std::_Vec_base_types<Tile,std::allocator<Tile> > >
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+___formal$ = 8						; size = 1
+?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::max_size, COMDAT
+; _this$ = ecx
+
+; 905  : 		{	// get maximum size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 906  : 		return (_Mytraits::max_size(*this));
+
+	mov	eax, DWORD PTR _this$[ebp]
+	push	eax
+	call	?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ; std::allocator_traits<std::allocator<Tile> >::max_size
+	add	esp, 4
+
+; 907  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?max_size@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QBEIU_Nil@2@@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate, COMDAT
+; _this$ = ecx
+
+; 884  : 		{	// deallocate object at _Ptr, ignore size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 885  : 		_Mybase::deallocate(_Ptr, _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ; std::allocator<Tile>::deallocate
+
+; 886  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?deallocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEXPAUTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::deallocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z PROC ; std::_Wrap_alloc<std::allocator<Tile> >::allocate, COMDAT
+; _this$ = ecx
+
+; 873  : 		{	// allocate array of _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 874  : 		return (_Mybase::allocate(_Count));
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ; std::allocator<Tile>::allocate
+
+; 875  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?allocate@?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAEPAUTile@@I@Z ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::allocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ PROC ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >, COMDAT
+; _this$ = ecx
+
+; 834  : 		{	// construct default allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 833  : 		: _Mybase()
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$allocator@UTile@@@std@@QAE@XZ	; std::allocator<Tile>::allocator<Tile>
+
+; 835  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Wrap_alloc@V?$allocator@UTile@@@std@@@std@@QAE@XZ ENDP ; std::_Wrap_alloc<std::allocator<Tile> >::_Wrap_alloc<std::allocator<Tile> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z
+_TEXT	SEGMENT
+__Al$ = 8						; size = 4
+?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z PROC ; std::allocator_traits<std::allocator<Tile> >::max_size, COMDAT
+
+; 766  : 		{	// get maximum size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 192				; 000000c0H
+	push	ebx
+	push	esi
+	push	edi
+	lea	edi, DWORD PTR [ebp-192]
+	mov	ecx, 48					; 00000030H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 767  : 		return (_Al.max_size());
+
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	?max_size@?$allocator@UTile@@@std@@QBEIXZ ; std::allocator<Tile>::max_size
+
+; 768  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 192				; 000000c0H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$allocator_traits@V?$allocator@UTile@@@std@@@std@@SAIABV?$allocator@UTile@@@2@@Z ENDP ; std::allocator_traits<std::allocator<Tile> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?max_size@?$allocator@UTile@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+?max_size@?$allocator@UTile@@@std@@QBEIXZ PROC		; std::allocator<Tile>::max_size, COMDAT
+; _this$ = ecx
+
+; 648  : 		{	// estimate maximum array size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 649  : 		return ((size_t)(-1) / sizeof (_Ty));
+
+	mov	eax, 134217727				; 07ffffffH
+
+; 650  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$allocator@UTile@@@std@@QBEIXZ ENDP		; std::allocator<Tile>::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Count$ = 8						; size = 4
+?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z PROC	; std::allocator<Tile>::allocate, COMDAT
+; _this$ = ecx
+
+; 624  : 		{	// allocate array of _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 625  : 		return (static_cast<pointer>(_Allocate(_Count, sizeof (_Ty))));
+
+	push	1
+	push	32					; 00000020H
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	call	?_Allocate@std@@YAPAXII_N@Z		; std::_Allocate
+	add	esp, 12					; 0000000cH
+
+; 626  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?allocate@?$allocator@UTile@@@std@@QAEPAUTile@@I@Z ENDP	; std::allocator<Tile>::allocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z PROC ; std::allocator<Tile>::deallocate, COMDAT
+; _this$ = ecx
+
+; 619  : 		{	// deallocate object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 620  : 		_Deallocate(_Ptr, _Count, sizeof (_Ty));
+
+	push	32					; 00000020H
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	call	?_Deallocate@std@@YAXPAXII@Z		; std::_Deallocate
+	add	esp, 12					; 0000000cH
+
+; 621  : 		}
+
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 204				; 000000ccH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?deallocate@?$allocator@UTile@@@std@@QAEXPAUTile@@I@Z ENDP ; std::allocator<Tile>::deallocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File c:\program files (x86)\microsoft visual studio 14.0\vc\include\xmemory0
+;	COMDAT ??0?$allocator@UTile@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -8						; size = 4
+??0?$allocator@UTile@@@std@@QAE@XZ PROC			; std::allocator<Tile>::allocator<Tile>, COMDAT
+; _this$ = ecx
+
+; 599  : 	allocator() _THROW0()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 204				; 000000ccH
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-204]
+	mov	ecx, 51					; 00000033H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 600  : 		{	// construct default allocator (do nothing)
+; 601  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$allocator@UTile@@@std@@QAE@XZ ENDP			; std::allocator<Tile>::allocator<Tile>
+_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\environment.h
 ;	COMDAT ?right@Tile@@QAENXZ

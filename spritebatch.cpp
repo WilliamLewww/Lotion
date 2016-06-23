@@ -62,7 +62,7 @@ void DrawRect(GLuint texture, Vector2 position, int width, int height) {
 	glDisable(GL_TEXTURE_2D);
 }
 
-void DrawRect(Vector2 position, int width, int height, int color[3]) {
+void DrawRect(Vector2 position, int width, int height, float color[3]) {
 	Vector2 vectors[4]{
 		Vector2(0, 0),
 		Vector2(1, 0),

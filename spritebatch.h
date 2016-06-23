@@ -6,5 +6,5 @@
 
 GLuint LoadTexture(const char* path);
 void DrawRect(Vector2 position, int width, int height);
-void DrawRect(Vector2 position, int width, int height, int color[3]);
+void DrawRect(Vector2 position, int width, int height, float color[3]);
 void DrawRect(GLuint texture, Vector2 position, int width, int height);

@@ -16,6 +16,7 @@ PUBLIC	?eq_int_type@?$char_traits@D@std@@SA_NABH0@Z	; std::char_traits<char>::eq
 PUBLIC	?eof@?$char_traits@D@std@@SAHXZ			; std::char_traits<char>::eof
 PUBLIC	??0Vector2@@QAE@XZ				; Vector2::Vector2
 PUBLIC	??0Vector2@@QAE@NN@Z				; Vector2::Vector2
+PUBLIC	??HVector2@@QAE?AV0@V0@@Z			; Vector2::operator+
 PUBLIC	??YVector2@@QAE?AV0@V0@@Z			; Vector2::operator+=
 PUBLIC	??ZVector2@@QAE?AV0@V0@@Z			; Vector2::operator-=
 PUBLIC	??8Vector2@@QAE_NV0@@Z				; Vector2::operator==
@@ -1108,7 +1109,7 @@ _os$ = 8						; size = 4
 _m$ = 12						; size = 4
 ??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVVector2@@@Z PROC ; operator<<, COMDAT
 
-; 33   : std::ostream &operator<<(std::ostream &os, Vector2 const &m) {
+; 38   : std::ostream &operator<<(std::ostream &os, Vector2 const &m) {
 
 	push	ebp
 	mov	ebp, esp
@@ -1121,7 +1122,7 @@ _m$ = 12						; size = 4
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 
-; 34   : 	return os << m.x << "," << m.y;
+; 39   : 	return os << m.x << "," << m.y;
 
 	mov	esi, esp
 	mov	eax, DWORD PTR _m$[ebp]
@@ -1146,7 +1147,7 @@ _m$ = 12						; size = 4
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 35   : }
+; 40   : }
 
 	pop	edi
 	pop	esi
@@ -1168,7 +1169,7 @@ _vector$ = 8						; size = 16
 ??9Vector2@@QAE_NV0@@Z PROC				; Vector2::operator!=, COMDAT
 ; _this$ = ecx
 
-; 28   : bool Vector2::operator!=(Vector2 vector) {
+; 33   : bool Vector2::operator!=(Vector2 vector) {
 
 	push	ebp
 	mov	ebp, esp
@@ -1184,7 +1185,7 @@ _vector$ = 8						; size = 16
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 29   : 	if (x != vector.x || y != vector.y) return true;
+; 34   : 	if (x != vector.x || y != vector.y) return true;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR [eax]
@@ -1203,12 +1204,12 @@ $LN3@operator:
 	jmp	SHORT $LN1@operator
 $LN2@operator:
 
-; 30   : 	return false;
+; 35   : 	return false;
 
 	xor	al, al
 $LN1@operator:
 
-; 31   : }
+; 36   : }
 
 	pop	edi
 	pop	esi
@@ -1227,7 +1228,7 @@ _vector$ = 8						; size = 16
 ??8Vector2@@QAE_NV0@@Z PROC				; Vector2::operator==, COMDAT
 ; _this$ = ecx
 
-; 23   : bool Vector2::operator==(Vector2 vector) {
+; 28   : bool Vector2::operator==(Vector2 vector) {
 
 	push	ebp
 	mov	ebp, esp
@@ -1243,7 +1244,7 @@ _vector$ = 8						; size = 16
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 24   : 	if (x == vector.x && y == vector.y) return true;
+; 29   : 	if (x == vector.x && y == vector.y) return true;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR [eax]
@@ -1261,12 +1262,12 @@ _vector$ = 8						; size = 16
 	jmp	SHORT $LN1@operator
 $LN2@operator:
 
-; 25   : 	return false;
+; 30   : 	return false;
 
 	xor	al, al
 $LN1@operator:
 
-; 26   : }
+; 31   : }
 
 	pop	edi
 	pop	esi
@@ -1290,7 +1291,7 @@ _vector$ = 12						; size = 16
 ??ZVector2@@QAE?AV0@V0@@Z PROC				; Vector2::operator-=, COMDAT
 ; _this$ = ecx
 
-; 18   : Vector2 Vector2::operator-=(Vector2 vector) {
+; 23   : Vector2 Vector2::operator-=(Vector2 vector) {
 
 	push	ebp
 	mov	ebp, esp
@@ -1309,7 +1310,7 @@ _vector$ = 12						; size = 16
 	mov	DWORD PTR __$ArrayPad$[ebp], eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 19   : 	Vector2 newVector(x -= vector.x, y -= vector.y);
+; 24   : 	Vector2 newVector(x -= vector.x, y -= vector.y);
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR [eax+8]
@@ -1321,6 +1322,119 @@ _vector$ = 12						; size = 16
 	mov	edx, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR [edx]
 	subsd	xmm0, QWORD PTR _vector$[ebp]
+	movsd	QWORD PTR tv72[ebp], xmm0
+	mov	eax, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR tv72[ebp]
+	movsd	QWORD PTR [eax], xmm0
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR tv68[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR tv72[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR _newVector$[ebp]
+	call	??0Vector2@@QAE@NN@Z			; Vector2::Vector2
+
+; 25   : 	return newVector;
+
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	ecx, DWORD PTR _newVector$[ebp]
+	mov	DWORD PTR [eax], ecx
+	mov	edx, DWORD PTR _newVector$[ebp+4]
+	mov	DWORD PTR [eax+4], edx
+	mov	ecx, DWORD PTR _newVector$[ebp+8]
+	mov	DWORD PTR [eax+8], ecx
+	mov	edx, DWORD PTR _newVector$[ebp+12]
+	mov	DWORD PTR [eax+12], edx
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 26   : }
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@operator
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	pop	ebx
+	mov	ecx, DWORD PTR __$ArrayPad$[ebp]
+	xor	ecx, ebp
+	call	@__security_check_cookie@4
+	add	esp, 248				; 000000f8H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	20					; 00000014H
+	npad	1
+$LN5@operator:
+	DD	1
+	DD	$LN4@operator
+$LN4@operator:
+	DD	-36					; ffffffdcH
+	DD	16					; 00000010H
+	DD	$LN3@operator
+$LN3@operator:
+	DB	110					; 0000006eH
+	DB	101					; 00000065H
+	DB	119					; 00000077H
+	DB	86					; 00000056H
+	DB	101					; 00000065H
+	DB	99					; 00000063H
+	DB	116					; 00000074H
+	DB	111					; 0000006fH
+	DB	114					; 00000072H
+	DB	0
+??ZVector2@@QAE?AV0@V0@@Z ENDP				; Vector2::operator-=
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu /ZI
+; File g:\projects\lotion\lotion\vector2.cpp
+;	COMDAT ??YVector2@@QAE?AV0@V0@@Z
+_TEXT	SEGMENT
+tv72 = -248						; size = 8
+tv68 = -240						; size = 8
+_newVector$ = -36					; size = 16
+_this$ = -12						; size = 4
+__$ArrayPad$ = -4					; size = 4
+___$ReturnUdt$ = 8					; size = 4
+_vector$ = 12						; size = 16
+??YVector2@@QAE?AV0@V0@@Z PROC				; Vector2::operator+=, COMDAT
+; _this$ = ecx
+
+; 18   : Vector2 Vector2::operator+=(Vector2 vector) {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 248				; 000000f8H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-248]
+	mov	ecx, 62					; 0000003eH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	mov	DWORD PTR __$ArrayPad$[ebp], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 19   : 	Vector2 newVector(x += vector.x, y += vector.y);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR [eax+8]
+	addsd	xmm0, QWORD PTR _vector$[ebp+8]
+	movsd	QWORD PTR tv68[ebp], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR tv68[ebp]
+	movsd	QWORD PTR [ecx+8], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR [edx]
+	addsd	xmm0, QWORD PTR _vector$[ebp]
 	movsd	QWORD PTR tv72[ebp], xmm0
 	mov	eax, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR tv72[ebp]
@@ -1387,11 +1501,11 @@ $LN3@operator:
 	DB	111					; 0000006fH
 	DB	114					; 00000072H
 	DB	0
-??ZVector2@@QAE?AV0@V0@@Z ENDP				; Vector2::operator-=
+??YVector2@@QAE?AV0@V0@@Z ENDP				; Vector2::operator+=
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\vector2.cpp
-;	COMDAT ??YVector2@@QAE?AV0@V0@@Z
+;	COMDAT ??HVector2@@QAE?AV0@V0@@Z
 _TEXT	SEGMENT
 tv72 = -248						; size = 8
 tv68 = -240						; size = 8
@@ -1400,10 +1514,10 @@ _this$ = -12						; size = 4
 __$ArrayPad$ = -4					; size = 4
 ___$ReturnUdt$ = 8					; size = 4
 _vector$ = 12						; size = 16
-??YVector2@@QAE?AV0@V0@@Z PROC				; Vector2::operator+=, COMDAT
+??HVector2@@QAE?AV0@V0@@Z PROC				; Vector2::operator+, COMDAT
 ; _this$ = ecx
 
-; 13   : Vector2 Vector2::operator+=(Vector2 vector) {
+; 13   : Vector2 Vector2::operator+(Vector2 vector) {
 
 	push	ebp
 	mov	ebp, esp
@@ -1500,7 +1614,7 @@ $LN3@operator:
 	DB	111					; 0000006fH
 	DB	114					; 00000072H
 	DB	0
-??YVector2@@QAE?AV0@V0@@Z ENDP				; Vector2::operator+=
+??HVector2@@QAE?AV0@V0@@Z ENDP				; Vector2::operator+
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\vector2.cpp
@@ -1737,7 +1851,7 @@ ___formal$ = 8						; size = 4
 ___formal$ = 12						; size = 4
 ?__empty_global_delete@@YAXPAXI@Z PROC			; __empty_global_delete, COMDAT
 
-; 36   : }
+; 41   : }
 
 	push	ebp
 	mov	ebp, esp
@@ -1764,7 +1878,7 @@ _TEXT	SEGMENT
 ___formal$ = 8						; size = 4
 ?__empty_global_delete@@YAXPAX@Z PROC			; __empty_global_delete, COMDAT
 
-; 36   : }
+; 41   : }
 
 	push	ebp
 	mov	ebp, esp

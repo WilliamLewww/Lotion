@@ -10,6 +10,11 @@ Vector2::Vector2(double xArgs, double yArgs) {
 	y = yArgs;
 }
 
+Vector2 Vector2::operator+(Vector2 vector) {
+	Vector2 newVector(x += vector.x, y += vector.y);
+	return newVector;
+}
+
 Vector2 Vector2::operator+=(Vector2 vector) {
 	Vector2 newVector(x += vector.x, y += vector.y);
 	return newVector;

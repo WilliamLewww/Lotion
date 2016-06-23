@@ -1,10 +1,12 @@
 #include "environment.h"
 
+std::vector<AirTile> airTileMap;
+
 SpawnTile spawnTile;
 
 std::vector<Tile> tileMap;
-std::vector<AirTile> airTileMap;
 std::vector<PushTile> pushTileMap;
+std::vector<Turret> turretMap;
 std::vector<MovingTile> movingTileMap;
 
 void GenerateTileMap() {
@@ -33,6 +35,8 @@ void GenerateTileMap() {
 
 	for (int y = 0; y < MAPSIZEY; y++) {
 		for (int x = 0; x < MAPSIZEX; x++) {
+			Turret tempTurret;
+
 			Tile tempTile;
 			AirTile tempAirTile;
 			PushTile tempPushTile;
@@ -53,8 +57,11 @@ void GenerateTileMap() {
 			if (tileMapGrid[y][x] == 13) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 2; airTileMap.push_back(tempAirTile); }
 			if (tileMapGrid[y][x] == 14) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 3; airTileMap.push_back(tempAirTile); }
 			if (tileMapGrid[y][x] == 15) { tempAirTile.tile.position = Vector2(x * tempAirTile.tile.width, y * tempAirTile.tile.height); tempAirTile.direction = 4; airTileMap.push_back(tempAirTile); }
+			if (tileMapGrid[y][x] == 16) { tempTurret.tile.position = Vector2(x * tempTurret.tile.width, y * tempTurret.tile.height); turretMap.push_back(tempTurret); }
 		}
 	}
+
+	for (auto &turret : turretMap) { turret.GetDirectionX(); turret.GetDirectionY(); }
 }
 
 bool CheckCollision(Tile tileA, Tile tileB) {
@@ -93,22 +100,27 @@ void UpdateTile(int gameTime) {
 	}
 }
 
-void DrawTile(Tile tile, int color[]) {
+void DrawTile(Tile tile, float color[]) {
 	DrawRect(tile.position, tile.width, tile.height, color);
 }
 
 void DrawMap() {
-	int color[3] = { 0, 0, 0 };
+	float color[3] = { 0, 0, 0 };
 	for (auto &tile : tileMap) {
-		if (tile.tileID == 1) { color[0] = 0; color[1] = 0; color[2] = 255; }
-		if (tile.tileID == 5) { color[0] = 255; color[1] = 0; color[2] = 0; }
-		if (tile.tileID == 6) { color[0] = 255; color[1] = 0; color[2] = 255; }
-		if (tile.tileID == 7) { color[0] = 255; color[1] = 0; color[2] = 255; }
+		if (tile.tileID == 1) { color[0] = 0; color[1] = 0; color[2] = 1; }
+		if (tile.tileID == 5) { color[0] = 1; color[1] = 0; color[2] = 0; }
+		if (tile.tileID == 6) { color[0] = 1; color[1] = 0; color[2] = 1; }
+		if (tile.tileID == 7) { color[0] = 1; color[1] = 0; color[2] = 1; }
 		DrawTile(tile, color);
 	}
 
 	for (auto &tile : movingTileMap) {
-		if (tile.tile.tileID == 8) { color[0] = 255; color[1] = 255; color[2] = 0; }
+		if (tile.tile.tileID == 8) { color[0] = 1; color[1] = 1; color[2] = 0; }
 		DrawTile(tile.tile, color);
+	}
+
+	color[0] = .6; color[1] = 0; color[2] = .3;
+	for (auto &turret : turretMap) {
+		DrawTile(turret.tile, color);
 	}
 }

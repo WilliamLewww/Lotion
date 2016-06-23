@@ -24,6 +24,41 @@ struct Tile {
 	inline double left() { return position.x; }
 	inline double right() { return position.x + width; }
 };
+extern std::vector<Tile> tileMap;
+
+struct Turret {
+	Tile tile;
+
+	double projectileSpeed = 5;
+	double interval = 2.5;
+
+	int directionX = 0, directionY = 0;
+
+	// 0 = both; 1 = right; 2 = left; 3 = null
+	inline void GetDirectionX() {
+		int direction = 0;
+
+		for (auto &tileB : tileMap) {
+			if (tile.position.y == tileB.position.y && tile.position.x - tile.width == tileB.position.x) { direction += 1; }
+			if (tile.position.y == tileB.position.y && tile.position.x + tile.width == tileB.position.x) { direction += 2; }
+		}
+
+		directionX = direction;
+	}
+
+	// 0 = both; 1 = bottom; 2 = top; 3 = null;
+	inline void GetDirectionY() {
+		int direction = 0;
+
+		for (auto &tileB : tileMap) {
+			if (tile.position.x == tileB.position.x && tile.position.y - tile.height == tileB.position.y) { direction += 1; }
+			if (tile.position.x == tileB.position.x && tile.position.y + tile.height == tileB.position.y) { direction += 2; }
+		}
+
+		directionY = direction;
+	}
+};
+extern std::vector<Turret> turretMap;
 
 struct MovingTile {
 	Tile tile;
@@ -31,6 +66,7 @@ struct MovingTile {
 	double speed = 25;
 	bool movingLeft = false;
 };
+extern std::vector<MovingTile> movingTileMap;
 
 struct AirTile {
 	Tile tile;
@@ -39,6 +75,7 @@ struct AirTile {
 	int direction = -1;
 	double speed = .5;
 };
+extern std::vector<AirTile> airTileMap;
 
 struct SpawnTile {
 	Vector2 position;
@@ -56,6 +93,7 @@ struct SpawnTile {
 	inline double left() { return position.x; }
 	inline double right() { return position.x + width; }
 };
+extern SpawnTile spawnTile;
 
 struct PushTile {
 	Tile tile;
@@ -99,13 +137,8 @@ struct PushTile {
 		return -1;
 	};
 };
-
-extern SpawnTile spawnTile;
-
-extern std::vector<Tile> tileMap;
-extern std::vector<AirTile> airTileMap;
 extern std::vector<PushTile> pushTileMap;
-extern std::vector<MovingTile> movingTileMap;
+
 void GenerateTileMap();
 void UpdateTile(int gameTime);
 void DrawMap();

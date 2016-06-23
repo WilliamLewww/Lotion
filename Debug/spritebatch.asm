@@ -17,7 +17,7 @@ PUBLIC	??$__vcrt_va_start_verify_argument_type@QBD@@YAXXZ ; __vcrt_va_start_veri
 PUBLIC	_printf
 PUBLIC	?LoadTexture@@YAIPBD@Z				; LoadTexture
 PUBLIC	?DrawRect@@YAXVVector2@@HH@Z			; DrawRect
-PUBLIC	?DrawRect@@YAXVVector2@@HHQAH@Z			; DrawRect
+PUBLIC	?DrawRect@@YAXVVector2@@HHQAM@Z			; DrawRect
 PUBLIC	?DrawRect@@YAXIVVector2@@HH@Z			; DrawRect
 PUBLIC	?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA ; `__local_stdio_printf_options'::`2'::_OptionsStorage
 PUBLIC	??_C@_0BK@NAIEKJCC@SOIL?5loading?5error?3?5?8?$CFs?8?6?$AA@ ; `string'
@@ -391,7 +391,7 @@ $LN6@DrawRect:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\spritebatch.cpp
-;	COMDAT ?DrawRect@@YAXVVector2@@HHQAH@Z
+;	COMDAT ?DrawRect@@YAXVVector2@@HHQAM@Z
 _TEXT	SEGMENT
 $T1 = -372						; size = 16
 $T2 = -348						; size = 16
@@ -404,9 +404,9 @@ _position$ = 8						; size = 16
 _width$ = 24						; size = 4
 _height$ = 28						; size = 4
 _color$ = 32						; size = 4
-?DrawRect@@YAXVVector2@@HHQAH@Z PROC			; DrawRect, COMDAT
+?DrawRect@@YAXVVector2@@HHQAM@Z PROC			; DrawRect, COMDAT
 
-; 65   : void DrawRect(Vector2 position, int width, int height, int color[3]) {
+; 65   : void DrawRect(Vector2 position, int width, int height, float color[3]) {
 
 	push	ebp
 	mov	ebp, esp
@@ -481,22 +481,22 @@ _color$ = 32						; size = 4
 
 	mov	eax, 4
 	shl	eax, 1
-	mov	ecx, DWORD PTR _color$[ebp]
-	cvtsi2ss xmm0, DWORD PTR [ecx+eax]
 	mov	esi, esp
+	mov	ecx, DWORD PTR _color$[ebp]
 	push	ecx
+	movss	xmm0, DWORD PTR [ecx+eax]
 	movss	DWORD PTR [esp], xmm0
 	mov	edx, 4
 	shl	edx, 0
 	mov	eax, DWORD PTR _color$[ebp]
-	cvtsi2ss xmm0, DWORD PTR [eax+edx]
 	push	ecx
+	movss	xmm0, DWORD PTR [eax+edx]
 	movss	DWORD PTR [esp], xmm0
 	mov	ecx, 4
 	imul	edx, ecx, 0
 	mov	eax, DWORD PTR _color$[ebp]
-	cvtsi2ss xmm0, DWORD PTR [eax+edx]
 	push	ecx
+	movss	xmm0, DWORD PTR [eax+edx]
 	movss	DWORD PTR [esp], xmm0
 	call	DWORD PTR __imp__glColor3f@12
 	cmp	esi, esp
@@ -656,7 +656,7 @@ $LN6@DrawRect:
 	DB	114					; 00000072H
 	DB	115					; 00000073H
 	DB	0
-?DrawRect@@YAXVVector2@@HHQAH@Z ENDP			; DrawRect
+?DrawRect@@YAXVVector2@@HHQAM@Z ENDP			; DrawRect
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu /ZI
 ; File g:\projects\lotion\lotion\spritebatch.cpp
