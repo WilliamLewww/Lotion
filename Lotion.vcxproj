@@ -69,8 +69,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>G:\Projects\Libraries\Simple OpenGL Image Library\src;G:\Projects\Libraries\SDL2-2.0.4\include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\Projects\Libraries\Simple OpenGL Image Library\lib;G:\Projects\Libraries\SDL2-2.0.4\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>G:\Projects\Libraries\Simple OpenGL Image Library\src;G:\Projects\libraries\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\Projects\Libraries\Simple OpenGL Image Library\lib;G:\Projects\libraries\SDL2-2.0.5\lib\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
